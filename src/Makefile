@@ -1,9 +1,8 @@
-# ************************************************************************ #
-# This is a makefile that builds the XFST Greenlandic morphological parser #
-# ************************************************************************ #
+# ******************************************************************** #
+# This is a makefile that builds the XFST Iñupiaq morphological parser #
+# ******************************************************************** #
 
 
-# Her bygger vi en analysator for vestgrønlandsk.
 
 # Tools used when compiling the transducers
 
@@ -22,25 +21,23 @@ LEXC = lexc -utf8
 # This will give a pointer from "fst" to xfst, and the transducers will compile.
 
 
-# Kildefiler
+# Source files
 
 
-SRCS = kal-lex.txt \
-	abbr-kal-lex.txt acro-kal-lex.txt \
-	noun-kal-lex.txt verb-kal-lex.txt \
-	ateq-kal-lex.txt ateq-kal-morph.txt \
-	punct-kal-lex.txt prt-kal-lex.txt num-kal-lex.txt 
+SRCS = ipk-lex.txt \
+	noun-ipk-lex.txt verb-ipk-lex.txt abbr-ipk-lex.txt 
+#	acro-ipk-lex.txt \
+#	ateq-ipk-lex.txt ateq-ipk-morph.txt \
+#	punct-ipk-lex.txt prt-ipk-lex.txt num-ipk-lex.txt 
 
-ifeq ($(TARGET), strict)
-LEX = $(patsubst %,../int/str-%,$(SRCS))
-
-endif
-
-
-ifeq ($(TARGET), sloppy)
-LEX = $(SRCS)
-
-endif
+# No strict / sloppy distinction here
+#ifeq ($(TARGET), strict)
+#LEX = $(patsubst %,../int/str-%,$(SRCS))
+#endif
+#
+#ifeq ($(TARGET), sloppy)
+#LEX = $(SRCS)
+#endif
 
 
 # We have two targets, default and strict
@@ -48,91 +45,25 @@ endif
 
 all: $(TARGET)
 
-strict: ikal.fst
-sloppy: ikal.fst 
+#strict: iipk.fst
+#sloppy: iipk.fst 
 
 
 # Here we build the final generator , an inverted transducer of the analyzer.
-# It is dependent upon kal.save
+# It is dependent upon ipk.save
 
-ikal.fst: ../bin/ikal.fst
-../bin/ikal.fst: ../bin/kal.fst ../bin/g-kal.fst ../bin/d-kal.fst ../bin/abbr.txt #../bin/str-kal.fst
+iipk.fst: ../bin/iipk.fst
+../bin/iipk.fst: ../bin/ipk.fst ../bin/abbr.txt #../bin/str-ipk.fst
 	@echo
-	@echo "*** Building the inverse ikal.fst ***"
+	@echo "*** Building the inverse iipk.fst ***"
 	@echo
-	@printf "load ../bin/kal.save \n\
+	@printf "load ../bin/ipk.save \n\
 	invert net \n\
-	save stack ../bin/ikal.fst \n\
-	quit \n" > ../tmp/ikal-fst-script
-	$(XFST) < ../tmp/ikal-fst-script
-	@rm -f ../tmp/ikal-fst-script
+	save stack ../bin/iipk.fst \n\
+	quit \n" > ../tmp/iipk-fst-script
+	$(XFST) < ../tmp/iipk-fst-script
+	@rm -f ../tmp/iipk-fst-script
 
-
-
-
-
-# Versions of the sloppy tagger with different tags:
-# **************************************************
-
-# We want an analyzer with Danish tags. It takes the linguistic 
-# kal.fst as input and gives us an alternate d-kal.fst
-
-d-kal.fst: ../bin/d-kal.fst
-../bin/d-kal.fst: ../bin/kal.fst ../bin/tag-da.fst
-	@echo
-	@echo "*** Building d-kal.fst, kal.fst with Danish tags ***"
-	@echo
-	@printf "read regex [[@\"../bin/tag-da.fst\"] .o. \
-	[@\"../bin/kal.fst\"]] ; \n\
-	save stack ../bin/d-kal.fst \n\
-	quit \n" > ../tmp/d-kal-fst-script
-	$(XFST) < ../tmp/d-kal-fst-script
-	@rm -f ../tmp/d-kal-fst-script
-
-
-# In order to make d-kal.fst we need a binary tag-da.fst
-# This goal depends on tag-da.regex
-
-tag-da.fst: ../bin/tag-da.fst
-../bin/tag-da.fst: tag-da.regex
-	@echo
-	@echo "*** Building tag-da.fst ***" ;
-	@echo
-	@printf "read regex < tag-da.regex \n\
-	save stack ../bin/tag-da.fst \n\
-	quit \n" > ../tmp/kal-tag-da-script
-	$(XFST) < ../tmp/kal-tag-da-script
-	@rm -f ../tmp/kal-tag-da-script
-
-# We also want an analyzer with Greenlandic tags. It takes the linguistic 
-# kal.fst as input and gives us an alternate g-kal.fst
-
-g-kal.fst: ../bin/g-kal.fst
-../bin/g-kal.fst: ../bin/kal.fst ../bin/tag-kal.fst
-	@echo
-	@echo "*** Building g-kal.fst, kal.fst with Greenlandic tags ***"
-	@echo
-	@printf "read regex [[@\"../bin/tag-kal.fst\"] .o. \
-	[@\"../bin/kal.fst\"]] ; \n\
-	save stack ../bin/g-kal.fst \n\
-	quit \n" > ../tmp/g-kal-fst-script
-	$(XFST) < ../tmp/g-kal-fst-script
-	@rm -f ../tmp/g-kal-fst-script
- 
-
-# In order to make g-kal.fst we need a binary tag-kal.fst
-# This goal depends on tag-kal.regex
-
-tag-kal.fst: ../bin/tag-kal.fst
-../bin/tag-kal.fst: tag-kal.regex
-	@echo
-	@echo "*** Building tag-kal.fst ***" ;
-	@echo
-	@printf "read regex < tag-kal.regex \n\
-	save stack ../bin/tag-kal.fst \n\
-	quit \n" > ../tmp/tag-kal-script
-	$(XFST) < ../tmp/tag-kal-script
-	@rm -f ../tmp/tag-kal-script
 
 
 
@@ -140,23 +71,20 @@ tag-kal.fst: ../bin/tag-kal.fst
 # Here comes the part building the basic parser.
 # **********************************************
 
-# Trying...
-#strict: ../bin/kal.fst
-
 
 # This goal is to build the final analyser. It depends on all the files.
 
-kal.fst: ../bin/kal.fst
-../bin/kal.fst: ../bin/kal.save ../bin/caseconv.fst
+ipk.fst: ../bin/ipk.fst
+../bin/ipk.fst: ../bin/ipk.save ../bin/caseconv.fst
 	@echo
-	@echo "*** Building kal.fst ***" ;
+	@echo "*** Building ipk.fst ***" ;
 	@echo
-	@printf "read regex [[@\"../bin/kal.save\"] .o. \
+	@printf "read regex [[@\"../bin/ipk.save\"] .o. \
 	[@\"../bin/caseconv.fst\"]] ; \n\
-	save stack ../bin/kal.fst \n\
-	quit \n" > ../tmp/kal-fst-script
-	$(XFST) < ../tmp/kal-fst-script
-	@rm -f ../tmp/kal-fst-script
+	save stack ../bin/ipk.fst \n\
+	quit \n" > ../tmp/ipk-fst-script
+	$(XFST) < ../tmp/ipk-fst-script
+	@rm -f ../tmp/ipk-fst-script
 
 
 
@@ -173,11 +101,11 @@ scripts=$(HOME)/gt/script
 abbr: ../bin/abbr.txt
 ../bin/abbr.txt: $(scripts)/abbr-extract $(scripts)/langTools/Util.pm $(LEX)
 	@echo
-	@echo "*** Extracting abbreviations from abbr-kal-lex.txt to abbr.txt ***" ;
+	@echo "*** Extracting abbreviations from abbr-ipk-lex.txt to abbr.txt ***" ;
 	@echo
 	@perl -I $(scripts) $(scripts)/abbr-extract \
 		--output=$@ \
-		--abbr_lex=abbr-kal-lex.txt \
+		--abbr_lex=abbr-ipk-lex.txt \
 		--lex=$(ABBRSRCS)
 
 
@@ -197,60 +125,60 @@ caseconv.fst: ../bin/caseconv.fst
 
 
 
-kal.save: ../bin/kal.save
-../bin/kal.save: ../bin/xfst-kal.bin ../bin/kal-lex.save
+ipk.save: ../bin/ipk.save
+../bin/ipk.save: ../bin/xfst-ipk.bin ../bin/ipk-lex.save
 	@echo
-	@echo "*** Building the parser kal.save ***"
+	@echo "*** Building the parser ipk.save ***"
 	@echo
-	@printf "read regex [[@\"../bin/kal-lex.save\"] .o. \
-	[@\"../bin/xfst-kal.bin\"]] ; \n\
-	save stack ../bin/kal.save \n\
-	quit \n" > ../tmp/kal-save-script
-	$(XFST) < ../tmp/kal-save-script
-	@rm -f ../tmp/kal-save-script
+	@printf "read regex [[@\"../bin/ipk-lex.save\"] .o. \
+	[@\"../bin/xfst-ipk.bin\"]] ; \n\
+	save stack ../bin/ipk.save \n\
+	quit \n" > ../tmp/ipk-save-script
+	$(XFST) < ../tmp/ipk-save-script
+	@rm -f ../tmp/ipk-save-script
 
 
-# The first goal is to build kal-lex.save
+# The first goal is to build ipk-lex.save
 # This goal depends on a bunch of lexicon files
 
-kal-lex.save: ../bin/kal-lex.save
-../bin/kal-lex.save: $(LEX)
+ipk-lex.save: ../bin/ipk-lex.save
+../bin/ipk-lex.save: $(LEX)
 	@echo
-	@echo "*** Building kal-lex.save ***" ;
+	@echo "*** Building ipk-lex.save ***" ;
 	@echo
 	printf "compile-source $(LEX) \n\
-	save-source ../bin/kal-lex.save \n\
-	quit \n" > ../tmp/kal-lex-save-script
-	$(LEXC) < ../tmp/kal-lex-save-script
-	@rm -f ../tmp/kal-lex-save-script
+	save-source ../bin/ipk-lex.save \n\
+	quit \n" > ../tmp/ipk-lex-save-script
+	$(LEXC) < ../tmp/ipk-lex-save-script
+	@rm -f ../tmp/ipk-lex-save-script
 
 
-ifeq ($(TARGET), strict)
-$(LEX): $(SRCS)
+#ifeq ($(TARGET), strict)
+#$(LEX): $(SRCS)
+#	@echo
+#	@echo "*** Making restrictive lexicon files ***"
+#	@echo  
+#	@grep -v 'SUB' $(patsubst ../int/str-%,%,$@) > $@
+#endif
+
+#ifeq ($(TARGET), sloppy)
+#$(LEX): $(SRCS)
+#endif
+
+
+# Here we build xfst-ipk.bin, the morphophonological component.
+# This goal depends on xfst-ipk.txt
+
+xfst-ipk.bin: ../bin/xfst-ipk.bin
+../bin/xfst-ipk.bin: xfst-ipk.txt
 	@echo
-	@echo "*** Making restrictive lexicon files ***"
-	@echo  
-	@grep -v 'SUB' $(patsubst ../int/str-%,%,$@) > $@
-endif
-
-ifeq ($(TARGET), sloppy)
-$(LEX): $(SRCS)
-endif
-
-
-# Here we build xfst-kal.bin, the morphophonological component.
-# This goal depends on xfst-kal.txt
-
-xfst-kal.bin: ../bin/xfst-kal.bin
-../bin/xfst-kal.bin: xfst-kal.txt
+	@echo "*** Building xfst-ipk.bin ***" ;
 	@echo
-	@echo "*** Building xfst-kal.bin ***" ;
-	@echo
-	@printf "source xfst-kal.txt \n\
-	save stack ../bin/xfst-kal.bin \n\
-	quit \n" > ../tmp/xfst-kal-script
-	$(XFST) < ../tmp/xfst-kal-script
-	@rm -f ../tmp/xfst-kal-script
+	@printf "source xfst-ipk.txt \n\
+	save stack ../bin/xfst-ipk.bin \n\
+	quit \n" > ../tmp/xfst-ipk-script
+	$(XFST) < ../tmp/xfst-ipk-script
+	@rm -f ../tmp/xfst-ipk-script
 
 
 
