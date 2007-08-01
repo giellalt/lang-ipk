@@ -43,7 +43,7 @@ SRCS = ipk-lex.txt \
 # We have two targets, default and strict
 # The latter is restrictive.
 
-all: $(TARGET)
+#all: $(TARGET)
 
 #strict: iipk.fst
 #sloppy: iipk.fst 
@@ -94,12 +94,12 @@ ipk.fst: ../bin/ipk.fst
 empty:=
 comma:=,
 space:=$(empty) $(empty)
-ABBRSRCS=$(subst $(space),$(comma),$(LEX))
+ABBRSRCS=$(subst $(space),$(comma),$(SRCS))
 
 scripts=$(HOME)/gt/script
 
 abbr: ../bin/abbr.txt
-../bin/abbr.txt: $(scripts)/abbr-extract $(scripts)/langTools/Util.pm $(LEX)
+../bin/abbr.txt: $(scripts)/abbr-extract $(scripts)/langTools/Util.pm $(SRCS)
 	@echo
 	@echo "*** Extracting abbreviations from abbr-ipk-lex.txt to abbr.txt ***" ;
 	@echo
@@ -142,11 +142,11 @@ ipk.save: ../bin/ipk.save
 # This goal depends on a bunch of lexicon files
 
 ipk-lex.save: ../bin/ipk-lex.save
-../bin/ipk-lex.save: $(LEX)
+../bin/ipk-lex.save: $(SRCS)
 	@echo
 	@echo "*** Building ipk-lex.save ***" ;
 	@echo
-	printf "compile-source $(LEX) \n\
+	printf "compile-source $(SRCS) \n\
 	save-source ../bin/ipk-lex.save \n\
 	quit \n" > ../tmp/ipk-lex-save-script
 	$(LEXC) < ../tmp/ipk-lex-save-script
