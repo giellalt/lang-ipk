@@ -1,0 +1,10 @@
+! stems according på Edna MacLean
+
+LEXICON Verbs
+
+aqpat	verb_intr ; ! to run
+ixesaq	verb_intr ; ! to study
+kamek	verb_intr ; ! to put boots on
+maket	verb_intr ; ! to stand
+pisuaq	verb_intr ; ! to walk
+

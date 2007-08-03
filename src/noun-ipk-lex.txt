@@ -1,0 +1,56 @@
+! stems according to Edna MacLean
+
+LEXICON Nouns
+aaka	tp ; ! a mother
+aapa	tp ; ! a father
+aaqhaaliq	tp ; ! old squaw duck
+aġnaq	tp ; ! a woman
+aġveq	tup ; ! a whale
+afun:afute	tpt ; ! a man
+aiveq	tup ; ! a walrus
+akeohun	tp ; ! lantern chimney (remember j = dotted special 'l')
+akjaq	tp ; ! a brown bear
+aqvaluqtaaq	tp ; ! something round
+atege	tp ; ! a parka
+aveffaq	tup ; ! a lemming
+ayuktaq	tp ; ! a ball
+eġdeq	tup ; ! a son
+eduk	tup- ; ! inuk
+ee	clit ; ! yes
+eglu	tp ; ! a house
+eqoak	tp ; ! hook and line (term. tech.)
+eqsraq	tp ; ! a cheek
+ere	tp ; ! an eye
+erre	tp_sing ; ! cold air
+ixa	tp ; ! =KAL ila
+exeappak	tp ; ! poor person, orphan
+kamek	tp ; ! boot
+keda	pron ; ! who
+kutchuq	tp ; ! chewing gum, resin 'kutchuq'
+kuuk	tp ; ! a river
+meqjeqtuq	tp ; ! a child
+natchiq	tup ; ! seal 'natchiq'
+natiq	tp ; ! floor
+Nayuk	prop ;
+neu	tp ; ! a leg
+peseksi	tp ; ! a bow
+qallun	tp ; ! a cup
+qayaq	tp ; ! kayak
+qaugak	tp ; ! a duck
+quaq	tp ; ! frozen meat
+savek	tp ; ! a tp
+saveohaq	tp ; ! metal
+sekoaq	tp ; ! a pickax
+seksrik	tup- ; ! a squirrel
+suna	pron ; ! what
+tavsi	tp ; ! a belt for carrying a baby
+tume	tp ; ! a footprint
+tupiq	tp ; ! a tent
+ulu	tp ; ! =KAL
+una	pron ; ! =KAL
+
+uneat	clit ; ! sled (plural??)
+aaqagu	clit ; ! wait a minute
+atakhee	clit ; ! look at that
+qakugulu	clit ; ! until next time
+etc	abbr ; !!just rubbish to fill a slot

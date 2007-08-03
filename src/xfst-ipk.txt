@@ -1,0 +1,94 @@
+
+!====================================
+!FST-rules in Inupiaq - Pilot project
+!====================================
+
+!Defining the consonant inventory
+
+define stops [ p | P | t | T | ch | k | q ] ;
+
+define cont [ v | V | s | S | sr | l | j | x | o | y | r | g | G | kh | ġ | qh  | h ] ; ! x palatalized voiced lateral; j unvoiced lateral; o palatalized unvoiced lateral
+
+define nas [ m | M | n | N | d | f | F ] ; ! d is palatalized n (NB not e as in Alaska!); f/F the velar nasal
+
+define cns [ stops | cont | nas ] ;
+
+define vow [ i | e | a | u ] ; ! NB not in accordance with Alaskan tradition: i = strong i whereas e represents the schwa
+
+define dummy [ %> | %TRUNC | %VCTRUNC |%C | %CLIT | %FRIC | %C ] ;
+
+!********************
+!Phonological rules *
+!********************
+
+define PartAssQC [ q -> ġ || _ %> [ cont | nas ] ] ;
+define PartAssKC [ k -> g || _ %> [ cont | nas ] ] ;
+define AssTnas [ t -> n || _ %> nas ] ;
+define AssTL [ t -> l || _ %> l ] ;
+define AssTJ [ t -> j || _ %> j ] ;
+define PartAssTC [ t -> r || _ %> [ v | g ] ] ;
+define truncation [ stops -> 0 || _ %> %TRUNC ] ;
+define fricativization [ q -> ġ || _ %> [ %FRIC | nas ] ] ; !????? Edna does not give the rule, but I suspect it to be so ???????
+define AltKN [ k (->) f || _ %> n ] ;
+define AltML [ m (->) v || _ %> l ] ;
+define AltNL [ n (->) l || _ %> l ] ;
+define palatR [ r -> y || i ( cns ) _ ] ;
+define Rgemination [ r -> r r || vow _ vow (cns) %C %> ] ;
+
+!********************
+!Household utensils *
+!********************
+
+define VeryLongTruncation [ cns vow (cns) -> 0 || _ %CVCTRUNC ] ;
+define CleanVeryLongTruncation [ %CVCTRUNC -> 0 ] ;
+define DummyDeletion [ dummy -> 0 ] ;
+
+!**********************
+!Simple rewrite rules *
+!**********************
+
+define SchwaReplace1 [ e -> a || _ ( dummy ) %> k ] ;
+define SchwaReplace2 [ e -> i ] ;
+
+
+!*************
+!The cascade *
+!*************
+
+read regex [
+truncation
+.o.
+VeryLongTruncation
+.o.
+CleanVeryLongTruncation
+.o.
+Rgemination
+.o.
+fricativization
+.o.
+SchwaReplace1
+.o.
+PartAssQC
+.o.
+PartAssKC
+.o.
+PartAssTC
+.o.
+AssTnas
+.o.
+AssTL
+.o.
+AssTJ
+.o.
+AltKN
+.o.
+AltML
+.o.
+AltNL
+.o.
+DummyDeletion
+.o.
+palatR
+.o.
+SchwaReplace2
+] ;

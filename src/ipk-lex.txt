@@ -1,0 +1,88 @@
+!================================================================================
+!This is the file that hosts the morphology for the Inupiaq morphological parser=
+!Rules for phonology and orthography are kept in the rule-file xfst-ipk.txt     =
+!================================================================================
+
+Multichar_Symbols
++N +V
++Sg +Du +Pl
++1Sg +2Sg +3Sg +4Sg +1Du +2Du +3Du +4Du +1Pl +2Pl+3Pl +4Pl
++Abs +Rel +Trm +Loc +Abl !cases
++Ind +Cau +InfReal +InfUnreal !Voiced is unrealized and voiceless is for ongoing or realized actions.
+
+
+ch sr kh qh !digraphs
+%> !morphemeborder
+%TRUNC !truncation dummy
+%CVCTRUNC !dummy for very long truncations
+%VCTRUNC !dummy for long truncation
+%FRIC !dummy for fricativizing stem-final consonants. Needed to avoid a general rule that also would affect unwantedly as in *aaġagu for aaqagu. The alternative would have been to postulate truncating flexives with a fricative first consonant (*aiviq -q +ġit) but that is hokus pokus
+%C ! dummy for intermediate gemination
+!%CLIT !dummy with clitics used in Kalaallisut. This far unused in ipk
+
+
+
+!***********************************
+!Derivational morphemes and clitics*
+!***********************************
+
++NIAQ ! verb elaborating
++VIK ! nominalizers
++LU +GUUQ ! clitics
+
+
+LEXICON Root
+	Nouns ;
+	prop ;
+	pron ;
+	Verbs ;
+
+
+LEXICON tp !aġnaq ere
++N+Abs+Sg:	clit ;
++N+Abs+Du:%C%>k	clit ; 
++N+Abs+Pl:%>%TRUNCt	clit ;
++N+Rel+Sg:%>%TRUNCm	clit ;
++N+Loc+Du:%C%>k%>ni	clit ; 
+
+LEXICON tp_sing !erre
++N+Abs+Sg:	clit ;
++N+Rel+Sg:%>%TRUNCm	clit ;
+
+
+LEXICON tpt !afun:afute
++N+Abs+Sg:%CVCTRUNCn	clit ;
++N+Abs+Pl:%>t	clit ;
++N+Rel+Sg:%>m	clit ;
++N+Trm+Sg:%CVCTRUNCn%>mun	clit ;
+
+LEXICON tup !aiviq
++N+Abs+Sg:	clit ;
++N+Abs+Pl:%>%FRICit	clit ;
++N+Trm+Sg:%>mun	clit ;
++N+Abl+Sg:%>mid	clit ;
+
+LEXICON tup- !seksrik
++N+Abs+Sg:	clit ;
++N+Abs+Pl:%>%TRUNCit	clit ;
+
+LEXICON prop
+	clit ;
+
+
+LEXICON pron
+	clit ;
+
+LEXICON verb_intr
++NIAQ:%>niaq	verb_intr ;
++VIK:%>vik	tup- ; 
++V+Ind+3Sg:%>tuq	clit ;
++V+InfReal+4Sg:%>juni	clit ;
++V+InfUnreal+4Sg:%>luni	clit ;
++V+Cau+3Sg:%>man	clit ;
+
+LEXICON clit
++GUUQ:%>guuq	# ;
++LU:%>lu	# ;
+	# ;
+
