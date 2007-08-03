@@ -3,8 +3,10 @@
 LEXICON Verbs
 
 aqpat	verb_intr ; ! to run
-ixesaq	verb_intr ; ! to study
+iḷesaq	verb_intr ; ! to study
+iseq	verb_intr ; ! to enter
 kamek	verb_intr ; ! to put boots on
 maket	verb_intr ; ! to stand
+maket	verb_tr ; ! to set it upright
 pisuaq	verb_intr ; ! to walk
 

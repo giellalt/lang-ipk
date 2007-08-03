@@ -7,9 +7,9 @@
 
 define stops [ p | P | t | T | ch | k | q ] ;
 
-define cont [ v | V | s | S | sr | l | j | x | o | y | r | g | G | kh | ġ | qh  | h ] ; ! x palatalized voiced lateral; j unvoiced lateral; o palatalized unvoiced lateral
+define cont [ v | V | s | S | sr | l | ł | ḷ | ł2 | y | r | g | kh | ġ | qh  | h ] ; ! ł2 palatalized unvoiced lateral
 
-define nas [ m | M | n | N | d | f | F ] ; ! d is palatalized n (NB not e as in Alaska!); f/F the velar nasal
+define nas [ m | M | n | N | ñ | ŋ ] ; 
 
 define cns [ stops | cont | nas ] ;
 
@@ -25,15 +25,16 @@ define PartAssQC [ q -> ġ || _ %> [ cont | nas ] ] ;
 define PartAssKC [ k -> g || _ %> [ cont | nas ] ] ;
 define AssTnas [ t -> n || _ %> nas ] ;
 define AssTL [ t -> l || _ %> l ] ;
-define AssTJ [ t -> j || _ %> j ] ;
+define AssTJ [ t -> ł || _ %> ł ] ;
 define PartAssTC [ t -> r || _ %> [ v | g ] ] ;
 define truncation [ stops -> 0 || _ %> %TRUNC ] ;
 define fricativization [ q -> ġ || _ %> [ %FRIC | nas ] ] ; !????? Edna does not give the rule, but I suspect it to be so ???????
-define AltKN [ k (->) f || _ %> n ] ;
+define AltKN [ k (->) ŋ || _ %> n ] ;
 define AltML [ m (->) v || _ %> l ] ;
 define AltNL [ n (->) l || _ %> l ] ;
 define palatR [ r -> y || i ( cns ) _ ] ;
 define Rgemination [ r -> r r || vow _ vow (cns) %C %> ] ;
+define Gstop [ g -> k || cns %> _ ] ;
 
 !********************
 !Household utensils *
@@ -68,7 +69,11 @@ fricativization
 .o.
 SchwaReplace1
 .o.
+Gstop
+.o.
 PartAssQC
+.o.
+AltKN
 .o.
 PartAssKC
 .o.
@@ -79,8 +84,6 @@ AssTnas
 AssTL
 .o.
 AssTJ
-.o.
-AltKN
 .o.
 AltML
 .o.

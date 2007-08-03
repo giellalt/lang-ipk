@@ -6,29 +6,29 @@ aapa	tp ; ! a father
 aaqhaaliq	tp ; ! old squaw duck
 aġnaq	tp ; ! a woman
 aġveq	tup ; ! a whale
-afun:afute	tpt ; ! a man
+aŋun:aŋute	tpt ; ! a man
 aiveq	tup ; ! a walrus
-akeohun	tp ; ! lantern chimney (remember j = dotted special 'l')
-akjaq	tp ; ! a brown bear
+akeł2hun	tp ; ! lantern chimney
+akłaq	tp ; ! a brown bear
 aqvaluqtaaq	tp ; ! something round
 atege	tp ; ! a parka
-aveffaq	tup ; ! a lemming
+aveŋŋaq	tup ; ! a lemming
 ayuktaq	tp ; ! a ball
-eġdeq	tup ; ! a son
-eduk	tup- ; ! inuk
+eġñeq	tup ; ! a son
+eñuk	tup- ; ! inuk
 ee	clit ; ! yes
 eglu	tp ; ! a house
-eqoak	tp ; ! hook and line (term. tech.)
+eqł2ak	tp ; ! hook and line (term. tech.)
 eqsraq	tp ; ! a cheek
 ere	tp ; ! an eye
 erre	tp_sing ; ! cold air
-ixa	tp ; ! =KAL ila
-exeappak	tp ; ! poor person, orphan
+iḷa	tp ; ! =KAL ila
+eḷeappak	tp ; ! poor person, orphan
 kamek	tp ; ! boot
-keda	pron ; ! who
+keña	pron ; ! who
 kutchuq	tp ; ! chewing gum, resin 'kutchuq'
 kuuk	tp ; ! a river
-meqjeqtuq	tp ; ! a child
+meqłeqtuq	tp ; ! a child
 natchiq	tup ; ! seal 'natchiq'
 natiq	tp ; ! floor
 Nayuk	prop ;
@@ -39,8 +39,8 @@ qayaq	tp ; ! kayak
 qaugak	tp ; ! a duck
 quaq	tp ; ! frozen meat
 savek	tp ; ! a tp
-saveohaq	tp ; ! metal
-sekoaq	tp ; ! a pickax
+saveł2haq	tp ; ! metal
+sikł2aq	tp ; ! a pickax
 seksrik	tup- ; ! a squirrel
 suna	pron ; ! what
 tavsi	tp ; ! a belt for carrying a baby

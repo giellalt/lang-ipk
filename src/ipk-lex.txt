@@ -7,11 +7,12 @@ Multichar_Symbols
 +N +V
 +Sg +Du +Pl
 +1Sg +2Sg +3Sg +4Sg +1Du +2Du +3Du +4Du +1Pl +2Pl+3Pl +4Pl
++1SgO +2SgO +3SgO +4SgO +1DuO +2DuO +3DuO +4DuO +1PlO +2PlO+3PlO +4PlO !Objects' persons
 +Abs +Rel +Trm +Loc +Abl !cases
 +Ind +Cau +InfReal +InfUnreal !Voiced is unrealized and voiceless is for ongoing or realized actions.
 
 
-ch sr kh qh !digraphs
+ch sr kh qh ł2 !digraphs plus ł2 for voiceless palatalized l
 %> !morphemeborder
 %TRUNC !truncation dummy
 %CVCTRUNC !dummy for very long truncations
@@ -26,7 +27,7 @@ ch sr kh qh !digraphs
 !Derivational morphemes and clitics*
 !***********************************
 
-+NIAQ ! verb elaborating
++NIAQ +NIAŊIT +SAAĠE ! verb elaborating
 +VIK ! nominalizers
 +LU +GUUQ ! clitics
 
@@ -49,8 +50,7 @@ LEXICON tp_sing !erre
 +N+Abs+Sg:	clit ;
 +N+Rel+Sg:%>%TRUNCm	clit ;
 
-
-LEXICON tpt !afun:afute
+LEXICON tpt !aŋun:aŋute
 +N+Abs+Sg:%CVCTRUNCn	clit ;
 +N+Abs+Pl:%>t	clit ;
 +N+Rel+Sg:%>m	clit ;
@@ -60,7 +60,7 @@ LEXICON tup !aiviq
 +N+Abs+Sg:	clit ;
 +N+Abs+Pl:%>%FRICit	clit ;
 +N+Trm+Sg:%>mun	clit ;
-+N+Abl+Sg:%>mid	clit ;
++N+Abl+Sg:%>miñ	clit ;
 
 LEXICON tup- !seksrik
 +N+Abs+Sg:	clit ;
@@ -75,11 +75,31 @@ LEXICON pron
 
 LEXICON verb_intr
 +NIAQ:%>niaq	verb_intr ;
++NIAŊIT:%>niaŋit	verb_intr ;
++SAAĠE:%>saaġe	verb_intr_vow ;
 +VIK:%>vik	tup- ; 
++V+Ind+1Sg:%>tuŋa	clit ;
 +V+Ind+3Sg:%>tuq	clit ;
-+V+InfReal+4Sg:%>juni	clit ;
++V+InfReal+4Sg:%>łuni	clit ;
 +V+InfUnreal+4Sg:%>luni	clit ;
 +V+Cau+3Sg:%>man	clit ;
+
+LEXICON verb_intr_vow
++NIAQ:%>niaq	verb_intr ;
++NIAŊIT:%>niaŋit	verb_intr ;
++SAAĠE:%>saaġe	verb_intr_vow ;
++VIK:%>vik	tup- ; 
++V+Ind+1Sg:%>tuŋa	clit ;
++V+Ind+3Sg:%>tuq	clit ;
++V+InfReal+4Sg:%>łuni	clit ;
++V+InfUnreal+4Sg:%>luni	clit ;
++V+Cau+3Sg:%>man	clit ;
+
+LEXICON verb_tr
++NIAQ:%>niaq	verb_tr ;
++NIAŊIT:%>niaŋit	verb_tr ;
+!+VIK:%>vik	tup- ; !???Can VIK be added to transitives i Iñupiaq???? 
++V+Ind+3Sg+3SgO:%>gaa	clit ;
 
 LEXICON clit
 +GUUQ:%>guuq	# ;
