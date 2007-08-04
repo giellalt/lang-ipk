@@ -19,15 +19,18 @@ define dummy [ %> | %TRUNC | %VCTRUNC |%C | %CLIT | %FRIC | %C ] ;
 
 define erfalasoq [ %@P%.IV%.ON%@ | %@P%.TV%.ON%@ | %@R%.IV%.ON%@ | %@R%.TV%.ON%@ | %@D%.IV%.ON%@ | %@D%.TV%.ON%@  ] ;
 
+
+
 !********************
 !Phonological rules *
 !********************
 
-define PartAssQC [ q -> ġ || _ %> [ cont | nas ] ] ;
-define PartAssKC [ k -> g || _ %> [ cont | nas ] ] ;
+define PartAssKC [ k -> g || _ ( erfalasoq ) %> [ cont | nas ] ] ;
+define PartAssQC [ q -> ġ || _ ( erfalasoq ) %> [ cont | nas ] ] ;
+define AssKG [ g -> k || k ( erfalasoq) %> %>  _ ] ;
 define AssTnas [ t -> n || _ ( erfalasoq ) %> nas ] ;
-define AssTL [ t -> l || _ %> l ] ;
 define AssTJ [ t -> ł || _ %> ł ] ;
+define AssTL [ t -> l || _ %> l ] ;
 define PartAssTC [ t -> r || _ %> [ v | g ] ] ;
 define truncation [ stops -> 0 || _ %> %TRUNC ] ;
 define fricativization [ q -> ġ || _ ( erfalasoq ) %> [ %FRIC | nas ] ] ; !????? Edna does not give the rule, but I suspect it to be so ???????
@@ -52,7 +55,7 @@ define DummyDeletion [ dummy -> 0 ] ;
 !Simple rewrite rules *
 !**********************
 
-define SchwaReplace1 [ e -> a || _ ( dummy ) %> k ] ;
+define SchwaReplace1 [ e -> a || _ ( dummy ) %> [ k | vow ] ] ;
 define SchwaReplace2 [ e -> i ] ;
 
 
@@ -88,6 +91,8 @@ PartAssKC
 PartAssTC
 .o.
 AssTnas
+.o.
+AssKG
 .o.
 AssTL
 .o.
