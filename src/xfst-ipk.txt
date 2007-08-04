@@ -30,7 +30,7 @@ define AssTL [ t -> l || _ %> l ] ;
 define AssTJ [ t -> ł || _ %> ł ] ;
 define PartAssTC [ t -> r || _ %> [ v | g ] ] ;
 define truncation [ stops -> 0 || _ %> %TRUNC ] ;
-define fricativization [ q -> ġ || _ %> [ %FRIC | nas ] ] ; !????? Edna does not give the rule, but I suspect it to be so ???????
+define fricativization [ q -> ġ || _ ( erfalasoq ) %> [ %FRIC | nas ] ] ; !????? Edna does not give the rule, but I suspect it to be so ???????
 define AltKN [ k (->) ŋ || _ %> n ] ;
 define AltML [ m (->) v || _ %> l ] ;
 define AltNL [ n (->) l || _ %> l ] ;
