@@ -5,9 +5,9 @@
 
 !Defining the consonant inventory
 
-define stops [ p | P | t | T | ch | k | q ] ;
+define stops [ p | P | t | T | c h | k | q ] ;
 
-define cont [ v | V | s | S | sr | l | ł | ḷ | ł2 | y | r | g | kh | ġ | qh  | h ] ; ! ł2 palatalized unvoiced lateral
+define cont [ v | V | s | S | s r | l | ł | ḷ | ł2 | y | r | g | k h | ġ | q h  | h ] ; ! ł2 palatalized unvoiced lateral
 
 define nas [ m | M | n | N | ñ | ŋ ] ; 
 
@@ -33,6 +33,7 @@ define AssTJ [ t -> ł || _ %> ł ] ;
 define AssTL [ t -> l || _ %> l ] ;
 define PartAssTC [ t -> r || _ %> [ v | g ] ] ;
 define truncation [ stops -> 0 || _ %TRUNC %> ] ;
+define TruncDelete [ %TRUNC -> 0 ] ;
 define fricativization [ q -> ġ || _ ( erfalasoq ) %> [ %FRIC | nas ] ] ; !????? Edna does not give the rule, but I suspect it to be so ???????
 define AltKN [ k (->) ŋ || _ %> n ] ;
 define AltML [ m (->) v || _ %> l ] ;
@@ -68,6 +69,8 @@ define SchwaReplace2 [ e -> i ] ;
 
 read regex [
 truncation
+.o.
+TruncDelete
 .o.
 VeryLongTruncation
 .o.

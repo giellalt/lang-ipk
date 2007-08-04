@@ -12,7 +12,8 @@ Multichar_Symbols
 +Ind +Cau +InfReal +InfUnreal !Voiced is unrealized and voiceless is for ongoing or realized actions.
 
 
-ch sr kh qh ł2 !digraphs plus ł2 for voiceless palatalized l
+!ch sr kh qh ! no digraphs
+ł2 !digraphs plus ł2 for voiceless palatalized l
 %> !morphemeborder
 %TRUNC !truncation dummy
 %CVCTRUNC !dummy for very long truncations
