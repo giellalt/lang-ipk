@@ -1,7 +1,7 @@
-!================================================================================
-!This is the file that hosts the morphology for the Inupiaq morphological parser=
-!Rules for phonology and orthography are kept in the rule-file xfst-ipk.txt     =
-!================================================================================
+!=============================================================================== =
+!This is the file that hosts the morphology for the Inupiaq morphological parser =
+!Rules for phonology and orthography are kept in the rule-file xfst-ipk.txt      =
+!=============================================================================== =
 
 Multichar_Symbols
 +N +V
@@ -23,9 +23,9 @@ ch sr kh qh ł2 !digraphs plus ł2 for voiceless palatalized l
 
 
 
-!***********************************
-!Derivational morphemes and clitics*
-!***********************************
+!************************************
+!Derivational morphemes and clitics *
+!************************************
 
 +NIAQ +NIAŊIT +SAAĠE ! verb elaborating
 +VIK ! nominalizers
@@ -77,12 +77,12 @@ LEXICON tup- !seksrik
 +N+Abs+Sg:	clit ;
 +N+Abs+Pl:%>%TRUNCit	clit ;
 
-LEXICON prop
-	clit ;
+LEXICON propmorph
++N:	clit ;
 
 
-LEXICON pron
-	clit ;
+LEXICON pronmorph
++N:	clit ;
 
 LEXICON ObliqueCases_Sg
 +Loc+Sg:%>mi	clit ;
