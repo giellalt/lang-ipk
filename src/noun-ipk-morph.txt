@@ -1,0 +1,55 @@
+
+LEXICON tp !aġnaq ere
+	tp_sing ;
+	tp_du ;
+	tp_pl ;
+
+LEXICON tp_sing !erre
+	ObliqueCases_Sg ;
++N+Abs+Sg:	clit ;
++N+Rel+Sg:%>%TRUNCm	clit ;
+
+LEXICON tp_du
++N+Abs+Du:%C%>k	clit ;
++N:%C%>k	ObliqueCases_Du ; 
+
+LEXICON tp_pl
++N+Abs+Pl:%TRUNC%>t	clit ;
++N:%TRUNC%>t	ObliqueCases_Pl ; 
+
+
+LEXICON tpt !aŋun:aŋute
++N+Abs+Sg:%CVCTRUNCn	clit ;
++N+Abs+Pl:%>t	clit ;
++N+Rel+Sg:%>m	clit ;
++N+Trm+Sg:%CVCTRUNCn%>mun	clit ;
+
+LEXICON tup !aiviq
++N+Abs+Sg:	clit ;
++N+Abs+Pl:%>%FRICit	clit ;
++N+Trm+Sg:%>mun	clit ;
++N+Abl+Sg:%>miñ	clit ;
+
+LEXICON tup- !seksrik
++N+Abs+Sg:	clit ;
++N+Abs+Pl:%>%TRUNCit	clit ;
+
+
+LEXICON ObliqueCases_Sg
++Loc+Sg:%>mi	clit ;
+
+LEXICON ObliqueCases_Du
++Loc+Du:%>ni	clit ;
+
+LEXICON ObliqueCases_Pl
++Loc+Pl:%>ni	clit ;
+
+
+! Proper nouns
+LEXICON propmorph
++N:	clit ;
+
+! Pronouns
+LEXICON pronmorph
++N:	clit ;
+
