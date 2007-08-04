@@ -46,7 +46,7 @@ define palatR [ r -> y || i ( cns ) _ ] ;
 define AltpalatT [ t (->) c h || i ( cns ) _ ( erfalasoq ) .#. ] ;
 define palatT [ t -> c h || i ( cns ) _ segment ] ;
 define Rgemination [ r -> r r || vow _ vow (cns) %C %> ] ;
-define Gstop [ g -> k || cns %> _ ] ;
+define Gstop [ g -> k || cns %> _ ] ; !Does not work Aug05
 define Qfusion1 [ g -> ġ || q erfalasoq %> _ ] ; 
 define Qfusion2 [ q -> 0 || _ erfalasoq %> ġ ] ; 
 
@@ -85,8 +85,6 @@ fricativization
 .o.
 SchwaReplace1
 .o.
-Gstop
-.o.
 Qfusion1
 .o.
 Qfusion2
@@ -100,6 +98,8 @@ AssKG
 PartAssKC
 .o.
 PartAssTC
+.o.
+Gstop
 .o.
 AssTnas
 .o.
