@@ -1,5 +1,14 @@
 ! stems according to Edna MacLean
 
+LEXICON prop
+Nayuk	propmorph ;
+
+LEXICON pron
+suna	pronmorph ; ! what
+keña	pronmorph ; ! who
+una	pronmorph ; ! =KAL
+
+
 LEXICON Nouns
 aaka	tp ; ! a mother
 aapa	tp ; ! a father
@@ -30,24 +39,20 @@ kuuk	tp ; ! a river
 miqłiqtuq:meqłeqtuq	tp ; ! a child
 natchiq	tup ; ! seal 'natchiq'
 natiq	tp ; ! floor
-Nayuk	prop ;
 niu:neu	tp ; ! a leg
 pisiksi:peseksi	tp ; ! a bow
 qallun	tp ; ! a cup
 qayaq	tp ; ! kayak
 qaugak	tp ; ! a duck
 quaq	tp ; ! frozen meat
-savik:savek	tp ; ! a tp
+savik	tp ; ! a tp
 savił2haq	tp ; ! metal
 sikł2aq	tp ; ! a pickax
 siksrik:seksrik	tup- ; ! a squirrel
-suna	pron ; ! what
 tavsi	tp ; ! a belt for carrying a baby
 tumi:tume	tp ; ! a footprint
 tupiq	tp ; ! a tent
 ulu	tp ; ! =KAL
-una	pron ; ! =KAL
-
 uniat:uneat	clit ; ! sled (plural??)
 aaqagu	clit ; ! wait a minute
 atakhii:atakhee	clit ; ! look at that
