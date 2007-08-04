@@ -43,8 +43,8 @@ Multichar_Symbols
 ! The lexicon Root points at the different parts of speech.
 ! Each POS has its own file noun-ipk-lex.txt, etc., which in
 ! turn points to noun-ipk-morph.txt, etc.
-! POS-changing affixes are found in ...
-! It might be a good idea to have noun-lpk-der.txt etc. as well.
+! POS-changing nominalizers are found in noun-ipk-morph.txt and verbalizers in verb-ipk-morph.txt
+! It might be a good idea to have noun-ipk-der.txt etc. as well.
 ! The common, final lexica, are found in this file.
 
 
@@ -66,7 +66,7 @@ LEXICON clit
 	        f ;
 
 LEXICON f
-@D.IV.ON@ # ;
-@D.TV.ON@ # ;
+@D.IV.ON@  # ;
+@D.TV.ON@  # ;
 
 

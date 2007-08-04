@@ -17,6 +17,8 @@ define vow [ i | e | a | u ] ; ! NB not in accordance with Alaskan tradition: i 
 
 define dummy [ %> | %TRUNC | %VCTRUNC |%C | %CLIT | %FRIC | %C ] ;
 
+define segment [ cns | vow | dummy ] ;
+
 define erfalasoq [ %@P%.IV%.ON%@ | %@P%.TV%.ON%@ | %@R%.IV%.ON%@ | %@R%.TV%.ON%@ | %@D%.IV%.ON%@ | %@D%.TV%.ON%@  ] ;
 
 
@@ -27,7 +29,7 @@ define erfalasoq [ %@P%.IV%.ON%@ | %@P%.TV%.ON%@ | %@R%.IV%.ON%@ | %@R%.TV%.ON%@
 
 define PartAssKC [ k -> g || _ ( erfalasoq ) %> [ cont | nas ] ] ;
 define PartAssQC [ q -> ġ || _ ( erfalasoq ) %> [ cont | nas ] ] ;
-define AssKG [ g -> k || k ( erfalasoq) %> %>  _ ] ;
+define AssKG [ g -> k || k ( erfalasoq) %>  _ ] ;
 define AssTnas [ t -> n || _ ( erfalasoq ) %> nas ] ;
 define AssTJ [ t -> ł || _ %> ł ] ;
 define AssTL [ t -> l || _ %> l ] ;
@@ -38,14 +40,15 @@ define fricativization [ q -> ġ || _ ( erfalasoq ) %> [ %FRIC | nas ] ] ; !????
 define AltKN [ k (->) ŋ || _ %> n ] ;
 define AltML [ m (->) v || _ %> l ] ;
 define AltNL [ n (->) l || _ %> l ] ;
-define palatL [ l -> ḷ || i ( cns ) _ ] ;
+define palatL [ l -> ḷ  || i ( cns ) _ ] ;
 define palatN [ n -> ñ || i ( cns ) _ ] ;
 define palatR [ r -> y || i ( cns ) _ ] ;
-define palatT [ t -> c h || i ( cns ) _ ] ;
+define AltpalatT [ t (->) c h || i ( cns ) _ ( erfalasoq ) .#. ] ;
+define palatT [ t -> c h || i ( cns ) _ segment ] ;
 define Rgemination [ r -> r r || vow _ vow (cns) %C %> ] ;
 define Gstop [ g -> k || cns %> _ ] ;
-define Qfusion1 [ g -> ġ || q erfalasoq %>  %> _ ] ; !Must clean ipk-lex.txt to avoid two consecutive morphemeborders
-define Qfusion2 [ q -> 0 || _ erfalasoq %> %> ġ ] ; !Must clean ipk-lex.txt to avoid two consecutive morphemeborders
+define Qfusion1 [ g -> ġ || q erfalasoq %> _ ] ; 
+define Qfusion2 [ q -> 0 || _ erfalasoq %> ġ ] ; 
 
 !********************
 !Household utensils *
@@ -74,7 +77,7 @@ TruncDelete
 .o.
 VeryLongTruncation
 .o.
-CleanVeryLongTruncation
+CleanVeryLongTruncation		!+N+Abs+Pl:iñu%>it
 .o.
 Rgemination
 .o.
@@ -92,13 +95,13 @@ PartAssQC
 .o.
 AltKN
 .o.
+AssKG
+.o.
 PartAssKC
 .o.
 PartAssTC
 .o.
 AssTnas
-.o.
-AssKG
 .o.
 AssTL
 .o.
@@ -115,6 +118,8 @@ palatL
 palatN
 .o.
 palatR
+.o.
+AltpalatT
 .o.
 palatT
 .o.

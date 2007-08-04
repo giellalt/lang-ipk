@@ -2,13 +2,13 @@
 
 LEXICON Verbs
 
-aqpat	verb_intr ; ! to run
-iḷisaq:iḷesaq	verb_intr ; ! to study
-isiq:iseq	verb_intr ; ! to enter
-kamik:kamek	verb_intr ; ! to put boots on
-makit:maket	verb_intr ; ! to stand
-makit:maket	verb_tr ; ! to set it upright
-pisuaq	verb_intr ; ! to walk
-niġi	verb_tr_vow ;
-atuq	verb_tr ;
-pisik	verb_tr ;
+aqpat	IV ; ! to run
+iḷisaq:iḷesaq	IV ; ! to study
+isiq:iseq	IV ; ! to enter
+kamik:kamek	IV ; ! to put boots on
+makit:maket	IV ; ! to stand
+makit:maket	TV ; ! to set it upright
+pisuaq	IV ; ! to walk
+niġi	TV_vow ;
+atuq	TV ;
+pisik	TV ;

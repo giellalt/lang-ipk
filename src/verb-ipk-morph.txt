@@ -1,16 +1,34 @@
-! Verb morphology
-! ===============
+! =============== !
+! Verb morphology !
+! =============== !
+
+
+! Tense-Mood and pointers to derivational affxes for IV and TV
+! ============================================================
+
+! Stems are first flagged according to transitivity in LEX 
+! Secondly they are 
+
+! IV
+! --
+
+LEXICON IV
+@P.IV.ON@    verb_intr ;
 
 LEXICON verb_intr
-@P.IV.ON@            verbalderivatives ;
+                     verbalderivatives ;
 +V+Ind+Prs:%>tu      indpersonaffix ;
 +V+Ind+Prt:%>tua     indpersonaffix ;
 +V+Inf+Real:%>łu     infpersonaffix ;
 +V+Inf+Unreal:%>lu   infpersonaffix ;
 +V+Cau+3Sg:%>man     clit ;
 
+
+LEXICON IV_vow
+@P.IV.ON@ verb_intr_vow ;
+
 LEXICON verb_intr_vow
-@P.IV.ON@            verbalderivatives ;
+                      verbalderivatives ;
 +V+Ind+Prs:%>ru      indpersonaffix ;
 +V+Ind+Pst:%>rua     indpersonaffix ;
 +V+Inf+Real:%>łu     infpersonaffix ;
@@ -18,29 +36,38 @@ LEXICON verb_intr_vow
 +V+Cau+3Sg:%>man     clit ;
 
 
-LEXICON verb_tr
-@P.TV.ON@            verbalderivatives ;
-+V+Ind+Prs:%>      indpersonaffix_tv ; 
-+V+Ind+Pst:%>     indpersonaffix_tv ;
+! TV
+! --
+
+LEXICON TV
+@P.TV.ON@   verb_tr ;
+!atuq@P.TV.ON@%>niaq@R.TV.ON@ verb_tr ;
+!atuq+NIAQ
+
+LEXICON verb_tr  
+                   verbalderivatives ;
++V+Ind+Prs:%>ge    indpersonaffix_tv ; 
++V+Ind+Pst:%>ge     indpersonaffix_tv ; !Just a slot holder. Correct mode morpheme must be entered
++V+Inf+Real:%>łu     infpersonaffix_tv ;
++V+Inf+Unreal:%>lu   infpersonaffix_tv ;
++V+Cau+3Sg:%>      clit ;
+
+LEXICON TV_vow
+@P.TV.ON@  verb_tr_vow ;
+
+LEXICON verb_tr_vow 
+                   verbalderivatives ;
++V+Ind+Prs:%>ge     indpersonaffix_tv ; 
++V+Ind+Pst:%>      indpersonaffix_tv ;
 +V+Inf+Real:%>     infpersonaffix_tv ;
 +V+Inf+Unreal:%>   infpersonaffix_tv ;
-+V+Cau+3Sg:%>     clit ;
++V+Cau+3Sg:%>      clit ;
 
-LEXICON verb_tr_vow
-@P.TV.ON@            verbalderivatives ;
-+V+Ind+Prs:%>      indpersonaffix_tv ; 
-+V+Ind+Pst:%>     indpersonaffix_tv ;
-+V+Inf+Real:%>     infpersonaffix_tv ;
-+V+Inf+Unreal:%>   infpersonaffix_tv ;
-+V+Cau+3Sg:%>     clit ;
 
-LEXICON indpersonaffix_tv
-+3Sg+3SgO:%>gaa	clit ;
 
-!isiq@P.IV.ON@%>niaq@R.IV.ON@:%>tu%>q	clit ; ! ruq ??
 
-LEXICON   infpersonaffix_tv 
-+1Sg+2Sg: clit ;
+! Verbal derivational affixes
+! ===========================
 
 LEXICON verbalderivatives  ! hundreds of derivatives in here
 +NIAQ:%>niaq	 verbalderivatives_cont ; !isiq-niaq-tuq 
@@ -56,6 +83,12 @@ LEXICON verbalderivatives_cont_vow
 @R.IV.ON@ verb_intr_vow ;
 @R.TV.ON@ verb_tr_vow ;
 
+
+! Person-number affixes
+! =====================
+
+! IV
+! --
 
 LEXICON indpersonaffix 
 +1Sg:%>ŋa	clit ;
@@ -89,4 +122,84 @@ LEXICON infpersonaffix !NB Incorrect flexives. Basically just transferred from K
 +1Pl:%>tut	clit ;
 +2Pl:%>si	clit ;
 +4Pl:%>t	clit ; ! r
+
+! TV
+! --
+
+LEXICON   infpersonaffix_tv 
++1Sg+2Sg:nothingyet clit ;
+
+LEXICON indpersonaffix_tv
++1Sg+2SgO:%>kpiñ  clit ;
++1Sg+2DuO:%>vsik  clit ;
++1Sg+2PlO:%>vsi   clit ;
++1Sg+3SgO:%>ga    clit ;
++1Sg+3DuO:%>ka    clit ; !(k)ka
++1Sg+3PlO:%>tka   clit ;
+
++2Sg+1SgO:%>ŋma  clit ;
++2Sg+1DuO:%>vsiguk  clit ;
++2Sg+1PlO:%>vsigut  clit ;
++2Sg+3SgO:%>  clit ;
++2Sg+3DuO:%>  clit ;
++2Sg+3PlO:%>  clit ;
+
++3Sg+1SgO:%>  clit ;
++3Sg+1DuO:%>  clit ;
++3Sg+1PlO:%>  clit ;
++3Sg+2SgO:%>  clit ;
++3Sg+2DuO:%>  clit ;
++3Sg+2PlO:%>  clit ;
++3Sg+3SgO:%>  clit ;
++3Sg+3DuO:%>  clit ;
++3Sg+3PlO:%>  clit ;
+
++1Du+2SgO:%>  clit ;
++1Du+2DuO:%>  clit ;
++1Du+2PlO:%>  clit ;
++1Du+3SgO:%>  clit ;
++1Du+3DuO:%>  clit ;
++1Du+3PlO:%>  clit ;
+
++2Du+1SgO:%>  clit ;
++2Du+1DuO:%>  clit ;
++2Du+1PlO:%>  clit ;
++2Du+3SgO:%>  clit ;
++2Du+3DuO:%>  clit ;
++2Du+3PlO:%>  clit ;
+
++3Du+1SgO:%>  clit ;
++3Du+1DuO:%>  clit ;
++3Du+1PlO:%>  clit ;
++3Du+2SgO:%>  clit ;
++3Du+2DuO:%>  clit ;
++3Du+2PlO:%>  clit ;
++3Du+3SgO:%>  clit ;
++3Du+3DuO:%>  clit ;
++3Du+3PlO:%>  clit ;
+
++1Pl+2SgO:%>  clit ;
++1Pl+2DuO:%>  clit ;
++1Pl+2PlO:%>  clit ;
++1Pl+3SgO:%>  clit ;
++1Pl+3DuO:%>  clit ;
++1Pl+3PlO:%>  clit ;
+
++2Pl+1SgO:%>  clit ;
++2Pl+1DuO:%>  clit ;
++2Pl+1PlO:%>  clit ;
++2Pl+3SgO:%>  clit ;
++2Pl+3DuO:%>  clit ;
++2Pl+3PlO:%>  clit ;
+
++3Pl+1SgO:%>  clit ;
++3Pl+1DuO:%>  clit ;
++3Pl+1PlO:%>  clit ;
++3Pl+2SgO:%>  clit ;
++3Pl+2DuO:%>  clit ;
++3Pl+2PlO:%>  clit ;
++3Pl+3SgO:%>  clit ;
++3Pl+3DuO:%>  clit ;
++3Pl+3PlO:%>  clit ;
+
 

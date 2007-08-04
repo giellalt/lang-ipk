@@ -1,3 +1,7 @@
+! =============== !
+! Noun morphology !
+! =============== !
+
 
 LEXICON tp !aġnaq ere
 	tp_sing ;
@@ -6,12 +10,12 @@ LEXICON tp !aġnaq ere
 
 LEXICON tp_sing !erre
 	ObliqueCases_Sg ;
-+N+Abs+Sg:	clit ;
-+N+Rel+Sg:%>%TRUNCm	clit ;
++N+Abs+Sg:           clit ;
++N+Rel+Sg:%>%TRUNCm  clit ;
 
 LEXICON tp_du
 +N+Abs+Du:%C%>k	clit ;
-+N:%C%>k	ObliqueCases_Du ; 
++N:%C%>k        ObliqueCases_Du ; 
 
 LEXICON tp_pl
 +N+Abs+Pl:%TRUNC%>t	clit ;
@@ -30,9 +34,9 @@ LEXICON tup !aiviq
 +N+Trm+Sg:%>mun	clit ;
 +N+Abl+Sg:%>miñ	clit ;
 
-LEXICON tup- !seksrik
+LEXICON tup- !siksrik iñuk
 +N+Abs+Sg:	clit ;
-+N+Abs+Pl:%>%TRUNCit	clit ;
++N+Abs+Pl:%TRUNC%>it	clit ;
 
 
 LEXICON ObliqueCases_Sg
@@ -45,11 +49,11 @@ LEXICON ObliqueCases_Pl
 +Loc+Pl:%>ni	clit ;
 
 
-! Proper nouns
+! Proper nouns ! Still a dummy
 LEXICON propmorph
 +N:	clit ;
 
-! Pronouns
+! Pronouns ! Still a dummy
 LEXICON pronmorph
 +N:	clit ;
 
