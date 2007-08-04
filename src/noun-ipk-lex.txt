@@ -5,52 +5,52 @@ aaka	tp ; ! a mother
 aapa	tp ; ! a father
 aaqhaaliq	tp ; ! old squaw duck
 aġnaq	tp ; ! a woman
-aġveq	tup ; ! a whale
+aġviq:aġveq	tup ; ! a whale
 aŋun:aŋute	tpt ; ! a man
-aiveq	tup ; ! a walrus
-akeł2hun	tp ; ! lantern chimney
+aiviq:aiveq	tup ; ! a walrus
+akił2hun	tp ; ! lantern chimney
 akłaq	tp ; ! a brown bear
 aqvaluqtaaq	tp ; ! something round
-atege	tp ; ! a parka
-aveŋŋaq	tup ; ! a lemming
+atigi:atege	tp ; ! a parka
+aviŋŋaq:aveŋŋaq	tup ; ! a lemming
 ayuktaq	tp ; ! a ball
-eġñeq	tup ; ! a son
-eñuk	tup- ; ! inuk
-ee	clit ; ! yes
-eglu	tp ; ! a house
-eqł2ak	tp ; ! hook and line (term. tech.)
-eqsraq	tp ; ! a cheek
-ere	tp ; ! an eye
-erre	tp_sing ; ! cold air
+iġñiq:iġñeq	tup ; ! a son
+iñuk	tup- ; ! inuk
+iglu:eglu	tp ; ! a house
+iqł2ak	tp ; ! hook and line (term. tech.)
+iqsraq:eqsraq	tp ; ! a cheek
+iri:ere	tp ; ! an eye
+irri:erre	tp_sing ; ! cold air
 iḷa	tp ; ! =KAL ila
-eḷeappak	tp ; ! poor person, orphan
-kamek	tp ; ! boot
-keña	pron ; ! who
+iḷiappak:iḷeappak	tp ; ! poor person, orphan
+kamik:kamek	tp ; ! boot
+kiña:keña	pron ; ! who
 kutchuq	tp ; ! chewing gum, resin 'kutchuq'
 kuuk	tp ; ! a river
-meqłeqtuq	tp ; ! a child
+miqłiqtuq:meqłeqtuq	tp ; ! a child
 natchiq	tup ; ! seal 'natchiq'
 natiq	tp ; ! floor
 Nayuk	prop ;
-neu	tp ; ! a leg
-peseksi	tp ; ! a bow
+niu:neu	tp ; ! a leg
+pisiksi:peseksi	tp ; ! a bow
 qallun	tp ; ! a cup
 qayaq	tp ; ! kayak
 qaugak	tp ; ! a duck
 quaq	tp ; ! frozen meat
-savek	tp ; ! a tp
-saveł2haq	tp ; ! metal
+savik:savek	tp ; ! a tp
+savił2haq	tp ; ! metal
 sikł2aq	tp ; ! a pickax
-seksrik	tup- ; ! a squirrel
+siksrik:seksrik	tup- ; ! a squirrel
 suna	pron ; ! what
 tavsi	tp ; ! a belt for carrying a baby
-tume	tp ; ! a footprint
+tumi:tume	tp ; ! a footprint
 tupiq	tp ; ! a tent
 ulu	tp ; ! =KAL
 una	pron ; ! =KAL
 
-uneat	clit ; ! sled (plural??)
+uniat:uneat	clit ; ! sled (plural??)
 aaqagu	clit ; ! wait a minute
-atakhee	clit ; ! look at that
+atakhii:atakhee	clit ; ! look at that
+ii:ee	clit ; ! yes
 qakugulu	clit ; ! until next time
 etc	abbr ; !!just rubbish to fill a slot

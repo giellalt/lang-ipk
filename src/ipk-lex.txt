@@ -6,7 +6,7 @@
 Multichar_Symbols
 +N +V
 +Sg +Du +Pl
-+1Sg +2Sg +3Sg +4Sg +1Du +2Du +3Du +4Du +1Pl +2Pl+3Pl +4Pl
++1Sg +2Sg +3Sg +4Sg +1Du +2Du +3Du +4Du +1Pl +2Pl +3Pl +4Pl
 +1SgO +2SgO +3SgO +4SgO +1DuO +2DuO +3DuO +4DuO +1PlO +2PlO+3PlO +4PlO !Objects' persons
 +Abs +Rel +Trm +Loc +Abl !cases
 +Ind +Cau +InfReal +InfUnreal !Voiced is unrealized and voiceless is for ongoing or realized actions.
@@ -37,18 +37,29 @@ LEXICON Root
 	prop ;
 	pron ;
 	Verbs ;
-
+!About lexica and continuations. Instead of separate lexica for words that can only be sing or only plur and others for words that can take all numbers, this is a better solution: Normal nouns are tagged tp, tup etc. whereas specials are tagged with the continuation lexicon
 
 LEXICON tp !aġnaq ere
-+N+Abs+Sg:	clit ;
-+N+Abs+Du:%C%>k	clit ; 
-+N+Abs+Pl:%>%TRUNCt	clit ;
-+N+Rel+Sg:%>%TRUNCm	clit ;
-+N+Loc+Du:%C%>k%>ni	clit ; 
+	tp_sing ;
+	tp_du ;
+	tp_pl ;
 
 LEXICON tp_sing !erre
+	ObliqueCases_Sg ;
 +N+Abs+Sg:	clit ;
 +N+Rel+Sg:%>%TRUNCm	clit ;
+
+LEXICON tp_du
++N+Abs+Du:%C%>k	clit ;
++N:%C%>k	ObliqueCases_Du ; 
+
+
+LEXICON tp_pl
++N+Abs+Pl:%TRUNC%>t	clit ;
++N:%TRUNC%>t	ObliqueCases_Pl ; 
+
+
+
 
 LEXICON tpt !aŋun:aŋute
 +N+Abs+Sg:%CVCTRUNCn	clit ;
@@ -72,6 +83,16 @@ LEXICON prop
 
 LEXICON pron
 	clit ;
+
+LEXICON ObliqueCases_Sg
++Loc+Sg:%>mi	clit ;
+
+LEXICON ObliqueCases_Du
++Loc+Du:%>ni	clit ;
+
+LEXICON ObliqueCases_Pl
++Loc+Pl:%>ni	clit ;
+
 
 LEXICON verb_intr
 +NIAQ:%>niaq	verb_intr ;
