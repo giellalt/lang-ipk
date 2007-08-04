@@ -9,4 +9,6 @@ kamik:kamek	verb_intr ; ! to put boots on
 makit:maket	verb_intr ; ! to stand
 makit:maket	verb_tr ; ! to set it upright
 pisuaq	verb_intr ; ! to walk
-
+niġi	verb_tr_vow ;
+atuq	verb_tr ;
+pisik	verb_tr ;

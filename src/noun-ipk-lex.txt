@@ -32,6 +32,7 @@ iri:ere	tp ; ! an eye
 irri:erre	tp_sing ; ! cold air
 iḷa	tp ; ! =KAL ila
 iḷiappak:iḷeappak	tp ; ! poor person, orphan
+iġġi	tp ; !a mountain
 kamik:kamek	tp ; ! boot
 kiña:keña	pron ; ! who
 kutchuq	tp ; ! chewing gum, resin 'kutchuq'

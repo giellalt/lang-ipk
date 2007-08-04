@@ -21,6 +21,12 @@ ch sr kh qh ł2 !digraphs plus ł2 for voiceless palatalized l
 %C ! dummy for intermediate gemination
 !%CLIT !dummy with clitics used in Kalaallisut. This far unused in ipk
 
+@P.IV.ON@ !Flag - positive inquiry for intransitive wants IV suff
+@P.TV.ON@ !Flag - positive inquiry for intransitive wants TV suff
+@R.IV.ON@ !Flag - require test for intransitivity   gets IV suff
+@R.TV.ON@ !Flag - positive inquiry for intransitive gets TV siff
+@D.IV.ON@ !Flag - disallow test - delete string if unsaturated flag (
+@D.TV.ON@ !Flag - disalloq test - delete string if unsaturated flag (=Verb was not transitive)
 
 
 !************************************
@@ -53,12 +59,9 @@ LEXICON tp_du
 +N+Abs+Du:%C%>k	clit ;
 +N:%C%>k	ObliqueCases_Du ; 
 
-
 LEXICON tp_pl
 +N+Abs+Pl:%TRUNC%>t	clit ;
 +N:%TRUNC%>t	ObliqueCases_Pl ; 
-
-
 
 
 LEXICON tpt !aŋun:aŋute
@@ -77,12 +80,6 @@ LEXICON tup- !seksrik
 +N+Abs+Sg:	clit ;
 +N+Abs+Pl:%>%TRUNCit	clit ;
 
-LEXICON propmorph
-+N:	clit ;
-
-
-LEXICON pronmorph
-+N:	clit ;
 
 LEXICON ObliqueCases_Sg
 +Loc+Sg:%>mi	clit ;
@@ -94,36 +91,116 @@ LEXICON ObliqueCases_Pl
 +Loc+Pl:%>ni	clit ;
 
 
+! Proper nouns
+LEXICON propmorph
++N:	clit ;
+
+! Pronouns
+LEXICON pronmorph
++N:	clit ;
+
+
+
+! Verb morphology
+! ===============
+
 LEXICON verb_intr
-+NIAQ:%>niaq	verb_intr ;
-+NIAŊIT:%>niaŋit	verb_intr ;
-+SAAĠE:%>saaġe	verb_intr_vow ;
-+VIK:%>vik	tup- ; 
-+V+Ind+1Sg:%>tuŋa	clit ;
-+V+Ind+3Sg:%>tuq	clit ;
-+V+InfReal+4Sg:%>łuni	clit ;
-+V+InfUnreal+4Sg:%>luni	clit ;
-+V+Cau+3Sg:%>man	clit ;
+@P.IV.ON@            verbalderivatives ;
++V+Ind+Prs:%>tu      indpersonaffix ;
++V+Ind+Prt:%>tua     indpersonaffix ;
++V+Inf+Real:%>łu     infpersonaffix ;
++V+Inf+Unreal:%>lu   infpersonaffix ;
++V+Cau+3Sg:%>man     clit ;
 
 LEXICON verb_intr_vow
-+NIAQ:%>niaq	verb_intr ;
-+NIAŊIT:%>niaŋit	verb_intr ;
-+SAAĠE:%>saaġe	verb_intr_vow ;
-+VIK:%>vik	tup- ; 
-+V+Ind+1Sg:%>tuŋa	clit ;
-+V+Ind+3Sg:%>tuq	clit ;
-+V+InfReal+4Sg:%>łuni	clit ;
-+V+InfUnreal+4Sg:%>luni	clit ;
-+V+Cau+3Sg:%>man	clit ;
+@P.IV.ON@            verbalderivatives ;
++V+Ind+Prs:%>ru      indpersonaffix ;
++V+Ind+Pst:%>rua     indpersonaffix ;
++V+Inf+Real:%>łu     infpersonaffix ;
++V+Inf+Unreal:%>lu   infpersonaffix ;
++V+Cau+3Sg:%>man     clit ;
+
 
 LEXICON verb_tr
-+NIAQ:%>niaq	verb_tr ;
-+NIAŊIT:%>niaŋit	verb_tr ;
-!+VIK:%>vik	tup- ; !???Can VIK be added to transitives i Iñupiaq???? 
-+V+Ind+3Sg+3SgO:%>gaa	clit ;
+@P.TV.ON@            verbalderivatives ;
++V+Ind+Prs:%>      indpersonaffix_tv ; 
++V+Ind+Pst:%>     indpersonaffix_tv ;
++V+Inf+Real:%>     infpersonaffix_tv ;
++V+Inf+Unreal:%>   infpersonaffix_tv ;
++V+Cau+3Sg:%>     clit ;
+
+LEXICON verb_tr_vow
+@P.TV.ON@            verbalderivatives ;
++V+Ind+Prs:%>      indpersonaffix_tv ; 
++V+Ind+Pst:%>     indpersonaffix_tv ;
++V+Inf+Real:%>     infpersonaffix_tv ;
++V+Inf+Unreal:%>   infpersonaffix_tv ;
++V+Cau+3Sg:%>     clit ;
+
+LEXICON indpersonaffix_tv
++3Sg+3SgO:%>gaa	clit ;
+
+! Diskusjon, skal vekk.
+!aqpat@P.IV.ON@%>niaq@R.IV.ON@%>tu%>q@D.IV.ON@ #
+!aqpat@P.IV.ON@%>niaq@R.TV.ON@%>gaa@D.IV.ON@ #
+
+LEXICON   infpersonaffix_tv 
++1Sg+2Sg: clit ;
+
+LEXICON verbalderivatives  ! hundreds of derivatives in here
++NIAQ:%>niaq	 verbalderivatives_cont ; !isiq-niaq-tuq 
++NIAŊIT:%>niaŋit verbalderivatives_cont ;
++SAAĠE:%>saaġe	 verbalderivatives_cont_vow ;
++VIK:%>vik	 tup- ; 
+
+LEXICON verbalderivatives_cont
+@R.IV.ON@ verb_intr ;
+@R.TV.ON@ verb_tr ;
+
+LEXICON verbalderivatives_cont_vow
+@R.IV.ON@ verb_intr_vow ;
+@R.TV.ON@ verb_tr_vow ;
+
+
+LEXICON indpersonaffix 
++1Sg:%>ŋa	clit ;
++2Sg:%>tin	clit ;
++3Sg:%>q	clit ; ! ruq ??
++1Du:%>guk	clit ;
++2Du:%>sik	clit ; ! tik
++3Du:%>k 	clit ; ! ruq ??
++1Pl:%>tut	clit ;
++2Pl:%>si	clit ;
++3Pl:%>t	clit ; ! r
+
+LEXICON interrverbaffix
++1Sg:%>k	 clit ;
++2Sg:%>t   clit ; ! XXX rule for t/n alternation!
++3Sg:%>	 clit ; ! ruq ??
++1Du:%>nuk clit ;
++2Du:%>sik clit ; ! tik
++3Du:%>k 	clit ; 
++1Pl:%>sa	clit ;
++2Pl:%>si	clit ;
++3Pl:%>t	clit ; 
+
+LEXICON infpersonaffix !NB Incorrect flexives. Basically just transferred from Kalaallisut
++1Sg:%>ŋa	clit ;
++2Sg:%>tin	clit ;
++4Sg:%>ni	clit ; ! ruq ??
++1Du:%>guk	clit ;
++2Du:%>sik	clit ; ! tik
++4Du:%>k 	clit ; ! ruq ??
++1Pl:%>tut	clit ;
++2Pl:%>si	clit ;
++4Pl:%>t	clit ; ! r
+
 
 LEXICON clit
-+GUUQ:%>guuq	# ;
-+LU:%>lu	# ;
-	# ;
++GUUQ:%>guuq	f ;
++LU:%>lu	f ;
+	        f ;
 
+LEXICON f
+@D.IV.ON@ # ;
+@D.TV.ON@ # ;

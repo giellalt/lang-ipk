@@ -17,13 +17,15 @@ define vow [ i | e | a | u ] ; ! NB not in accordance with Alaskan tradition: i 
 
 define dummy [ %> | %TRUNC | %VCTRUNC |%C | %CLIT | %FRIC | %C ] ;
 
+define erfalasoq [ %@P%.IV%.ON%@ | %@P%.TV%.ON%@ | %@R%.IV%.ON%@ | %@R%.TV%.ON%@ | %@D%.IV%.ON%@ | %@D%.TV%.ON%@  ] ;
+
 !********************
 !Phonological rules *
 !********************
 
 define PartAssQC [ q -> ġ || _ %> [ cont | nas ] ] ;
 define PartAssKC [ k -> g || _ %> [ cont | nas ] ] ;
-define AssTnas [ t -> n || _ %> nas ] ;
+define AssTnas [ t -> n || _ ( erfalasoq ) %> nas ] ;
 define AssTL [ t -> l || _ %> l ] ;
 define AssTJ [ t -> ł || _ %> ł ] ;
 define PartAssTC [ t -> r || _ %> [ v | g ] ] ;
@@ -35,6 +37,8 @@ define AltNL [ n (->) l || _ %> l ] ;
 define palatR [ r -> y || i ( cns ) _ ] ;
 define Rgemination [ r -> r r || vow _ vow (cns) %C %> ] ;
 define Gstop [ g -> k || cns %> _ ] ;
+define Qfusion1 [ g -> ġ || q erfalasoq %>  %> _ ] ;
+define Qfusion2 [ q -> 0 || _ erfalasoq %> ġ ] ;
 
 !********************
 !Household utensils *
@@ -70,6 +74,10 @@ fricativization
 SchwaReplace1
 .o.
 Gstop
+.o.
+Qfusion1
+.o.
+Qfusion2
 .o.
 PartAssQC
 .o.
