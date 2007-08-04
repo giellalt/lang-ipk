@@ -41,8 +41,8 @@ LEXICON verb_intr_vow
 
 LEXICON TV
 @P.TV.ON@   verb_tr ;
-!atuq@P.TV.ON@%>niaq@R.TV.ON@ verb_tr ;
-!atuq+NIAQ
+!atuq@P.TV.ON@%>niaq@R.TV.ON@%>ge    indpersonaffix_tv
+!atuq+NIAQ+V+Ind+Prs
 
 LEXICON verb_tr  
                    verbalderivatives ;
@@ -150,7 +150,7 @@ LEXICON indpersonaffix_tv
 +3Sg+2SgO:%>  clit ;
 +3Sg+2DuO:%>  clit ;
 +3Sg+2PlO:%>  clit ;
-+3Sg+3SgO:%>  clit ;
++3Sg+3SgO:%>a  clit ;
 +3Sg+3DuO:%>  clit ;
 +3Sg+3PlO:%>  clit ;
 
