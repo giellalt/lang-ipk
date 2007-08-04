@@ -1,0 +1,92 @@
+! Verb morphology
+! ===============
+
+LEXICON verb_intr
+@P.IV.ON@            verbalderivatives ;
++V+Ind+Prs:%>tu      indpersonaffix ;
++V+Ind+Prt:%>tua     indpersonaffix ;
++V+Inf+Real:%>łu     infpersonaffix ;
++V+Inf+Unreal:%>lu   infpersonaffix ;
++V+Cau+3Sg:%>man     clit ;
+
+LEXICON verb_intr_vow
+@P.IV.ON@            verbalderivatives ;
++V+Ind+Prs:%>ru      indpersonaffix ;
++V+Ind+Pst:%>rua     indpersonaffix ;
++V+Inf+Real:%>łu     infpersonaffix ;
++V+Inf+Unreal:%>lu   infpersonaffix ;
++V+Cau+3Sg:%>man     clit ;
+
+
+LEXICON verb_tr
+@P.TV.ON@            verbalderivatives ;
++V+Ind+Prs:%>      indpersonaffix_tv ; 
++V+Ind+Pst:%>     indpersonaffix_tv ;
++V+Inf+Real:%>     infpersonaffix_tv ;
++V+Inf+Unreal:%>   infpersonaffix_tv ;
++V+Cau+3Sg:%>     clit ;
+
+LEXICON verb_tr_vow
+@P.TV.ON@            verbalderivatives ;
++V+Ind+Prs:%>      indpersonaffix_tv ; 
++V+Ind+Pst:%>     indpersonaffix_tv ;
++V+Inf+Real:%>     infpersonaffix_tv ;
++V+Inf+Unreal:%>   infpersonaffix_tv ;
++V+Cau+3Sg:%>     clit ;
+
+LEXICON indpersonaffix_tv
++3Sg+3SgO:%>gaa	clit ;
+
+!isiq@P.IV.ON@%>niaq@R.IV.ON@:%>tu%>q	clit ; ! ruq ??
+
+LEXICON   infpersonaffix_tv 
++1Sg+2Sg: clit ;
+
+LEXICON verbalderivatives  ! hundreds of derivatives in here
++NIAQ:%>niaq	 verbalderivatives_cont ; !isiq-niaq-tuq 
++NIAŊIT:%>niaŋit verbalderivatives_cont ;
++SAAĠE:%>saaġe	 verbalderivatives_cont_vow ;
++VIK:%>vik	 tup- ; 
+
+LEXICON verbalderivatives_cont
+@R.IV.ON@ verb_intr ;
+@R.TV.ON@ verb_tr ;
+
+LEXICON verbalderivatives_cont_vow
+@R.IV.ON@ verb_intr_vow ;
+@R.TV.ON@ verb_tr_vow ;
+
+
+LEXICON indpersonaffix 
++1Sg:%>ŋa	clit ;
++2Sg:%>tin	clit ;
++3Sg:%>q	clit ; ! ruq ??
++1Du:%>guk	clit ;
++2Du:%>sik	clit ; ! tik
++3Du:%>k 	clit ; ! ruq ??
++1Pl:%>tut	clit ;
++2Pl:%>si	clit ;
++3Pl:%>t	clit ; ! r
+
+LEXICON interrverbaffix
++1Sg:%>k	 clit ;
++2Sg:%>t   clit ; ! XXX rule for t/n alternation!
++3Sg:%>	 clit ; ! ruq ??
++1Du:%>nuk clit ;
++2Du:%>sik clit ; ! tik
++3Du:%>k 	clit ; 
++1Pl:%>sa	clit ;
++2Pl:%>si	clit ;
++3Pl:%>t	clit ; 
+
+LEXICON infpersonaffix !NB Incorrect flexives. Basically just transferred from Kalaallisut
++1Sg:%>ŋa	clit ;
++2Sg:%>tin	clit ;
++4Sg:%>ni	clit ; ! ruq ??
++1Du:%>guk	clit ;
++2Du:%>sik	clit ; ! tik
++4Du:%>k 	clit ; ! ruq ??
++1Pl:%>tut	clit ;
++2Pl:%>si	clit ;
++4Pl:%>t	clit ; ! r
+
