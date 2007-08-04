@@ -6,7 +6,8 @@
 
 # Tools used when compiling the transducers
 
-XFST = fst -utf8
+#XFST = fst -utf8
+XFST = xfst -utf8
 LEXC = lexc -utf8
 
 #ifeq (victorio.uit.no, $(shell hostname))
@@ -25,9 +26,9 @@ LEXC = lexc -utf8
 
 
 SRCS = ipk-lex.txt \
-	noun-ipk-lex.txt verb-ipk-lex.txt abbr-ipk-lex.txt 
+	noun-ipk-lex.txt verb-ipk-lex.txt abbr-ipk-lex.txt \
+	noun-ipk-morph.txt verb-ipk-morph.txt
 #	acro-ipk-lex.txt \
-#	ateq-ipk-lex.txt ateq-ipk-morph.txt \
 #	punct-ipk-lex.txt prt-ipk-lex.txt num-ipk-lex.txt 
 
 # No strict / sloppy distinction here
