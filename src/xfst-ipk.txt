@@ -32,12 +32,15 @@ define AssTnas [ t -> n || _ ( erfalasoq ) %> nas ] ;
 define AssTJ [ t -> ł || _ %> ł ] ;
 define AssTL [ t -> l || _ %> l ] ;
 define PartAssTC [ t -> r || _ %> [ v | g ] ] ;
-define truncation [ stops -> 0 || _ %> %TRUNC ] ;
+define truncation [ stops -> 0 || _ %TRUNC %> ] ;
 define fricativization [ q -> ġ || _ ( erfalasoq ) %> [ %FRIC | nas ] ] ; !????? Edna does not give the rule, but I suspect it to be so ???????
 define AltKN [ k (->) ŋ || _ %> n ] ;
 define AltML [ m (->) v || _ %> l ] ;
 define AltNL [ n (->) l || _ %> l ] ;
+define palatL [ l -> ḷ || i ( cns ) _ ] ;
+define palatN [ n -> ñ || i ( cns ) _ ] ;
 define palatR [ r -> y || i ( cns ) _ ] ;
+define palatT [ t -> c h || i ( cns ) _ ] ;
 define Rgemination [ r -> r r || vow _ vow (cns) %C %> ] ;
 define Gstop [ g -> k || cns %> _ ] ;
 define Qfusion1 [ g -> ġ || q erfalasoq %>  %> _ ] ; !Must clean ipk-lex.txt to avoid two consecutive morphemeborders
@@ -104,7 +107,13 @@ AltNL
 .o.
 DummyDeletion
 .o.
+palatL
+.o.
+palatN
+.o.
 palatR
+.o.
+palatT
 .o.
 SchwaReplace2
 ] ;

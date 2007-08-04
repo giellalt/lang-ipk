@@ -1,7 +1,7 @@
-!=============================================================================== =
-!This is the file that hosts the morphology for the Inupiaq morphological parser =
-!Rules for phonology and orthography are kept in the rule-file xfst-ipk.txt      =
-!=============================================================================== =
+!================================================================================!
+!This is the file that hosts the morphology for the Inupiaq morphological parser !
+!Rules for phonology and orthography are kept in the rule-file xfst-ipk.txt      !
+!================================================================================!
 
 Multichar_Symbols
 +N +V
@@ -140,9 +140,7 @@ LEXICON verb_tr_vow
 LEXICON indpersonaffix_tv
 +3Sg+3SgO:%>gaa	clit ;
 
-! Diskusjon, skal vekk.
-!aqpat@P.IV.ON@%>niaq@R.IV.ON@%>tu%>q@D.IV.ON@ #
-!aqpat@P.IV.ON@%>niaq@R.TV.ON@%>gaa@D.IV.ON@ #
+!isiq@P.IV.ON@%>niaq@R.IV.ON@:%>tu%>q	clit ; ! ruq ??
 
 LEXICON   infpersonaffix_tv 
 +1Sg+2Sg: clit ;
