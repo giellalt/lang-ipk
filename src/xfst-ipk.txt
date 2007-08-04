@@ -37,8 +37,8 @@ define AltNL [ n (->) l || _ %> l ] ;
 define palatR [ r -> y || i ( cns ) _ ] ;
 define Rgemination [ r -> r r || vow _ vow (cns) %C %> ] ;
 define Gstop [ g -> k || cns %> _ ] ;
-define Qfusion1 [ g -> ġ || q erfalasoq %>  %> _ ] ;
-define Qfusion2 [ q -> 0 || _ erfalasoq %> ġ ] ;
+define Qfusion1 [ g -> ġ || q erfalasoq %>  %> _ ] ; !Must clean ipk-lex.txt to avoid two consecutive morphemeborders
+define Qfusion2 [ q -> 0 || _ erfalasoq %> %> ġ ] ; !Must clean ipk-lex.txt to avoid two consecutive morphemeborders
 
 !********************
 !Household utensils *
