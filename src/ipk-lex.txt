@@ -39,6 +39,15 @@ Multichar_Symbols
 +LU +GUUQ ! clitics
 
 
+! This file gives the start and end of the Iñupiaq lexicon. 
+! The lexicon Root points at the different parts of speech.
+! Each POS has its own file noun-ipk-lex.txt, etc., which in
+! turn points to noun-ipk-morph.txt, etc.
+! POS-changing affixes are found in ...
+! It might be a good idea to have noun-lpk-der.txt etc. as well.
+! The common, final lexica, are found in this file.
+
+
 LEXICON Root
 	Nouns ;
 	prop ;
@@ -46,153 +55,9 @@ LEXICON Root
 	Verbs ;
 !About lexica and continuations. Instead of separate lexica for words that can only be sing or only plur and others for words that can take all numbers, this is a better solution: Normal nouns are tagged tp, tup etc. whereas specials are tagged with the continuation lexicon
 
-LEXICON tp !aġnaq ere
-	tp_sing ;
-	tp_du ;
-	tp_pl ;
-
-LEXICON tp_sing !erre
-	ObliqueCases_Sg ;
-+N+Abs+Sg:	clit ;
-+N+Rel+Sg:%>%TRUNCm	clit ;
-
-LEXICON tp_du
-+N+Abs+Du:%C%>k	clit ;
-+N:%C%>k	ObliqueCases_Du ; 
-
-LEXICON tp_pl
-+N+Abs+Pl:%TRUNC%>t	clit ;
-+N:%TRUNC%>t	ObliqueCases_Pl ; 
-
-
-LEXICON tpt !aŋun:aŋute
-+N+Abs+Sg:%CVCTRUNCn	clit ;
-+N+Abs+Pl:%>t	clit ;
-+N+Rel+Sg:%>m	clit ;
-+N+Trm+Sg:%CVCTRUNCn%>mun	clit ;
-
-LEXICON tup !aiviq
-+N+Abs+Sg:	clit ;
-+N+Abs+Pl:%>%FRICit	clit ;
-+N+Trm+Sg:%>mun	clit ;
-+N+Abl+Sg:%>miñ	clit ;
-
-LEXICON tup- !seksrik
-+N+Abs+Sg:	clit ;
-+N+Abs+Pl:%>%TRUNCit	clit ;
-
-
-LEXICON ObliqueCases_Sg
-+Loc+Sg:%>mi	clit ;
-
-LEXICON ObliqueCases_Du
-+Loc+Du:%>ni	clit ;
-
-LEXICON ObliqueCases_Pl
-+Loc+Pl:%>ni	clit ;
-
-
-! Proper nouns
-LEXICON propmorph
-+N:	clit ;
-
-! Pronouns
-LEXICON pronmorph
-+N:	clit ;
 
 
 
-! Verb morphology
-! ===============
-
-LEXICON verb_intr
-@P.IV.ON@            verbalderivatives ;
-+V+Ind+Prs:%>tu      indpersonaffix ;
-+V+Ind+Prt:%>tua     indpersonaffix ;
-+V+Inf+Real:%>łu     infpersonaffix ;
-+V+Inf+Unreal:%>lu   infpersonaffix ;
-+V+Cau+3Sg:%>man     clit ;
-
-LEXICON verb_intr_vow
-@P.IV.ON@            verbalderivatives ;
-+V+Ind+Prs:%>ru      indpersonaffix ;
-+V+Ind+Pst:%>rua     indpersonaffix ;
-+V+Inf+Real:%>łu     infpersonaffix ;
-+V+Inf+Unreal:%>lu   infpersonaffix ;
-+V+Cau+3Sg:%>man     clit ;
-
-
-LEXICON verb_tr
-@P.TV.ON@            verbalderivatives ;
-+V+Ind+Prs:%>      indpersonaffix_tv ; 
-+V+Ind+Pst:%>     indpersonaffix_tv ;
-+V+Inf+Real:%>     infpersonaffix_tv ;
-+V+Inf+Unreal:%>   infpersonaffix_tv ;
-+V+Cau+3Sg:%>     clit ;
-
-LEXICON verb_tr_vow
-@P.TV.ON@            verbalderivatives ;
-+V+Ind+Prs:%>      indpersonaffix_tv ; 
-+V+Ind+Pst:%>     indpersonaffix_tv ;
-+V+Inf+Real:%>     infpersonaffix_tv ;
-+V+Inf+Unreal:%>   infpersonaffix_tv ;
-+V+Cau+3Sg:%>     clit ;
-
-LEXICON indpersonaffix_tv
-+3Sg+3SgO:%>gaa	clit ;
-
-!isiq@P.IV.ON@%>niaq@R.IV.ON@:%>tu%>q	clit ; ! ruq ??
-
-LEXICON   infpersonaffix_tv 
-+1Sg+2Sg: clit ;
-
-LEXICON verbalderivatives  ! hundreds of derivatives in here
-+NIAQ:%>niaq	 verbalderivatives_cont ; !isiq-niaq-tuq 
-+NIAŊIT:%>niaŋit verbalderivatives_cont ;
-+SAAĠE:%>saaġe	 verbalderivatives_cont_vow ;
-+VIK:%>vik	 tup- ; 
-
-LEXICON verbalderivatives_cont
-@R.IV.ON@ verb_intr ;
-@R.TV.ON@ verb_tr ;
-
-LEXICON verbalderivatives_cont_vow
-@R.IV.ON@ verb_intr_vow ;
-@R.TV.ON@ verb_tr_vow ;
-
-
-LEXICON indpersonaffix 
-+1Sg:%>ŋa	clit ;
-+2Sg:%>tin	clit ;
-+3Sg:%>q	clit ; ! ruq ??
-+1Du:%>guk	clit ;
-+2Du:%>sik	clit ; ! tik
-+3Du:%>k 	clit ; ! ruq ??
-+1Pl:%>tut	clit ;
-+2Pl:%>si	clit ;
-+3Pl:%>t	clit ; ! r
-
-LEXICON interrverbaffix
-+1Sg:%>k	 clit ;
-+2Sg:%>t   clit ; ! XXX rule for t/n alternation!
-+3Sg:%>	 clit ; ! ruq ??
-+1Du:%>nuk clit ;
-+2Du:%>sik clit ; ! tik
-+3Du:%>k 	clit ; 
-+1Pl:%>sa	clit ;
-+2Pl:%>si	clit ;
-+3Pl:%>t	clit ; 
-
-LEXICON infpersonaffix !NB Incorrect flexives. Basically just transferred from Kalaallisut
-+1Sg:%>ŋa	clit ;
-+2Sg:%>tin	clit ;
-+4Sg:%>ni	clit ; ! ruq ??
-+1Du:%>guk	clit ;
-+2Du:%>sik	clit ; ! tik
-+4Du:%>k 	clit ; ! ruq ??
-+1Pl:%>tut	clit ;
-+2Pl:%>si	clit ;
-+4Pl:%>t	clit ; ! r
 
 
 LEXICON clit
