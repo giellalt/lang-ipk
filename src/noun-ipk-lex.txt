@@ -12,9 +12,10 @@ una	pronmorph ; ! =KAL
 LEXICON Nouns
 aaka	tp ; ! a mother
 aapa	tp ; ! a father
-aaqhaaliq	tp ; ! old squaw duck
+aaqhaalliq	tp ; ! old squaw duck. ?? One l p. 14, two l p. 39 and 247???
 aġnaq	tp ; ! a woman
 aġviq:aġveq	tup ; ! a whale
+amaġuq	tp_gem ; ! a wolf
 aŋun:aŋute	tpt ; ! a man
 aiviq:aiveq	tup ; ! a walrus
 akił2hun	tp ; ! lantern chimney
@@ -24,6 +25,7 @@ atigi:atege	tp ; ! a parka
 aviŋŋaq:aveŋŋaq	tup ; ! a lemming
 ayuktaq	tp ; ! a ball
 iġñiq:iġñeq	tup ; ! a son
+ini:ine	tp ; ! a room
 iñuk	tup- ; ! inuk
 iglu:eglu	tp ; ! a house
 iqł2ak	tp ; ! hook and line (term. tech.)
@@ -38,22 +40,28 @@ kiña:keña	pron ; ! who
 kutchuq	tp ; ! chewing gum, resin 'kutchuq'
 kuuk	tp ; ! a river
 miqłiqtuq:meqłeqtuq	tp ; ! a child
+nasaq	tp_gem ; ! a hood
 natchiq	tup ; ! seal 'natchiq'
 natiq	tp ; ! floor
 niu:neu	tp ; ! a leg
+nuyaq	tp_gem ; ! a strand of hair
+nusaq	tp_gem ; ! a strand of hair
 pisiksi:peseksi	tp ; ! a bow
 qallun	tp ; ! a cup
 qayaq	tp ; ! kayak
 qaugak	tp ; ! a duck
+qimmiq	tp ; ! a dog
 quaq	tp ; ! frozen meat
 savik	tp ; ! a tp
 savił2haq	tp ; ! metal
 sikł2aq	tp ; ! a pickax
 siksrik:seksrik	tup- ; ! a squirrel
 tavsi	tp ; ! a belt for carrying a baby
+tiŋŋun:tiŋŋute	tpt ; ! an airplane
 tumi:tume	tp ; ! a footprint
-tupiq	tp ; ! a tent
+tupiq:tupeq	tp ; ! a tent
 ulu	tp ; ! =KAL
+umialik	tup- ;
 uniat:uneat	clit ; ! sled (plural??)
 aaqagu	clit ; ! wait a minute
 atakhii:atakhee	clit ; ! look at that

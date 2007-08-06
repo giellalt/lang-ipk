@@ -19,8 +19,8 @@ LEXICON verb_intr
                      verbalderivatives ;
 +V+Ind+Prs:%>tu      indpersonaffix ;
 +V+Ind+Prt:%>tua     indpersonaffix ;
-+V+Inf+Real:%>łu     infpersonaffix ;
-+V+Inf+Unreal:%>lu   infpersonaffix ;
++V+ConReal:%>łu     conpersonaffix ;
++V+ConUnreal:%>lu   conpersonaffix ;
 +V+Cau+3Sg:%>man     clit ;
 
 
@@ -31,8 +31,8 @@ LEXICON verb_intr_vow
                       verbalderivatives ;
 +V+Ind+Prs:%>ru      indpersonaffix ;
 +V+Ind+Pst:%>rua     indpersonaffix ;
-+V+Inf+Real:%>łu     infpersonaffix ;
-+V+Inf+Unreal:%>lu   infpersonaffix ;
++V+ConReal:%>vlu     conpersonaffix ;
++V+ConUnreal:%>lu   conpersonaffix ;
 +V+Cau+3Sg:%>man     clit ;
 
 
@@ -48,8 +48,8 @@ LEXICON verb_tr
                    verbalderivatives ;
 +V+Ind+Prs:%>ge    indpersonaffix_tv ; 
 +V+Ind+Pst:%>ge     indpersonaffix_tv ; !Just a slot holder. Correct mode morpheme must be entered
-+V+Inf+Real:%>łu     infpersonaffix_tv ;
-+V+Inf+Unreal:%>lu   infpersonaffix_tv ;
++V+ConReal:%>łu     conpersonaffix_tv ;
++V+ConUnreal:%>lu   conpersonaffix_tv ;
 +V+Cau+3Sg:%>      clit ;
 
 LEXICON TV_vow
@@ -59,8 +59,8 @@ LEXICON verb_tr_vow
                    verbalderivatives ;
 +V+Ind+Prs:%>ge     indpersonaffix_tv ; 
 +V+Ind+Pst:%>      indpersonaffix_tv ;
-+V+Inf+Real:%>     infpersonaffix_tv ;
-+V+Inf+Unreal:%>   infpersonaffix_tv ;
++V+ConReal:%>vlu     conpersonaffix_tv ;
++V+ConUnreal:%>lu  conpersonaffix_tv ;
 +V+Cau+3Sg:%>      clit ;
 
 
@@ -73,7 +73,7 @@ LEXICON verbalderivatives  ! hundreds of derivatives in here
 +NIAQ:%>niaq	 verbalderivatives_cont ; !isiq-niaq-tuq 
 +NIAŊIT:%>niaŋit verbalderivatives_cont ;
 +SAAĠE:%>saaġe	 verbalderivatives_cont_vow ;
-+VIK:%>vik	 tup- ; 
++VIK:%C%>vik	 tup- ; 
 
 LEXICON verbalderivatives_cont
 @R.IV.ON@ verb_intr ;
@@ -112,21 +112,21 @@ LEXICON interrverbaffix
 +2Pl:%>si	clit ;
 +3Pl:%>t	clit ; 
 
-LEXICON infpersonaffix !NB Incorrect flexives. Basically just transferred from Kalaallisut
+LEXICON conpersonaffix !NB Incorrect flexives. Basically just transferred from Kalaallisut
 +1Sg:%>ŋa	clit ;
 +2Sg:%>tin	clit ;
 +4Sg:%>ni	clit ; ! ruq ??
-+1Du:%>guk	clit ;
-+2Du:%>sik	clit ; ! tik
-+4Du:%>k 	clit ; ! ruq ??
-+1Pl:%>tut	clit ;
++1Du:%>nuk	clit ;
++2Du:%>tik	clit ; ! tik
++4Du:%>tik 	clit ; ! ruq ??
++1Pl:%>ta	clit ;
 +2Pl:%>si	clit ;
-+4Pl:%>t	clit ; ! r
++4Pl:%>tiŋ	clit ; ! r
 
 ! TV
 ! --
 
-LEXICON   infpersonaffix_tv 
+LEXICON   conpersonaffix_tv 
 +1Sg+2Sg:nothingyet clit ;
 
 LEXICON indpersonaffix_tv

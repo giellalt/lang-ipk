@@ -9,7 +9,7 @@ Multichar_Symbols
 +1Sg +2Sg +3Sg +4Sg +1Du +2Du +3Du +4Du +1Pl +2Pl +3Pl +4Pl
 +1SgO +2SgO +3SgO +4SgO +1DuO +2DuO +3DuO +4DuO +1PlO +2PlO+3PlO +4PlO !Objects' persons
 +Abs +Rel +Trm +Loc +Abl !cases
-+Ind +Cau +InfReal +InfUnreal !Voiced is unrealized and voiceless is for ongoing or realized actions.
++Ind +Cau +ConReal +ConUnreal !Voiced is unrealized and voiceless is for ongoing or realized actions.
 
 
 !ch sr kh qh ! no digraphs

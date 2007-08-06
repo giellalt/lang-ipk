@@ -2,6 +2,9 @@
 ! Noun morphology !
 ! =============== !
 
+!=======================!
+! Simple 1. declination !
+!=======================!
 
 LEXICON tp !aġnaq ere
 	tp_sing ;
@@ -11,20 +14,50 @@ LEXICON tp !aġnaq ere
 LEXICON tp_sing !erre
 	ObliqueCases_Sg ;
 +N+Abs+Sg:           clit ;
-+N+Rel+Sg:%>%TRUNCm  clit ;
++N+Rel+Sg:%TRUNC%>m  clit ;
 
 LEXICON tp_du
-+N+Abs+Du:%C%>k	clit ;
++N+Abs+Du:%TRUNC%C%>k	clit ; !Is it really so p. 39 that aŋutik is NOT geminated?? And can it be explained why the shwa -> a / _ { vow | k }
 +N:%C%>k        ObliqueCases_Du ; 
 
 LEXICON tp_pl
 +N+Abs+Pl:%TRUNC%>t	clit ;
 +N:%TRUNC%>t	ObliqueCases_Pl ; 
 
+!===========================!
+! Geminating 1. declination !
+!===========================!
 
-LEXICON tpt !aŋun:aŋute
+LEXICON tp_gem !geminating stems of 1. declination - amaġuq nusaq/nuyaq
+	tp_gem_sing ;
+	tp_gem_du ;
+	tp_gem_pl ;
+
+LEXICON	tp_gem_sing
+	ObliqueCases_Sg ;
++N+Abs+Sg:           clit ;
++N+Rel+Sg:%TRUNC%C%>m  clit ; ! = Kal???
+
+LEXICON	tp_gem_du
++N+Abs+Du:%TRUNC%C%>k	clit ;
++N:%C%>k        ObliqueCases_Du ; 
+
+LEXICON	tp_gem_pl
++N+Abs+Pl:%TRUNC%C%>t	clit ;
++N:%TRUNC%C%>t	ObliqueCases_Pl ; 
+
+
+!========================!
+! 1. declination in schwa!
+!========================!
+
+LEXICON tpt
+	tpt_sing ;
+	tp_du ;
+	tp_pl ;
+
+LEXICON tpt_sing !aŋun:aŋute
 +N+Abs+Sg:%CVCTRUNCn	clit ;
-+N+Abs+Pl:%>t	clit ;
 +N+Rel+Sg:%>m	clit ;
 +N+Trm+Sg:%CVCTRUNCn%>mun	clit ;
 

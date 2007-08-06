@@ -31,10 +31,10 @@ define PartAssKC [ k -> g || _ ( erfalasoq ) %> [ cont | nas ] ] ;
 define PartAssQC [ q -> ġ || _ ( erfalasoq ) %> [ cont | nas ] ] ;
 define AssKG [ g -> k || k ( erfalasoq) %>  _ ] ;
 define AssTnas [ t -> n || _ ( erfalasoq ) %> nas ] ;
-define AssTJ [ t -> ł || _ %> ł ] ;
-define AssTL [ t -> l || _ %> l ] ;
+define AssTŁ [ t -> ł || _ ( erfalasoq ) %> ł ] ;
+define AssTL [ t -> l || _ ( erfalasoq ) %> l ] ;
 define PartAssTC [ t -> r || _ (erfalasoq ) %> [ v | g ] ] ;
-define truncation [ stops -> 0 || _ %TRUNC %> ] ;
+define truncation [ stops -> 0 || _ %TRUNC ( %C ) %> ] ;
 define TruncDelete [ %TRUNC -> 0 ] ;
 define fricativization [ q -> ġ || _ ( erfalasoq ) %> [ %FRIC | nas ] ] ; !????? Edna does not give the rule, but I suspect it to be so ???????
 define AltKN [ k (->) ŋ || _ ( erfalasoq ) %> n ] ;
@@ -46,7 +46,9 @@ define palatR [ r -> y || i ( cns ) _ ] ;
 define AltpalatT [ t (->) c h || i ( cns ) _ ( erfalasoq ) .#. ] ;
 define palatT [ t -> c h || i ( cns ) _ segment ] ;
 define Rgemination [ r -> r r || vow _ vow (cns) %C %> ] ;
-define Gstop [ g -> k || cns %> _ ] ; !Does not work Aug05
+define Ggemination [ g -> g g || vow _ vow (cns) ( erfalasoq ) %C %> ] ;
+define Ġgemination [ ġ -> q q || vow _ vow (cns) %C %> ] ;
+define Gstop [ g -> k || [ t | k ] %> _ ] ; !Does not work Aug05. Repair Aug07
 define Qfusion1 [ g -> ġ || q erfalasoq %> _ ] ; 
 define Qfusion2 [ q -> 0 || _ erfalasoq %> ġ ] ; 
 
@@ -57,6 +59,7 @@ define Qfusion2 [ q -> 0 || _ erfalasoq %> ġ ] ;
 define VeryLongTruncation [ cns vow (cns) -> 0 || _ %CVCTRUNC ] ;
 define CleanVeryLongTruncation [ %CVCTRUNC -> 0 ] ;
 define DummyDeletion [ dummy -> 0 ] ;
+define GemDelete [ %C -> 0 ] ;
 
 !**********************
 !Simple rewrite rules *
@@ -66,7 +69,7 @@ define SchwaReplace1 [ e -> a || _ ( dummy ) %> [ k | vow ] ] ;
 define SchwaReplace2 [ e -> i ] ;
 
 
-!*************
+!************* aqpat@P.IV.ON@%C%>vik
 !The cascade *
 !*************
 
@@ -80,6 +83,12 @@ VeryLongTruncation
 CleanVeryLongTruncation
 .o.
 Rgemination
+.o.
+Ġgemination
+.o.
+Ggemination
+.o.
+GemDelete
 .o.
 fricativization
 .o.
@@ -105,7 +114,7 @@ AssTnas
 .o.
 AssTL
 .o.
-AssTJ
+AssTŁ
 .o.
 AltML
 .o.

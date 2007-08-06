@@ -1,14 +1,54 @@
 ! stems according på Edna MacLean
 
 LEXICON Verbs
-
+ani	IV_vow ; ! to go out
+anniq	IV ; ! to get hurt
+anniq	TV ; ! to hurt
+aŋu	IV_vow ; ! to get game
+aŋu	TV_vow ; ! to catch up with
+aqi	TV_vow ; ! to kick
 aqpat	IV ; ! to run
-iḷisaq:iḷesaq	IV ; ! to study
-isiq:iseq	IV ; ! to enter
-kamik:kamek	IV ; ! to put boots on
-makit:maket	IV ; ! to stand
-makit:maket	TV ; ! to set it upright
-pisuaq	IV ; ! to walk
-niġi	TV_vow ;
+ati:ate	TV_vow ; ! to put (clothing) on
+atigi:atege	IV_vow ; ! to don a parka
+atigi:atege	TV_vow ; ! to put a parka on
 atuq	TV ;
+iga:ega	IV_vow ; ! to cook
+iku	IV_vow ; ! to embark
+iku	TV_vow ; ! to put (object) on board
+iḷi	TV_vow ; ! to place
+iḷisi	IV_vow ; ! detrans ! Is unpalatalized l p. 40 a misprint??
+iḷisaq:iḷesaq	IV ; ! to study ! Is schwa p. 40 a misprint??
+isiq:eseq	IV ; ! to enter
+isiq:eseq	TV ; ! to bring inside
+isiqsi:eseqsi	IV_vow ; ! detrans
+kamik:kamek	IV ; ! to put boots on
+kamik:kamek	TV ; ! to put boots on
+makit	IV ; ! to stand
+makit	TV ; ! to set it upright
+makitchi	IV_vow ; ! detrans maket must be a misprint??
+nasaq	IV ; ! to put one's hood on
+nasaq	TV ; ! to put hood on
+niġi	TV_vow ;
+paŋalik:paŋalek	IV ; ! to run
+piḷak	IV ; ! to flense
 pisik	TV ;
+pisuaq:pesuaq	IV ; ! to walk
+puqik	IV ; ! to be smart
+puumit:puumet	IV ; ! to swim underwater
+qai	IV_vow ; ! to come
+qai	TV_vow ; ! to come upon
+qiviaq:qeviaq	IV ; ! to turn one's head and look
+qiviaq:qeviaq	TV ; ! to turn one's head and look at
+savak	IV ; ! to work
+savak	TV ; ! to work on
+sukkit	IV ; ! to step on a nail
+taiguaq	IV ; ! to read
+tauqsiq	TV ; ! to buy
+tautuk	TV ; ! to see
+tikit:tekit	IV ; ! to arrive
+tikit:tekit	TV ; ! to arrive at
+tiŋi:teŋe	IV_vow ; ! to fly away
+tupiq:tupeq	IV ; ! to set up a tent
+tupiq:tupeq	TV ; ! to put a tent over
+umiaq	IV ; ! to take the boat and set up whaling camp
+
