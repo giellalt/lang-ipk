@@ -10,7 +10,7 @@ Multichar_Symbols
 +1SgO +2SgO +3SgO +4SgO +1DuO +2DuO +3DuO +4DuO +1PlO +2PlO+3PlO +4PlO !Objects' persons
 +Abs +Rel +Trm +Loc +Abl !cases
 +Ind +Cau +ConReal +ConUnreal !Voiced is unrealized and voiceless is for ongoing or realized actions.
-
++Arch !tags for archaic forms. In the pilot just use to indicate twin forms not trying to validate relative age 
 
 !ch sr kh qh ! no digraphs
 ł2 !digraphs plus ł2 for voiceless palatalized l
@@ -19,7 +19,9 @@ Multichar_Symbols
 %CVCTRUNC !dummy for very long truncations
 %VCTRUNC !dummy for long truncation
 %FRIC !dummy for fricativizing stem-final consonants. Needed to avoid a general rule that also would affect unwantedly as in *aaġagu for aaqagu. The alternative would have been to postulate truncating flexives with a fricative first consonant (*aiviq -q +ġit) but that is hokus pokus
+%EBLOCK !dummy to block schwa going to a (aŋutik not *aŋuttak)
 %C ! dummy for intermediate gemination
+%DEFRIC !dummy when fricatives go stops (amaġuq -> amaqquk) as apposed to %C in niġi+VIK -> niġġivik
 !%CLIT !dummy with clitics used in Kalaallisut. This far unused in ipk
 
 @P.IV.ON@ !Flag - positive inquiry for intransitive wants IV suff
@@ -34,9 +36,9 @@ Multichar_Symbols
 !Derivational morphemes and clitics *
 !************************************
 
-+NIAQ +NIAŊIT +SAAĠE ! verb elaborating
++NIAQ +NIAŊIT +SAAĠE +TEQ ! verb elaborating
 +VIK ! nominalizers
-+LU +GUUQ ! clitics
++LU +GUUQ +UNA! clitics
 
 
 ! This file gives the start and end of the Iñupiaq lexicon. 
@@ -56,7 +58,9 @@ LEXICON Root
 !About lexica and continuations. Instead of separate lexica for words that can only be sing or only plur and others for words that can take all numbers, this is a better solution: Normal nouns are tagged tp, tup etc. whereas specials are tagged with the continuation lexicon
 
 
-
+LEXICON clit_sing
++UNA:%>una	clit ;
+	clit ;
 
 
 

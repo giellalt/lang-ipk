@@ -23,12 +23,13 @@ isiq:eseq	TV ; ! to bring inside
 isiqsi:eseqsi	IV_vow ; ! detrans
 kamik:kamek	IV ; ! to put boots on
 kamik:kamek	TV ; ! to put boots on
-makit	IV ; ! to stand
-makit	TV ; ! to set it upright
+makit:maket	IV ; ! to stand
+makit:maket	TV ; ! to set it upright
 makitchi	IV_vow ; ! detrans maket must be a misprint??
 nasaq	IV ; ! to put one's hood on
 nasaq	TV ; ! to put hood on
 niġi	TV_vow ;
+niġi	IV_vow ;
 paŋalik:paŋalek	IV ; ! to run
 piḷak	IV ; ! to flense
 pisik	TV ;
@@ -41,12 +42,14 @@ qiviaq:qeviaq	IV ; ! to turn one's head and look
 qiviaq:qeviaq	TV ; ! to turn one's head and look at
 savak	IV ; ! to work
 savak	TV ; ! to work on
+su	IV_vow ; !interrogative dummy (I guess!)
 sukkit	IV ; ! to step on a nail
 taiguaq	IV ; ! to read
 tauqsiq	TV ; ! to buy
+tauqsiq	IV ; ! to buy
 tautuk	TV ; ! to see
-tikit:tekit	IV ; ! to arrive
-tikit:tekit	TV ; ! to arrive at
+tikit	IV ; ! to arrive
+tikit	TV ; ! to arrive at
 tiŋi:teŋe	IV_vow ; ! to fly away
 tupiq:tupeq	IV ; ! to set up a tent
 tupiq:tupeq	TV ; ! to put a tent over

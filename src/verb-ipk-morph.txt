@@ -7,7 +7,10 @@
 ! ============================================================
 
 ! Stems are first flagged according to transitivity in LEX 
-! Secondly they are 
+! Secondly they get derivatives and mood markers according to stem type
+! Thirdly they get personal endings
+! Fourthly they get enclitic endings
+! Finally they pass through a household utensil that clears away left-over flags
 
 ! IV
 ! --
@@ -16,9 +19,11 @@ LEXICON IV
 @P.IV.ON@    verb_intr ;
 
 LEXICON verb_intr
+	nominalizers ;
                      verbalderivatives ;
 +V+Ind+Prs:%>tu      indpersonaffix ;
 +V+Ind+Prt:%>tua     indpersonaffix ;
++V+Int:%>pa	intverbaffix ;
 +V+ConReal:%>łu     conpersonaffix ;
 +V+ConUnreal:%>lu   conpersonaffix ;
 +V+Cau+3Sg:%>man     clit ;
@@ -28,9 +33,11 @@ LEXICON IV_vow
 @P.IV.ON@ verb_intr_vow ;
 
 LEXICON verb_intr_vow
-                      verbalderivatives ;
+	nominalizers ;
+                      verbalderivatives ; 
 +V+Ind+Prs:%>ru      indpersonaffix ;
 +V+Ind+Pst:%>rua     indpersonaffix ;
++V+Int:%>va	intverbaffix ;
 +V+ConReal:%>vlu     conpersonaffix ;
 +V+ConUnreal:%>lu   conpersonaffix ;
 +V+Cau+3Sg:%>man     clit ;
@@ -45,12 +52,12 @@ LEXICON TV
 !atuq+NIAQ+V+Ind+Prs
 
 LEXICON verb_tr  
-                   verbalderivatives ;
+!                   verbalderivatives ;
 +V+Ind+Prs:%>ge    indpersonaffix_tv ; 
 +V+Ind+Pst:%>ge     indpersonaffix_tv ; !Just a slot holder. Correct mode morpheme must be entered
 +V+ConReal:%>łu     conpersonaffix_tv ;
 +V+ConUnreal:%>lu   conpersonaffix_tv ;
-+V+Cau+3Sg:%>      clit ;
+!+V+Cau+3Sg:%>      clit ;
 
 LEXICON TV_vow
 @P.TV.ON@  verb_tr_vow ;
@@ -61,9 +68,7 @@ LEXICON verb_tr_vow
 +V+Ind+Pst:%>      indpersonaffix_tv ;
 +V+ConReal:%>vlu     conpersonaffix_tv ;
 +V+ConUnreal:%>lu  conpersonaffix_tv ;
-+V+Cau+3Sg:%>      clit ;
-
-
+!+V+Cau+3Sg:%>      clit ;
 
 
 ! Verbal derivational affixes
@@ -73,6 +78,9 @@ LEXICON verbalderivatives  ! hundreds of derivatives in here
 +NIAQ:%>niaq	 verbalderivatives_cont ; !isiq-niaq-tuq 
 +NIAŊIT:%>niaŋit verbalderivatives_cont ;
 +SAAĠE:%>saaġe	 verbalderivatives_cont_vow ;
++TEQ:%TRUNC%>teq	verbalderivatives_cont ;
+
+LEXICON nominalizers !Taken out of verbalderivatives to avoid transitive stems going here 
 +VIK:%C%>vik	 tup- ; 
 
 LEXICON verbalderivatives_cont
@@ -83,7 +91,6 @@ LEXICON verbalderivatives_cont_vow
 @R.IV.ON@ verb_intr_vow ;
 @R.TV.ON@ verb_tr_vow ;
 
-
 ! Person-number affixes
 ! =====================
 
@@ -91,31 +98,29 @@ LEXICON verbalderivatives_cont_vow
 ! --
 
 LEXICON indpersonaffix 
-+1Sg:%>ŋa	clit ;
-+2Sg:%>tin	clit ;
-+3Sg:%>q	clit ; ! ruq ??
++1Sg:%>ŋa	clit_sing ;
++2Sg:%>tin	clit_sing ;
++3Sg:%>q	clit_sing ; ! Acc. Edna 31
 +1Du:%>guk	clit ;
 +2Du:%>sik	clit ; ! tik
-+3Du:%>k 	clit ; ! ruq ??
++3Du:%>k 	clit ; ! Acc. Edna 31
 +1Pl:%>tut	clit ;
 +2Pl:%>si	clit ;
-+3Pl:%>t	clit ; ! r
++3Pl:%>t	clit ; ! Acc. Edna 31
 
-LEXICON interrverbaffix
-+1Sg:%>k	 clit ;
-+2Sg:%>t   clit ; ! XXX rule for t/n alternation!
-+3Sg:%>	 clit ; ! ruq ??
+LEXICON intverbaffix
+!+2Sg:%>t   clit_sing ; ! XXX rule for t/n alternation!
++3Sg:%>	 clit_sing ; ! ! According to Edna p. 31
 +1Du:%>nuk clit ;
 +2Du:%>sik clit ; ! tik
-+3Du:%>k 	clit ; 
-+1Pl:%>sa	clit ;
++3Du:%>k 	clit ; ! According to Edna p. 31
 +2Pl:%>si	clit ;
-+3Pl:%>t	clit ; 
++3Pl:%>t	clit ; ! According to Edna p. 31
 
 LEXICON conpersonaffix !NB Incorrect flexives. Basically just transferred from Kalaallisut
-+1Sg:%>ŋa	clit ;
-+2Sg:%>tin	clit ;
-+4Sg:%>ni	clit ; ! ruq ??
++1Sg:%>ŋa	clit_sing ;
++2Sg:%>tin	clit_sing ;
++4Sg:%>ni	clit_sing ; ! ruq ??
 +1Du:%>nuk	clit ;
 +2Du:%>tik	clit ; ! tik
 +4Du:%>tik 	clit ; ! ruq ??
@@ -127,7 +132,7 @@ LEXICON conpersonaffix !NB Incorrect flexives. Basically just transferred from K
 ! --
 
 LEXICON   conpersonaffix_tv 
-+1Sg+2Sg:nothingyet clit ;
++1Sg+3Sg:%>ŋa clit ;
 
 LEXICON indpersonaffix_tv
 +1Sg+2SgO:%>kpiñ  clit ;
@@ -140,66 +145,66 @@ LEXICON indpersonaffix_tv
 +2Sg+1SgO:%>ŋma  clit ;
 +2Sg+1DuO:%>vsiguk  clit ;
 +2Sg+1PlO:%>vsigut  clit ;
-+2Sg+3SgO:%>  clit ;
-+2Sg+3DuO:%>  clit ;
-+2Sg+3PlO:%>  clit ;
-
-+3Sg+1SgO:%>  clit ;
-+3Sg+1DuO:%>  clit ;
-+3Sg+1PlO:%>  clit ;
-+3Sg+2SgO:%>  clit ;
-+3Sg+2DuO:%>  clit ;
-+3Sg+2PlO:%>  clit ;
+!+2Sg+3SgO:%>  clit ;
+!+2Sg+3DuO:%>  clit ;
+!+2Sg+3PlO:%>  clit ;
+!
+!+3Sg+1SgO:%>  clit ;
+!+3Sg+1DuO:%>  clit ;
+!+3Sg+1PlO:%>  clit ;
+!+3Sg+2SgO:%>  clit ;
+!+3Sg+2DuO:%>  clit ;
+!+3Sg+2PlO:%>  clit ;
 +3Sg+3SgO:%>a  clit ;
-+3Sg+3DuO:%>  clit ;
-+3Sg+3PlO:%>  clit ;
-
-+1Du+2SgO:%>  clit ;
-+1Du+2DuO:%>  clit ;
-+1Du+2PlO:%>  clit ;
-+1Du+3SgO:%>  clit ;
-+1Du+3DuO:%>  clit ;
-+1Du+3PlO:%>  clit ;
-
-+2Du+1SgO:%>  clit ;
-+2Du+1DuO:%>  clit ;
-+2Du+1PlO:%>  clit ;
-+2Du+3SgO:%>  clit ;
-+2Du+3DuO:%>  clit ;
-+2Du+3PlO:%>  clit ;
-
-+3Du+1SgO:%>  clit ;
-+3Du+1DuO:%>  clit ;
-+3Du+1PlO:%>  clit ;
-+3Du+2SgO:%>  clit ;
-+3Du+2DuO:%>  clit ;
-+3Du+2PlO:%>  clit ;
-+3Du+3SgO:%>  clit ;
-+3Du+3DuO:%>  clit ;
-+3Du+3PlO:%>  clit ;
-
-+1Pl+2SgO:%>  clit ;
-+1Pl+2DuO:%>  clit ;
-+1Pl+2PlO:%>  clit ;
-+1Pl+3SgO:%>  clit ;
-+1Pl+3DuO:%>  clit ;
-+1Pl+3PlO:%>  clit ;
-
-+2Pl+1SgO:%>  clit ;
-+2Pl+1DuO:%>  clit ;
-+2Pl+1PlO:%>  clit ;
-+2Pl+3SgO:%>  clit ;
-+2Pl+3DuO:%>  clit ;
-+2Pl+3PlO:%>  clit ;
-
-+3Pl+1SgO:%>  clit ;
-+3Pl+1DuO:%>  clit ;
-+3Pl+1PlO:%>  clit ;
-+3Pl+2SgO:%>  clit ;
-+3Pl+2DuO:%>  clit ;
-+3Pl+2PlO:%>  clit ;
-+3Pl+3SgO:%>  clit ;
-+3Pl+3DuO:%>  clit ;
-+3Pl+3PlO:%>  clit ;
+!+3Sg+3DuO:%>  clit ;
+!+3Sg+3PlO:%>  clit ;
+!
+!+1Du+2SgO:%>  clit ;
+!+1Du+2DuO:%>  clit ;
+!+1Du+2PlO:%>  clit ;
+!+1Du+3SgO:%>  clit ;
+!+1Du+3DuO:%>  clit ;
+!+1Du+3PlO:%>  clit ;
+!
+!+2Du+1SgO:%>  clit ;
+!+2Du+1DuO:%>  clit ;
+!+2Du+1PlO:%>  clit ;
+!+2Du+3SgO:%>  clit ;
+!+2Du+3DuO:%>  clit ;
+!+2Du+3PlO:%>  clit ;
+!
+!+3Du+1SgO:%>  clit ;
+!+3Du+1DuO:%>  clit ;
+!+3Du+1PlO:%>  clit ;
+!+3Du+2SgO:%>  clit ;
+!+3Du+2DuO:%>  clit ;
+!+3Du+2PlO:%>  clit ;
+!+3Du+3SgO:%>  clit ;
+!+3Du+3DuO:%>  clit ;
+!+3Du+3PlO:%>  clit ;
+!
+!+1Pl+2SgO:%>  clit ;
+!+1Pl+2DuO:%>  clit ;
+!+1Pl+2PlO:%>  clit ;
+!+1Pl+3SgO:%>  clit ;
+!+1Pl+3DuO:%>  clit ;
+!+1Pl+3PlO:%>  clit ;
+!
+!+2Pl+1SgO:%>  clit ;
+!+2Pl+1DuO:%>  clit ;
+!+2Pl+1PlO:%>  clit ;
+!+2Pl+3SgO:%>  clit ;
+!+2Pl+3DuO:%>  clit ;
+!+2Pl+3PlO:%>  clit ;
+!
+!+3Pl+1SgO:%>  clit ;
+!+3Pl+1DuO:%>  clit ;
+!+3Pl+1PlO:%>  clit ;
+!+3Pl+2SgO:%>  clit ;
+!+3Pl+2DuO:%>  clit ;
+!+3Pl+2PlO:%>  clit ;
+!+3Pl+3SgO:%>  clit ;
+!+3Pl+3DuO:%>  clit ;
+!+3Pl+3PlO:%>  clit ;
 
 

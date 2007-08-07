@@ -25,7 +25,7 @@ atigi:atege	tp ; ! a parka
 aviŋŋaq:aveŋŋaq	tup ; ! a lemming
 ayuktaq	tp ; ! a ball
 iġñiq:iġñeq	tup ; ! a son
-ini:ine	tp ; ! a room
+ini:ene	tp ; ! a room
 iñuk	tup- ; ! inuk
 iglu:eglu	tp ; ! a house
 iqł2ak	tp ; ! hook and line (term. tech.)
@@ -35,7 +35,7 @@ irri:erre	tp_sing ; ! cold air
 iḷa	tp ; ! =KAL ila
 iḷiappak:iḷeappak	tp ; ! poor person, orphan
 iġġi	tp ; !a mountain
-kamik:kamek	tp ; ! boot
+kamik:kamek	tup- ; ! boot NB: declination is an unqualified guess
 kiña:keña	pron ; ! who
 kutchuq	tp ; ! chewing gum, resin 'kutchuq'
 kuuk	tp ; ! a river
@@ -62,7 +62,8 @@ tumi:tume	tp ; ! a footprint
 tupiq:tupeq	tp ; ! a tent
 ulu	tp ; ! =KAL
 umialik	tup- ;
-uniat:uneat	clit ; ! sled (plural??)
+uniat:uniaq	tp_du ; ! to avoid singular but accept dual endings
+uniat:uniaq	tp_pl ; ! to avoid singular but accept plural endings
 aaqagu	clit ; ! wait a minute
 atakhii:atakhee	clit ; ! look at that
 ii:ee	clit ; ! yes

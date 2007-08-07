@@ -15,7 +15,7 @@ define cns [ stops | cont | nas ] ;
 
 define vow [ i | e | a | u ] ; ! NB not in accordance with Alaskan tradition: i = strong i whereas e represents the schwa
 
-define dummy [ %> | %TRUNC | %VCTRUNC |%C | %CLIT | %FRIC | %C ] ;
+define dummy [ %> | %TRUNC | %VCTRUNC |%C | %CLIT | %FRIC | %C | %DEFRIC ] ;
 
 define segment [ cns | vow | dummy ] ;
 
@@ -28,29 +28,38 @@ define erfalasoq [ %@P%.IV%.ON%@ | %@P%.TV%.ON%@ | %@R%.IV%.ON%@ | %@R%.TV%.ON%@
 !********************
 
 define PartAssKC [ k -> g || _ ( erfalasoq ) %> [ cont | nas ] ] ;
-define PartAssQC [ q -> ġ || _ ( erfalasoq ) %> [ cont | nas ] ] ;
+define PartAssQC [ q -> ġ || _ ( erfalasoq ) %> [ cont | nas ] ] ; !Wrong. Will generate *anniġsaaġiruq
+!define PartAssQC [ q -> ġ || _ ( erfalasoq ) %> [ l | ł | nas ] ] ; !To be updated
 define AssKG [ g -> k || k ( erfalasoq) %>  _ ] ;
 define AssTnas [ t -> n || _ ( erfalasoq ) %> nas ] ;
 define AssTŁ [ t -> ł || _ ( erfalasoq ) %> ł ] ;
 define AssTL [ t -> l || _ ( erfalasoq ) %> l ] ;
 define PartAssTC [ t -> r || _ (erfalasoq ) %> [ v | g ] ] ;
-define truncation [ stops -> 0 || _ %TRUNC ( %C ) %> ] ;
+define truncation [ stops -> 0 || _ ( erfalasoq ) %TRUNC ( [ %C | %DEFRIC ] ) %> ] ;
 define TruncDelete [ %TRUNC -> 0 ] ;
 define fricativization [ q -> ġ || _ ( erfalasoq ) %> [ %FRIC | nas ] ] ; !????? Edna does not give the rule, but I suspect it to be so ???????
 define AltKN [ k (->) ŋ || _ ( erfalasoq ) %> n ] ;
 define AltML [ m (->) v || _ %> l ] ;
 define AltNL [ n (->) l || _ %> l ] ;
-define palatL [ l -> ḷ  || i ( cns ) _ ] ;
-define palatN [ n -> ñ || i ( cns ) _ ] ;
-define palatR [ r -> y || i ( cns ) _ ] ;
-define AltpalatT [ t (->) c h || i ( cns ) _ ( erfalasoq ) .#. ] ;
-define palatT [ t -> c h || i ( cns ) _ segment ] ;
+define palatŁ [ ł -> ł2 || i ( cns ) ( erfalasoq ) _ ] ;
+define palatL [ l -> ḷ || i ( cns ) ( erfalasoq ) _ ] ;
+define palatN [ n -> ñ || i ( cns ) ( erfalasoq ) _ ] ;
+!define palatR [ r -> y || i ( cns ) ( erfalasoq ) _ ] ; !WRONG generates *niġiyuq
+!define AltpalatT [ t (->) c h || i ( cns ) _ ( erfalasoq ) .#. ] ; !Does not work 0708
+define AltpalatT [ t (->) c h || i ( cns ) _ ( erfalasoq ) \segment ] ; ! Works fine
+!define palatT [ t -> c h || i ( cns ) _ segment ] ; !WRONG generating *qimmichka
+define palatT [ t -> c h || i ( cns ) _ vow segment ] ; 
 define Rgemination [ r -> r r || vow _ vow (cns) %C %> ] ;
 define Ggemination [ g -> g g || vow _ vow (cns) ( erfalasoq ) %C %> ] ;
-define Ġgemination [ ġ -> q q || vow _ vow (cns) %C %> ] ;
-define Gstop [ g -> k || [ t | k ] %> _ ] ; !Does not work Aug05. Repair Aug07
-define Qfusion1 [ g -> ġ || q erfalasoq %> _ ] ; 
-define Qfusion2 [ q -> 0 || _ erfalasoq %> ġ ] ; 
+define Mgemination [ m -> m m || vow _ vow (cns) ( erfalasoq ) %C %> ] ;
+define Ġgemination [ ġ -> ġ ġ || vow _ vow (cns) ( erfalasoq ) %C %> ] ;
+define ĠQgemination [ ġ -> q q || vow _ vow (cns) ( erfalasoq ) %DEFRIC %> ] ; !amaġu%DEFRIC%>k -> amaqquk
+define Gstop [ g -> k || [ t | k ] %> _ ] ;
+define Qfusion1 [ g -> ġ || q ( erfalasoq ) %> _ ] ; 
+define Qfusion2 [ q -> 0 || _ ( erfalasoq ) %> ġ ] ; 
+define Kfusion [ k -> 0 || _ %FRIC %> g ] ; 
+define LongTassibilation [ t -> c h || i t ( erfalasoq ) %> _ ] ; ! MUST precede assibilation
+define assibilation [ t -> s || i ( cns ) ( erfalasoq) %> _ ( erfalasoq ) vow segment ] ;
 
 !********************
 !Household utensils *
@@ -60,6 +69,7 @@ define VeryLongTruncation [ cns vow (cns) -> 0 || _ %CVCTRUNC ] ;
 define CleanVeryLongTruncation [ %CVCTRUNC -> 0 ] ;
 define DummyDeletion [ dummy -> 0 ] ;
 define GemDelete [ %C -> 0 ] ;
+define EblockDelete [ %EBLOCK -> 0 ] ; !Works because %EBLOCK is not defined as dummy
 
 !**********************
 !Simple rewrite rules *
@@ -69,20 +79,26 @@ define SchwaReplace1 [ e -> a || _ ( dummy ) %> [ k | vow ] ] ;
 define SchwaReplace2 [ e -> i ] ;
 
 
-!************* aqpat@P.IV.ON@%C%>vik
+!************* 
 !The cascade *
 !*************
 
 read regex [
 truncation
 .o.
-TruncDelete
+TruncDelete !
 .o.
 VeryLongTruncation
 .o.
 CleanVeryLongTruncation
 .o.
+Kfusion
+.o.
+Mgemination
+.o.
 Rgemination
+.o.
+ĠQgemination  !atuq@P.TV.ON@%>niaq@R.TV.ON@%>ge%>a
 .o.
 Ġgemination
 .o.
@@ -90,15 +106,17 @@ Ggemination
 .o.
 GemDelete
 .o.
-fricativization
+fricativization !atuġ@P.TV.ON@%>niaq@R.TV.ON@%>ge%>a
 .o.
-SchwaReplace1
+SchwaReplace1 
 .o.
-Qfusion1
+EblockDelete
 .o.
-Qfusion2
+Qfusion1 ! [ g -> ġ || q erfalasoq %> _ ] atuġ@P.TV.ON@%>niaq@R.TV.ON@%>ġa%>a
 .o.
-PartAssQC
+Qfusion2 ! [ q -> 0 || _ erfalasoq %> ġ ] atuġ@P.TV.ON@%>nia@R.TV.ON@%>ġa%>a
+.o.
+PartAssQC 
 .o.
 AltKN
 .o.
@@ -106,7 +124,9 @@ AssKG
 .o.
 PartAssKC
 .o.
-PartAssTC
+LongTassibilation
+.o.
+PartAssTC 
 .o.
 Gstop
 .o.
@@ -120,14 +140,18 @@ AltML
 .o.
 AltNL
 .o.
-DummyDeletion
+assibilation !Is it really a very late rule??![ t -> s || i ( cns ) ( erfalasoq) %> _ ( erfalasoq ) vow segment ]
+.o.
+DummyDeletion !!make@P.IV.ON@tiq@R.IV.ON@tuq
 .o.
 palatL
 .o.
+palatŁ
+.o.
 palatN
 .o.
-palatR
-.o.
+!palatR
+!.o.
 AltpalatT
 .o.
 palatT
