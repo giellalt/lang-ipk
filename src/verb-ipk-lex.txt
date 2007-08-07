@@ -26,6 +26,8 @@ kamik:kamek	TV ; ! to put boots on
 makit:maket	IV ; ! to stand
 makit:maket	TV ; ! to set it upright
 makitchi	IV_vow ; ! detrans maket must be a misprint??
+mayuq	IV ; !to climb
+mayuq	TV ; ! to put OBJ into a higher place
 nasaq	IV ; ! to put one's hood on
 nasaq	TV ; ! to put hood on
 niġi	TV_vow ;

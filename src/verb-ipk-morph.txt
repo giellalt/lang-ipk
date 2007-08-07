@@ -70,7 +70,7 @@ LEXICON verb_tr_vow
 +V+ConUnreal:%>lu  conpersonaffix_tv ;
 !+V+Cau+3Sg:%>      clit ;
 
-
+!
 ! Verbal derivational affixes
 ! ===========================
 
@@ -78,6 +78,7 @@ LEXICON verbalderivatives  ! hundreds of derivatives in here
 +NIAQ:%>niaq	 verbalderivatives_cont ; !isiq-niaq-tuq 
 +NIAŊIT:%>niaŋit verbalderivatives_cont ;
 +SAAĠE:%>saaġe	 verbalderivatives_cont_vow ;
++SAAĠEŊIT:%>saaġeŋit	 verbalderivatives_cont ;
 +TEQ:%TRUNC%>teq	verbalderivatives_cont ;
 
 LEXICON nominalizers !Taken out of verbalderivatives to avoid transitive stems going here 

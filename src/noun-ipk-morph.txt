@@ -12,7 +12,7 @@ LEXICON tp !aġnaq ere
 	tp_pl ;
 
 LEXICON tp_sing !erre
-	ObliqueCases_Sg ;
++N:%TRUNC	ObliqueCases_Sg ;
 +N+Abs+Sg:           clit_sing ;
 +N+Rel+Sg:%TRUNC%>m  clit_sing ;
 +N+Abs+Sg+1Sg:%FRIC%>ga	clit_sing ;
@@ -29,7 +29,7 @@ LEXICON tp_du
 
 LEXICON tp_pl
 +N+Abs+Pl:%TRUNC%>t	clit ;
-+N:%TRUNC%>t	ObliqueCases_Pl ; 
++N:%TRUNC	ObliqueCases_Pl ; 
 +N+Abs+Pl+1Sg:%TRUNC%>tka	clit ;
 +N+Abs+Pl+2Sg:%TRUNC%>tin	clit ;
 +N+Abs+Pl+3Sg:%TRUNC%>ŋi	clit ;
@@ -75,6 +75,7 @@ LEXICON tpt
 	tp_pl ;
 
 LEXICON tpt_sing !aŋun:aŋute
++N:%CVCTRUNCn	ObliqueCases_Sg ;
 +N+Abs+Sg:%CVCTRUNCn	clit ;
 +N+Rel+Sg:%>m	clit ;
 +N+Trm+Sg:%CVCTRUNCn%>mun	clit ;
@@ -103,12 +104,14 @@ LEXICON tup- !siksrik iñuk
 
 LEXICON ObliqueCases_Sg
 +Loc+Sg:%>mi	clit ;
++Mod+Sg:%>mik	clit ;
 
 LEXICON ObliqueCases_Du
 +Loc+Du:%>ni	clit ;
 
 LEXICON ObliqueCases_Pl
 +Loc+Pl:%>ni	clit ;
++Trm+Pl:%>nun	clit ;
 
 
 ! Proper nouns ! Still a dummy

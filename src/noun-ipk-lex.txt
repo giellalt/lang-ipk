@@ -56,6 +56,7 @@ savik	tp ; ! a tp
 savił2haq	tp ; ! metal
 sikł2aq	tp ; ! a pickax
 siksrik:seksrik	tup- ; ! a squirrel
+suppun:suppute	tpt ; ! a gun
 tavsi	tp ; ! a belt for carrying a baby
 tiŋŋun:tiŋŋute	tpt ; ! an airplane
 tumi:tume	tp ; ! a footprint

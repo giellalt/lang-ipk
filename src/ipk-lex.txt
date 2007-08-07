@@ -8,7 +8,7 @@ Multichar_Symbols
 +Sg +Du +Pl
 +1Sg +2Sg +3Sg +4Sg +1Du +2Du +3Du +4Du +1Pl +2Pl +3Pl +4Pl
 +1SgO +2SgO +3SgO +4SgO +1DuO +2DuO +3DuO +4DuO +1PlO +2PlO+3PlO +4PlO !Objects' persons
-+Abs +Rel +Trm +Loc +Abl !cases
++Abs +Rel +Trm +Loc +Abl +Mod !cases
 +Ind +Cau +ConReal +ConUnreal !Voiced is unrealized and voiceless is for ongoing or realized actions.
 +Arch !tags for archaic forms. In the pilot just use to indicate twin forms not trying to validate relative age 
 
@@ -36,7 +36,7 @@ Multichar_Symbols
 !Derivational morphemes and clitics *
 !************************************
 
-+NIAQ +NIAŊIT +SAAĠE +TEQ ! verb elaborating
++NIAQ +NIAŊIT +SAAĠE +SAAĠIŊIT +TEQ ! verb elaborating
 +VIK ! nominalizers
 +LU +GUUQ +UNA! clitics
 
