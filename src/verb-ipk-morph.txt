@@ -13,27 +13,7 @@
 ! Finally they pass through a household utensil that clears away left-over flags
 
 
-!OLD SYSTEM
-!=============================================
-! IV
-! --
 
-!LEXICON IV
-!@P.IV.ON@    verb_intr ;
-!
-!LEXICON verb_intr
-!	nominalizers ;
-!                     verbalderivatives ;
-!+V+Ind+Prs:%>tu      indpersonaffix ;
-!+V+Ind+Prt:%>tua     indpersonaffix ;
-!+V+Int:%>pi	intverbaffix2 ;
-!+V+Int:%>pa	intverbaffix3 ;
-!+V+ConReal:%>łu     conpersonaffix ;
-!+V+ConUnreal:%>lu   conpersonaffix ;
-!+V+Cau+3Sg:%>man     clit ;
-!==============================================
-
-!NEW SYSTEM TO REDUCE OVERGENERATING CYCLES IN THE DERIVATIONAL PART
 LEXICON IV
 @P.IV.ON@    junction ;
 
@@ -45,10 +25,10 @@ LEXICON junction
 LEXICON verb_intr
 +V+Ind+Prs:%>tu      indpersonaffix ;
 +V+Ind+Prt:%>tua     indpersonaffix ;
-+V+Int:%>pi	intverbaffix2 ;
-+V+Int:%>pa	intverbaffix3 ;
-+V+ConReal:%>łu     conpersonaffix ;
-+V+ConUnreal:%>lu   conpersonaffix ;
++V+Int:%>pi          intverbaffix2 ;
++V+Int:%>pa	     intverbaffix3 ;
++V+ConReal:%>łu      conpersonaffix ;
++V+ConUnreal:%>lu    conpersonaffix ;
 +V+Cau+3Sg:%>man     clit ;
 
 
@@ -63,10 +43,10 @@ LEXICON junction_vow
 LEXICON verb_intr_vow
 +V+Ind+Prs:%>ru      indpersonaffix ;
 +V+Ind+Pst:%>rua     indpersonaffix ;
-+V+Int:%>vi	intverbaffix2 ;
-+V+Int:%>va	intverbaffix3 ;
++V+Int:%>vi          intverbaffix2 ;
++V+Int:%>va          intverbaffix3 ;
 +V+ConReal:%>vlu     conpersonaffix ;
-+V+ConUnreal:%>lu   conpersonaffix ;
++V+ConUnreal:%>lu    conpersonaffix ;
 +V+Cau+3Sg:%>man     clit ;
 
 
@@ -79,8 +59,8 @@ LEXICON TV
 !atuq+NIAQ+V+Ind+Prs
 
 LEXICON verb_tr  
-!                   verbalderivatives ;
-+V+Ind+Prs:%>ge    indpersonaffix_tv ; 
+                    verbalderivatives ;
++V+Ind+Prs:%>ge     indpersonaffix_tv ; 
 +V+Ind+Pst:%>ge     indpersonaffix_tv ; !Just a slot holder. Correct mode morpheme must be entered
 +V+ConReal:%>łu     conpersonaffix_tv ;
 +V+ConUnreal:%>lu   conpersonaffix_tv ;
@@ -90,25 +70,25 @@ LEXICON TV_vow
 @P.TV.ON@  verb_tr_vow ;
 
 LEXICON verb_tr_vow 
-                   verbalderivatives ;
+                    verbalderivatives ;
 +V+Ind+Prs:%>ge     indpersonaffix_tv ; 
-+V+Ind+Pst:%>      indpersonaffix_tv ;
-+V+ConReal:%>vlu     conpersonaffix_tv ;
-+V+ConUnreal:%>lu  conpersonaffix_tv ;
++V+Ind+Pst:%>       indpersonaffix_tv ;
++V+ConReal:%>vlu    conpersonaffix_tv ;
++V+ConUnreal:%>lu   conpersonaffix_tv ;
 !+V+Cau+3Sg:%>      clit ;
 
 ! Verbal derivational affixes
 ! ===========================
 
 LEXICON verbalderivatives  ! hundreds of derivatives in here
-+LLATU:%TRUNC%>llatu	verbalderivatives_cont_vow ;
++LLATU:%TRUNC%>llatu	        verbalderivatives_cont_vow ;
 +LLATU=NIAQ:%TRUNC%>llatuniaq	verbalderivatives_cont ;
-+NIAQ:%>niaq	 verbalderivatives_cont ; !isiq-niaq-tuq 
-+NIAQ=ŊIT:%>niaŋit verbalderivatives_cont ;
-+ŊIT:%TRUNC%>ŋit	verbalderivatives_cont ;
-+SAAĠE:%>saaġe	 verbalderivatives_cont_vow ;
-+SAAĠE=ŊIT:%>saaġeŋit	 verbalderivatives_cont ;
-+TEQ:%TRUNC%>teq	verbalderivatives_cont ;
++NIAQ:%>niaq                    verbalderivatives_cont ; !isiq-niaq-tuq 
++NIAQ=ŊIT:%>niaŋit              verbalderivatives_cont ;
++ŊIT:%TRUNC%>ŋit                verbalderivatives_cont ;
++SAAĠE:%>saaġe	                verbalderivatives_cont_vow ;
++SAAĠE=ŊIT:%>saaġeŋit           verbalderivatives_cont ;
++TEQ:%TRUNC%>teq                verbalderivatives_cont ;
 
 LEXICON nominalizers !Taken out of verbalderivatives to avoid transitive stems going here 
 +VIK:%C%>vik	 tup- ; 
@@ -139,14 +119,14 @@ LEXICON indpersonaffix
 +3Pl:%>t	clit ; ! Acc. Edna 31
 
 LEXICON intverbaffix2
-+2Sg:%>t   clit_sing ; ! XXX rule for t/n alternation!
-+2Du:%>sik clit ; ! tik
-+2Pl:%>si	clit ;
++2Sg:%>t        clit_sing ; ! XXX rule for t/n alternation!
++2Du:%>sik      clit ; ! tik
++2Pl:%>si       clit ;
 
 LEXICON intverbaffix3
-+3Sg:%>	 clit_sing ; ! ! According to Edna p. 31
-+3Du:%>k 	clit ; ! According to Edna p. 31
-+3Pl:%>t	clit ; ! According to Edna p. 31
++3Sg:%>	        clit_sing ; ! ! According to Edna p. 31
++3Du:%>k 	clit ;        ! According to Edna p. 31
++3Pl:%>t	clit ;        ! According to Edna p. 31
 
 LEXICON conpersonaffix !NB Incorrect flexives. Basically just transferred from Kalaallisut
 +1Sg:%>ŋa	clit_sing ;
@@ -166,14 +146,14 @@ LEXICON   conpersonaffix_tv
 +1Sg+3Sg:%>ŋa clit ;
 
 LEXICON indpersonaffix_tv
-+1Sg+2SgO:%>kpiñ  clit ;
-+1Sg+2DuO:%>vsik  clit ;
-+1Sg+2PlO:%>vsi   clit ;
-+1Sg+3SgO:%>ga    clit ;
-+1Sg+3DuO:%>ka    clit ; !(k)ka
-+1Sg+3PlO:%>tka   clit ;
++1Sg+2SgO:%>kpiñ    clit ;
++1Sg+2DuO:%>vsik    clit ;
++1Sg+2PlO:%>vsi     clit ;
++1Sg+3SgO:%>ga      clit ;
++1Sg+3DuO:%>ka      clit ; !(k)ka
++1Sg+3PlO:%>tka     clit ;
 
-+2Sg+1SgO:%>ŋma  clit ;
++2Sg+1SgO:%>ŋma     clit ;
 +2Sg+1DuO:%>vsiguk  clit ;
 +2Sg+1PlO:%>vsigut  clit ;
 !+2Sg+3SgO:%>  clit ;
