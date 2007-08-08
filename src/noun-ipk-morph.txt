@@ -103,8 +103,9 @@ LEXICON tup- !siksrik iñuk
 +N+Abs+Sg+1Sg:%FRIC%>ga	clit ; 
 
 LEXICON ObliqueCases_Sg
-+Loc+Sg:%>mi	clit ;
-+Mod+Sg:%>mik	clit ;
++Loc+Sg:%>mi	clit_sing ;
++Mod+Sg:%>mik	clit_sing ;
++Trm+Sg:%>mun	clit_sing ;
 
 LEXICON ObliqueCases_Du
 +Loc+Du:%>ni	clit ;

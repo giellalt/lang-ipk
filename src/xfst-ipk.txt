@@ -35,9 +35,11 @@ define AssTnas [ t -> n || _ ( erfalasoq ) %> nas ] ;
 define AssTŁ [ t -> ł || _ ( erfalasoq ) %> ł ] ;
 define AssTL [ t -> l || _ ( erfalasoq ) %> l ] ;
 define PartAssTC [ t -> r || _ (erfalasoq ) %> [ v | g ] ] ;
-define truncation [ stops -> 0 || _ ( erfalasoq ) %TRUNC ( [ %C | %DEFRIC ] ) %> ] ;
+define truncation [ stops -> 0 || _ ( erfalasoq ) %TRUNC ( [ %C | %DEFRIC | erfalasoq ] ) %> ] ;
+!iḷisaq@P.IV.ON@%TRUNCllatu@R.IV.ON@%>ru      indpersonaffix ;
+
 define TruncDelete [ %TRUNC -> 0 ] ;
-define fricativization [ q -> ġ || _ ( erfalasoq ) %> [ %FRIC | nas ] ] ; !????? Edna does not give the rule, but I suspect it to be so ???????
+define fricativization [ q -> ġ || _ ( erfalasoq ) %> [ %FRIC | nas ] ] ; !????? Not verified in corpus????
 define AltKN [ k (->) ŋ || _ ( erfalasoq ) %> n ] ;
 define AltML [ m (->) v || _ %> l ] ;
 define AltNL [ n (->) l || _ %> l ] ;
@@ -55,8 +57,8 @@ define Mgemination [ m -> m m || vow _ vow (cns) ( erfalasoq ) %C %> ] ;
 define Ġgemination [ ġ -> ġ ġ || vow _ vow (cns) ( erfalasoq ) %C %> ] ;
 define ĠQgemination [ ġ -> q q || vow _ vow (cns) ( erfalasoq ) %DEFRIC %> ] ; !amaġu%DEFRIC%>k -> amaqquk
 define Gstop [ g -> k || [ t | k ] %> _ ] ;
-define Qfusion1 [ g -> ġ || q ( erfalasoq ) %> _ ] ; 
-define Qfusion2 [ q -> 0 || _ ( erfalasoq ) %> ġ ] ; 
+define Qfusion1 [ g -> ġ || q ( erfalasoq ) ( erfalasoq )%> ( erfalasoq ) _ ] ; 
+define Qfusion2 [ q -> 0 || _ ( erfalasoq ) ( erfalasoq )%> ( erfalasoq ) ġ ] ; 
 define Kfusion [ k -> 0 || _ %FRIC %> g ] ; 
 define LongTassibilation [ t -> c h || i t ( erfalasoq ) %> _ ] ; ! MUST precede assibilation
 define assibilation [ t -> s || i ( cns ) ( erfalasoq) %> _ ( erfalasoq ) vow segment ] ;
@@ -112,17 +114,17 @@ SchwaReplace1
 .o.
 EblockDelete
 .o.
-Qfusion1 ! [ g -> ġ || q erfalasoq %> _ ] atuġ@P.TV.ON@%>niaq@R.TV.ON@%>ġa%>a
+Qfusion1 ![ g -> ġ || q ( erfalasoq ) %> _ ] ;  
 .o.
-Qfusion2 ! [ q -> 0 || _ erfalasoq %> ġ ] atuġ@P.TV.ON@%>nia@R.TV.ON@%>ġa%>a
+Qfusion2
 .o.
 PartAssQC 
 .o.
 AltKN
 .o.
-AssKG
+AssKG ![ g -> k || k ( erfalasoq) %>  _ ] ;
 .o.
-PartAssKC
+PartAssKC ![ k -> g || _ ( erfalasoq ) %> [ cont | nas ] ] ;
 .o.
 LongTassibilation
 .o.

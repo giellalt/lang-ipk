@@ -36,7 +36,7 @@ Multichar_Symbols
 !Derivational morphemes and clitics *
 !************************************
 
-+NIAQ +NIAŊIT +SAAĠE +SAAĠIŊIT +TEQ ! verb elaborating
++LLATU +LLATU=NIAQ +NIAQ +NIAQ=ŊIT +ŊIT +SAAĠE +SAAĠE=ŊIT +TEQ ! verb elaborating
 +VIK ! nominalizers
 +LU +GUUQ +UNA! clitics
 
