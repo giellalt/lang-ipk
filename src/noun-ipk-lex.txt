@@ -18,7 +18,7 @@ aġviq:aġveq	tup ; ! a whale
 amaġuq	tp_gem ; ! a wolf
 aŋun:aŋute	tpt ; ! a man
 aiviq:aiveq	tup ; ! a walrus
-akił2hun	tp ; ! lantern chimney
+akił̣hun	tp ; ! lantern chimney
 akłaq	tp ; ! a brown bear
 aqvaluqtaaq	tp ; ! something round
 atigi:atege	tp ; ! a parka
@@ -28,7 +28,7 @@ iġñiq:iġñeq	tup ; ! a son
 ini:ene	tp ; ! a room
 iñuk	tup- ; ! inuk
 iglu:eglu	tp ; ! a house
-iqł2ak	tp ; ! hook and line (term. tech.)
+iqł̣ak	tp ; ! hook and line (term. tech.)
 iqsraq:eqsraq	tp ; ! a cheek
 iri:ere	tp ; ! an eye
 irri:erre	tp_sing ; ! cold air
@@ -53,8 +53,8 @@ qaugak	tp ; ! a duck
 qimmiq	tp ; ! a dog
 quaq	tp ; ! frozen meat
 savik	tp ; ! a tp
-savił2haq	tp ; ! metal
-sikł2aq	tp ; ! a pickax
+savił̣haq	tp ; ! metal
+sikł̣aq	tp ; ! a pickax
 siksrik:seksrik	tup- ; ! a squirrel
 suppun:suppute	tpt ; ! a gun
 tavsi	tp ; ! a belt for carrying a baby
