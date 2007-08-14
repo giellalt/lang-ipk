@@ -6,7 +6,7 @@
 
 define stops [ p | P | t | T | c h | k | q ] ;
 
-define cont [ v | V | s | S | s r | l | ł | ḷ | ł̣ | y | r | g | k h | ġ | q h  | h ] ; ! ł̣ palatalized unvoiced lateral
+define cont [ v | V | s | S | s r | l | ł | ḷ | ľ | y | r | g | k h | ġ | q h  | h ] ; ! ľ palatalized unvoiced lateral
 
 define nas [ m | M | n | N | ñ | ŋ ] ; 
 
@@ -42,7 +42,7 @@ define fricativization [ q -> ġ || _ ( erfalasoq ) %> [ %FRIC | nas ] ] ; !????
 define AltKN [ k (->) ŋ || _ ( erfalasoq ) %> n ] ;
 define AltML [ m (->) v || _ %> l ] ;
 define AltNL [ n (->) l || _ %> l ] ;
-define palatŁ [ ł -> ł̣ || i ( cns ) ( erfalasoq ) _ ] ;
+define palatŁ [ ł -> ľ || i ( cns ) ( erfalasoq ) _ ] ;
 define palatL [ l -> ḷ || i ( cns ) ( erfalasoq ) _ ] ;
 define palatN [ n -> ñ || i ( cns ) ( erfalasoq ) _ ] ;
 !define palatR [ r -> y || i ( cns ) ( erfalasoq ) _ ] ; !WRONG generates *niġiyuq

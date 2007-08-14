@@ -13,7 +13,7 @@ Multichar_Symbols
 +Arch !tags for archaic forms. In the pilot just use to indicate twin forms not trying to validate relative age 
 
 !ch sr kh qh ! no digraphs
-ł̣ !digraphs plus ł̣ for voiceless palatalized l
+ľ !digraphs plus ľ for voiceless palatalized l
 %> !morphemeborder
 %TRUNC !truncation dummy
 %CVCTRUNC !dummy for very long truncations
