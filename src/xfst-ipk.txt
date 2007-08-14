@@ -25,7 +25,10 @@ define erfalasoq [ %@P%.IV%.ON%@ | %@P%.TV%.ON%@ | %@R%.IV%.ON%@ | %@R%.TV%.ON%@
 !********************
 !Phonological rules *
 !********************
-
+!define SchwaDelFric1 [ q -> ġ || e _ %SCHWADEL ] ; !Does not work aug14th
+define SchwaDel1 [ e -> 0 || vow cns _ cns %SCHWADEL ] ;
+define SchwaDel2 [ cns -> 0 || [ i | a | u ] _ %SCHWADEL ] ;
+define DelSchwaDel [ %SCHWADEL -> 0 ] ;
 define PartAssKC [ k -> g || _ ( erfalasoq ) %> [ cont | nas ] ] ;
 !define PartAssQC [ q -> ġ || _ ( erfalasoq ) %> [ cont | nas ] ] ; !Wrong. Will generate *anniġsaaġiruq
 define PartAssQC [ q -> ġ || _ ( erfalasoq ) %> [ l | ł | nas ] ] ; !To be updated
@@ -46,7 +49,7 @@ define palatŁ [ ł -> ľ || i ( cns ) ( erfalasoq ) _ ] ;
 define palatL [ l -> ḷ || i ( cns ) ( erfalasoq ) _ ] ;
 define palatN [ n -> ñ || i ( cns ) ( erfalasoq ) _ ] ;
 !define palatR [ r -> y || i ( cns ) ( erfalasoq ) _ ] ; !WRONG generates *niġiyuq
-!define AltpalatT [ t (->) c h || i ( cns ) _ ( erfalasoq ) .#. ] ; !Does not work 0708
+!define AltpalatT [ t (->) c h || i ( cns ) _ ( erfalasoq ) .#. ( erfalasoq ) ] ; !Does not work 0708
 define AltpalatT [ t (->) c h || i ( cns ) _ ( erfalasoq ) \segment ] ; ! Works fine
 !define palatT [ t -> c h || i ( cns ) _ segment ] ; !WRONG generating *qimmichka
 define palatT [ t -> c h || i ( cns ) _ vow segment ] ; 
@@ -79,12 +82,21 @@ define EblockDelete [ %EBLOCK -> 0 ] ; !Works because %EBLOCK is not defined as 
 define SchwaReplace1 [ e -> a || _ ( dummy ) %> [ k | vow ] ] ;
 define SchwaReplace2 [ e -> i ] ;
 define StoCH [ s -> c h || t ( erfalasoq ) _ ] ;
+define CleanCH [ c h ( erfalasoq ) c h -> t c h ] ; ! This is a stupid rule cleaning up the messy set of palatalization rules. Must be reorganized away
 
 !************* 
 !The cascade *
 !*************
 
 read regex [
+!SchwaDelFric1
+!.o.
+SchwaDel1 ! [ e -> 0 || vow cns _ cns %SCHWADEL ] ;
+.o.
+SchwaDel2  ![ cns -> 0 || [ i | a | u ] %SCHWADEL ] ;
+.o.
+DelSchwaDel ![ %SCHWADEL -> 0 ] ;
+.o.
 truncation
 .o.
 TruncDelete !
@@ -125,7 +137,7 @@ AssKG ![ g -> k || k ( erfalasoq) %>  _ ] ;
 .o.
 PartAssKC ![ k -> g || _ ( erfalasoq ) %> [ cont | nas ] ] ;
 .o.
-LongTassibilation
+LongTassibilation ![ t -> c h || i t ( erfalasoq ) %> _ ] ; ! MUST precede assibilation
 .o.
 PartAssTC 
 .o.
@@ -153,11 +165,13 @@ palatN
 .o.
 !palatR
 !.o.
-AltpalatT
+AltpalatT ![ t (->) c h || i ( cns ) _ ( erfalasoq ) \segment ] ; ! Works fine
 .o.
-palatT
+palatT ![ t -> c h || i ( cns ) _ vow segment ] ;
 .o.
-StoCH
+StoCH ! [ s -> c h || t ( erfalasoq ) _ ] ;
+.o.
+CleanCH
 .o.
 SchwaReplace2
 ] ;

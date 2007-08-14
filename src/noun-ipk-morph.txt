@@ -12,12 +12,14 @@ LEXICON tp !aġnaq ere
 	tp_pl ;
 
 LEXICON tp_sing !erre
++QAQ:%TRUNC%>qaq	IV ;
++IT:%TRUNC%>it	IV ;
 +N:%TRUNC	ObliqueCases_Sg ;
 +N+Abs+Sg:           clit_sing ;
 +N+Rel+Sg:%TRUNC%>m  clit_sing ;
 +N+Abs+Sg+1Sg:%FRIC%>ga	clit_sing ;
 +N+Abs+Sg+2Sg:%TRUNC%>n	clit_sing ;
-+N+Abs+Sg+3Sg:%TRUNC%>a	clit_sing ; !Not verified
++N+Abs+Sg+3Sg:%TRUNC%>a	clit_sing ; !Not verified aġnaq
 
 
 LEXICON tp_du
@@ -45,6 +47,8 @@ LEXICON tp_gem !geminating stems of 1. declination - amaġuq nusaq/nuyaq
 	tp_gem_pl ;
 
 LEXICON	tp_gem_sing
++QAQ:%TRUNC%>qaq	IV ;
++IT:%TRUNC%>it	IV ;
 	ObliqueCases_Sg ;
 +N+Abs+Sg:           clit ;
 +N+Rel+Sg:%TRUNC%C%>m  clit ; ! = Kal???
@@ -75,6 +79,8 @@ LEXICON tpt
 	tp_pl ;
 
 LEXICON tpt_sing !aŋun:aŋute
++QAQ:%TRUNC%>qaq	IV ;
++IT:%>it	IV ;
 +N:%CVCTRUNCn	ObliqueCases_Sg ;
 +N+Abs+Sg:%CVCTRUNCn	clit ;
 +N+Rel+Sg:%>m	clit ;
@@ -91,12 +97,17 @@ LEXICON tpt_du
 
 
 LEXICON tup !aiviq
++QAQ:%TRUNC%>qaq	IV ;
++IT:%SCHWADEL%>it	IV ;
++N:%>	ObliqueCases_Sg ;
 +N+Abs+Sg:	clit ;
 +N+Abs+Pl:%>%FRICit	clit ;
 +N+Trm+Sg:%>mun	clit ;
 +N+Abl+Sg:%>miñ	clit ;
 
 LEXICON tup- !siksrik iñuk
++QAQ:%TRUNC%>qaq	IV ;
++IT:%SCHWADEL%>it	IV ;
 +N+Abs+Sg:	clit ;
 +N+Abs+Du:%TRUNC%C%>k	clit ; 
 +N+Abs+Pl:%TRUNC%>it	clit ;
@@ -122,4 +133,6 @@ LEXICON propmorph
 ! Pronouns ! Still a dummy
 LEXICON pronmorph
 +N:	clit ;
+
+
 

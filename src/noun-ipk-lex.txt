@@ -9,6 +9,7 @@ keña	pronmorph ; ! who
 una	pronmorph ; ! =KAL
 
 
+
 LEXICON Nouns
 aaka	tp ; ! a mother
 aapa	tp ; ! a father
@@ -16,18 +17,23 @@ aaqhaalliq	tp ; ! old squaw duck. ?? One l p. 14, two l p. 39 and 247???
 aġnaq	tp ; ! a woman
 aġviq:aġveq	tup ; ! a whale
 amaġuq	tp_gem ; ! a wolf
+aniu	tp ; ! packed snow
 aŋun:aŋute	tpt ; ! a man
 aiviq:aiveq	tup ; ! a walrus
 akiľhun	tp ; ! lantern chimney
+akiñ:akise	tpt ; ! a pillow NB i vs. schwa not in accordance with Edna
 akłaq	tp ; ! a brown bear
+apun:apute	tpt ; ! snow
 aqvaluqtaaq	tp ; ! something round
 atigi:atege	tp ; ! a parka
+atiq:ateq	tup ; ! a name
 aviŋŋaq:aveŋŋaq	tup ; ! a lemming
 ayuktaq	tp ; ! a ball
 iġñiq:iġñeq	tup ; ! a son
 ini:ene	tp ; ! a room
 iñuk	tup- ; ! inuk
 iglu:eglu	tp ; ! a house
+iqaluk	tup- ; ! fish
 iqľak	tp ; ! hook and line (term. tech.)
 iqsraq:eqsraq	tp ; ! a cheek
 iri:ere	tp ; ! an eye
@@ -39,15 +45,19 @@ kamik:kamek	tup- ; ! boot NB: declination is an unqualified guess
 kiña:keña	pron ; ! who
 kutchuq	tp ; ! chewing gum, resin 'kutchuq'
 kuuk	tp ; ! a river
+mannik	tup- ; ! egg
 miqłiqtuq:meqłeqtuq	tp ; ! a child
 nasaq	tp_gem ; ! a hood
 natchiq	tup ; ! seal 'natchiq'
-natiq	tp ; ! floor
+natiq:nateq	tup ; ! floor
 niu:neu	tp ; ! a leg
+niksik	tup- ; ! fishing hook
 nuyaq	tp_gem ; ! a strand of hair
+nuna	tp ; ! land
 nusaq	tp_gem ; ! a strand of hair
 pisiksi:peseksi	tp ; ! a bow
 qallun	tp ; ! a cup
+qamun:qamute	tpt ; !car
 qayaq	tp ; ! kayak
 qaugak	tp ; ! a duck
 qimmiq	tp ; ! a dog
@@ -56,18 +66,26 @@ savik	tp ; ! a tp
 saviľhaq	tp ; ! metal
 sikľaq	tp ; ! a pickax
 siksrik:seksrik	tup- ; ! a squirrel
+siku	tp ; ! ice
+siqiñiq:siqiñeq	tup ; !sun
 suppun:suppute	tpt ; ! a gun
+tatqiq	tup ; ! moon
 tavsi	tp ; ! a belt for carrying a baby
 tiŋŋun:tiŋŋute	tpt ; ! an airplane
 tumi:tume	tp ; ! a footprint
-tupiq:tupeq	tp ; ! a tent
+tupiq:tupeq	tup ; ! a tent
 ulu	tp ; ! =KAL
 umialik	tup- ; !Not verified in corpus???
 umiaq	tp ;
 uniat:uniaq	tp_du ; ! to avoid singular but accept dual endings
 uniat:uniaq	tp_pl ; ! to avoid singular but accept plural endings
-aaqagu	clit ; ! wait a minute
-atakhii:atakhee	clit ; ! look at that
-ii:ee	clit ; ! yes
-qakugulu	clit ; ! until next time
+uvluġiaq	tp_gem ; !star
+
+
+aaqagu	part ; ! wait a minute
+atakhii:atakhee	part ; ! look at that
+ii:ee	part ; ! yes
+naagga	part ; ! no
+naumi	part ; ! no
+qakugulu	part ; ! until next time
 etc	abbr ; !!just rubbish to fill the slot

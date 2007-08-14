@@ -15,9 +15,9 @@
 
 
 LEXICON IV
-@P.IV.ON@    junction ;
+@P.IV.ON@    junctionIV ;
 
-LEXICON junction
+LEXICON junctionIV
 	nominalizers ;
 	verbalderivatives ;
 	verb_intr ;
@@ -33,9 +33,9 @@ LEXICON verb_intr
 
 
 LEXICON IV_vow
-@P.IV.ON@ junction_vow ;
+@P.IV.ON@ junctionIV_vow ;
 
-LEXICON junction_vow
+LEXICON junctionIV_vow
 	nominalizers ;
 	verbalderivatives ; 
 	verb_intr_vow ;
@@ -54,12 +54,13 @@ LEXICON verb_intr_vow
 ! --
 
 LEXICON TV
-@P.TV.ON@   verb_tr ;
-!atuq@P.TV.ON@%>niaq@R.TV.ON@%>ge%>a  clit ;
-!atuq+NIAQ+V+Ind+Prs
+@P.TV.ON@   junctionTV ;
+
+LEXICON junctionTV
+	verbalderivatives ;
+	verb_tr ;
 
 LEXICON verb_tr  
-                    verbalderivatives ;
 +V+Ind+Prs:%>ge     indpersonaffix_tv ; 
 +V+Ind+Pst:%>ge     indpersonaffix_tv ; !Just a slot holder. Correct mode morpheme must be entered
 +V+ConReal:%>łu     conpersonaffix_tv ;
@@ -67,10 +68,15 @@ LEXICON verb_tr
 !+V+Cau+3Sg:%>      clit ;
 
 LEXICON TV_vow
-@P.TV.ON@  verb_tr_vow ;
+@P.TV.ON@  junctionTV_vow ;
+
+LEXICON junctionTV_vow
+	verbalderivatives ;
+	verb_tr_vow ;
+
+
 
 LEXICON verb_tr_vow 
-                    verbalderivatives ;
 +V+Ind+Prs:%>ge     indpersonaffix_tv ; 
 +V+Ind+Pst:%>       indpersonaffix_tv ;
 +V+ConReal:%>vlu    conpersonaffix_tv ;

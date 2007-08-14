@@ -4,7 +4,7 @@
 !================================================================================!
 
 Multichar_Symbols
-+N +V
++N +V +Part
 +Sg +Du +Pl
 +1Sg +2Sg +3Sg +4Sg +1Du +2Du +3Du +4Du +1Pl +2Pl +3Pl +4Pl
 +1SgO +2SgO +3SgO +4SgO +1DuO +2DuO +3DuO +4DuO +1PlO +2PlO+3PlO +4PlO !Objects' persons
@@ -22,6 +22,7 @@ Multichar_Symbols
 %EBLOCK !dummy to block schwa going to a (aŋutik not *aŋuttak)
 %C ! dummy for intermediate gemination
 %DEFRIC !dummy when fricatives go stops (amaġuq -> amaqquk) as apposed to %C in niġi+VIK -> niġġivik
+%SCHWADEL !dummy with derivatives truncating semi-final schwa
 !%CLIT !dummy with clitics used in Kalaallisut. This far unused in ipk
 
 @P.IV.ON@ !Flag - positive inquiry for intransitive wants IV suff
@@ -58,11 +59,12 @@ LEXICON Root
 !About lexica and continuations. Instead of separate lexica for words that can only be sing or only plur and others for words that can take all numbers, this is a better solution: Normal nouns are tagged tp, tup etc. whereas specials are tagged with the continuation lexicon
 
 
+LEXICON part
++Part:%>	clit ;
+
 LEXICON clit_sing
 +UNA:%>una	clit ;
 	clit ;
-
-
 
 LEXICON clit
 +GUUQ:%>guuq	f ;
