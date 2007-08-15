@@ -18,7 +18,6 @@ tumi
 tumilu
 tumin
 tumit
-xakitniaqtuq
 aiviq
 aiviġlu
 kamik
@@ -26,9 +25,9 @@ kamiglu
 aqpat
 aqpanniaqtuq
 kamigniaqtuq
-kaminŋiaqtuq
-iḷisaq
-iḷisaġniaqtuq
+kamiŋniaqtuq
+iḷisaq
+iḷsaġniaqtuq
 aqpat
 aqparvik
 makit
@@ -48,15 +47,4 @@ aŋunlu
 aŋullu
 aqpalluni
 
-
-#wrong
-aqpanniaqgaa
-atuqniaqtuq
-atuqniaġaa
-niġiniaqtuq
-niġituq
-isiġniaqgaa
-xakitniaqgaa
-niġiniaqtuq
-akinniaġaa
 
