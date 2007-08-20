@@ -30,21 +30,25 @@
         <p>It is also possible to generate wordforms, by pasting the lemma and gramamtical tags <a href="http://giellatekno.uit.no/g-kal.html">here</a></p>
         <p>At present, the parser gives all possible tags, not only the ones appropriate in the given context. We plan making a <code>disambiguator</code> to pick the correct analyses for any given context, but we are not there yet. </p>  
         <p>The parser uses the following tags:</p>
-        <p>
         <ul>
             <li>Parts of speech: <code>+N +V +Part</code></li>
             <li>Morphosyntactic categories
-            <ul><li>Number:<code>+Sg +Du +Pl</code></li>
-            <li>Case:<code>+Abs +Rel +Trm +Abl +Loc +Mod</code></li>
-            <li>Mode:<code>+Ind +Int +ConReal -CondUnreal +Cau</code></li>
-            <li>Person-number:<code>+1Sg +2Sg +3Sg +4Sg +1Pl +2Pl +3Pl +4Pl +1Du +1SgO +2SgO +3SgO +4SgO +1DuO +2DuO +3DuO +4DuO +1PlO +2PlO+3PlO +4PlO (Objects' persons)</code></li>
-            <li>Clitics:<code>+Clt</code></li>
-            <li>Other:<code>+Arch</code></li>
-            <li>Derivational tags:<code>
-+LLATU +LLATU=NIAQ +NIAQ +NIAQ=ŊIT +ŊIT +SAAĠE +SAAĠE=ŊIT +TEQ ! verb elaborating
-+VIK ! nominalizers
-+LU +GUUQ +UNA! clitics
-</code></li></ul></li></ul></p>
+				<ul>
+					<li>Number:<code>+Sg +Du +Pl</code></li>
+					<li>Case:<code>+Abs +Rel +Trm +Abl +Loc +Mod</code></li>
+					<li>Mode:<code>+Ind +Int +ConReal -CondUnreal +Cau</code></li>
+					<li>Person-number:<code>+1Sg +2Sg +3Sg +4Sg +1Pl +2Pl +3Pl +4Pl +1Du +1SgO +2SgO +3SgO +4SgO +1DuO +2DuO +3DuO +4DuO +1PlO +2PlO+3PlO +4PlO (Objects' persons)</code></li>
+					<li>Clitics:<code>+Clt</code></li>
+					<li>Other:<code>+Arch</code></li>
+					<li>Derivational tags:
+						<code>
+							+LLATU +LLATU=NIAQ +NIAQ +NIAQ=ŊIT +ŊIT +SAAĠE +SAAĠE=ŊIT +TEQ ! verb elaborating +VIK ! nominalizers
+							+LU +GUUQ +UNA! clitics
+						</code>
+					</li>
+				</ul>
+			</li>
+		</ul>
     </section>
     
     <p class="last_modified">Last changed: $Id: intro.xml,v 1.8 2005/06/21
