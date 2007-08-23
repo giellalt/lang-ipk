@@ -99,3 +99,241 @@ uniat:uniaq	tp_pl ; ! to avoid singular but accept plural endings
 uvluġiaq	tp_gem ; !star
 
 etc	abbr ; !!just rubbish to fill the slot
+Agaayun:Agaayute tpt ; ! God (K)
+Anniqsuun:Anniqsuute tpt ; ! Savior (K)
+Tiliŋmun:Tiliŋmute tpt ; ! nibitqugai. He wants Tilak to eat them.
+aanaruiñ:aanaruiñse tpt ; ! suliuqpa savannah sparrow (Passerculus sandwichensis) (lit. what is your grandmother cooking?)
+aasiiñ:aasiiñse tpt ; ! and, and then, (used consecutively, contrast with suli, which is used in an additive sense) (N, q)
+aasriiñ:aasriiñse tpt ; ! and, and then, (used consecutively, contrast with suli, which is used in an additive sense) (K)
+aatchuun:aatchuute tpt ; ! gift
+aggun:aggute tpt ; ! corruption (N)
+aglaan:aglaate tpt ; ! but
+aglaun:aglaute tpt ; ! pencil
+aglaun:aglaute tpt ; ! pencil (K)
+aglautitaun:aglautitaute tpt ; ! typewriter (N)
+aitchuun:aitchuute tpt ; ! gift
+aiyugaaġun:aiyugaaġute tpt ; ! invitation
+aiġun:aiġute tpt ; ! cuff of a sleeve
+akiḷiun:akiḷiute tpt ; ! wage, price
+akiqsruun:akiqsruute tpt ; ! promise, covenant (K)
+akiyaun:akiyaute tpt ; ! stretcher to carry things
+akiñ:akiñse tpt ; ! pillow
+allatuun:allatuute tpt ; ! adultery, fornication
+aluġun:aluġute tpt ; ! sandal
+alġun:alġute tpt ; ! dog soup pot
+amiun:amiute tpt ; ! (12) thread for sewing skins together (12)
+amiun:amiute tpt ; ! thread for skins
+ammun:ammute tpt ; ! net rope
+annaun:annaute tpt ; ! salvation (N)
+anŋun:anŋute tpt ; ! (14) pitch (caulking) (14)
+apiqsruun:apiqsruute tpt ; ! question
+apqun:apqute tpt ; ! trail
+apun:apute tpt ; ! snow
+apuġun:apuġute tpt ; ! (11) front crosspiece (11)
+aqsraatchaun:aqsraatchaute tpt ; ! high-kick ball
+aquġun:aquġute tpt ; ! (17) sled bag (17)
+atanniqsuġaatin:atanniqsuġaatite tpt ; ! orders you to do it and you must do it
+atanniun:atanniute tpt ; ! judgment (K)
+atanġirrun:atanġirrute tpt ; ! liberty
+atuun:atuute tpt ; ! song
+aukkun:aukkute tpt ; ! blood vessel (N)
+aulasraun:aulasraute tpt ; ! jigging stick
+avanmun:avanmute tpt ; ! toward each other (N)
+avatmun:avatmute tpt ; ! toward each other (K)
+avilaitqan:avilaitqate tpt ; ! friend (N)
+aviḷuqtaun:aviḷuqtaute tpt ; ! bell (an instrument to make repeated noise by hitting) (K, q, p)
+aviḷuqtaun:aviḷuqtaute tpt ; ! bell (lit. instrument for repeated noise by striking)
+ayaġun:ayaġute tpt ; ! (4) bed crosspiece (4)
+aŋaayuqqaun:aŋaayuqqaute tpt ; ! greatness, kingdom (God's)
+aŋaayyun:aŋaayyute tpt ; ! prayer (N)
+aŋiqusaun:aŋiqusaute tpt ; ! temptation (kiv, q)
+aŋiqusraun:aŋiqusraute tpt ; ! temptation (K)
+aŋiłhisaun:aŋiłhisaute tpt ; ! swing
+aŋmaun:aŋmaute tpt ; ! can opener (lit. opening tool)
+aŋun:aŋute tpt ; ! man
+aŋuun:aŋuute tpt ; ! fin (lit. paddle)
+aŋuun:aŋuute tpt ; ! paddle (single bladed)
+aŋuun:aŋuute tpt ; ! paddle, propeller
+aŋuyaun:aŋuyaute tpt ; ! war (N)
+aŋuyautairrun:aŋuyautairrute tpt ; ! peace
+aŋŋun:aŋŋute tpt ; ! game animal
+ichuun:ichuute tpt ; ! plane, skin scraper (K)
+ichuun:ichuute tpt ; ! skin scraper, plane (K)
+ikaaqsaun:ikaaqsaute tpt ; ! (4) bed crosspiece (4)
+ikaun:ikaute tpt ; ! bridging pole
+ikiaqsiñ:ikiaqsiñse tpt ; ! rip saw (K)
+ikun:ikute tpt ; ! match
+ikuun:ikuute tpt ; ! plane, skin scraper (N)
+ikuun:ikuute tpt ; ! skin scraper, plane (N)
+iluqaan:iluqaate tpt ; ! everyone, all
+iḷitchuġun:iḷitchuġute tpt ; ! cause of recognition, sign
+iḷumun:iḷumute tpt ; ! true, truth
+iḷumutun:iḷumutute tpt ; ! true, truth
+immiġaun:immiġaute tpt ; ! equipment for giving enema (of ugruk intestines)
+ipiġaqtuun:ipiġaqtuute tpt ; ! dog whip (q)
+ipun:ipute tpt ; ! oar
+ipuun:ipuute tpt ; ! oar
+iqalugniaġusiptiktun:iqalugniaġusiptiktute tpt ; ! like you have caught fish
+iqaqqun:iqaqqute tpt ; ! soap (N)
+iqquliñ:iqquliñse tpt ; ! small pointed knife
+isivġiun:isivġiute tpt ; ! judgment (N)
+isiŋaiñŋaan:isiŋaiñŋaate tpt ; ! before he entered
+isummalluaġiitchuatiin:isummalluaġiitchuatiite tpt ; ! you fool!
+itrisiun:itrisiute tpt ; ! thermometer (K)
+itrisriun:itrisriute tpt ; ! thermometer (K)
+ivgun:ivgute tpt ; ! napkin
+ivruqsiñ:ivruqsiñse tpt ; ! pickaxe (K, q)
+iñuggun:iñuggute tpt ; ! life (N)
+iñuguġataqman:iñuguġataqmate tpt ; ! when he finally grew up
+iñupiatun:iñupiatute tpt ; ! Eskimo language (lit. like Eskimo)
+iñuqun:iñuqute tpt ; ! prowler (unknown person who is sometimes seen from afar and is blamed for otherwise inexplainable occurances)
+iñuuniun:iñuuniute tpt ; ! medicine
+iñuuqan:iñuuqate tpt ; ! one who is born on same day
+iññiqun:iññiqute tpt ; ! prowler (unknown person who is sometimes seen from afar and is blamed for otherwise inexplainable occurances)
+iłuaqqun:iłuaqqute tpt ; ! grace (lit. cause for what is right, good, correct) (K, q, n)
+iłuiḷḷiuġun:iłuiḷḷiuġute tpt ; ! discomfort, trouble (N)
+iŋilġaan:iŋilġaate tpt ; ! indistinct past
+kaaksiuġun:kaaksiuġute tpt ; ! famine (N)
+kaaviliuġun:kaaviliuġute tpt ; ! coffee pot (N)
+kaivḷuun:kaivḷuute tpt ; ! (1) stanchions (1)
+kakkiiyaun:kakkiiyaute tpt ; ! handkerchief
+kanivaun:kanivaute tpt ; ! diaphragm (N)
+kappun:kappute tpt ; ! scalpel (for blood letting) hypodermic needle
+kaugun:kaugute tpt ; ! hammer (q)
+kaviuqqun:kaviuqqute tpt ; ! covetousness (N)
+kaŋiqsiḷḷagikpiñ:kaŋiqsiḷḷagikpiñse tpt ; ! I can understand you.
+kigun:kigute tpt ; ! tooth
+kiiqsiuġun:kiiqsiuġute tpt ; ! pain
+kilgun:kilgute tpt ; ! warning
+killukun:killukute tpt ; ! mistake
+kinataġun:kinataġute tpt ; ! (19) sled brake (19)
+kipluun:kipluute tpt ; ! cross-cut saw (K)
+kivluun:kivluute tpt ; ! cross-cut saw (N)
+kukkiḷiñ:kukkiḷiñse tpt ; ! toothpick
+kuniun:kuniute tpt ; ! nose tip
+mamaun:mamaute tpt ; ! udder
+matun:matute tpt ; ! like this one here
+miqsruun:miqsruute tpt ; ! needle (N)
+misuktaun:misuktaute tpt ; ! fountain pen
+mitqun:mitqute tpt ; ! needle (K)
+miŋuaqtuun:miŋuaqtuute tpt ; ! pencil (N)
+naglikkun:naglikkute tpt ; ! mercy
+nagliksaun:nagliksaute tpt ; ! affliction, suffering
+nagliktuun:nagliktuute tpt ; ! mercy (N)
+nakuaqsriun:nakuaqsriute tpt ; ! love
+nalautirrun:nalautirrute tpt ; ! gunsight
+nalupqisun:nalupqisute tpt ; ! doubt
+nalġuqsruun:nalġuqsruute tpt ; ! discipline, correction (K)
+naniġuun:naniġuute tpt ; ! flashlight (K)
+nanmaun:nanmaute tpt ; ! dog pack
+nanuun:nanuute tpt ; ! ointment
+nanġaun:nanġaute tpt ; ! praise, honor
+napmun:napmute tpt ; ! where to
+naqitaaġun:naqitaaġute tpt ; ! (13) tie-down rope (13)
+naqittaġun:naqittaġute tpt ; ! (3) rope lashes (3)
+nasraun:nasraute tpt ; ! cap (K)
+natqiksruun:natqiksruute tpt ; ! discipline, correction (N)
+naukun:naukute tpt ; ! by which way, how
+naŋirrun:naŋirrute tpt ; ! disease
+niuġaun:niuġaute tpt ; ! drill, brace
+niġityaġiñ:niġityaġiñse tpt ; ! would you come to eat!
+nuliaksraun:nuliaksraute tpt ; ! bride (N)
+nuqaġun:nuqaġute tpt ; ! (9) lashings for lower stands (9)
+pauktaun:pauktaute tpt ; ! (7) anchor (7)
+paulġiñ:paulġiñse tpt ; ! shovel
+paułhiñ:paułhiñse tpt ; ! shovel (n)
+paġlan:paġlate tpt ; ! greeting, welcome
+pichqun:pichqute tpt ; ! law (what is wanted to be done), commandment (K)
+pigaatin:pigaatite tpt ; ! he (wants) you
+piksrun:piksrute tpt ; ! shovel
+piḷiun:piḷiute tpt ; ! blessing (passing of power from a shaman to his disciple)
+piḷuun:piḷuute tpt ; ! error, crime, sin (N)
+piḷuun:piḷuute tpt ; ! sin (N)
+pitchiġiyaun:pitchiġiyaute tpt ; ! key
+pitqun:pitqute tpt ; ! law (what is wanted to be done), commandment
+piviuttaqqun:piviuttaqqute tpt ; ! love (N)
+puptaqun:puptaqute tpt ; ! buoy
+puptaun:puptaute tpt ; ! net float
+puptaġun:puptaġute tpt ; ! float (buoy) (K)
+puttun:puttute tpt ; ! piercing tool
+putyuun:putyuute tpt ; ! crab (lit. pinching tool) (K)
+qaaglaan:qaaglaate tpt ; ! when? (past tense interrogative) (K)
+qaaktuun:qaaktuute tpt ; ! seining net
+qaipkaġmagitin:qaipkaġmagitite tpt ; ! tell her to come (cause her to come)
+qakugun:qakugute tpt ; ! when? (future interrogative)
+qallun:qallute tpt ; ! bailer, cup
+qallun:qallute tpt ; ! cup, dipper
+qallutaun:qallutaute tpt ; ! ladel, large spoon (K)
+qanutun-aglaan:qanutun-aglaate tpt ; ! how far?
+qanutun:qanutute tpt ; ! how long, how much?
+qasraun:qasraute tpt ; ! bell (an instrument to make repeated noise by hitting) (K)
+qasraun:qasraute tpt ; ! bell (lit. instrument for repeated noise by striking) (K)
+qayyiuġun:qayyiuġute tpt ; ! northern phalarope (Lobipes lobatus) (lit. like a person in a qayaq)
+qaġruuraqtuun:qaġruuraqtuute tpt ; ! shotgun (N)
+qilġun:qilġute tpt ; ! (15) upper lashings (15)
+qiḷaun:qiḷaute tpt ; ! divining rod
+qiḷaun:qiḷaute tpt ; ! divining rod (used by diviners, e.g. to foretell death or life of a sick person)
+qiḷaun:qiḷaute tpt ; ! drum
+qipiġniuġun:qipiġniuġute tpt ; ! desire
+qipmiḷiqun:qipmiḷiqute tpt ; ! dog whip (K)
+qisiqsiun:qisiqsiute tpt ; ! branch (N,n)
+qitiqqaqpalliġman:qitiqqaqpalliġmate tpt ; ! when it was about noon
+qitiġaġun:qitiġaġute tpt ; ! (16) tug (16)
+qitiġaġun:qitiġaġute tpt ; ! (5) main tug (5)
+qunmun:qunmute tpt ; ! asriaq bog cranberry (Vaccinium oxycoccus) (K)
+quvluun:quvluute tpt ; ! rip saw (N)
+quŋisiġun:quŋisiġute tpt ; ! dog collar, neck band
+salikkuun:salikkuute tpt ; ! broom (q)
+salummaun:salummaute tpt ; ! cleanness, holiness (N)
+sanalġun:sanalġute tpt ; ! tool (K)
+sanalġun:sanalġute tpt ; ! tool (N)
+saniġaagun:saniġaagute tpt ; ! (12) crossed ropes (12)
+satkuun:satkuute tpt ; ! ammunition case (N)
+savaŋniqsutin:savaŋniqsutite tpt ; ! you are working (lit. in state of working)
+sikuiñŋaan:sikuiñŋaate tpt ; ! before it froze
+siḷḷiñ:siḷḷiñse tpt ; ! knife sharpener (emery stone)
+sippun:sippute tpt ; ! gun, rifle (K)
+siun:siute tpt ; ! ear
+siutiġun:siutiġute tpt ; ! earpendant
+sivunniun:sivunniute tpt ; ! plan, purpose, decision
+sivuġun:sivuġute tpt ; ! (10) front bow (10)
+sukun:sukute tpt ; ! how, by which way?
+suluun:suluute tpt ; ! dorsal fin
+sumiñ:sumiñse tpt ; ! from whence?
+summan:summate tpt ; ! why?
+sumun:sumute tpt ; ! to where?
+suppun:suppute tpt ; ! gun, rifle (N)
+taapkunatun:taapkunatute tpt ; ! like those
+taavrumatun:taavrumatute tpt ; ! like that
+tavluġun:tavluġute tpt ; ! chin tattoo
+taġġaqtuun:taġġaqtuute tpt ; ! mirror, reflector
+tiiliuġun:tiiliuġute tpt ; ! tea pot (N)
+tilliñ:tilliñse tpt ; ! commandment, order
+tipigiqsaun:tipigiqsaute tpt ; ! perfume (lit. a means or cause of good odor), incense (K)
+tivliyyaun:tivliyyaute tpt ; ! napkin
+tivraġiksaun:tivraġiksaute tpt ; ! perfume (lit. a means or cause of good odor), incense (N, q)
+tiŋmisuun:tiŋmisuute tpt ; ! airplane (K)
+tiŋŋun:tiŋŋute tpt ; ! airplane (N)
+tuggaun:tuggaute tpt ; ! poking stick
+tugrun:tugrute tpt ; ! (11) skin's lashing ropes (11)
+tulukkatun:tulukkatute tpt ; ! ittuq rusty blackbird (Euphagus carolinus) (lit. like raven)
+tuquŋaiñŋaaġman:tuquŋaiñŋaaġmate tpt ; ! before he had died . . .
+tutqiun:tutqiute tpt ; ! peace (N)
+tutqiun:tutqiute tpt ; ! peace, contentment
+uiksraun:uiksraute tpt ; ! bridegroom
+ukiuġaġimman:ukiuġaġimmate tpt ; ! whenever it is winter
+ukpiġun:ukpiġute tpt ; ! faith
+ukpiġun:ukpiġute tpt ; ! faith (N)
+ukunatun:ukunatute tpt ; ! like these
+ulimaun:ulimaute tpt ; ! adze
+uluun:uluute tpt ; ! saw
+unniqsuqłiun:unniqsuqłiute tpt ; ! promise, covenant (N)
+unnuŋman:unnuŋmate tpt ; ! yesterday (lit. when it was evening) (b)
+uqsruġun:uqsruġute tpt ; ! ointment
+uuktuun:uuktuute tpt ; ! parable, example
+uuktuun:uuktuute tpt ; ! ruler, measuring device
+uumatun:uumatute tpt ; ! like this
+uumman:uummate tpt ; ! heart
+uumman:uummate tpt ; ! heart (K, N)
+uunaqsaun:uunaqsaute tpt ; ! heater
+uvlaakun:uvlaakute tpt ; ! tomorrow (lit. by way of morning)
