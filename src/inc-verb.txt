@@ -1,1673 +1,312 @@
-aaktuq	! is self-asserting, proud of himself (K)
-aġġallaaġiktuq	! enjoys himself (K)
-aŋalanŋaitkaa	! did not control him
-aŋalataġaa	! directs him, controls him
-aŋiġaa	! agrees with him, assents to it
-aŋipchaġaa	! resuscitated him, resurrected him (K)
-aŋipkaŋagaa	! resuscitated him, resurrected him (N)
-akiiḷigaa	! beats him (in contest)
-alġaqsruġaa	! exhorts him, tells him the right way to behave
-amaġaa	! puts him (baby) on her back (inside the parka)
-anaugaa	! hits him, beats him
-annautigaa	! saves him
-anniqsuġaa	! benefits him
-apiġigaa	! questioned him, asked him
-apiqsruġaa	! is about to question him, ask him
-apqusraaġaa	! passes him (K)
-apuġaa	! bumps, strikes against it, meets him
-apuqtiġaa	! bumps, strikes against it, meets him
-atanniġaa	! judges him (K)
-atchiġaa	! names him
-atchitkaa	! lends him
-attaqsraŋitchuq	! is bold (sure of not being refused, freely helps himself to other's things) (N, q)
-attaqsranġitchuq	! is bold (sure of not being refused, freely helps himself to other's things) (K)
-atvaqtaqtuq	! humbles himself much (K)
-aullaqtitkaa	! sends him away
-aullautigaa	! leads him away, takes it away
-avanŋagaa	! all around him
-iġḷigigaa	! clings to it for himself, is stingy with it
-iñiqtiġaa	! threatened him
-iñiqtiqtuq	! rebuked him, permitted him not
-iñugiiḷiqsuq	! frowns (lit. makes himself ugly)
-iŋiġaa	! asks him, begs him, prays to him
-iłuagiiñġitchaa	! dislikes him, is prejudiced (K)
-ikayuġaa	! helps him
-ilaa	! he, she, it, him, her
-ilaaliqaa	! so it's him!
-ipiġaqtuġaa	! whips him
-ipiġaqtuq	! wades, cuts himself
-ipitkaa	! suffocates him, smothers him, drowns him
-iqsigigaa	! is afraid of him
-irrutigaa	! treats him properly, right
-isivġiigaa	! examines him, tries him out
-ivayaqtuġaa	! defrauds, robs him (K)
-iḷaksiagaa	! bothers him
-iḷisautigaa	! teaches him
-iḷitchuġigaa	! finds it out, becomes acqainted with him
-kamagigaa	! obeys him
-kayuŋiutigaa	! coaxes him, urges him (K)
-kiigaa	! answers him (K)
-kikiaktuutigaa	! crucifies him (lit. nails him)
-kiliktuġaa	! tells him news, warns him
-kipalukkaa	! works for him, helps him
-kisiŋŋuġaa	! left him alone, left her bereaved
-kiugaa	! answers him (N)
-kiugiññaġaa	! is merely answering him
-kunikkaa	! kisses him
-malikkaa	! follows him, accompanies him
-mamititkaa	! healed him
-miluktitkaa	! breast feeds him
-minitkaa	! missed him, omitted him
-mitautigigaa	! mocks him, makes a fool of him
-munaġigaa	! watches him, takes care of him
-nagligigaa	! pities him
-nagligigaa	! has compassion on him
-nagliginniġaa	! is merciful to him
-nalġuqsruġaa	! straightens it, corrects him
-nallautigaa	! lays him down, puts him to bed
-nanġaġaa	! praises him, brags about him
-natchikkaa	! yearns to follow him
-natqigutigaa	! forgives him (lit. corrects him) (K)
-naviagigaa	! is dangerous for him
-nayaaŋaġaa	! greets him, sends him greetings (K)
-nayuġaa	! lives with him, stays with him
-niġipchaġaa	! he feeds him
-niġiugigaa	! expects him (K, N)
-nuttaġigaa	! leaps at him
-paaġaa	! meets him
-paġlaġaa	! welcomes him
-pasiaqtuq	! warms himself by the fire
-pasigaa	! blames him, accuses him (N)
-pasigigaa	! suspects him, blames him
-pasrigaa	! blames him, accuses him (K)
-pasrigigaa	! suspects him, blames him (K)
-patchisaiġaa	! frees him
-patchisigigaa	! accused, blamed him, condemns him, finds him guilty
-patchisigigaa	! blames him, accuses him (K)
-piksraqtaaġigaa	! is choosing him
-piqpagigaa	! loves him
-pisaayugaġaa	! provokes him
-piyuaġaa	! tempts him, pursues him
-qaayuliqsuq	! dirties himself (of baby messing diaper)
-qakiġaa	! boxes him
-qapiŋaisaaġaa	! encourages him
-qaunagigaa	! cares for him
-qimitchuq	! commits suicide, hangs himself (K)
-quviasuktuq	! is happy (within himself)
-saattuq	! faces him
-saŋutkaa	! gossips about him
-satuġaa	! ransomed, redeemed him (K)
-savagvigigaa	! works for him
-savautigaa	! serves him
-siquyaqtuquyumagaluaġaa	! want him to go to bed
-sivulliġaa	! he leads him (lit. he is foremost to him)
-suksraaġaa	! gives up on it, forsakes him
-taigaa	! names him
-tasuġaa	! ransomed, redeemed him (N,q)
-tiŋitkaa	! drifts him away
-tuglauġaa	! shields him, protects him
-tunutkaa	! turns his back on him
-tupakkaa	! startles him
-tupigigaa	! obeys him (K)
-tuqłuġaa	! calls him, hails him
-tuqłuġaa	! calls him, hails
-tuquttuq	! kills himself
-tusrugaa	! is envious of him (K)
-tusugaa	! is envious of him (q)
-tuvlauġaa	! shields him, protects him
-tuvraġaa	! follows him, tracks him, imitates him
-ugaiġaa	! bites him, mauls him
-upaktuġaa	! charges him, goes after him
-uqaqtitaġaa	! asked him to speak, talk
-uqautigaa	! talks with him
-uumisaaġuraġaa	! provokes him (K)
-aaŋaruq	! is stubborn, acts against better advice
-aġiñaqtuq	! is soft
-aġiisruknaġaa	! is offended by it
-aġitchuq	! is wet (K)
-aġvaluktuq	! is round
-aŋiruq	! is big
-aŋiruq	! is big
-aŋmaqtuq	! is open, turned on (radio, tape recorder)
-aŋuniaqtuq	! is hunting
-aŋuyautaitchuq	! is peaceable, is not hostile
-agaayuvigmiittuq	! is in church
-agaŋŋaitchuq	! is gentle, kind
-agliġnaqtuq	! is tabooed, forbidden to eat of do for religious reasons
-aglisaiññaqtuq	! is continually getting bigger
-aiparuq	! is fresh, raw (uncooked food) (K)
-aitchuusiaġisuugaa	! is always receiving it
-aiḷaqtuq	! is damp (K)
-aiḷaqtuq	! is wet (N)
-aiḷinaqsiruq	! is lunch time (noon meal) (K)
-akiiḷaaqtuq	! is free, without cost
-akiiḷaqtuq	! is owing
-akisuruq	! is expensive, precious, valuable
-aksraqtuq	! is rolling
-aktigiruq	! is so long, is this much
-alaitchuq	! is not torn
-alapittaqtuq	! is crazy, is drunk
-alappaa	! is cold
-alappuu	! is cold (N)
-alianaitchuq	! is cheerful, happy, jolly
-alianaqtuq	! is quiet, lonesome, sad
-alianiuqtuq	! is lonesome, quiet, sad, not communicative
-aliasruktuq	! is despondent, sad (K)
-aliktuq	! is torn
-aliuqtuqtuq	! is haunted
-allaŋŋuqtuq	! is different, other (N)
-allaŋŋuqtuq	! is different
-allaiyaġaa	! is mending net
-allayualaitchuq	! is friendly, not bashful (of toddler) (N)
-allayuaqtuq	! is shy, bashful (of toddler) (N)
-alliqsuq	! is deep
-amaniittuq	! is there (out of sight)
-amitchuq	! is narrow (K)
-amumaruq	! is pulled out (e.g. a net)
-aniġnitchiaqtuq	! is panting
-aniruq	! is born (lit. exits)
-annaktuq	! is sheltered, is safe, saves
-annaktuq	! is saved (N)
-annaqtittuq	! is bruised
-anniiyaruq	! is sore (N)
-anniqsuqtuq	! is saved (K)
-anuġi	! is windy
-anuqłiqsuq	! is windy
-anuqqaŋaruq	! is windy (gale force)
-apaiqsuq	! is enough, had enough
-apiruq	! is snow covered
-aptaruq	! is busy (N)
-apyularuq	! is dusty (K)
-aqalugniaqtuq	! is fishing (kiv, n)
-aqsravaluktuq	! is round (K)
-aqvaluktuq	! is round (N)
-araksiġiitchuq	! is not open to counsel (N)
-araqsiġiaqtuq	! is open to counsel (N)
-arguaŋaruq	! is egotistical (can do anything)
-arriqaqtuq	! is like, is comparable (N)
-asiqtuq	! is nodding (with head while others dance)
-ataaniittuq	! is under
-atanġiqsauruq	! is free
-atanġusuktuq	! is cranky (N)
-atanġusuktuq	! is cranky
-atanġuturuq	! is cranky (K)
-ataruq	! is connected with
-atchiksuq	! is lowly, is humble (K)
-atiruq	! is the same, there is no difference
-atlaġiiqsuq	! is different, other (K)
-atlayuaqtuq	! is shy, bashful (of toddler) (K)
-atlayuatlaitchuq	! is friendly, not bashful (of toddler) (K)
-atniġñaqtuq	! is sick (malaise) (K)
-atniiyaruq	! is sore (K)
-atqunaqtuq	! is much, too much, plenty, there is an abundance
-atriqaqtuq	! is like, is comparable (K)
-attaġnaitchuq	! is friendly, kind, communicative
-attaġnaqtuq	! is stern, unfriendly, non-communicative
-atuġnaqtuq	! is useful
-atuġuiqsuq	! is worthless
-atuŋaiqsuq	! is worthless
-atuŋaiqsuq	! is useless (having been useable)
-aullaġmiuq	! is also departing
-aullaqsiviñaqtuq	! is departing quickly
-auruq	! is rotten, is rotting, aging
-ayaagittuq	! is undecided, desires to but can't begin (N)
-ayauŋaruq	! is blind
-iġḷiktuq	! is stingy
-iġḷituruq	! is stingy (n, K)
-iññiaqtuq	! is visiting (K)
-iñiqtiqtuq	! is threatening (scolding that brings results)
-iñiqtuqtuq	! is tired (K)
-iñuŋniqsuq	! is a gentleman
-iñugiitchuq	! is ugly (lit .not a good person)
-iñugiitchuq	! is ugly
-iñugiksuq	! is handsome, beautiful
-iñugiksuq	! is a good or pretty person
-iñulluataqtuq	! is a good man
-iñunŋunaqtuq	! is naughty (lit. evokes a person to pain) (K)
-igliŋnaqtuq	! is cute (of a baby)
-igniġuqpatittuq	! is lightning (N)
-iłuaqquġuuruq	! is proper, honest
-iłuaqtuq	! is right, good, correct, fitting
-iłuitchuq	! is wrong
-iłuiḷḷiuqtuq	! is troubled, bad conscience
-ikimaruq	! is burning, is on (of electric light)
-ikiqiitchuq	! is narrow
-ikiqturuq	! is wide
-ikkattuq	! is shallow
-ikľigutchaktittuq	! is tempted (lit. induced to want the other)
-iksilaitchuq	! is never scared (N)
-iksitlaitchuq	! is never scared (K)
-ikuallauraqtuq	! is burning a little, smoldering
-ikumaruq	! is burning, is on (of electric light)
-illuktuq	! is snow blinded
-iluitchuq	! is sick
-imaiqsuq	! is low (water in river)
-imaqaqtuq	! is full
-imiġuktuq	! is thirsty
-imiqtaqtuq	! is going for water
-immaqtuq	! is leaking
-immiqsuq	! is full
-inillakkaa	! is placing it
-inillaktuq	! is placing
-inuqtuq	! is insufficient, fails to reach it, shoots low
-ipiktuq	! is sharp
-ipiktusuktuq	! is sad, despondent
-ipiqtusuktuq	! is despondent, sad (N)
-ipkitchuq	! is dull
-ipqitchuq	! is pure, is holy (K)
-ipqitchuq	! is pure
-ipquruq	! is dirty
-ipyanŋunaqtuq	! is stuffy (K)
-iqalugniaqtuq	! is fishing (N, q)
-iqatauruq	! is together with (K)
-iqiasruktuq	! is lazy (K)
-iqiasuktuq	! is lazy
-iqiitchuq	! is not lazy
-iqłaqtuqtuq	! is jigging, is hooking mudshark (K), is hooking tomcod (q)
-irriŋuġaa	! is icy cold (N)
-isiġniataktuq	! is trying to enter
-isiqattaaqtuq	! is visiting
-isiqsiruq	! is getting smoke filled
-isiqsuruq	! is daring (strong), is enduring (persistent hunter) (K)
-isruitchuq	! is endless, eternal, is clear, is not muddy (K)
-isruqtuq	! is opaque, is muddy, not clear (K)
-isuitchuq	! is endless, eternal, is clear, is not muddy (N, q)
-isuitchuq	! is eternal, endless
-isumalluaġiitchuq	! is foolish, unwise
-isumatturuq	! is wise
-isumaturuq	! is wise
-isummaqpaktuq	! is sorrowing much
-isuqtuq	! is opaque, is muddy, not clear
-itiruq	! is deep
-itivliruq	! is sleepwalking, talking in his sleep
-itqanaiqsuq	! is ready, finished
-itqatauŋaruq	! is together with (N)
-itqumaruq	! is awake, is not sleeping
-itqutchiġnaqsiruq	! is breakfast time
-itriŋuġaa	! is icy cold (K)
-ivaġiaqtuq	! is going to search
-ivalukataqtuq	! is flapping (slowly)
-ivalukkattaaqtuq	! is flapping (rapidly)
-ivaruq	! is nesting
-ivyanŋunaqtuq	! is stuffy (N)
-iḷaŋŋaaqtaaqtuq	! is subtracting
-iḷaqatniktuq	! is married (lit. he obtained a partner)
-iḷaruq	! is adding (K)
-iḷisimasugnaqtuq	! is thought to know (I think he knows)
-iḷumutuuruq	! is true
-iḷunŋutchaktuq	! is deeply angry, hurt, disturbed
-iḷḷaktuq	! is tangled
-iḷḷatiruq	! is adding (N)
-kaaktuq	! is hungry (N)
-kaŋiqsiñapiaŋitchuq	! is not very understandable
-kaŋiqsiñapianġitchuq	! is not very understandable
-kaivaŋaruq	! is dizzy (N)
-kakkaaqtuq	! is starving, starved to death
-kalivittuq	! is stuck
-kallularuq	! is thundering
-kamaksriugaqtuq	! is always obedient
-kamanałhaaqtuq	! is greater
-kamanaqtuq	! is great, is to be honored
-kamasaaqtuq	! is boastful (N, q)
-kamasraaqtuq	! is boastful (K)
-kamatchaktuq	! is surprised at another's ability, takes pride in another's ability
-kananiittuq	! is down there (visible)
-kanŋusruktuq	! is ashamed, bashful (K)
-kanŋusuktuq	! is ashamed, bashful (N)
-kanŋusuuruq	! is shy
-kanŋutchiaqtuq	! is embarrassed
-kasuŋaruq	! is loose (e.g. rope tied loosely around pole) (N)
-kataktuq	! is falling
-kaviqsuq	! is red
-kiñuġautiruq	! is too late (K)
-kiŋuġautchiruq	! is too late (N)
-kigiraqtuq	! is crimping soles (K)
-kiiqsiuqtuq	! is painful
-kiiraqtuq	! is crimping soles (N)
-kiliktauruq	! is being warned
-kiluaqtuq	! is ripped
-kiluusaqsimaruq	! is locked
-kinnaŋaaqsiruq	! is becoming senile
-kinnauruq	! is foolish
-kipiġiruq	! is anxious to
-kipiġniuqtuq	! is anxious to (N)
-kipiqniuqtuq	! is anxious to (K)
-kisimġiuqtuq	! is alone
-kivsiruq	! is startled awake while dozing off
-kukiuruq	! is cooking (N)
-kusiksuq	! is dripping
-kuukpiaqtuqtuq	! is drinking coffee
-kuvriqsuq	! is setting net
-maŋaqtuq	! is black (N)
-maliksuktitauruq	! is convinced
-mamianaqtuq	! is annoyed, offended
-manaqtuqtuq	! is hooking fish (tomcod) (q)
-maptukitchuq	! is thin
-mapturuq	! is thick
-miñugluktuq	! is stained, spotted
-miñułiqtuq	! is painting
-mikiruq	! is small
-minġuqtuq	! is tired
-miniksuq	! is misty
-misuitchuq	! is pale (lit. without juice) (q)
-mitchaaġaqsiruq	! is proceeding to land
-muliktuq	! is closed, turned off (radio, etc.)
-naamaruq	! is complete, is enough
-naammaktuq	! is fitting, right, perfect
-naaqturuq	! is pregnant (K)
-naattuq	! is ended, finished, stopped, caught
-naŋiitchuq	! is daring, is brave
-naŋiitchuq	! is daring, brave
-naŋittuq	! is sick (malaise)
-naŋittuq	! is sick
-nagliŋnaqtuq	! is poor, pitiable (K)
-naglignaqtuq	! is poor, pitiable (N)
-nagliktuq	! is merciful, compassionate
-naitchuq	! is short
-naktuqtuq	! is chipped
-nakuqsiruq	! is getting better (K)
-nakuruq	! is cross-eyed
-nakuumaruq	! is in state of being good
-nakuupiaġataqtuq	! is extremely good
-nakuuqsiruq	! is getting better (N)
-nakuuruq	! is good
-nakuuruq	! is good, fine
-nakuuruq	! is good
-nalaunŋaruq	! is right, just
-nalauttuq	! is right
-nalukataqtuq	! is blanket tossing
-nalunaitchuq	! is clear, easy to see
-nalunaqtuq	! is secret, is hidden
-nalupqigigaa	! is uncertain about it
-nalupqinaitchuq	! is certain, sure
-nalupqinaqtuq	! is uncertain, unpredictable
-nalupqisrunġitchuq	! is confident, is sure (not doubting) (K)
-nalupqisuŋitchuq	! is confident, is sure (not doubting) (N, q)
-naluruq	! is ignorant, does not know
-naniġiaqtuqtuq	! is trapping
-naniqtuq	! is trapped
-napiŋaruq	! is hunchbacked (N)
-napittuq	! is snared
-napituruq	! is noisy
-napuŋaruq	! is hunchbacked (K)
-naqittuq	! is low
-natiġviksuq	! is ground drifting
-natqiksruqtuq	! is correcting one who has unknowingly erred
-navianaqtuq	! is dangerous
-nayaŋaqtuq	! is drowsy
-nayagaqtuq	! is drowsy (N)
-niġiaqtuq	! is going to eat
-niġiľauraqtuq	! is eating a little
-niġisuktuq	! is hungry (K)
-niñŋiqsimaruq	! is insulating dwelling by building a wall of snow blocks about it and placing soft snow between the wall and the dwelling
-nigaqtuq	! is snared
-nigaqtuqtuq	! is snaring caribou or sheep
-nigaqtuqtuq	! is snaring small game
-nigliñaqtuq	! is cold (not weather)
-niguaqtuqtuq	! is wary (N)
-niksiksuqtuq	! is hooking (jigging) fish
-nipaitchuq	! is quiet
-nipittuq	! is sticky
-nipituruq	! is noisy, loud
-niptaitchuq	! is hazy (N)
-niptaqtuq	! is clearing, clouds are dispersing
-niptaruq	! is bright weather (N)
-niqiłuktuq	! is poor meat (food)
-niqniaqtuq	! is cooking (K)
-nuŋuruq	! is used up
-nullautchiġñaqsiruq	! is supper time
-nunagiksuq	! is a good land
-nunuuraqtuq	! is remorseful
-nutauruq	! is new
-nuviyaliqsuq	! is overcast, is getting cloudy
-nuvuyaŋŋuqsaiññaġaa	! is changing to cloudy weather
-nuvuyalaqtuq	! is cloudy (broken)
-nuvuyaliqsuq	! is overcast, is getting cloudy
-nuyuaqtuq	! is wary (K)
-nuyuiqsuq	! is not afraid, is not scared
-paniktuq	! is thin, skinny
-paniqtuq	! is dry
-pannauruq	! is thin, skinny
-pasiaksraitchuq	! is faultless
-pasinaqtuq	! is guilty
-patchisaiqsauruq	! is not guilty, innocent
-patchisauruq	! is guilty
-piaqłuktaŋitchuq	! is kind (N)
-piġiitchuq	! is bad
-piġuqtuq	! is haughty (N)
-piññaġiaqtuq	! is early
-piññaqnaqtuq	! is pretty
-piññaqnaqtuq	! is good-looking, beautiful (K)
-piŋŋuaqtuq	! is pretending
-pigiitchuq	! is bad
-piiqsuq	! is taken away
-piiqsuq	! is absent
-piitchuq	! is not
-piiyaqtuq	! is broken
-pimaqłuktuq	! is bad
-piľľaqtaqłuni	! is (riding) roughly
-piqpaktuq	! is expensive, precious, valuable
-piqsiqsuq	! is snow storming (b)
-pisaasruktuq	! is always trying to do (K)
-pisaasruktuq	! is clever (K)
-pisaasuqtuq	! is clever (N)
-pisaasuuruq	! is always trying to do (N)
-pisuġiuqsuq	! is enough (as when filling gas tank)
-pisuġnaitchuq	! is not safe (ice)
-pituitchuq	! is loose, untied
-pitḷaruq	! is able to do (K)
-pitḷautaqtuq	! is dependable, is good
-piuniaŋitchuq	! is meek (retiring)
-piḷaiqsuq	! is tired
-piḷaiqsuq	! is tired (N)
-piḷik	! is supplied with
-piḷiuqtuq	! is making
-piḷuiḷḷiqsuq	! is not as capable as used to be
-piḷuksisuguuruq	! is always wanting to do badly
-piḷuktuq	! is bad, sins (N)
-piḷuktuq	! is bad (N)
-piḷḷaruq	! is able to do (N)
-piḷḷuataqtuq	! is good, dependable
-piḷḷuataqtuq	! is dependable, is good (N)
-pularuq	! is eclipsed (lit. slipped into the brush)
-puqiksuq	! is quick to learn, is wise (K)
-puyattuq	! is dirty, grimy, gummy
-puyauruq	! is soiled, (e.g. of unwashed clothes)
-puyugaktuq	! is approaching a sea mammal by crawling (N)
-qaaŋaniittuq	! is on top
-qaaktuqtuq	! is seining
-qaamasraaqtuq	! is buoyantly joyful (K)
-qaamatchaktuq	! is buoyantly joyful (N)
-qaġanaqtuq	! is easy (K)
-qaġanaqtuq	! is easy, not difficult (K)
-qaiġitchuq	! is rough, not smooth
-qaiŋitchuq	! is not coming
-qaiqsuq	! is smooth, level, flat
-qaisugnaġniqsuq	! is thought he is coming (I think he is coming
-qaiḷiqsuq	! is rough water
-qaiyasiruq	! is about to come
-qaluŋniaqtuq	! is fishing (K)
-qalugaa	! is dip netting
-qaluruq	! is dip netting
-qaluuqtuq	! is dip netting
-qamittuq	! is turned off, extinguished
-qanigruaqtuq	! is snowing (no wind) (K)
-qanittuq	! is near
-qanittuq	! is near, is close
-qanniksuq	! is snowing (no wind) (N)
-qanuqsausiitchuq	! is uncertain as to what to do
-qapiktuq	! is discouraged
-qaquaġlaaġnaqtuq	! is tense because of impending unpleasantness (N)
-qaqugauġlaaqtuq	! is tense because of impending unpleasantness (K)
-qasruruq	! is withered (K)
-qasuŋaruq	! is withered (N)
-qatchaqtuqtuq	! is knocking
-qatiqtuq	! is white
-qatmiksuq	! is impatient, dislikes to wait (K)
-qauġrimaitchuq	! is numb (K)
-qaummaġiksuq	! is bright
-qaummaiḷiqsuq	! is lightning
-qaurimmaġiitchuq	! is numb (N)
-qiammiuq	! is also crying
-qiapmiuq	! is also crying
-qiġñiqtuq	! is black (K)
-qiñiġiksuq	! is good looking
-qiñitlaitchuq	! is blind (K)
-qiñiyunaqtuq	! is beautiful (lit. pleasant looking)
-qiñiyunaqtuq	! is pretty
-qiñuitchuq	! is patient (not hasty), is peaceful (K)
-qigluktuq	! is saddened about a loss
-qiiyanaqtuq	! is cold
-qikiŋaruq	! is warped
-qimmaksaliyaitchuq	! is lowly, is humble (N)
-qinnaktuq	! is angry
-qipiŋaruq	! is twisted
-qiqittuq	! is frozen (part of body)
-qiqsrauruq	! is frozen (not of body) (K)
-qiqumaruq	! is frozen (not of body) (N)
-qiruktaqtuq	! is going for wood
-qitiqqutchiġnaqsiruq	! is lunch time (noon meal) (N, q)
-qituttuq	! is soft, flexible
-qityaġnaqtuq	! is bright, glaring
-qiuññalaaqtuq	! is spine tingling (N)
-qivliŋitchuq	! is dull
-qivliqtuq	! is shiny
-quiññalasraaqtuq	! is spine tingling (K)
-quiññiqtauruq	! is ticklish
-quiñiruq	! is fat (N)
-qulauttuq	! is passing overhead
-qupyuġaġniqsuq	! is whiteout (K)
-qutchiksuq	! is high
-quuniqsuq	! is calm
-quviasruktuq	! is happy (K)
-quviasuktuq	! is happy (N, q)
-quviasuktuq	! is happy
-quviġusruktuq	! is surprised, amazed, astonished (K)
-quvyuġaġniqsuq	! is whiteout
-quyanaqtuq	! is to be thankful, is to be praised (K)
-quyaruq	! is thankful
-quyatchaktuq	! is thankful
-saattuq	! is thin
-saŋŋiruq	! is strong (K)
-saŋiaktuq	! is jealous (suspecting marital unfaithfulness)
-saŋniruq	! is strong (N)
-sagviruq	! is open, is obvious
-saiñġisuktuq	! is chagrined
-salumaitchuq	! is dirty, unclean
-salumaitchuq	! is dirty
-salumaruq	! is clean
-samaniittuq	! is down there (out of sight)
-sanaturuq	! is skilled
-sanŋuruq	! is dusty, dirty
-sapiġaa	! is difficult (K)
-sapiġñaitchuq	! is easy
-sapiġñaqsiruq	! is difficult (K)
-sapiġnałhaaqtuq	! is stronger
-sapiġnaqtuq	! is strong, mighty (N)
-saquŋaruq	! is crooked, bent
-savaŋniqsutin	! is tired of working
-savaŋniuraqtuq	! is doing what work he can!
-savagniuraaqtuq	! is doing what work he can!
-savagniḷuktuq	! is trying to work
-savakpagitchuq	! is working so much
-savakpaitchuq	! is working so much
-savaksimaruq	! is working
-savallautaqtuq	! is working well
-savapałłuktuq	! is working poorly (ineffectively)
-savapaluktuq	! is working much (hard)
-savapiaġataqtuq	! is working extremely hard
-savapiallaktuq	! is working quite hard
-savapiaqtuq	! is really working
-savayuitchuq	! is working poorly
-savvakturuq	! is always working diligently
-sayaitchuq	! is weak
-sayakturuq	! is strong, healthy
-sayakturuq	! is healthy, strong
-sialuktuq	! is raining (N, n)
-siatqiksuq	! is straight (as of a board)
-siġġaqiruq	! is difficult, laborious
-siġñiksrauruq	! is devoted
-siġḷiġnaitchuq	! is easy (N)
-siġḷiġnaitchuq	! is easy, not difficult (N)
-siġḷiġnaqtuq	! is difficult (N)
-siŋaiyauruq	! is pregnant (N)
-sigñaruq	! is greedy (N)
-sigñataitchuq	! is generous (not stingy) (N)
-siiġñaaqtuq	! is sweet
-siiksuq	! is cutting fish (for drying)
-siimaktuq	! is arguing heatedly
-sikñaruq	! is greedy (K)
-sikñataitchuq	! is generous (not stingy) (K)
-sikuliqiruq	! is in process of break-up
-siqquqtuq	! is opinionated, not easily persuaded (lit. is hard)
-siqquqtuq	! is hard
-siqsuruq	! is daring (strong), is enduring (persistent hunter) (N)
-sitquqsimanaqtuq	! is tragic
-sitquqsimanaqtuq	! is "tied up in knots", tense because of impending unpleasantness
-sivikitchuq	! is a short distance, is of short duration
-sivisuruq	! is a long distance, is of long duration
-sivuniqtuuguuruq	! is obstinate (N)
-sivunmuuruq	! is steadfast, continues on regardless (N)
-sivunmuuruq	! is stubborn, continues on regardless (N)
-sivutmuuruq	! is stubborn, continues on regardless (K)
-sivutmuuruq	! is steadfast, continues on regardless (K)
-sivutmuusruuruq	! is obstinate (K)
-siḷaŋiqsuq	! is carousing
-siḷagiitchuq	! is bad weather
-siḷagiksuq	! is good weather
-siḷaluktuq	! is raining (K)
-siḷaluktuq	! is bad weather (N)
-siḷaluktuq	! is rainy (K)
-siḷġiksuqtuq	! is correcting one who wilfully erred
-siḷiktuq	! is wide (K)
-Siḷivigmiñŋaqtuq	! is coming from Selawik
-Siḷivigmiittuq	! is at Selawik
-suaŋaitchuq	! is weak
-suaŋaruq	! is strong
-suammaktuq	! is enduring (N)
-suŋaaqtuq	! is green
-suŋaġnitchuq	! is bitter
-sukaitchuq	! is slow
-sukattuq	! is fast
-suksraunġiqsuq	! is destroyed
-suliuqtuq	! is cooking
-suurimaanġiqsuq	! is not concerned for law or other people (N)
-taaktuq	! is dark
-taaqsiruq	! is becoming dark
-taŋŋiqsuq	! is fulfilled
-taŋiġiqsuq	! is false (lies)
-taŋiġitchuq	! is false (lies)
-tagialanaitchuq	! is hospitable (enjoyable atmosphere)
-taiguanŋuliqsuq	! is tired of reading
-tainnaittuq	! is like
-tairuq	! is named
-takiruq	! is long
-taktuktuq	! is foggy
-taluġnaitchuq	! is friendly, kind, communicative
-taluġnaitchuq	! is kind
-taluġnaqtuq	! is stern, unfriendly, non-communicative
-taluqsraqtuq	! is afraid of someone's sternness
-tammaqtuq	! is lost
-tapiqtuq	! is along sie, is parallel
-tatamnaqtuq	! is terrible, is very frightening
-tavruŋaqsausiitchuq	! is uncertain about going there
-tiggaqtuq	! is stiff
-tigliqtaqtuq	! is throbbing
-tigluktuqtuq	! is knocking
-tiipaktuq	! is coquettish
-tuniqsimaruq	! is faithful
-tupaktuq	! is startled
-tuqunasrugniaqługu	! is thought to be dead
-tuqutauyasiruq	! is about to be killed
-tusaalaitchuq	! is deaf (N)
-tusiattuq	! is lame (N)
-tusiḷḷaqtuq	! is deaf
-tusratlaitchuq	! is deaf (K)
-tusriattuq	! is lame (K)
-tusruruq	! is envious (K)
-tusuruq	! is envious (q)
-tutqiksuq	! is content, is at peace (within)
-tutqiksuq	! is content, is solid, is peaceful
-tutquqtuuruq	! is settled in (having moved)
-tuttuliaqtuq	! is hunting caribou
-tuttutuqtuq	! is eating caribou
-tuutuq	! is lashing skin to the frame
-tuvraktuq	! is tracking
-uġuqtuq	! is damp
-uġuuruq	! is wet from dew
-uŋasiksigiruq	! is thus far
-uŋasiksuq	! is far
-uŋasriksuq	! is far
-uiñġaliqsuq	! is sleepy
-uiruq	! is over-excited, too eager, hurries
-uisauruq	! is adrift on an ice pack
-ukpiġnaqtuq	! is faithful
-ukpiŋŋuaqtuq	! is pretend believing (hypocrite)
-ukuŋaruq	! is moldy
-ululiruq	! is making an ulu
-umiktuq	! is closed (e.g. the chimney draft)
-unnautairuq	! is not now feverish
-uqalaitchuq	! is dumb (N)
-uqallaktuq	! is speaking
-uqamaqłuktuq	! is speaking badly (cursing)
-uqaqsiġiaqtuq	! is open to counsel (K)
-uqaqsiġiitchuq	! is not open to counsel (K)
-uqautisruġnaqtuq	! is easy to talk to, amiable (K)
-uqautisuġnaqtuq	! is easy to talk to, amiable (N, q)
-uqayunaqtuq	! is receptive (lit. pleasant to talk with)
-uqayunaqtuq	! is receptive
-uqitchuq	! is light
-uqqitchuq	! is secure, safe, sheltered
-uqsruuruq	! is fat (K)
-uqumaitchuq	! is heavy
-Utqiaġviŋmuktigaa	! is sending it to Barrow
-Utqiaġviŋmuutigaa	! is taking it to Barrow
-utukkuu	! is tiny!
-utuqqauruq	! is old
-uumaruq	! is alive
-uunaqsiruq	! is becoming hot
-uunaqtuq	! is hot
-uunaqtuq	! is warm
-uusiruq	! is over-excited, too eager, hurries
-uutiġniq	! is scarred from a burn (N)
-uutinniq	! is scarred from a burn (K)
-uuyuruq	! is linked to
-uvaniittuq	! is here
-uviñaktuq	! is fat
-uyummiqsuq	! is misty, blurred
-aaġluqtuq	! looks up, raises head
-aaŋittuq	! thinks he knows everything
-aalġuruq	! menstrates
-aatchauqtuq	! yawns
-aatchuiruq	! gives (K)
-aġġiruq	! dances, participates
-aġiunaqtuq	! plays (K)
-aġiunayaqtuq	! would be stopped
-aġiuruq	! ends, quits, stops, is satisfied (N)
-aġvaqtuq	! killed a whale
-aŋaayuruq	! prays (N)
-aŋalatchiruq	! rules, reigns, directs
-aŋayuruq	! dances
-aŋiiñaqtuq	! procures no game, fish
-aŋiłhisaqtuq	! swings (K)
-aŋiqtuq	! agrees, assents, says yes with raised eyebrows
-aŋiruq	! arose, resuscitated, revived
-aŋiruq	! resuscitated, revived, arose
-aŋivraqtuq	! disassembles (K)
-aŋivraqtuq	! loosens, unravels, unties
-aŋivsiruq	! disassembles (N)
-aŋiḷaaqtuq	! goes home (K)
-aŋiḷgisaqtuq	! swings (n)
-aŋuaqtuq	! paddles
-aŋularuq	! chews
-aŋuruq	! procures game, fish
-aŋuyaktuq	! fights
-agaayuruq	! prays (K)
-agaktuq	! fights, plays roughly
-agiaqtuq	! files, rubs
-aglaktuq	! writes
-aglautiruq	! types (K)
-aglautitaqtuq	! types (N)
-agliñġaqtuq	! reaches puberty
-agliqiruq	! reads
-agliqiruq	! reads (K)
-agliruq	! grows up, gets big
-airuq	! goes home (N)
-aitchuiruq	! gives (N)
-aitchuusiaqaqtuq	! has received a gift
-aiyugaaqtuq	! invites
-aiyuilisuuruq	! gets carried away, goes to excess
-akigaqtuq	! bears, carries
-akimaruq	! has won (is in state of having opposed)
-akimaruq	! wins
-akiqsruqtuq	! promises
-akisaqtuq	! revenges (lit. tries to counter)
-akitchaktuq	! trades, barters
-akpaktuq	! steps up (from lower to higher place)
-akpittuq	! starts to sing
-aktigiruq	! it is that big
-akuġluktuq	! bell rings
-akuqtuq	! receives, accepts
-akutuq	! leaf
-akutuq	! "Eskimo ice cream" (of cooked fats, meats and berries)
-alapittuq	! inattentive, fools around, is confused
-alatkaqtuq	! scans the landscape from an elevated point, looks into water for signs of fish
-alġaqsruiruq	! exhorts, reproves, preaches (N)
-alġaqsruiruq	! exhorts, corrects, preaches (N)
-aliuqtuq	! haunts
-aliuqtuq	! cooks dog food (K)
-aliuqtuq	! marvels, fears (N), haunts
-allakuaqtuq	! goes by another way
-allaqtiġiruq	! dries, wipes (e.g. dishes)
-allaqtuq	! clear weather
-allatuqtuq	! commits adultery
-allayuaqtuq	! fears because of an unusual event, shyness of toddler (N)
-aluktuq	! licks
-alutaġuktuq	! wants a spoon
-aluutaġaqtuq	! eats with a spoon
-amaaqtuq	! carry baby on back
-amiiġruktuq	! has skinned self (N)
-amiiqsiktuq	! has skinned self (K)
-amiiqsiruq	! skins an animal
-amiḷiqiruq	! works with skins
-anaqtuq	! defecates
-anayasuktuq	! fears the consequence (N)
-aniiqsuaqtuq	! plays outdoors
-aniqtiġiruq	! breathes
-aniruq	! exits, is born
-anniġñaqtuq	! hurts, pains, is sick (N)
-anniqsuiruq	! helps, is beneficial (N)
-anniqsuiruq	! benefits, helps
-anuqsruruq	! endures, suffers (K)
-apiqsriruq	! asks, questions
-apluqtuq	! steps, takes a step
-apqusraaqtuq	! travels through (K)
-apuqtuq	! meets, bumps, strikes against
-aqaluktuq	! catches a fish (kiv, n)
-aqavittuq	! sits down ( q)
-aqiaġunŋuruq	! has an acute stomachache
-aqiruq	! kicks
-aqpaksruqtuq	! runs (of human) (K)
-aqpaliġaaqtuq	! runs a race
-aqpaqsruqtuq	! runs (K)
-aqpattuq	! runs (of human) (N)
-aqpattuq	! runs (N)
-aqqauqtuq	! (fish) bit on hook
-aquvittuq	! sits down
-argaaqtuq	! broken finger
-arguktuq	! travels into the wind
-ataaqtuq	! travels down river by boat
-ataaqtuqtuq	! goes down to the lead to camp for whaling (N)
-ataaqtuqtuq	! goes to set up whale camp on the ice (N)
-ataqsiruq	! borrows
-atauttuq	! goes beneath
-atchikisaaqtuq	! see-saw jumping (N)
-atigiruq	! puts on parka
-atigitchiaqtuq	! gets a new parky
-atiqayaqtuq	! almost the same
-atiqsaaqtuq	! travels down river by sled
-atlayuaqtuq	! fears because of an unusual event, shyness of toddler (K)
-atniġñaqtuq	! hurts, pains, is sick (K)
-atniutaqtuqtuq	! has pain
-atqaqtuq	! descends
-attaqsraqtuq	! respects, fear of a person who is not well known (K)
-atuaniktuq	! has already sung
-atuŋaktuq	! resoles a boot (K?)
-atuqtuq	! uses, acts immorally
-atuqtuq	! sings
-atuqtuuraqtuq	! plays instrument
-atuutiksraqaqtuq	! has a song choice
-auktuq	! nose bleeds
-aularuq	! dances (K)
-aularuq	! moves (N, s)
-aularuq	! dances (K)
-aularuq	! nuna earthquake (N)
-aullaġniiruq	! begins
-aullaqsruġniaqtuq	! picks berries
-aullaqtuq	! goes away
-aullaqtuq	! departs, goes away
-aunaaqsruqtuq	! bleeds, menstruates (K)
-aunaaqtuq	! bleeds, menstruates (N)
-auniqtuq	! has a rotten spot
-auqtuq	! stalks seal, crawling and scratching on ice at the same time
-autaaqtuq	! divides, shares
-avaalaruq	! yelps with pain (K, q)
-avallaktuq	! travels straight out from the shore
-aviktuq	! cuts, divides (meat, bread, etc.)
-aviḷuqtaqtuq	! bell rings
-ayauruq	! got blind
-ayuktuq	! ball
-ayuqtuq	! plays ball (N)
-ayuruq	! plays ball (K)
-ŋraiḷiuqtuq	! fries meat
-iġġialaruq	! yells, shouts
-iġġuqsiruq	! washes clothes (K)
-iġñiqaġniaqtuq	! will have a son
-iġñiruq	! gives birth, has a baby
-iġitchaqtuq	! plucks fowl
-ichuktuq	! fleshes animal skin, tans (K)
-iññiaqsiruq	! stretches hide on frame
-iñiqsiruq	! made, created (K)
-iñugiaktuq	! are many
-iñuguqtuq	! became a man (having grown up)
-iñuguqtuq	! grew up (lit. became a person)
-iñukpalliktuq	! comes from, originates
-iñuuniaqtuq	! makes a living, lives
-iñuuruq	! lives
-iŋiqsruqtuq	! asks, prays (K)
-iŋiuliuqtuq	! pitches (boat)
-iŋutuq	! young female (choice whale, soft muktuk)
-igaapiaqtuq	! boils meat or fish
-iggianŋuruq	! has an acute sore throat
-igittuq	! throws away, discards
-iglaŋaaqtuq	! smiles (N)
-iglaŋaaqtuq	! smiles
-iglaŋaruq	! smiles
-iglaqtuq	! laughs
-igliqtuq	! travels, moves
-iglukisaaqtuq	! juggles
-igluqpiruq	! builds a house (N)
-igniqauqtuq	! Steller's eider (Somateria stelleri)
-igniruq	! make fire with flint
-igruq	! frostbite (K)
-igḷutuiruq	! endures
-igḷutuiruq	! endure
-iivaqsaaqtuq	! rounds a bend (K)
-iivaqtuq	! comes around a point (K)
-iłuaqsiruq	! recovers
-iłuaqsiruq	! heals, fixes
-iłuaqsruqtuq	! corrects person who is erring ignorantly
-ikaaqtuq	! crosses over
-ikayuqtuq	! helps
-ikiaqtaalaaqtuq	! body tingles because of emotional stimulus
-ikiruq	! burns, is consumed
-ikiruq	! embarks, enters, gets on or into
-ikiruq	! embarks (boat, sled, airplane etc.)
-ikpiktitaqtuq	! water is undercutting bank
-ikpiktitaqtuq	! bank is being undercut by water
-ikuallaktuq	! bursts into flame
-ikuktuq	! fleshes animal skin, tans (N)
-ikuktuq	! loads sled (N)
-imaqsiruq	! moistens skin
-imñiqsaktuq	! groans
-imŋaluktuq	! whines
-imŋaluktuq	! whines (dog), hums (person)
-imigluktuq	! earring
-iminŋuruq	! has a hangover (K)
-imiqtuq	! drinks
-innaittuq	! the like of, such kind (N)
-ipiruq	! suffocates, smothers, drowns
-ipnaiqtuq	! goes to a cliff
-ipuaqtuq	! rows (N)
-ipuktaqtuq	! see-saw jumping (K)
-iputtuq	! rows (K)
-iqaluktuq	! catches a fish (N, q)
-iqaqsriruq	! washes clothes (N)
-iqiasuktuq	! lazy
-iqiatchaktuq	! (moon) begins to wane
-iqquliruq	! skins muskrat (by cutting the belly section)
-iqsiruq	! fears (general, most common)
-iqsiruq	! fears
-iqsisaaqtuq	! frightens away an attacking animal (K)
-iqsruqtuqtuq	! builds a house (K)
-iqsuktaqtuq	! wrinkles nose
-iqsuktuq	! responds negatively by wrinkling nose
-irinŋuruq	! eye hurts
-iriqtuq	! hides
-isaaŋaruq	! reaches forth
-isaaqtuq	! raises his arms (N)
-isaġutiruq	! beings
-isimŋaaqtuq	! line of gently sloping hills
-isiqtuq	! enters, visits
-isivġiiruq	! judges (N)
-israktuq	! raises his arms (K)
-isrumaaluktuq	! worries (K)
-isrumanŋuruq	! holds a grudge (K)
-isrumaruq	! thinks (K)
-isumaaqtuq	! mourns (not expressed), worries (K)
-isumanŋuruq	! holds a grudge (N)
-isumanŋutchautiruq	! argues heatedly
-isumaruq	! thinks (N, q)
-itchuqtuq	! waits for an animal to appear (K)
-itiġnaġiaqtuq	! arises early
-itiktaqtuq	! has diarrhea
-itiqtuq	! wakes up
-itnaqtuq	! the like of, such kind (K)
-itqaġmiraqtuq	! he habitually remembers
-itqaqtuq	! remembers
-ittuq	! exists, is, lives, stays
-ivaktuq	! searches (N)
-ivaluktuq	! flaps (N)
-iviġaktuq	! pleases
-iviktuq	! fits
-ivruq	! sod block
-ivruq	! sod for house building
-ivukutaqtuq	! flaps (K)
-ivvaqtuq	! bathes (N)
-iḷaliruq	! shakes hand
-iḷaliruq	! adds, joins, shakes hands with (K)
-iḷaqatniktuq	! obtained a marriage partner
-iḷasrailaruq	! cries with pain, screams (K)
-iḷimasuktuq	! suspect
-iḷiqsaqtuq	! quakes, wobbles
-iḷiqsaqtuq	! nuna earthquake (K)
-iḷiqsaqtuq	! nuna earthquake
-iḷisaqtuq	! tries to learn, practices
-iḷisaurriruq	! teaches (N)
-iḷisautriruq	! teaches (K)
-iḷisimaruq	! knows
-iḷitchiruq	! learns
-iḷitchuġiruq	! recognizes, realizes
-iḷunŋuruq	! stomach hurts
-iḷuvviktuq	! buries (N)
-iḷḷaqtuq	! tangle
-iḷḷatiruq	! adds, joins, shakes hands with (N)
-iḷḷiaqsuqtuq	! combs hair (N)
-kaŋataliiktaktuq	! to rumble (as a moving sled)
-kaŋiqsiruq	! understands
-kaimuġaqtuq	! pushes heavy sled (N)
-kaivittuq	! circles around (K)
-kaivḷuktuq	! pushes heavy sled
-kakaaktuq	! carries on head or shoulders
-kakiruq	! pricksq
-kakkiñŋuruq	! has a stuffy nose
-kakkiruq	! blows nose
-kalaktuq	! clears throat
-kalaktuq	! burps (N, q)
-kamaksriruq	! obeys
-kapiruq	! stabs
-katittuq	! gathers
-kauktuq	! hammers (K)
-kautaqtuq	! hammers (N)
-kayuqtuq	! red fox (N)
-kayuqtuq	! fox (K)
-kiavluktuq	! circles around (N)
-kiŋiaqtuq	! turns head (K)
-kiŋiaqtuq	! turns head, looks behind (K)
-kiŋmaqtuq	! bites
-kiŋuruq	! capsizes (N)
-kiŋuvaannaktuq	! inherits (N)
-kigutinŋuruq	! has a toothache
-kiiñaġiiliruq	! blushes
-kiliktuq	! tells news, warns
-killaiyaqtuq	! mends, sews
-killukuaqtuq	! errs
-killukuaqtuq	! goes wrong way
-killuqsaqtuq	! sinned (K)
-kinataqtuq	! brakes sled
-kiniqtuq	! thick soup
-kipaluniktuq	! has helpers
-kipriruq	! cuts off, severs (K)
-kirriqsiruq	! has a fever
-kirriruq	! cuts off, severs (N)
-kitñuruq	! capsizes
-kiviktuq	! lifts
-kiviliqtuq	! cannot recall word or name, forget
-kiviruq	! sinks
-kivluktuq	! cuts across
-kiḷiigruktuq	! has skinned self, abrased
-kukiḷuktuq	! goes about from place to place
-kukkiḷiruq	! picks teeth
-kumiktuq	! scratches
-kuraqtuq	! looks down
-kurraqtuq	! looks down, lowers head
-kuviruq	! pours
-kuvraqsruqtuq	! checks net
-kuvraqtuq	! netted fish
-kuvriqiruq	! checks net
-kuvriruq	! makes net
-maġaalaruq	! yelps with pain (N)
-maguruq	! howls (dog, wolf)
-makimaktuq	! understands not (N)
-makittuq	! arises, stands up
-makpiqtuq	! opens (as a shirt, coat)
-maliksuktitauruq	! convinced
-maliktuq	! follows (another)\
-mamittuq	! heals (of sore, cut, etc.)
-mapkutittuq	! slaps the water with his tail (beaver)
-mapqaqtuq	! reports of a gun, sound of an explosion
-maqiruq	! sweats (N)
-maqiruq	! drains (of ear, sore etc.), sweats
-mattaqtuq	! disrobes, removes the harness from a dog
-mauragaaqtuq	! crossing open water by jumping on "stepping stone" ice pans
-mauruq	! steps into, falls into a hole, breaks through (of snow)
-mayuqtuq	! climbs
-mayuqtuq	! ascends, climbs up
-miġiaqtuq	! vomits
-miluktuq	! nurses
-miqłiqtuq	! child (b)
-miquqtuq	! sews (N)
-misigaqtuq	! hops
-misuktuq	! dips
-mitaaqtuq	! jokes
-mitauturuq	! mocks (K)
-miḷuqtuq	! hits with a thrown object
-muluruq	! stays a long while
-mumiksiruq	! translates
-muqpaktuq	! dives (of a sea mammal whose body curves high out of the water)
-naaġuqtuq	! (moon) is full
-naalaktuq	! listens
-naaruq	! ends, runs out, finishes
-naavittuq	! dumps out (non-liquid)
-naŋiatchaktuq	! fears a situation
-nagliksaaqtitchiruq	! persecute
-nagliksraqtuq	! pities
-naipiqtuq	! watch critically (N)
-nairuq	! smells strong, smells foul
-nairuq	! smells
-nakiqtuq	! goes direct (as path of bullet)
-nakkaqtuq	! dives, sinks
-nakuaqsriruq	! likes, loves
-nakuugisiruq	! it is going to be good
-nakuułallaktuq	! it is very good
-nakuupiaŋitkaluaqtuq	! although not very good, it is okay
-nakuusimaruq	! now is good (having been ot good)
-nalauraaqtuq	! rests
-nalautchaqtuq	! guesses, gambles
-nalautittuq	! fulfills, sights in a rifle
-nalġuqsruiruq	! corrects, instructs
-nallaqtuq	! has lain down
-nallaqtuq	! lies down
-nallaruq	! lays (himself) down
-naluksriŋuaqtuq	! has a hangover (N)
-naluktuq	! swims (of sea mammals and polar bear)
-nalupqisuktuq	! doubts, is uncertain
-nanġaqtuq	! brags, praises (himself)
-nanġaqtuq	! praises, boasts
-nanmaktuq	! carries on the back, back packs (N)
-nanuktuq	! rubs with seal oil (as on neck for sore throat)
-napaaqtuq	! tree
-napaaqtuq	! tree, spruce tree
-naparuq	! sticks up
-naparuq	! (4) rib (4)
-nappairuq	! builds
-narranŋuruq	! has abdominal ache
-narranŋuruq	! stomach cramps (acute)
-nasittuq	! ascends to a high spot for scanning (N)
-natchiqiruq	! washes floor (K)
-natmaktuq	! carries on the back, back packs (K)
-nauruq	! grows
-nautchiiruq	! plants
-nautkiaqtuq	! jumps down
-naviktuq	! breaks
-nayuutiruq	! stays, remains
-niaqunŋuruq	! has a headache
-niġianiktuq	! has already eaten
-niġiqsuruq	! like to eat excessively (N)
-niġiraksrauruq	! must be eaten
-niġiruksrauruq	! has to eat
-niġiruq	! eats
-niġiuktuq	! expects, hopes (N)
-niġvallaksraaqtuq	! falls backward (K)
-niġḷiktuq	! choked to death
-niŋitchiruq	! sets out, plants
-niglaqtuq	! has cooled (of food, drink)
-nikatchaktuq	! gives up (N)
-nikpaqtuq	! waits for an animal to appear (N)
-niksaaqtuq	! burps (K)
-niksiḷiuqtuq	! makes a hook
-niliqtuq	! expels flatus (gas)
-nipaalaruq	! screams
-nipiruq	! (sun, moon) sets
-niqipialiuqtuq	! boils meat (K)
-niqiqaqtuq	! has meat
-niuriruq	! unloads sled (K, N)
-niuriruq	! unloads
-niuriruq	! unloads, longshores
-niuruq	! (sun, moon) appears from behind cloud
-niuruq	! disembarks
-nivaktaqtuq	! falls backward (N)
-nivaktuq	! paws (K)
-nivaktuq	! shovels, digs
-niviŋaqtuq	! hangs down
-niviqtuq	! lays on his back (K)
-nuiruq	! comes into view, rises (sun)
-nuktaqtuq	! moves from place to place
-nullaqtuq	! camps
-nuqitchiruq	! raises an object by pulling with a rope
-nutiktuq	! leaps
-nutqaqtuq	! stops, dies
-nuuruq	! moves to another dwelling
-nuuttuq	! moves to another dwelling
-nuvaksiruq	! has a cold
-nuvaktuq	! has a cold
-paaġurraqtuq	! paddles (qayaq)
-paalaktuq	! stumbles, falls forward
-paamaktuq	! crawls on all fours
-paamġuqtuq	! crawls
-paŋaliktuq	! gallops
-pairuq	! stays behind, stays home (when others went on a journey)
-paitchaktuq	! inherits (K)
-pałuqtuq	! capsizes (K)
-pakaktuq	! searches
-pakiktuq	! searches (K)
-paqittuq	! finds
-patiktuq	! slaps
-pauŋaqtuq	! travels inland
-payuktaqtuq	! gives gift of food
-piaptuq	! sloppy (n)
-piñaqtuq	! happened
-piñiaqtuq	! will do, happen
-piñiġliruq	! inadvertently startles animal
-piŋŋuaqtuq	! pretends
-pigaaqtuq	! stays up late
-pigiitḷuktuq	! it is worse
-piiguqtuq	! forgets
-piiḷaaqtuq	! denies
-piksraqtaaġuruq	! chooses (N)
-piksrutitaqtuq	! shovels
-pimmaġiksaaqtuq	! does it well
-piqpaksriruq	! loves, precious
-piqpaksriruq	! loves
-pisiksaqtuq	! tries to shoot, tries to hit (N)
-pisruktuq	! walks (K)
-pisuaqtuq	! walks (N)
-pisuaqtuq	! walks
-pisukataqtuq	! takes a stroll
-pisuktuq	! flees
-pisuktuq	! wants, desires
-pitquruq	! commands
-pituktuq	! ties up (as a dog to a pole)
-piuraaqtuq	! plays, fools around
-pivuittaqtuq	! loves (of marriage) (N)
-piḷaaqtuq	! cares for baby
-piḷaiŋiaqsiaqtuq	! takes a rest (a break from work)
-piḷaktuq	! butchers an animal (performs surgery)
-piḷġataqtuq	! finally he did it
-piḷuktuq	! sinned (N)
-piyaqquqtuq	! had an accident
-puggutchiqiruq	! washes dishes (K)
-puggutchiruq	! washes dishes (N)
-puiruq	! surfaces
-puktaktuq	! stinker (dead animal floating after having first sunk) (q)
-puktuktuq	! stinker (dead animal floating after having first sunk) (N)
-punŋaruq	! bows low, hides from animal while stalking (used for non-appearance of sun in December) (K)
-punniliuqtuq	! bakes bread (N)
-puptaktuq	! stinker (dead animal floating after having first sunk) (K)
-puptaruq	! floats
-puttuq	! bows, bends at the waist
-puttuq	! bows
-puttuqsriruq	! comes to mind, is inspired (N)
-puturiruq	! made a hole, drilled a hole
-puuguqtuq	! forgets (p)
-puukaqtuq	! stumbles
-puuvraaqtuq	! plays in water
-puuvraktuq	! swims, plows through deep soft snow (N)
-puuvraqtuq	! swims (human swimming only)
-puuvruktuq	! swims, plows through deep soft snow (K)
-puuyuqtuq	! forgets (K)
-puyuaqtuq	! stalks (K)
-qaaŋiałausrimaruq	! veers away, goes to excess (K)
-qaaliqsiruq	! roofs a house
-qaaqsiñiiraulġataqtuq	! readily blows his top (K)
-qaaqtuq	! bursts, explodes (N)
-qaġanatluktuq	! it is easier
-qaġruq	! arrow, shell
-qairuq	! comes (n)
-qairuq	! comes (N)
-qaitchiruq	! gives
-qaiyumaaqtuq	! will come (someday)
-qalġuqtuq	! croaks, crows, quacks, honks, whistles
-qaliuqtuq	! cooks fish (K)
-qalliruq	! approaches, nears
-qallugauraqiruq	! washes dishes (N)
-qaluktuq	! catches a fish (K)
-qamŋuiruq	! snores (N, K)
-qamiruq	! goes out, extinguishes itself
-qapiŋaisaaqtuq	! encourages
-qapiqtaiḷiluuruq	! argues heatedly
-qapiqtaiḷisuuruq	! argues incessantly
-qaqqiruq	! bakes bread (K)
-qaqquqtuq	! crunches, cracks
-qarvaktuq	! fleshes sea mammal (and polar bear), tans (N)
-qasraqtuq	! bell rings (K)
-qasruqtuq	! ends, quits, stops, is satisfied (K)
-qasuiruq	! meet (by chance) while travelling
-qasuutiruq	! meets, rendezvous
-qatchaqtuqtuq	! knocks, is knocking
-qatvaktuq	! fleshes sea mammal (and polar bear), tans (K)
-qauġriliqtuq	! catches on (K)
-qauġriruq	! becomes conscious
-qaummaqtuq	! clear, translucent, light enough to see
-qaunaksriruq	! cares
-qauriaqtuq	! rests
-qaurimmiaqtuq	! fainted (N)
-qavaqtuq	! to sleep on back in water (of seal)
-qavaqtuq	! sleeps on back in water (N, q)
-qaviuġnaqsauruq	! glamorous, seductive
-qiallaktuq	! cries much
-qiarraqsiruq	! starts to cry (N)
-qiaruq	! cries
-qiatuqtuq	! intestine that is turned inside out, cleaned and eaten
-qiayaqsiruq	! starts to cry (K)
-qichaqtuq	! stand upright (K)
-qiñiqtuq	! watches
-qiñunġuruq	! mourns (as in death)
-qiñuruq	! to cry fitfully (of a baby)
-qiñuvġuruq	! mourns (as in death) (K)
-qigluktuq	! sorrows, mourns
-qiiqsruktuq	! has convulsions, is an epileptic
-qiksiksraqtuq	! respects, fear of a person who is not well known (N)
-qiluriruq	! has a muscle cramp
-qiluruq	! has a muscle cramp
-qimaktuq	! escapes, flees
-qimuktuq	! pulls
-qimuktuq	! pulls (of an animal)
-qinnaktuq	! fights, plays roughly
-qinuruq	! slush ice is forming, floating downstream
-qipiġniuqtuq	! desires
-qipriruq	! twists sinew, makes thread (K)
-qirriuqtuq	! chops fire wood
-qiruksiruq	! carries wood inside
-qiruktaqtuq	! obtains fire wood
-qitchuktuq	! scratches
-qitiqaqtuq	! noon (lit. has middle)
-qiuriruq	! freezes
-qiuriruq	! water freezes
-qivġuruq	! leaves because angry (b), leaves home because angry (ap) (N)
-qiviaġaaqtuq	! turns head right and left (N)
-qivialuktuq	! first vertebra (atlas)
-qiviaqtuq	! turns head (N)
-qiviaqtuq	! turns head, looks behind (N)
-qiviŋaaqtuq	! stands proudly, erect
-qiviktuq	! commits suicide (N)
-qiviqtuq	! leaves another, not wanting to be together (N)
-qiviruq	! lays on his back (N)
-qivittuq	! leaves another, not wanting to be together (K)
-qivittuq	! goes away because angry
-qivliqtuq	! shines, glitters, sparkles
-qiḷaruq	! conjures, divines
-qiḷiqtuq	! ties a knot
-qiḷuktuq	! barks (dog, fox)
-quaqtuq	! splits loose (e.g. the sole from a shoe), eats quaq (frozen food)
-quġliaqtuq	! drools, slobbers, oozes (of tree resin)
-quġluqtuq	! waterfall
-quiñaqtuq	! tickles
-quiruq	! urinates (N, K)
-quisuuruq	! urinates (N)
-quliaqtuaqtuq	! confess (N)
-quliaqtuaqtuq	! preach (K)
-quliaqtuaqtuq	! relates, confesses (N), preaches (K)
-quliaqtuaqtuq	! tell a true story, an experience
-quluularuq	! stomach growls
-qulviruq	! weeps
-qupaġuqtuq	! (moon) is half
-qupiruq	! splits, cracks
-ququularuq	! calls (N, q)
-ququularuq	! shouts (N)
-qusauqtuaqtuq	! squats (N)
-qusauqtuq	! sits
-qusrauqtuaqtuq	! squats (K)
-quyaruq	! thanks, praises, expresses appreciation
-saagaqtuq	! carries by hand, by arm
-saattuq	! turn to face someone
-saavittuq	! launches a boat in chase, comes forward
-saavittuq	! launches in pursuit of sea mammal, steps forward from a group
-saġliaqtuq	! holds baby on knee
-saġvaqtuq	! flows
-sagluruq	! lies, prevaricates
-sagluuraqtuq	! joking by telling false stories
-saiñġitchaktuq	! regrets
-sakłaqtuq	! shouts (N)
-sakuuktuq	! works hard (K)
-salikkuqtuq	! sweeps (q)
-samuŋaqtuq	! travels downriver, travels coastward
-sanŋiyaqtuq	! sweeps (K)
-sapiruq	! blocks it (one's way)
-savaŋaruq	! he worked
-savaktaksrauruq	! must be worked
-savaktuksrauruq	! has to work
-savaktuq	! works
-savaktuq	! works, makes
-savaktuq	! pisuqtilaaqtiktun is working as much as possible
-saviksuqtuq	! uses a knife
-savituruq	! sly, foxy (K, N)
-sialukkattaqtuq	! scattered rain showers
-siamittuq	! spreads, scatters
-siġġaqtuq	! works hard (N)
-siġḷiqiraqtuq	! works hard, is difficult
-siññaktuq	! dream
-siññaktuqtuq	! dreams
-siñiksraaqtuq	! goes around visiting from house to house, collects food for the poor from house to house (K)
-siñiktuq	! sleeps
-siiġruktuq	! hisses, whistles (of wind, gas stove or lantern)
-siiġḷanŋuruq	! has a sour stomach (K)
-siimaktuq	! argues (N)
-siiqsipkaqtuq	! sweats (K)
-sikiruq	! moves head forward and down
-siksaqtuq	! tries to shoot, tries to hit (K)
-siqiłhatittuq	! slaps the water with his tail (beaver)
-siqsuruq	! capable, enduring
-siqunġipaktaqtuq	! blinks
-siquniġaqtuq	! winks
-siquruq	! eyes are closed
-siquruq	! goes to sleep, closes his eyes
-siqusuktuq	! wants to go to bed
-sisugaqtuq	! slides down a hill (N)
-sisugiaqtuq	! baby has a wet burp
-sisuraġaaqtuq	! slides down a hill (K)
-sisuruq	! 
-sitquqtuq	! kneels
-sivruuraqtuq	! whispers
-sivuuġaruq	! fears the consequence (N)
-suaktuq	! scolds
-suammaktuq	! revitalized (as: engine works better, workers more diligent)
-suġuktuq	! wrestles
-suluktuqtuq	! brushes clothes
-supiruq	! blows (of a person), rushes (of a stream during break-up)
-supiruq	! flows, rushes (river at break-up)
-suppuqtuq	! spurts out (of liquids under pressure)
-suvliktuq	! gushes out (as oil from a punctured drum)
-tagialanaqtuq	! inhospitable, unenjoyable atmosphere
-tagialaruq	! moves out of a home because not wanted
-tagiuqtuq	! sneezes
-tagraqtuq	! travels up river by boat
-taiguaqtuq	! reads (N)
-takupkaŋaruq	! has a reunion
-talġaktuq	! travels up river by sled (N)
-taliinŋaruq	! goes over the hill
-taluqsralliaqtuq	! browbeats
-tamuqtuq	! chews
-tanuġaqsiruq	! diminishes in light
-taqqiruq	! waits (K)
-tasiqsruqtuq	! stretches
-tatamittuq	! gets very frightened
-tautuksiññaqtuq	! he simply sees
-tautuktuq	! sees
-tiŋŋiqsiruq	! gets full (of a person who eats too much or is pregnant)
-tiŋilġairuq	! sails (N)
-tiŋiruq	! flies away, takes off
-tiŋittuq	! drifts away
-tiŋmiruq	! flies
-tigliktuqtuq	! steals
-tigluktuq	! hits with side of fist
-tigluktuqtuq	! knocks, is knocking
-tiguaqtuq	! adopted, is
-tigumiaqtuq	! hand carries (N)
-tigusiruq	! takes, lays hold of, picks up (N)
-tigusriruq	! takes, lays hold of, picks up (K)
-tikitchumaaqtuq	! will arrive (someday)
-tikitqauraqtuq	! races
-tikkuaqtuq	! points
-tilaġġiruq	! sweeps (N)
-tilaktuq	! washes floor (N)
-tilirauruq	! was told to do something, was sent to do something
-tilisiruq	! sends
-tipaaqtuq	! stinks
-tipituruq	! stinks
-titiqtuq	! draws a line, makes a mark
-tivvuaqtuq	! spits
-tugaktuq	! pokes it with a stick
-tukkuruq	! stays overnight, is a guest
-tulaktuq	! returns from the water, lands
-tunŋaruq	! rests firmly on, trusts
-tunisiruq	! sell
-tunuttuq	! turns his back to
-tuppiruq	! builds a house (K)
-tuqłuġaqtuq	! shouts (K)
-tuqłularuq	! calls (K)
-tuqpallaktuq	! gets upset (K)
-tuquruq	! dies
-tusaaruq	! hears (N)
-tusraaruq	! hears (K)
-tutiruq	! steps on
-tuttaaqtuq	! goes to bed (N)
-tuttuq	! touches ground, bottom, lands
-tuttuq	! upper leg (drumstick) (N)
-tuttutullaturuq	! likes to eat caribou
-tuttutuqtuq	! eats caribou
-tuuqtuq	! chisels
-tuvaaqtuq	! attracts caribou by hollering
-tuvraqtuq	! follows a trail or pattern
-uamittuq	! dances
-uġruq	! spongy moss (diaper liner when dried)
-uŋiarriruq	! worries (N)
-uŋuluġusaaqtuq	! frightens away an attacking animal (N)
-uiruq	! panics, is excited (too eager)
-uivaqsaaqtuq	! rounds a bend (N)
-uivaqtuq	! comes around a point (N)
-ukamaqtuq	! pulls a boat along shore with a rope
-ukpiŋŋuaqtuq	! hypocrite (pretend believer)
-ukpiqtuq	! believes
-ulġuruq	! topples, falls over
-uliqtuq	! wind
-uluktuq	! rubs and twists hide to soften it
-umŋiyaqtuq	! shaves
-umialiuqtuq	! makes a boat
-umiaqtuqtuq	! travels by umiaq
-uniaġaqtuq	! sleds, travels by sled
-uniagiyaqtuq	! sled is broken
-uniuqtuq	! misses, doesn't hit (as nail, bull's eye)
-unniqsuqłiiruq	! promises (N)
-unuŋaqtuq	! travels downriver, travels out on sea ice
-upaktuqtuq	! charges (of an angry animal or person)
-uqaalaruq	! talks bad language, blasphemes
-uqaaqtuqtuq	! relates experiences, tells what happened (K)
-uqaġniġluktuq	! talks bad language, blasphemes (K)
-uqamaqłuktuq	! blasphemes
-uqaqtuq	! speaks, says, tells
-uqaqtuq	! talks
-uqaqtuq	! speaks
-uqigiyummiktuq	! heady, giddy, feeling light of body (N)
-uqigḷiruq	! heady, giddy, feeling light of body (K)
-uqqaqturuq	! talks always (i.e. like to talk), gossips (K)
-uqsruq	! seal oil, used as liniment, medicine
-uqsruq	! sea mammal oil
-uqsruqtiqtuq	! anoints, rub oil on body
-urraaqtuq	! gesticulates
-urriuqtuq	! boils meat (N)
-usriḷiiruq	! loads sled (K)
-utaqqiruq	! waits (N, q)
-utiqtuq	! returns
-Utqiaġviŋmuktuq	! He is going to Barrow.
-uuksiruq	! tastes
-uuktuaqtuq	! tries, tests, measures
-uuktuq	! tests
-uuliktuq	! quivers, shakes, trembles
-uumalaaqtuq	! lively child
-uumaniittuq	! it is this one here
-uumiksriruq	! hates (K)
-uunaqłuktuq	! has a fever (K)
-uunautiqaqtuq	! has a fever (N)
-uuruq	! boiled meat
-uvliruq	! layover, rests between periods of travel or other activity
-uvluqtusiruq	! days are getting longer (N, q)
-uvluqtusriruq	! days are getting longer (K)
-uvuŋaqtuq	! comes here, hither
-aatchuġaa	! gave it, gives it
-aatchuġaa	! gives it
-aatiġaa	! snatches it away
-aatkaa	! snatches it away (K)
-aŋisitkaa	! tempers it
-aŋivraġaa	! unravels it, unscrews it, unties it
-aŋugaa	! procures it
-aŋuutaa	! his paddle, a fin (any one of the paired fins of a fish)
-agikkaa	! files it, rubs it
-agliġigaa	! abstains from it, avoids it
-agliutigaa	! take one's picture (K)
-aigaa	! fetches it, goes to get it (K)
-aitchuġaa	! gave it, gives it
-aitchuġaa	! gives it
-aitkaa	! fetches it, goes to get it (N)
-akigaġaa	! bears it, carries it
-akiqsruġigaa	! promises it
-aksikkaa	! touches it
-akuaġaa	! catches it
-akuqtuġaa	! accepts it
-akutkaa	! stirs it
-apigaa	! it is snow covered
-aqigaa	! kicks it
-aqqaa	! smells bad!
-aqtuġaa	! touches it
-arguaqtuġaa	! doubts it
-arraa	! I've had it! Exclamation when something goes wrong
-arriligaa	! draws, sketches its likeness
-ataa	! its underside, ventral area
-ataa	! its underside, ventral area of fish
-atautkaa	! goes beneath it
-atigaa	! wears it, put it on
-atriligaa	! draws, sketches its likeness
-atuġaa	! uses it
-atuġaa	! sings it
-aukkaa	! melts it (ice, snow)
-aullaqtitkaa	! causes it to depart, sends
-iñigaa	! hangs (fish or net for dryingj) over a pole
-igitkaa	! throws it away, discards it
-igruġaa	! gets stiff (of a dead body)
-igruliġaa	! has chills (K)
-igḷutuġaa	! endures it, suffers it
-iigaa	! swallows it
-ikaaġaa	! crosses it
-ikpigigaa	! gets in on his mind and believes it (K)
-iksrukkaa	! carries it on the shoulder
-ikugaa	! loads it on
-immiġaa	! fills it
-iqiatkaa	! does not want to do it, is lazy
-isiḷġiġaa	! corrects his misundertanding
-isumalitqigaa	! repents of it (lit. rethinks it)
-itqaġigaa	! remembers it
-itqaqtiġaa	! it comes to mind (K)
-iḷaligaa	! shakes his hand
-iḷigaa	! lays it down, places it
-iḷisimagaa	! knows it
-iḷḷiaġuruġaa	! combs it (K)
-kalikkaa	! drags it
-kalitkaa	! pulls it, drags it behind
-katakkaa	! drops it
-katitkaa	! gathers it
-kiluusaġaa	! locks it
-kipliġaa	! cuts it in two, severs it
-kirratchaiqtitkaa	! shines brightly
-kivikkaa	! lifts it
-kuvigaa	! pours it out
-kuvigaa	! pours it
-kuyakkaa	! lies with her
-matuniġaa	! covers it
-miñułiġaa	! paints it
-miñukkaa	! paints it
-naavitkaa	! dumps it (non-liquid) (N)
-naavitkaa	! dumps it out
-naġġugigaa	! despises it, rejects it
-naipitkaa	! watches it closely, tests it (K)
-nalautchaaġaa	! travels past (N)
-nalautitkaa	! aims it, focuses it
-natchitchiġaa	! lays flooring
-naulikkaa	! spears it
-naviagaa	! does not dare it
-navikkaa	! breaks it
-niŋitkaa	! kuvraq is setting net
-niviŋaġaa	! hangs it up
-nuqitkaa	! draws, pulls it
-nutqaqtitkaa	! stops it
-piiġaa	! removes it
-piiyaġaa	! breaks it
-pisikkaa	! shoots it, hits it (N)
-pitukkaa	! ties it, (dog, boat)
-pitukkaa	! ties up, anchors
-piḷġaġaa	! braids hair
-putchimaallaktitchaġaa	! stores moistened skin for short while
-putchimaapkaqsaaġaa	! stores moistened skin overnight
-putyukkaa	! pinches it (K)
-puuġniġaa	! wraps it
-puyyukkaa	! pinches it (N)
-qaitchigaa	! gives it
-qalligaa	! draws near
-qamitkaa	! turns it off, extinguishes it
-qanniġaa	! orders it
-qaqquġaa	! cracks it
-qiġġaġaa	! has a stiff muscle
-qiñiġaa	! watches it
-qikisitkaa	! warps it
-qipigaa	! twists it
-qiqitiġaa	! has frostbite
-qiqitigaa	! freezes it quickly
-qitchuktiġaa	! scratches it
-quaġaa	! splits, separates, loosens it (of things frozen or otherwise fused together)
-saa	! huh! What's that? Eh?
-saġvaġaa	! flows swiftly over it
-salummaġaa	! cleanses it
-sanuqiġaa	! puts siding on it (house)
-satuġaa	! obtains it back, redeems it (K)
-savakkaa	! works it
-savitkaa	! feels it, touches it
-siñaa	! shore (it's edge)
-sikkaa	! shoots it, hits it (K)
-simmiġaa	! changes it, exchanges it
-simmiḷiġaa	! returns something borrowed
-sivunniġaa	! decides it, plans it
-suqumitkaa	! broke it up, tore it to pieces (K)
-suqutigaa	! takes notice of someone, pays attention to someone
-taŋŋiġaa	! does what is told, brings it to reality
-taktuguġaa	! it's foggy
-tammaġasrugigigaa	! thinking he is lost
-taputigaa	! takes it along
-tasiqsruġigaa	! stretches it
-tasritchaġaa	! stretches it
-tasuġaa	! obtains it, redeems it (N)
-tatigaa	! lays against it, leans against it, touches it
-tauqsiġaa	! buys it
-tautukkaa	! sees it
-tigugaa	! picks it up, takes it
-tipigaa	! washes it ashore
-tipsigigaa	! laughs at somebody, mocks someone
-titiġaa	! marks it, draws a line on it
-tuġvaġaa	! puts it away
-tumaqsruġaa	! fits it together
-tunŋagaa	! rests firmly on it
-tuniḷaġaa	! gives it, makes a present of it, sacrifices it
-tupsigaa	! finds an animal track
-tuqutkaa	! kills it
-tuuġaa	! chisels it
-tuyuġigaa	! sends it
-uŋugaa	! drives it (an animal)
-ukpiġigaa	! believes it
-unitchaa	! leaves it behind (K)
-upkuaġaa	! closes it
-upkuiġaa	! opens it
-upyakkaa	! remarks about it, wisecracks about it (K)
-uqaġvigigaa	! talks about it
-uqaqtaa	! God-im prophet (N), apostle (K), (lit. God's speaker)
-uqumaiġigaa	! sucks it (something held in mouth)
-urriqsuġaa	! demonstrates it, shows it by his actions
-uuktuaġaa	! tests it, measures it
-uunaġuġaa	! it's warm
-aŋniġiqsuq	! blizzard has ceased (K)
-agniġiqsuq	! blizzard has ceased (N)
-aqiaġuġiitchuq	! has a chronic stomachache
-iggiaġiitchuq	! has a sore throat
-iggiaġiitchuq	! has a chronic sore throat
-irraitchuq	! has moderated (having been cold) (N)
-itraiqsuq	! has moderated (having been cold) (K)
-kapyaliqsuq	! worries, gets dizzy, has a headache (K)
-kiḷiqsuq	! has cut self
-nagrulik	! pallid horned lark (Eremophila alpestris arcticola) (lit. has horns)
-narraaġiitchuq	! has abdominal cramps
-niaquġiitchuq	! has a severe headache
-niġisuġuiqsuq	! has had enough food
-piviksraqaqpan	! if he has time
-piḷaktuq-	! has surgery
-qiñiġumatiqaqtuaq	! he who has hope of seeing
-siiġḷanŋuliqsuq	! has a sour stomach (N)
-takpiksuq	! has keen eyesight
-tuttunniqsuq	! has apparently caught a caribou
-ukpiliqsuq	! has come to believe
+aatchuġaa 	!! aatchuġaa	! gave it, gives it
+aatchuġaa 	!! aatchuġaa	! gives it
+aatiġaa 	!! aatiġaa	! snatches it away
+agaŋŋaitchuq 	!! agaŋŋaitchuq	! is gentle, kind
+agniġiqsuq 	!! agniġiqsuq	! blizzard has ceased (N)
+aitchuġaa 	!! aitchuġaa	! gave it, gives it
+aitchuġaa 	!! aitchuġaa	! gives it
+akigaġaa 	!! akigaġaa	! bears it, carries it
+akuaġaa 	!! akuaġaa	! catches it
+akuqtuġaa 	!! akuqtuġaa	! accepts it
+alaitchuq 	!! alaitchuq	! is not torn
+alappaa 	!! alappaa	! is cold
+alappuu 	!! alappuu	! is cold (N)
+alianaitchuq 	!! alianaitchuq	! is cheerful, happy, jolly
+allaiyaġaa 	!! allaiyaġaa	! is mending net
+allayualaitchuq 	!! allayualaitchuq	! is friendly, not bashful (of toddler) (N)
+alliqsuq 	!! alliqsuq	! is deep
+alġaqsruġaa 	!! alġaqsruġaa	! exhorts him, tells him the right way to behave
+amaġaa 	!! amaġaa	! puts him (baby) on her back (inside the parka)
+amitchuq 	!! amitchuq	! is narrow (K)
+anniqsuġaa 	!! anniqsuġaa	! benefits him
+anuqłiqsuq 	!! anuqłiqsuq	! is windy
+anuġi 	!! anuġi	! is windy
+apaiqsuq 	!! apaiqsuq	! is enough, had enough
+apiqsruġaa 	!! apiqsruġaa	! is about to question him, ask him
+apqusraaġaa 	!! apqusraaġaa	! passes him (K)
+apuqtiġaa 	!! apuqtiġaa	! bumps, strikes against it, meets him
+apuġaa 	!! apuġaa	! bumps, strikes against it, meets him
+aqiaġuġiitchuq 	!! aqiaġuġiitchuq	! has a chronic stomachache
+aqqaa 	!! aqqaa	! smells bad!
+aqtuġaa 	!! aqtuġaa	! touches it
+araksiġiitchuq 	!! araksiġiitchuq	! is not open to counsel (N)
+arguaqtuġaa 	!! arguaqtuġaa	! doubts it
+arraa 	!! arraa	! I've had it! Exclamation when something goes wrong
+atanniġaa 	!! atanniġaa	! judges him (K)
+atchiksuq 	!! atchiksuq	! is lowly, is humble (K)
+atchiġaa 	!! atchiġaa	! names him
+atlayuatlaitchuq 	!! atlayuatlaitchuq	! is friendly, not bashful (of toddler) (K)
+atlaġiiqsuq 	!! atlaġiiqsuq	! is different, other (K)
+attaqsranġitchuq 	!! attaqsranġitchuq	! is bold (sure of not being refused, freely helps himself to other's things) (K)
+attaqsraŋitchuq 	!! attaqsraŋitchuq	! is bold (sure of not being refused, freely helps himself to other's things) (N, q)
+attaġnaitchuq 	!! attaġnaitchuq	! is friendly, kind, communicative
+atuġaa 	!! atuġaa	! sings it
+atuġaa 	!! atuġaa	! uses it
+atuġuiqsuq 	!! atuġuiqsuq	! is worthless
+atuŋaiqsuq 	!! atuŋaiqsuq	! is useless (having been useable)
+atuŋaiqsuq 	!! atuŋaiqsuq	! is worthless
+aullaġmiuq 	!! aullaġmiuq	! is also departing
+aġiisruknaġaa 	!! aġiisruknaġaa	! is offended by it
+aġitchuq 	!! aġitchuq	! is wet (K)
+aŋalataġaa 	!! aŋalataġaa	! directs him, controls him
+aŋipchaġaa 	!! aŋipchaġaa	! resuscitated him, resurrected him (K)
+aŋivraġaa 	!! aŋivraġaa	! unravels it, unscrews it, unties it
+aŋiġaa 	!! aŋiġaa	! agrees with him, assents to it
+aŋniġiqsuq 	!! aŋniġiqsuq	! blizzard has ceased (K)
+aŋuutaa 	!! aŋuutaa	! his paddle, a fin (any one of the paired fins of a fish)
+aŋuyautaitchuq 	!! aŋuyautaitchuq	! is peaceable, is not hostile
+iggiaġiitchuq 	!! iggiaġiitchuq	! has a chronic sore throat
+iggiaġiitchuq 	!! iggiaġiitchuq	! has a sore throat
+igḷutuġaa 	!! igḷutuġaa	! endures it, suffers it
+igruliġaa 	!! igruliġaa	! has chills (K)
+igruq 	!! igruq	! frostbite (K)
+igruġaa 	!! igruġaa	! gets stiff (of a dead body)
+ikaaġaa 	!! ikaaġaa	! crosses it
+ikayuġaa 	!! ikayuġaa	! helps him
+ikiqiitchuq 	!! ikiqiitchuq	! is narrow
+iksilaitchuq 	!! iksilaitchuq	! is never scared (N)
+iksitlaitchuq 	!! iksitlaitchuq	! is never scared (K)
+ilaa 	!! ilaa	! he, she, it, him, her
+ilaaliqaa 	!! ilaaliqaa	! so it's him!
+iluitchuq 	!! iluitchuq	! is sick
+iḷḷiaġuruġaa 	!! iḷḷiaġuruġaa	! combs it (K)
+imaiqsuq 	!! imaiqsuq	! is low (water in river)
+immiqsuq 	!! immiqsuq	! is full
+immiġaa 	!! immiġaa	! fills it
+ipiġaqtuġaa 	!! ipiġaqtuġaa	! whips him
+ipkitchuq 	!! ipkitchuq	! is dull
+ipqitchuq 	!! ipqitchuq	! is pure
+ipqitchuq 	!! ipqitchuq	! is pure, is holy (K)
+iqiitchuq 	!! iqiitchuq	! is not lazy
+irraitchuq 	!! irraitchuq	! has moderated (having been cold) (N)
+irriŋuġaa 	!! irriŋuġaa	! is icy cold (N)
+isiḷġiġaa 	!! isiḷġiġaa	! corrects his misundertanding
+isruitchuq 	!! isruitchuq	! is endless, eternal, is clear, is not muddy (K)
+isuitchuq 	!! isuitchuq	! is endless, eternal, is clear, is not muddy (N, q)
+isuitchuq 	!! isuitchuq	! is eternal, endless
+isumalluaġiitchuq 	!! isumalluaġiitchuq	! is foolish, unwise
+itqanaiqsuq 	!! itqanaiqsuq	! is ready, finished
+itqaqtiġaa 	!! itqaqtiġaa	! it comes to mind (K)
+itraiqsuq 	!! itraiqsuq	! has moderated (having been cold) (K)
+itriŋuġaa 	!! itriŋuġaa	! is icy cold (K)
+ivayaqtuġaa 	!! ivayaqtuġaa	! defrauds, robs him (K)
+ivruq 	!! ivruq	! sod block
+ivruq 	!! ivruq	! sod for house building
+iñiqtiġaa 	!! iñiqtiġaa	! threatened him
+iñugiiḷiqsuq 	!! iñugiiḷiqsuq	! frowns (lit. makes himself ugly)
+iñugiitchuq 	!! iñugiitchuq	! is ugly
+iñugiitchuq 	!! iñugiitchuq	! is ugly (lit .not a good person)
+iñugiksuq 	!! iñugiksuq	! is a good or pretty person
+iñugiksuq 	!! iñugiksuq	! is handsome, beautiful
+iñuŋniqsuq 	!! iñuŋniqsuq	! is a gentleman
+iłuagiiñġitchaa 	!! iłuagiiñġitchaa	! dislikes him, is prejudiced (K)
+iłuitchuq 	!! iłuitchuq	! is wrong
+iŋiġaa 	!! iŋiġaa	! asks him, begs him, prays to him
+kapyaliqsuq 	!! kapyaliqsuq	! worries, gets dizzy, has a headache (K)
+kaviqsuq 	!! kaviqsuq	! is red
+kaŋiqsiñapianġitchuq 	!! kaŋiqsiñapianġitchuq	! is not very understandable
+kaŋiqsiñapiaŋitchuq 	!! kaŋiqsiñapiaŋitchuq	! is not very understandable
+kiliktuġaa 	!! kiliktuġaa	! tells him news, warns him
+kiluusaġaa 	!! kiluusaġaa	! locks it
+kiḷiqsuq 	!! kiḷiqsuq	! has cut self
+kipliġaa 	!! kipliġaa	! cuts it in two, severs it
+kisiŋŋuġaa 	!! kisiŋŋuġaa	! left him alone, left her bereaved
+kiugiññaġaa 	!! kiugiññaġaa	! is merely answering him
+kusiksuq 	!! kusiksuq	! is dripping
+kuvriqsuq 	!! kuvriqsuq	! is setting net
+maptukitchuq 	!! maptukitchuq	! is thin
+matuniġaa 	!! matuniġaa	! covers it
+miniksuq 	!! miniksuq	! is misty
+misuitchuq 	!! misuitchuq	! is pale (lit. without juice) (q)
+miñułiġaa 	!! miñułiġaa	! paints it
+nagliginniġaa 	!! nagliginniġaa	! is merciful to him
+nagrulik 	!! nagrulik	! pallid horned lark (Eremophila alpestris arcticola) (lit. has horns)
+naitchuq 	!! naitchuq	! is short
+nalautchaaġaa 	!! nalautchaaġaa	! travels past (N)
+nalunaitchuq 	!! nalunaitchuq	! is clear, easy to see
+nalupqinaitchuq 	!! nalupqinaitchuq	! is certain, sure
+nalupqisrunġitchuq 	!! nalupqisrunġitchuq	! is confident, is sure (not doubting) (K)
+nalupqisuŋitchuq 	!! nalupqisuŋitchuq	! is confident, is sure (not doubting) (N, q)
+nalġuqsruġaa 	!! nalġuqsruġaa	! straightens it, corrects him
+nanġaġaa 	!! nanġaġaa	! praises him, brags about him
+narraaġiitchuq 	!! narraaġiitchuq	! has abdominal cramps
+natchitchiġaa 	!! natchitchiġaa	! lays flooring
+natiġviksuq 	!! natiġviksuq	! is ground drifting
+nayaaŋaġaa 	!! nayaaŋaġaa	! greets him, sends him greetings (K)
+nayuġaa 	!! nayuġaa	! lives with him, stays with him
+naŋiitchuq 	!! naŋiitchuq	! is daring, brave
+naŋiitchuq 	!! naŋiitchuq	! is daring, is brave
+niaquġiitchuq 	!! niaquġiitchuq	! has a severe headache
+nipaitchuq 	!! nipaitchuq	! is quiet
+niptaitchuq 	!! niptaitchuq	! is hazy (N)
+niviŋaġaa 	!! niviŋaġaa	! hangs it up
+niġipchaġaa 	!! niġipchaġaa	! he feeds him
+niġisuġuiqsuq 	!! niġisuġuiqsuq	! has had enough food
+nunagiksuq 	!! nunagiksuq	! is a good land
+nuviyaliqsuq 	!! nuviyaliqsuq	! is overcast, is getting cloudy
+nuvuyaliqsuq 	!! nuvuyaliqsuq	! is overcast, is getting cloudy
+nuvuyaŋŋuqsaiññaġaa 	!! nuvuyaŋŋuqsaiññaġaa	! is changing to cloudy weather
+nuyuiqsuq 	!! nuyuiqsuq	! is not afraid, is not scared
+paaġaa 	!! paaġaa	! meets him
+pasiaksraitchuq 	!! pasiaksraitchuq	! is faultless
+patchisaiġaa 	!! patchisaiġaa	! frees him
+paġlaġaa 	!! paġlaġaa	! welcomes him
+piaqłuktaŋitchuq 	!! piaqłuktaŋitchuq	! is kind (N)
+pigiitchuq 	!! pigiitchuq	! is bad
+piiqsuq 	!! piiqsuq	! is absent
+piiqsuq 	!! piiqsuq	! is taken away
+piitchuq 	!! piitchuq	! is not
+piiyaġaa 	!! piiyaġaa	! breaks it
+piiġaa 	!! piiġaa	! removes it
+piḷaiqsuq 	!! piḷaiqsuq	! is tired
+piḷaiqsuq 	!! piḷaiqsuq	! is tired (N)
+piḷaktuq- 	!! piḷaktuq-	! has surgery
+piḷik 	!! piḷik	! is supplied with
+piḷuiḷḷiqsuq 	!! piḷuiḷḷiqsuq	! is not as capable as used to be
+piḷġaġaa 	!! piḷġaġaa	! braids hair
+piqsiqsuq 	!! piqsiqsuq	! is snow storming (b)
+pisaayugaġaa 	!! pisaayugaġaa	! provokes him
+pisuġiuqsuq 	!! pisuġiuqsuq	! is enough (as when filling gas tank)
+pisuġnaitchuq 	!! pisuġnaitchuq	! is not safe (ice)
+pituitchuq 	!! pituitchuq	! is loose, untied
+piuniaŋitchuq 	!! piuniaŋitchuq	! is meek (retiring)
+piviksraqaqpan 	!! piviksraqaqpan	! if he has time
+piyuaġaa 	!! piyuaġaa	! tempts him, pursues him
+piġiitchuq 	!! piġiitchuq	! is bad
+piľľaqtaqłuni 	!! piľľaqtaqłuni	! is (riding) roughly
+puqiksuq 	!! puqiksuq	! is quick to learn, is wise (K)
+putchimaallaktitchaġaa 	!! putchimaallaktitchaġaa	! stores moistened skin for short while
+putchimaapkaqsaaġaa 	!! putchimaapkaqsaaġaa	! stores moistened skin overnight
+puuġniġaa 	!! puuġniġaa	! wraps it
+qaayuliqsuq 	!! qaayuliqsuq	! dirties himself (of baby messing diaper)
+qaiḷiqsuq 	!! qaiḷiqsuq	! is rough water
+qaiqsuq 	!! qaiqsuq	! is smooth, level, flat
+qaisugnaġniqsuq 	!! qaisugnaġniqsuq	! is thought he is coming (I think he is coming
+qaiġitchuq 	!! qaiġitchuq	! is rough, not smooth
+qaiŋitchuq 	!! qaiŋitchuq	! is not coming
+qakiġaa 	!! qakiġaa	! boxes him
+qanniksuq 	!! qanniksuq	! is snowing (no wind) (N)
+qanniġaa 	!! qanniġaa	! orders it
+qanuqsausiitchuq 	!! qanuqsausiitchuq	! is uncertain as to what to do
+qapiŋaisaaġaa 	!! qapiŋaisaaġaa	! encourages him
+qaqquġaa 	!! qaqquġaa	! cracks it
+qatmiksuq 	!! qatmiksuq	! is impatient, dislikes to wait (K)
+qaummaiḷiqsuq 	!! qaummaiḷiqsuq	! is lightning
+qaummaġiksuq 	!! qaummaġiksuq	! is bright
+qaurimmaġiitchuq 	!! qaurimmaġiitchuq	! is numb (N)
+qauġrimaitchuq 	!! qauġrimaitchuq	! is numb (K)
+qaġruq 	!! qaġruq	! arrow, shell
+qiammiuq 	!! qiammiuq	! is also crying
+qiapmiuq 	!! qiapmiuq	! is also crying
+qimitchuq 	!! qimitchuq	! commits suicide, hangs himself (K)
+qimmaksaliyaitchuq 	!! qimmaksaliyaitchuq	! is lowly, is humble (N)
+qiqitiġaa 	!! qiqitiġaa	! has frostbite
+qitchuktiġaa 	!! qitchuktiġaa	! scratches it
+qivliŋitchuq 	!! qivliŋitchuq	! is dull
+qiñitlaitchuq 	!! qiñitlaitchuq	! is blind (K)
+qiñiġaa 	!! qiñiġaa	! watches it
+qiñiġiksuq 	!! qiñiġiksuq	! is good looking
+qiñiġumatiqaqtuaq 	!! qiñiġumatiqaqtuaq	! he who has hope of seeing
+qiñuitchuq 	!! qiñuitchuq	! is patient (not hasty), is peaceful (K)
+qiġġaġaa 	!! qiġġaġaa	! has a stiff muscle
+quaġaa 	!! quaġaa	! splits, separates, loosens it (of things frozen or otherwise fused together)
+qupyuġaġniqsuq 	!! qupyuġaġniqsuq	! is whiteout (K)
+qutchiksuq 	!! qutchiksuq	! is high
+quuniqsuq 	!! quuniqsuq	! is calm
+quvyuġaġniqsuq 	!! quvyuġaġniqsuq	! is whiteout
+saa 	!! saa	! huh! What's that? Eh?
+salumaitchuq 	!! salumaitchuq	! is dirty
+salumaitchuq 	!! salumaitchuq	! is dirty, unclean
+salummaġaa 	!! salummaġaa	! cleanses it
+sanuqiġaa 	!! sanuqiġaa	! puts siding on it (house)
+sapiġaa 	!! sapiġaa	! is difficult (K)
+sapiġñaitchuq 	!! sapiġñaitchuq	! is easy
+satuġaa 	!! satuġaa	! obtains it back, redeems it (K)
+satuġaa 	!! satuġaa	! ransomed, redeemed him (K)
+savakpagitchuq 	!! savakpagitchuq	! is working so much
+savakpaitchuq 	!! savakpaitchuq	! is working so much
+savayuitchuq 	!! savayuitchuq	! is working poorly
+savaŋniqsutin 	!! savaŋniqsutin	! is tired of working
+sayaitchuq 	!! sayaitchuq	! is weak
+saġvaġaa 	!! saġvaġaa	! flows swiftly over it
+siatqiksuq 	!! siatqiksuq	! is straight (as of a board)
+sigñataitchuq 	!! sigñataitchuq	! is generous (not stingy) (N)
+siiksuq 	!! siiksuq	! is cutting fish (for drying)
+siiġḷanŋuliqsuq 	!! siiġḷanŋuliqsuq	! has a sour stomach (N)
+sikñataitchuq 	!! sikñataitchuq	! is generous (not stingy) (K)
+siḷagiitchuq 	!! siḷagiitchuq	! is bad weather
+siḷagiksuq 	!! siḷagiksuq	! is good weather
+siḷaŋiqsuq 	!! siḷaŋiqsuq	! is carousing
+simmiḷiġaa 	!! simmiḷiġaa	! returns something borrowed
+simmiġaa 	!! simmiġaa	! changes it, exchanges it
+siquyaqtuquyumagaluaġaa 	!! siquyaqtuquyumagaluaġaa	! want him to go to bed
+sivikitchuq 	!! sivikitchuq	! is a short distance, is of short duration
+sivulliġaa 	!! sivulliġaa	! he leads him (lit. he is foremost to him)
+sivunniġaa 	!! sivunniġaa	! decides it, plans it
+siñaa 	!! siñaa	! shore (it's edge)
+siġḷiġnaitchuq 	!! siġḷiġnaitchuq	! is easy (N)
+siġḷiġnaitchuq 	!! siġḷiġnaitchuq	! is easy, not difficult (N)
+suaŋaitchuq 	!! suaŋaitchuq	! is weak
+sukaitchuq 	!! sukaitchuq	! is slow
+suksraaġaa 	!! suksraaġaa	! gives up on it, forsakes him
+suksraunġiqsuq 	!! suksraunġiqsuq	! is destroyed
+suurimaanġiqsuq 	!! suurimaanġiqsuq	! is not concerned for law or other people (N)
+suŋaġnitchuq 	!! suŋaġnitchuq	! is bitter
+tagialanaitchuq 	!! tagialanaitchuq	! is hospitable (enjoyable atmosphere)
+taiguanŋuliqsuq 	!! taiguanŋuliqsuq	! is tired of reading
+takpiksuq 	!! takpiksuq	! has keen eyesight
+taktuguġaa 	!! taktuguġaa	! it's foggy
+taluġnaitchuq 	!! taluġnaitchuq	! is friendly, kind, communicative
+taluġnaitchuq 	!! taluġnaitchuq	! is kind
+tasritchaġaa 	!! tasritchaġaa	! stretches it
+tasuġaa 	!! tasuġaa	! obtains it, redeems it (N)
+tasuġaa 	!! tasuġaa	! ransomed, redeemed him (N,q)
+tauqsiġaa 	!! tauqsiġaa	! buys it
+tavruŋaqsausiitchuq 	!! tavruŋaqsausiitchuq	! is uncertain about going there
+taŋiġiqsuq 	!! taŋiġiqsuq	! is false (lies)
+taŋiġitchuq 	!! taŋiġitchuq	! is false (lies)
+taŋŋiqsuq 	!! taŋŋiqsuq	! is fulfilled
+taŋŋiġaa 	!! taŋŋiġaa	! does what is told, brings it to reality
+titiġaa 	!! titiġaa	! marks it, draws a line on it
+tuglauġaa 	!! tuglauġaa	! shields him, protects him
+tumaqsruġaa 	!! tumaqsruġaa	! fits it together
+tuniḷaġaa 	!! tuniḷaġaa	! gives it, makes a present of it, sacrifices it
+tuqunasrugniaqługu 	!! tuqunasrugniaqługu	! is thought to be dead
+tuqłuġaa 	!! tuqłuġaa	! calls him, hails
+tuqłuġaa 	!! tuqłuġaa	! calls him, hails him
+tusaalaitchuq 	!! tusaalaitchuq	! is deaf (N)
+tusratlaitchuq 	!! tusratlaitchuq	! is deaf (K)
+tutqiksuq 	!! tutqiksuq	! is content, is at peace (within)
+tutqiksuq 	!! tutqiksuq	! is content, is solid, is peaceful
+tuttunniqsuq 	!! tuttunniqsuq	! has apparently caught a caribou
+tuuġaa 	!! tuuġaa	! chisels it
+tuvlauġaa 	!! tuvlauġaa	! shields him, protects him
+tuvraġaa 	!! tuvraġaa	! follows him, tracks him, imitates him
+tuġvaġaa 	!! tuġvaġaa	! puts it away
+ugaiġaa 	!! ugaiġaa	! bites him, mauls him
+uiñġaliqsuq 	!! uiñġaliqsuq	! is sleepy
+ukpiliqsuq 	!! ukpiliqsuq	! has come to believe
+unitchaa 	!! unitchaa	! leaves it behind (K)
+upaktuġaa 	!! upaktuġaa	! charges him, goes after him
+upkuaġaa 	!! upkuaġaa	! closes it
+upkuiġaa 	!! upkuiġaa	! opens it
+uqalaitchuq 	!! uqalaitchuq	! is dumb (N)
+uqaqsiġiitchuq 	!! uqaqsiġiitchuq	! is not open to counsel (K)
+uqaqtaa 	!! uqaqtaa	! God-im prophet (N), apostle (K), (lit. God's speaker)
+uqaqtitaġaa 	!! uqaqtitaġaa	! asked him to speak, talk
+uqitchuq 	!! uqitchuq	! is light
+uqqitchuq 	!! uqqitchuq	! is secure, safe, sheltered
+uqsruq 	!! uqsruq	! sea mammal oil
+uqsruq 	!! uqsruq	! seal oil, used as liniment, medicine
+uqumaitchuq 	!! uqumaitchuq	! is heavy
+urriqsuġaa 	!! urriqsuġaa	! demonstrates it, shows it by his actions
+utukkuu 	!! utukkuu	! is tiny!
+uuktuaġaa 	!! uuktuaġaa	! tests it, measures it
+uumisaaġuraġaa 	!! uumisaaġuraġaa	! provokes him (K)
+uunaġuġaa 	!! uunaġuġaa	! it's warm
+uutinniq 	!! uutinniq	! is scarred from a burn (K)
+uutiġniq 	!! uutiġniq	! is scarred from a burn (N)
+uyummiqsuq 	!! uyummiqsuq	! is misty, blurred
+uġruq 	!! uġruq	! spongy moss (diaper liner when dried)
+uŋasiksuq 	!! uŋasiksuq	! is far
+uŋasriksuq 	!! uŋasriksuq	! is far
