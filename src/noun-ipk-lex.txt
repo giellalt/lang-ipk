@@ -9,64 +9,81 @@ keña	pronmorph ; ! who
 una	pronmorph ; ! =KAL
 
 
+! Tronds additions marked !tt, remove !tt tag when the contlex is checked.
 
 LEXICON Nouns
 aaka	tp ; ! a mother
 aapa	tp ; ! a father
+aapiyaq tp ; ! elder brother !tt
+aaqagu	part ; ! wait a minute
 aaqhaalliq	tp ; ! old squaw duck. ?? One l p. 14, two l p. 39 and 247???
-aġnaq	tp ; ! a woman
-aġviq:aġveq	tup ; ! a whale
-amaġuq	tp_gem ; ! a wolf
-aniu	tp ; ! packed snow
-aŋun:aŋute	tpt ; ! a man
+aatauraq tp ; ! elder sister !tt
+aglak tp ; ! a letter !tt
 aiviq:aiveq	tup ; ! a walrus
-akiľhun	tp ; ! lantern chimney
 akiñ:akise	tpt ; ! a pillow NB i vs. schwa not in accordance with Edna
+akiľhun	tp ; ! lantern chimney
+akuq tp ; ! skirt !tt
+akutuq tp ; ! ice cream !tt
 akłaq	tp ; ! a brown bear
+akłunaaq tp ; ! a rope !tt
+amaġuq	tp_gem ; ! a wolf
+amiq:ameq tp ; ! animal hide !tt
+aniu	tp ; ! packed snow
+annuġaaq tp ; ! piece of clothing
 apun:apute	tpt ; ! snow
 aqvaluqtaaq	tp ; ! something round
+atakhii:atakhee	part ; ! look at that
 atigi:atege	tp ; ! a parka
 atiq:ateq	tup ; ! a name
 aviŋŋaq:aveŋŋaq	tup ; ! a lemming
 ayuktaq	tp ; ! a ball
-iġñiq:iġñeq	tup ; ! a son
-ini:ene	tp ; ! a room
-iñuk	tup- ; ! inuk
+aġnaq	tp ; ! a woman
+aġviq:aġveq	tup ; ! a whale
+aŋaiyyuvik:aŋaiyyuvek tp ; ! church !tt
+aŋun:aŋute	tpt ; ! a man
+aŋutaiyaaq tp ; ! a boy !tt
 iglu:eglu	tp ; ! a house
+ii:ee	part ; ! yes
+ini:ene	tp ; ! a room
 iqaluk	tup- ; ! fish
-iqľak	tp ; ! hook and line (term. tech.)
 iqsraq:eqsraq	tp ; ! a cheek
+iqľak	tp ; ! hook and line (term. tech.)
 iri:ere	tp ; ! an eye
 irri:erre	tp_sing ; ! cold air
+iñuk	tup- ; ! inuk
+iġñiq:iġñeq	tup ; ! a son
+iġġi	tp ; !a mountain
 iḷa	tp ; ! =KAL ila
 iḷiappak:iḷeappak	tp ; ! poor person, orphan
-iġġi	tp ; !a mountain
 kamik:kamek	tup- ; ! boot NB: declination is an unqualified guess
 kiña:keña	pron ; ! who
 kutchuq	tp ; ! chewing gum, resin 'kutchuq'
 kuuk	tp ; ! a river
 mannik	tup- ; ! egg
 miqłiqtuq:meqłeqtuq	tp ; ! a child
+naagga	part ; ! no
 nasaq	tp_gem ; ! a hood
 natchiq	tup ; ! seal 'natchiq'
 natiq:nateq	tup ; ! floor
-niu:neu	tp ; ! a leg
+naumi	part ; ! no
 niksik	tup- ; ! fishing hook
-nuyaq	tp_gem ; ! a strand of hair
+niu:neu	tp ; ! a leg
 nuna	tp ; ! land
 nusaq	tp_gem ; ! a strand of hair
+nuyaq	tp_gem ; ! a strand of hair
 pisiksi:peseksi	tp ; ! a bow
+qakugulu	part ; ! until next time
 qallun	tp ; ! a cup
 qamun:qamute	tpt ; !car
-qayaq	tp ; ! kayak
 qaugak	tp ; ! a duck
+qayaq	tp ; ! kayak
 qimmiq	tp ; ! a dog
 quaq	tp ; ! frozen meat
 savik	tp ; ! a tp
 saviľhaq	tp ; ! metal
-sikľaq	tp ; ! a pickax
 siksrik:seksrik	tup- ; ! a squirrel
 siku	tp ; ! ice
+sikľaq	tp ; ! a pickax
 siqiñiq:siqiñeq	tup ; !sun
 suppun:suppute	tpt ; ! a gun
 tatqiq	tup ; ! moon
@@ -81,11 +98,4 @@ uniat:uniaq	tp_du ; ! to avoid singular but accept dual endings
 uniat:uniaq	tp_pl ; ! to avoid singular but accept plural endings
 uvluġiaq	tp_gem ; !star
 
-
-aaqagu	part ; ! wait a minute
-atakhii:atakhee	part ; ! look at that
-ii:ee	part ; ! yes
-naagga	part ; ! no
-naumi	part ; ! no
-qakugulu	part ; ! until next time
 etc	abbr ; !!just rubbish to fill the slot
