@@ -58,3 +58,1366 @@ tupiq:tupeq	IV ; ! to set up a tent
 tupiq:tupeq	TV ; ! to put a tent over
 umiaq	IV ; ! to take the boat and set up whaling camp
 
+
+! Imported from online dictionary
+
+
+Utqiaġviŋmukti TV_vow ;	!! Utqiaġviŋmuktigaa	! is sending it to Barrow
+Utqiaġviŋmuuti TV_vow ;	!! Utqiaġviŋmuutigaa	! is taking it to Barrow
+agik TV ;	!! agikkaa	! files it, rubs it
+agliuti TV_vow ;	!! agliutigaa	! take one's picture (K)
+agliġi TV_vow ;	!! agliġigaa	! abstains from it, avoids it
+ai TV_vow ;	!! aigaa	! fetches it, goes to get it (K)
+aitchuusiaġisuu TV_vow ;	!! aitchuusiaġisuugaa	! is always receiving it
+akiiḷi TV_vow ;	!! akiiḷigaa	! beats him (in contest)
+akiqsruġi TV_vow ;	!! akiqsruġigaa	! promises it
+aksik TV ;	!! aksikkaa	! touches it
+anau TV_vow ;	!! anaugaa	! hits him, beats him
+annauti TV_vow ;	!! annautigaa	! saves him
+api TV_vow ;	!! apigaa	! it is snow covered
+apiġi TV_vow ;	!! apiġigaa	! questioned him, asked him
+aqi TV_vow ;	!! aqigaa	! kicks it
+arrili TV_vow ;	!! arriligaa	! draws, sketches its likeness
+ati TV_vow ;	!! atigaa	! wears it, put it on
+atrili TV_vow ;	!! atriligaa	! draws, sketches its likeness
+auk TV ;	!! aukkaa	! melts it (ice, snow)
+aullauti TV_vow ;	!! aullautigaa	! leads him away, takes it away
+avanŋa TV_vow ;	!! avanŋagaa	! all around him
+aŋipkaŋa TV_vow ;	!! aŋipkaŋagaa	! resuscitated him, resurrected him (N)
+aŋu TV_vow ;	!! aŋugaa	! procures it
+ii TV_vow ;	!! iigaa	! swallows it
+ikpigi TV_vow ;	!! ikpigigaa	! gets in on his mind and believes it (K)
+iksruk TV ;	!! iksrukkaa	! carries it on the shoulder
+iku TV_vow ;	!! ikugaa	! loads it on
+iḷaksia TV_vow ;	!! iḷaksiagaa	! bothers him
+iḷali TV_vow ;	!! iḷaligaa	! shakes his hand
+iḷi TV_vow ;	!! iḷigaa	! lays it down, places it
+iḷisauti TV_vow ;	!! iḷisautigaa	! teaches him
+iḷisima TV_vow ;	!! iḷisimagaa	! knows it
+iḷitchuġi TV_vow ;	!! iḷitchuġigaa	! finds it out, becomes acqainted with him
+inillak TV ;	!! inillakkaa	! is placing it
+iqsigi TV_vow ;	!! iqsigigaa	! is afraid of him
+irruti TV_vow ;	!! irrutigaa	! treats him properly, right
+isivġii TV_vow ;	!! isivġiigaa	! examines him, tries him out
+isumalitqi TV_vow ;	!! isumalitqigaa	! repents of it (lit. rethinks it)
+itqaġi TV_vow ;	!! itqaġigaa	! remembers it
+iñi TV_vow ;	!! iñigaa	! hangs (fish or net for dryingj) over a pole
+iġḷigi TV_vow ;	!! iġḷigigaa	! clings to it for himself, is stingy with it
+kalik TV ;	!! kalikkaa	! drags it
+kamagi TV_vow ;	!! kamagigaa	! obeys him
+katak TV ;	!! katakkaa	! drops it
+kayuŋiuti TV_vow ;	!! kayuŋiutigaa	! coaxes him, urges him (K)
+kii TV_vow ;	!! kiigaa	! answers him (K)
+kikiaktuuti TV_vow ;	!! kikiaktuutigaa	! crucifies him (lit. nails him)
+kipaluk TV ;	!! kipalukkaa	! works for him, helps him
+kiu TV_vow ;	!! kiugaa	! answers him (N)
+kivik TV ;	!! kivikkaa	! lifts it
+kunik TV ;	!! kunikkaa	! kisses him
+kuvi TV_vow ;	!! kuvigaa	! pours it
+kuvi TV_vow ;	!! kuvigaa	! pours it out
+kuyak TV ;	!! kuyakkaa	! lies with her
+malik TV ;	!! malikkaa	! follows him, accompanies him
+mitautigi TV_vow ;	!! mitautigigaa	! mocks him, makes a fool of him
+miñuk TV ;	!! miñukkaa	! paints it
+munaġi TV_vow ;	!! munaġigaa	! watches him, takes care of him
+nagligi TV_vow ;	!! nagligigaa	! has compassion on him
+nagligi TV_vow ;	!! nagligigaa	! pities him
+nallauti TV_vow ;	!! nallautigaa	! lays him down, puts him to bed
+nalupqigi TV_vow ;	!! nalupqigigaa	! is uncertain about it
+natchik TV ;	!! natchikkaa	! yearns to follow him
+natqiguti TV_vow ;	!! natqigutigaa	! forgives him (lit. corrects him) (K)
+naulik TV ;	!! naulikkaa	! spears it
+navia TV_vow ;	!! naviagaa	! does not dare it
+naviagi TV_vow ;	!! naviagigaa	! is dangerous for him
+navik TV ;	!! navikkaa	! breaks it
+naġġugi TV_vow ;	!! naġġugigaa	! despises it, rejects it
+niġiugi TV_vow ;	!! niġiugigaa	! expects him (K, N)
+nuttaġi TV_vow ;	!! nuttaġigaa	! leaps at him
+pasi TV_vow ;	!! pasigaa	! blames him, accuses him (N)
+pasigi TV_vow ;	!! pasigigaa	! suspects him, blames him
+pasri TV_vow ;	!! pasrigaa	! blames him, accuses him (K)
+pasrigi TV_vow ;	!! pasrigigaa	! suspects him, blames him (K)
+patchisigi TV_vow ;	!! patchisigigaa	! accused, blamed him, condemns him, finds him guilty
+patchisigi TV_vow ;	!! patchisigigaa	! blames him, accuses him (K)
+piksraqtaaġi TV_vow ;	!! piksraqtaaġigaa	! is choosing him
+piqpagi TV_vow ;	!! piqpagigaa	! loves him
+pisik TV ;	!! pisikkaa	! shoots it, hits it (N)
+pituk TV ;	!! pitukkaa	! ties it, (dog, boat)
+pituk TV ;	!! pitukkaa	! ties up, anchors
+putyuk TV ;	!! putyukkaa	! pinches it (K)
+puyyuk TV ;	!! puyyukkaa	! pinches it (N)
+qaitchi TV_vow ;	!! qaitchigaa	! gives it
+qalli TV_vow ;	!! qalligaa	! draws near
+qalu TV_vow ;	!! qalugaa	! is dip netting
+qaunagi TV_vow ;	!! qaunagigaa	! cares for him
+qipi TV_vow ;	!! qipigaa	! twists it
+qiqiti TV_vow ;	!! qiqitigaa	! freezes it quickly
+savagvigi TV_vow ;	!! savagvigigaa	! works for him
+savak TV ;	!! savakkaa	! works it
+savauti TV_vow ;	!! savautigaa	! serves him
+sik TV ;	!! sikkaa	! shoots it, hits it (K)
+suquti TV_vow ;	!! suqutigaa	! takes notice of someone, pays attention to someone
+tai TV_vow ;	!! taigaa	! names him
+tammaġasrugigi TV_vow ;	!! tammaġasrugigigaa	! thinking he is lost
+taputi TV_vow ;	!! taputigaa	! takes it along
+tasiqsruġi TV_vow ;	!! tasiqsruġigaa	! stretches it
+tati TV_vow ;	!! tatigaa	! lays against it, leans against it, touches it
+tautuk TV ;	!! tautukkaa	! sees it
+tigu TV_vow ;	!! tigugaa	! picks it up, takes it
+tipi TV_vow ;	!! tipigaa	! washes it ashore
+tipsigi TV_vow ;	!! tipsigigaa	! laughs at somebody, mocks someone
+tunŋa TV_vow ;	!! tunŋagaa	! rests firmly on it
+tupak TV ;	!! tupakkaa	! startles him
+tupigi TV_vow ;	!! tupigigaa	! obeys him (K)
+tupsi TV_vow ;	!! tupsigaa	! finds an animal track
+tusru TV_vow ;	!! tusrugaa	! is envious of him (K)
+tusu TV_vow ;	!! tusugaa	! is envious of him (q)
+tuyuġi TV_vow ;	!! tuyuġigaa	! sends it
+ukpiġi TV_vow ;	!! ukpiġigaa	! believes it
+upyak TV ;	!! upyakkaa	! remarks about it, wisecracks about it (K)
+uqauti TV_vow ;	!! uqautigaa	! talks with him
+uqaġvigi TV_vow ;	!! uqaġvigigaa	! talks about it
+uqumaiġi TV_vow ;	!! uqumaiġigaa	! sucks it (something held in mouth)
+uŋu TV_vow ;	!! uŋugaa	! drives it (an animal)
+aat TV ;	!! aatkaa	! snatches it away (K)
+ait TV ;	!! aitkaa	! fetches it, goes to get it (N)
+akut TV ;	!! akutkaa	! stirs it
+ataut TV ;	!! atautkaa	! goes beneath it
+atchit TV ;	!! atchitkaa	! lends him
+aullaqtit TV ;	!! aullaqtitkaa	! causes it to depart, sends
+aullaqtit TV ;	!! aullaqtitkaa	! sends him away
+aŋalanŋait TV ;	!! aŋalanŋaitkaa	! did not control him
+aŋisit TV ;	!! aŋisitkaa	! tempers it
+igit TV ;	!! igitkaa	! throws it away, discards it
+ipit TV ;	!! ipitkaa	! suffocates him, smothers him, drowns him
+iqiat TV ;	!! iqiatkaa	! does not want to do it, is lazy
+kalit TV ;	!! kalitkaa	! pulls it, drags it behind
+katit TV ;	!! katitkaa	! gathers it
+kirratchaiqtit TV ;	!! kirratchaiqtitkaa	! shines brightly
+mamitit TV ;	!! mamititkaa	! healed him
+miluktit TV ;	!! miluktitkaa	! breast feeds him
+minit TV ;	!! minitkaa	! missed him, omitted him
+naavit TV ;	!! naavitkaa	! dumps it (non-liquid) (N)
+naavit TV ;	!! naavitkaa	! dumps it out
+naipit TV ;	!! naipitkaa	! watches it closely, tests it (K)
+nalautit TV ;	!! nalautitkaa	! aims it, focuses it
+niŋit TV ;	!! niŋitkaa	! kuvraq is setting net
+nuqit TV ;	!! nuqitkaa	! draws, pulls it
+nutqaqtit TV ;	!! nutqaqtitkaa	! stops it
+qamit TV ;	!! qamitkaa	! turns it off, extinguishes it
+qikisit TV ;	!! qikisitkaa	! warps it
+savit TV ;	!! savitkaa	! feels it, touches it
+saŋut TV ;	!! saŋutkaa	! gossips about him
+suqumit TV ;	!! suqumitkaa	! broke it up, tore it to pieces (K)
+tiŋit TV ;	!! tiŋitkaa	! drifts him away
+tunut TV ;	!! tunutkaa	! turns his back on him
+tuqut TV ;	!! tuqutkaa	! kills it
+Siḷivigmiit IV ; 	!! Siḷivigmiittuq	! is at Selawik
+Siḷivigmiñŋaq IV ; 	!! Siḷivigmiñŋaqtuq	! is coming from Selawik
+Utqiaġviŋmuk IV ; 	!! Utqiaġviŋmuktuq	! He is going to Barrow.
+aak IV ; 	!! aaktuq	! is self-asserting, proud of himself (K)
+aalġu IV_vow ; 	!! aalġuruq	! menstrates
+aatchauq IV ; 	!! aatchauqtuq	! yawns
+aatchui IV_vow ; 	!! aatchuiruq	! gives (K)
+aaġluq IV ; 	!! aaġluqtuq	! looks up, raises head
+aaŋa IV_vow ; 	!! aaŋaruq	! is stubborn, acts against better advice
+aaŋit IV ; 	!! aaŋittuq	! thinks he knows everything
+agaayu IV_vow ; 	!! agaayuruq	! prays (K)
+agaayuvigmiit IV ; 	!! agaayuvigmiittuq	! is in church
+agak IV ; 	!! agaktuq	! fights, plays roughly
+agiaq IV ; 	!! agiaqtuq	! files, rubs
+aglak IV ; 	!! aglaktuq	! writes
+aglauti IV_vow ; 	!! aglautiruq	! types (K)
+aglautitaq IV ; 	!! aglautitaqtuq	! types (N)
+agli IV_vow ; 	!! agliruq	! grows up, gets big
+agliqi IV_vow ; 	!! agliqiruq	! reads
+agliqi IV_vow ; 	!! agliqiruq	! reads (K)
+aglisaiññaq IV ; 	!! aglisaiññaqtuq	! is continually getting bigger
+agliñġaq IV ; 	!! agliñġaqtuq	! reaches puberty
+agliġnaq IV ; 	!! agliġnaqtuq	! is tabooed, forbidden to eat of do for religious reasons
+ai IV_vow ; 	!! airuq	! goes home (N)
+aiḷaq IV ; 	!! aiḷaqtuq	! is damp (K)
+aiḷaq IV ; 	!! aiḷaqtuq	! is wet (N)
+aiḷinaqsi IV_vow ; 	!! aiḷinaqsiruq	! is lunch time (noon meal) (K)
+aipa IV_vow ; 	!! aiparuq	! is fresh, raw (uncooked food) (K)
+aitchui IV_vow ; 	!! aitchuiruq	! gives (N)
+aitchuusiaqaq IV ; 	!! aitchuusiaqaqtuq	! has received a gift
+aiyugaaq IV ; 	!! aiyugaaqtuq	! invites
+aiyuilisuu IV_vow ; 	!! aiyuilisuuruq	! gets carried away, goes to excess
+akigaq IV ; 	!! akigaqtuq	! bears, carries
+akiiḷaaq IV ; 	!! akiiḷaaqtuq	! is free, without cost
+akiiḷaq IV ; 	!! akiiḷaqtuq	! is owing
+akima IV_vow ; 	!! akimaruq	! has won (is in state of having opposed)
+akima IV_vow ; 	!! akimaruq	! wins
+akiqsruq IV ; 	!! akiqsruqtuq	! promises
+akisaq IV ; 	!! akisaqtuq	! revenges (lit. tries to counter)
+akisu IV_vow ; 	!! akisuruq	! is expensive, precious, valuable
+akitchak IV ; 	!! akitchaktuq	! trades, barters
+akpak IV ; 	!! akpaktuq	! steps up (from lower to higher place)
+akpit IV ; 	!! akpittuq	! starts to sing
+aksraq IV ; 	!! aksraqtuq	! is rolling
+aktigi IV_vow ; 	!! aktigiruq	! is so long, is this much
+aktigi IV_vow ; 	!! aktigiruq	! it is that big
+aku IV ; 	!! akutuq	! "Eskimo ice cream" (of cooked fats, meats and berries)
+aku IV ; 	!! akutuq	! leaf
+akuq IV ; 	!! akuqtuq	! receives, accepts
+akuġluk IV ; 	!! akuġluktuq	! bell rings
+alapit IV ; 	!! alapittuq	! inattentive, fools around, is confused
+alapittaq IV ; 	!! alapittaqtuq	! is crazy, is drunk
+alatkaq IV ; 	!! alatkaqtuq	! scans the landscape from an elevated point, looks into water for signs of fish
+alianaq IV ; 	!! alianaqtuq	! is quiet, lonesome, sad
+alianiuq IV ; 	!! alianiuqtuq	! is lonesome, quiet, sad, not communicative
+aliasruk IV ; 	!! aliasruktuq	! is despondent, sad (K)
+alik IV ; 	!! aliktuq	! is torn
+aliuq IV ; 	!! aliuqtuq	! cooks dog food (K)
+aliuq IV ; 	!! aliuqtuq	! haunts
+aliuq IV ; 	!! aliuqtuq	! marvels, fears (N), haunts
+aliuqtuq IV ; 	!! aliuqtuqtuq	! is haunted
+allakuaq IV ; 	!! allakuaqtuq	! goes by another way
+allaq IV ; 	!! allaqtuq	! clear weather
+allaqtiġi IV_vow ; 	!! allaqtiġiruq	! dries, wipes (e.g. dishes)
+allatuq IV ; 	!! allatuqtuq	! commits adultery
+allayuaq IV ; 	!! allayuaqtuq	! fears because of an unusual event, shyness of toddler (N)
+allayuaq IV ; 	!! allayuaqtuq	! is shy, bashful (of toddler) (N)
+allaŋŋuq IV ; 	!! allaŋŋuqtuq	! is different
+allaŋŋuq IV ; 	!! allaŋŋuqtuq	! is different, other (N)
+aluk IV ; 	!! aluktuq	! licks
+alutaġuk IV ; 	!! alutaġuktuq	! wants a spoon
+aluutaġaq IV ; 	!! aluutaġaqtuq	! eats with a spoon
+alġaqsrui IV_vow ; 	!! alġaqsruiruq	! exhorts, corrects, preaches (N)
+alġaqsrui IV_vow ; 	!! alġaqsruiruq	! exhorts, reproves, preaches (N)
+amaaq IV ; 	!! amaaqtuq	! carry baby on back
+amaniit IV ; 	!! amaniittuq	! is there (out of sight)
+amiiqsi IV_vow ; 	!! amiiqsiruq	! skins an animal
+amiiqsik IV ; 	!! amiiqsiktuq	! has skinned self (K)
+amiiġruk IV ; 	!! amiiġruktuq	! has skinned self (N)
+amiḷiqi IV_vow ; 	!! amiḷiqiruq	! works with skins
+amuma IV_vow ; 	!! amumaruq	! is pulled out (e.g. a net)
+anaq IV ; 	!! anaqtuq	! defecates
+anayasuk IV ; 	!! anayasuktuq	! fears the consequence (N)
+ani IV_vow ; 	!! aniruq	! exits, is born
+ani IV_vow ; 	!! aniruq	! is born (lit. exits)
+aniiqsuaq IV ; 	!! aniiqsuaqtuq	! plays outdoors
+aniqtiġi IV_vow ; 	!! aniqtiġiruq	! breathes
+aniġnitchiaq IV ; 	!! aniġnitchiaqtuq	! is panting
+annak IV ; 	!! annaktuq	! is saved (N)
+annak IV ; 	!! annaktuq	! is sheltered, is safe, saves
+annaqtit IV ; 	!! annaqtittuq	! is bruised
+anniiya IV_vow ; 	!! anniiyaruq	! is sore (N)
+anniqsui IV_vow ; 	!! anniqsuiruq	! benefits, helps
+anniqsui IV_vow ; 	!! anniqsuiruq	! helps, is beneficial (N)
+anniqsuq IV ; 	!! anniqsuqtuq	! is saved (K)
+anniġñaq IV ; 	!! anniġñaqtuq	! hurts, pains, is sick (N)
+anuqqaŋa IV_vow ; 	!! anuqqaŋaruq	! is windy (gale force)
+anuqsru IV_vow ; 	!! anuqsruruq	! endures, suffers (K)
+api IV_vow ; 	!! apiruq	! is snow covered
+apiqsri IV_vow ; 	!! apiqsriruq	! asks, questions
+apluq IV ; 	!! apluqtuq	! steps, takes a step
+apqusraaq IV ; 	!! apqusraaqtuq	! travels through (K)
+apta IV_vow ; 	!! aptaruq	! is busy (N)
+apuq IV ; 	!! apuqtuq	! meets, bumps, strikes against
+apyula IV_vow ; 	!! apyularuq	! is dusty (K)
+aqalugniaq IV ; 	!! aqalugniaqtuq	! is fishing (kiv, n)
+aqaluk IV ; 	!! aqaluktuq	! catches a fish (kiv, n)
+aqavit IV ; 	!! aqavittuq	! sits down ( q)
+aqi IV_vow ; 	!! aqiruq	! kicks
+aqiaġunŋu IV_vow ; 	!! aqiaġunŋuruq	! has an acute stomachache
+aqpaksruq IV ; 	!! aqpaksruqtuq	! runs (of human) (K)
+aqpaliġaaq IV ; 	!! aqpaliġaaqtuq	! runs a race
+aqpaqsruq IV ; 	!! aqpaqsruqtuq	! runs (K)
+aqpat IV ; 	!! aqpattuq	! runs (N)
+aqpat IV ; 	!! aqpattuq	! runs (of human) (N)
+aqqauq IV ; 	!! aqqauqtuq	! (fish) bit on hook
+aqsravaluk IV ; 	!! aqsravaluktuq	! is round (K)
+aquvit IV ; 	!! aquvittuq	! sits down
+aqvaluk IV ; 	!! aqvaluktuq	! is round (N)
+araqsiġiaq IV ; 	!! araqsiġiaqtuq	! is open to counsel (N)
+argaaq IV ; 	!! argaaqtuq	! broken finger
+arguaŋa IV_vow ; 	!! arguaŋaruq	! is egotistical (can do anything)
+arguk IV ; 	!! arguktuq	! travels into the wind
+arriqaq IV ; 	!! arriqaqtuq	! is like, is comparable (N)
+asiq IV ; 	!! asiqtuq	! is nodding (with head while others dance)
+ata IV_vow ; 	!! ataruq	! is connected with
+ataaniit IV ; 	!! ataaniittuq	! is under
+ataaq IV ; 	!! ataaqtuq	! travels down river by boat
+ataaqtuq IV ; 	!! ataaqtuqtuq	! goes down to the lead to camp for whaling (N)
+ataaqtuq IV ; 	!! ataaqtuqtuq	! goes to set up whale camp on the ice (N)
+atanġiqsau IV_vow ; 	!! atanġiqsauruq	! is free
+atanġusuk IV ; 	!! atanġusuktuq	! is cranky
+atanġusuk IV ; 	!! atanġusuktuq	! is cranky (N)
+atanġutu IV_vow ; 	!! atanġuturuq	! is cranky (K)
+ataqsi IV_vow ; 	!! ataqsiruq	! borrows
+ataut IV ; 	!! atauttuq	! goes beneath
+atchikisaaq IV ; 	!! atchikisaaqtuq	! see-saw jumping (N)
+ati IV_vow ; 	!! atiruq	! is the same, there is no difference
+atigi IV_vow ; 	!! atigiruq	! puts on parka
+atigitchiaq IV ; 	!! atigitchiaqtuq	! gets a new parky
+atiqayaq IV ; 	!! atiqayaqtuq	! almost the same
+atiqsaaq IV ; 	!! atiqsaaqtuq	! travels down river by sled
+atlayuaq IV ; 	!! atlayuaqtuq	! fears because of an unusual event, shyness of toddler (K)
+atlayuaq IV ; 	!! atlayuaqtuq	! is shy, bashful (of toddler) (K)
+atniiya IV_vow ; 	!! atniiyaruq	! is sore (K)
+atniutaqtuq IV ; 	!! atniutaqtuqtuq	! has pain
+atniġñaq IV ; 	!! atniġñaqtuq	! hurts, pains, is sick (K)
+atniġñaq IV ; 	!! atniġñaqtuq	! is sick (malaise) (K)
+atqaq IV ; 	!! atqaqtuq	! descends
+atqunaq IV ; 	!! atqunaqtuq	! is much, too much, plenty, there is an abundance
+atriqaq IV ; 	!! atriqaqtuq	! is like, is comparable (K)
+attaqsraq IV ; 	!! attaqsraqtuq	! respects, fear of a person who is not well known (K)
+attaġnaq IV ; 	!! attaġnaqtuq	! is stern, unfriendly, non-communicative
+atuanik IV ; 	!! atuaniktuq	! has already sung
+atuq IV ; 	!! atuqtuq	! sings
+atuq IV ; 	!! atuqtuq	! uses, acts immorally
+atuqtuuraq IV ; 	!! atuqtuuraqtuq	! plays instrument
+atuutiksraqaq IV ; 	!! atuutiksraqaqtuq	! has a song choice
+atuġnaq IV ; 	!! atuġnaqtuq	! is useful
+atuŋak IV ; 	!! atuŋaktuq	! resoles a boot (K?)
+atvaqtaq IV ; 	!! atvaqtaqtuq	! humbles himself much (K)
+au IV_vow ; 	!! auruq	! is rotten, is rotting, aging
+auk IV ; 	!! auktuq	! nose bleeds
+aula IV_vow ; 	!! aularuq	! dances (K)
+aula IV_vow ; 	!! aularuq	! dances (K)
+aula IV_vow ; 	!! aularuq	! moves (N, s)
+aula IV_vow ; 	!! aularuq	! nuna earthquake (N)
+aullaq IV ; 	!! aullaqtuq	! departs, goes away
+aullaq IV ; 	!! aullaqtuq	! goes away
+aullaqsiviñaq IV ; 	!! aullaqsiviñaqtuq	! is departing quickly
+aullaqsruġniaq IV ; 	!! aullaqsruġniaqtuq	! picks berries
+aullaġnii IV_vow ; 	!! aullaġniiruq	! begins
+aunaaq IV ; 	!! aunaaqtuq	! bleeds, menstruates (N)
+aunaaqsruq IV ; 	!! aunaaqsruqtuq	! bleeds, menstruates (K)
+auniq IV ; 	!! auniqtuq	! has a rotten spot
+auq IV ; 	!! auqtuq	! stalks seal, crawling and scratching on ice at the same time
+autaaq IV ; 	!! autaaqtuq	! divides, shares
+avaala IV_vow ; 	!! avaalaruq	! yelps with pain (K, q)
+avallak IV ; 	!! avallaktuq	! travels straight out from the shore
+avik IV ; 	!! aviktuq	! cuts, divides (meat, bread, etc.)
+aviḷuqtaq IV ; 	!! aviḷuqtaqtuq	! bell rings
+ayaagit IV ; 	!! ayaagittuq	! is undecided, desires to but can't begin (N)
+ayau IV_vow ; 	!! ayauruq	! got blind
+ayauŋa IV_vow ; 	!! ayauŋaruq	! is blind
+ayu IV_vow ; 	!! ayuruq	! plays ball (K)
+ayuk IV ; 	!! ayuktuq	! ball
+ayuq IV ; 	!! ayuqtuq	! plays ball (N)
+aġiu IV_vow ; 	!! aġiuruq	! ends, quits, stops, is satisfied (N)
+aġiunaq IV ; 	!! aġiunaqtuq	! plays (K)
+aġiunayaq IV ; 	!! aġiunayaqtuq	! would be stopped
+aġiñaq IV ; 	!! aġiñaqtuq	! is soft
+aġvaluk IV ; 	!! aġvaluktuq	! is round
+aġvaq IV ; 	!! aġvaqtuq	! killed a whale
+aġġallaaġik IV ; 	!! aġġallaaġiktuq	! enjoys himself (K)
+aġġi IV_vow ; 	!! aġġiruq	! dances, participates
+aŋaayu IV_vow ; 	!! aŋaayuruq	! prays (N)
+aŋalatchi IV_vow ; 	!! aŋalatchiruq	! rules, reigns, directs
+aŋayu IV_vow ; 	!! aŋayuruq	! dances
+aŋi IV_vow ; 	!! aŋiruq	! arose, resuscitated, revived
+aŋi IV_vow ; 	!! aŋiruq	! is big
+aŋi IV_vow ; 	!! aŋiruq	! is big
+aŋi IV_vow ; 	!! aŋiruq	! resuscitated, revived, arose
+aŋiiñaq IV ; 	!! aŋiiñaqtuq	! procures no game, fish
+aŋiḷaaq IV ; 	!! aŋiḷaaqtuq	! goes home (K)
+aŋiḷgisaq IV ; 	!! aŋiḷgisaqtuq	! swings (n)
+aŋiq IV ; 	!! aŋiqtuq	! agrees, assents, says yes with raised eyebrows
+aŋivraq IV ; 	!! aŋivraqtuq	! disassembles (K)
+aŋivraq IV ; 	!! aŋivraqtuq	! loosens, unravels, unties
+aŋivsi IV_vow ; 	!! aŋivsiruq	! disassembles (N)
+aŋiłhisaq IV ; 	!! aŋiłhisaqtuq	! swings (K)
+aŋmaq IV ; 	!! aŋmaqtuq	! is open, turned on (radio, tape recorder)
+aŋu IV_vow ; 	!! aŋuruq	! procures game, fish
+aŋuaq IV ; 	!! aŋuaqtuq	! paddles
+aŋula IV_vow ; 	!! aŋularuq	! chews
+aŋuniaq IV ; 	!! aŋuniaqtuq	! is hunting
+aŋuyak IV ; 	!! aŋuyaktuq	! fights
+ichuk IV ; 	!! ichuktuq	! fleshes animal skin, tans (K)
+igaapiaq IV ; 	!! igaapiaqtuq	! boils meat or fish
+iggianŋu IV_vow ; 	!! iggianŋuruq	! has an acute sore throat
+igit IV ; 	!! igittuq	! throws away, discards
+iglaq IV ; 	!! iglaqtuq	! laughs
+iglaŋa IV_vow ; 	!! iglaŋaruq	! smiles
+iglaŋaaq IV ; 	!! iglaŋaaqtuq	! smiles
+iglaŋaaq IV ; 	!! iglaŋaaqtuq	! smiles (N)
+igliq IV ; 	!! igliqtuq	! travels, moves
+igliŋnaq IV ; 	!! igliŋnaqtuq	! is cute (of a baby)
+iglukisaaq IV ; 	!! iglukisaaqtuq	! juggles
+igluqpi IV_vow ; 	!! igluqpiruq	! builds a house (N)
+igḷutui IV_vow ; 	!! igḷutuiruq	! endure
+igḷutui IV_vow ; 	!! igḷutuiruq	! endures
+igni IV_vow ; 	!! igniruq	! make fire with flint
+igniqauq IV ; 	!! igniqauqtuq	! Steller's eider (Somateria stelleri)
+igniġuqpatit IV ; 	!! igniġuqpatittuq	! is lightning (N)
+iivaq IV ; 	!! iivaqtuq	! comes around a point (K)
+iivaqsaaq IV ; 	!! iivaqsaaqtuq	! rounds a bend (K)
+ikaaq IV ; 	!! ikaaqtuq	! crosses over
+ikayuq IV ; 	!! ikayuqtuq	! helps
+iki IV_vow ; 	!! ikiruq	! burns, is consumed
+iki IV_vow ; 	!! ikiruq	! embarks (boat, sled, airplane etc.)
+iki IV_vow ; 	!! ikiruq	! embarks, enters, gets on or into
+ikiaqtaalaaq IV ; 	!! ikiaqtaalaaqtuq	! body tingles because of emotional stimulus
+ikima IV_vow ; 	!! ikimaruq	! is burning, is on (of electric light)
+ikiqtu IV_vow ; 	!! ikiqturuq	! is wide
+ikkat IV ; 	!! ikkattuq	! is shallow
+ikpiktitaq IV ; 	!! ikpiktitaqtuq	! bank is being undercut by water
+ikpiktitaq IV ; 	!! ikpiktitaqtuq	! water is undercutting bank
+ikuallak IV ; 	!! ikuallaktuq	! bursts into flame
+ikuallauraq IV ; 	!! ikuallauraqtuq	! is burning a little, smoldering
+ikuk IV ; 	!! ikuktuq	! fleshes animal skin, tans (N)
+ikuk IV ; 	!! ikuktuq	! loads sled (N)
+ikuma IV_vow ; 	!! ikumaruq	! is burning, is on (of electric light)
+ikľigutchaktit IV ; 	!! ikľigutchaktittuq	! is tempted (lit. induced to want the other)
+illuk IV ; 	!! illuktuq	! is snow blinded
+iḷa IV_vow ; 	!! iḷaruq	! is adding (K)
+iḷali IV_vow ; 	!! iḷaliruq	! adds, joins, shakes hands with (K)
+iḷali IV_vow ; 	!! iḷaliruq	! shakes hand
+iḷaqatnik IV ; 	!! iḷaqatniktuq	! is married (lit. he obtained a partner)
+iḷaqatnik IV ; 	!! iḷaqatniktuq	! obtained a marriage partner
+iḷasraila IV_vow ; 	!! iḷasrailaruq	! cries with pain, screams (K)
+iḷaŋŋaaqtaaq IV ; 	!! iḷaŋŋaaqtaaqtuq	! is subtracting
+iḷimasuk IV ; 	!! iḷimasuktuq	! suspect
+iḷiqsaq IV ; 	!! iḷiqsaqtuq	! nuna earthquake
+iḷiqsaq IV ; 	!! iḷiqsaqtuq	! nuna earthquake (K)
+iḷiqsaq IV ; 	!! iḷiqsaqtuq	! quakes, wobbles
+iḷisaq IV ; 	!! iḷisaqtuq	! tries to learn, practices
+iḷisaurri IV_vow ; 	!! iḷisaurriruq	! teaches (N)
+iḷisautri IV_vow ; 	!! iḷisautriruq	! teaches (K)
+iḷisima IV_vow ; 	!! iḷisimaruq	! knows
+iḷisimasugnaq IV ; 	!! iḷisimasugnaqtuq	! is thought to know (I think he knows)
+iḷitchi IV_vow ; 	!! iḷitchiruq	! learns
+iḷitchuġi IV_vow ; 	!! iḷitchuġiruq	! recognizes, realizes
+iḷḷak IV ; 	!! iḷḷaktuq	! is tangled
+iḷḷaq IV ; 	!! iḷḷaqtuq	! tangle
+iḷḷati IV_vow ; 	!! iḷḷatiruq	! adds, joins, shakes hands with (N)
+iḷḷati IV_vow ; 	!! iḷḷatiruq	! is adding (N)
+iḷḷiaqsuq IV ; 	!! iḷḷiaqsuqtuq	! combs hair (N)
+iḷumutuu IV_vow ; 	!! iḷumutuuruq	! is true
+iḷunŋu IV_vow ; 	!! iḷunŋuruq	! stomach hurts
+iḷunŋutchak IV ; 	!! iḷunŋutchaktuq	! is deeply angry, hurt, disturbed
+iḷuvvik IV ; 	!! iḷuvviktuq	! buries (N)
+imaqaq IV ; 	!! imaqaqtuq	! is full
+imaqsi IV_vow ; 	!! imaqsiruq	! moistens skin
+imigluk IV ; 	!! imigluktuq	! earring
+iminŋu IV_vow ; 	!! iminŋuruq	! has a hangover (K)
+imiq IV ; 	!! imiqtuq	! drinks
+imiqtaq IV ; 	!! imiqtaqtuq	! is going for water
+imiġuk IV ; 	!! imiġuktuq	! is thirsty
+immaq IV ; 	!! immaqtuq	! is leaking
+imñiqsak IV ; 	!! imñiqsaktuq	! groans
+imŋaluk IV ; 	!! imŋaluktuq	! whines
+imŋaluk IV ; 	!! imŋaluktuq	! whines (dog), hums (person)
+inillak IV ; 	!! inillaktuq	! is placing
+innait IV ; 	!! innaittuq	! the like of, such kind (N)
+inuq IV ; 	!! inuqtuq	! is insufficient, fails to reach it, shoots low
+ipi IV_vow ; 	!! ipiruq	! suffocates, smothers, drowns
+ipik IV ; 	!! ipiktuq	! is sharp
+ipiktusuk IV ; 	!! ipiktusuktuq	! is sad, despondent
+ipiqtusuk IV ; 	!! ipiqtusuktuq	! is despondent, sad (N)
+ipiġaq IV ; 	!! ipiġaqtuq	! wades, cuts himself
+ipnaiq IV ; 	!! ipnaiqtuq	! goes to a cliff
+ipqu IV_vow ; 	!! ipquruq	! is dirty
+ipuaq IV ; 	!! ipuaqtuq	! rows (N)
+ipuktaq IV ; 	!! ipuktaqtuq	! see-saw jumping (K)
+iput IV ; 	!! iputtuq	! rows (K)
+ipyanŋunaq IV ; 	!! ipyanŋunaqtuq	! is stuffy (K)
+iqalugniaq IV ; 	!! iqalugniaqtuq	! is fishing (N, q)
+iqaluk IV ; 	!! iqaluktuq	! catches a fish (N, q)
+iqaqsri IV_vow ; 	!! iqaqsriruq	! washes clothes (N)
+iqatau IV_vow ; 	!! iqatauruq	! is together with (K)
+iqiasruk IV ; 	!! iqiasruktuq	! is lazy (K)
+iqiasuk IV ; 	!! iqiasuktuq	! is lazy
+iqiasuk IV ; 	!! iqiasuktuq	! lazy
+iqiatchak IV ; 	!! iqiatchaktuq	! (moon) begins to wane
+iqquli IV_vow ; 	!! iqquliruq	! skins muskrat (by cutting the belly section)
+iqsi IV_vow ; 	!! iqsiruq	! fears
+iqsi IV_vow ; 	!! iqsiruq	! fears (general, most common)
+iqsisaaq IV ; 	!! iqsisaaqtuq	! frightens away an attacking animal (K)
+iqsruqtuq IV ; 	!! iqsruqtuqtuq	! builds a house (K)
+iqsuk IV ; 	!! iqsuktuq	! responds negatively by wrinkling nose
+iqsuktaq IV ; 	!! iqsuktaqtuq	! wrinkles nose
+iqłaqtuq IV ; 	!! iqłaqtuqtuq	! is jigging, is hooking mudshark (K), is hooking tomcod (q)
+irinŋu IV_vow ; 	!! irinŋuruq	! eye hurts
+iriq IV ; 	!! iriqtuq	! hides
+isaaq IV ; 	!! isaaqtuq	! raises his arms (N)
+isaaŋa IV_vow ; 	!! isaaŋaruq	! reaches forth
+isaġuti IV_vow ; 	!! isaġutiruq	! beings
+isimŋaaq IV ; 	!! isimŋaaqtuq	! line of gently sloping hills
+isiq IV ; 	!! isiqtuq	! enters, visits
+isiqattaaq IV ; 	!! isiqattaaqtuq	! is visiting
+isiqsi IV_vow ; 	!! isiqsiruq	! is getting smoke filled
+isiqsu IV_vow ; 	!! isiqsuruq	! is daring (strong), is enduring (persistent hunter) (K)
+isivġii IV_vow ; 	!! isivġiiruq	! judges (N)
+isiġniatak IV ; 	!! isiġniataktuq	! is trying to enter
+israk IV ; 	!! israktuq	! raises his arms (K)
+isruma IV_vow ; 	!! isrumaruq	! thinks (K)
+isrumaaluk IV ; 	!! isrumaaluktuq	! worries (K)
+isrumanŋu IV_vow ; 	!! isrumanŋuruq	! holds a grudge (K)
+isruq IV ; 	!! isruqtuq	! is opaque, is muddy, not clear (K)
+isuma IV_vow ; 	!! isumaruq	! thinks (N, q)
+isumaaq IV ; 	!! isumaaqtuq	! mourns (not expressed), worries (K)
+isumanŋu IV_vow ; 	!! isumanŋuruq	! holds a grudge (N)
+isumanŋutchauti IV_vow ; 	!! isumanŋutchautiruq	! argues heatedly
+isumattu IV_vow ; 	!! isumatturuq	! is wise
+isumatu IV_vow ; 	!! isumaturuq	! is wise
+isummaqpak IV ; 	!! isummaqpaktuq	! is sorrowing much
+isuq IV ; 	!! isuqtuq	! is opaque, is muddy, not clear
+it IV ; 	!! ittuq	! exists, is, lives, stays
+itchuq IV ; 	!! itchuqtuq	! waits for an animal to appear (K)
+iti IV_vow ; 	!! itiruq	! is deep
+itiktaq IV ; 	!! itiktaqtuq	! has diarrhea
+itiq IV ; 	!! itiqtuq	! wakes up
+itivli IV_vow ; 	!! itivliruq	! is sleepwalking, talking in his sleep
+itiġnaġiaq IV ; 	!! itiġnaġiaqtuq	! arises early
+itnaq IV ; 	!! itnaqtuq	! the like of, such kind (K)
+itqaq IV ; 	!! itqaqtuq	! remembers
+itqatauŋa IV_vow ; 	!! itqatauŋaruq	! is together with (N)
+itqaġmiraq IV ; 	!! itqaġmiraqtuq	! he habitually remembers
+itquma IV_vow ; 	!! itqumaruq	! is awake, is not sleeping
+itqutchiġnaqsi IV_vow ; 	!! itqutchiġnaqsiruq	! is breakfast time
+iva IV_vow ; 	!! ivaruq	! is nesting
+ivak IV ; 	!! ivaktuq	! searches (N)
+ivaluk IV ; 	!! ivaluktuq	! flaps (N)
+ivalukataq IV ; 	!! ivalukataqtuq	! is flapping (slowly)
+ivalukkattaaq IV ; 	!! ivalukkattaaqtuq	! is flapping (rapidly)
+ivaġiaq IV ; 	!! ivaġiaqtuq	! is going to search
+ivik IV ; 	!! iviktuq	! fits
+iviġak IV ; 	!! iviġaktuq	! pleases
+ivukutaq IV ; 	!! ivukutaqtuq	! flaps (K)
+ivvaq IV ; 	!! ivvaqtuq	! bathes (N)
+ivyanŋunaq IV ; 	!! ivyanŋunaqtuq	! is stuffy (N)
+iñiqsi IV_vow ; 	!! iñiqsiruq	! made, created (K)
+iñiqtiq IV ; 	!! iñiqtiqtuq	! is threatening (scolding that brings results)
+iñiqtiq IV ; 	!! iñiqtiqtuq	! rebuked him, permitted him not
+iñiqtuq IV ; 	!! iñiqtuqtuq	! is tired (K)
+iñugiak IV ; 	!! iñugiaktuq	! are many
+iñuguq IV ; 	!! iñuguqtuq	! became a man (having grown up)
+iñuguq IV ; 	!! iñuguqtuq	! grew up (lit. became a person)
+iñukpallik IV ; 	!! iñukpalliktuq	! comes from, originates
+iñulluataq IV ; 	!! iñulluataqtuq	! is a good man
+iñunŋunaq IV ; 	!! iñunŋunaqtuq	! is naughty (lit. evokes a person to pain) (K)
+iñuu IV_vow ; 	!! iñuuruq	! lives
+iñuuniaq IV ; 	!! iñuuniaqtuq	! makes a living, lives
+iññiaq IV ; 	!! iññiaqtuq	! is visiting (K)
+iññiaqsi IV_vow ; 	!! iññiaqsiruq	! stretches hide on frame
+iġitchaq IV ; 	!! iġitchaqtuq	! plucks fowl
+iġḷik IV ; 	!! iġḷiktuq	! is stingy
+iġḷitu IV_vow ; 	!! iġḷituruq	! is stingy (n, K)
+iġñi IV_vow ; 	!! iġñiruq	! gives birth, has a baby
+iġñiqaġniaq IV ; 	!! iġñiqaġniaqtuq	! will have a son
+iġġiala IV_vow ; 	!! iġġialaruq	! yells, shouts
+iġġuqsi IV_vow ; 	!! iġġuqsiruq	! washes clothes (K)
+iłuaq IV ; 	!! iłuaqtuq	! is right, good, correct, fitting
+iłuaqquġuu IV_vow ; 	!! iłuaqquġuuruq	! is proper, honest
+iłuaqsi IV_vow ; 	!! iłuaqsiruq	! heals, fixes
+iłuaqsi IV_vow ; 	!! iłuaqsiruq	! recovers
+iłuaqsruq IV ; 	!! iłuaqsruqtuq	! corrects person who is erring ignorantly
+iłuiḷḷiuq IV ; 	!! iłuiḷḷiuqtuq	! is troubled, bad conscience
+iŋiqsruq IV ; 	!! iŋiqsruqtuq	! asks, prays (K)
+iŋiuliuq IV ; 	!! iŋiuliuqtuq	! pitches (boat)
+iŋu IV ; 	!! iŋutuq	! young female (choice whale, soft muktuk)
+kaak IV ; 	!! kaaktuq	! is hungry (N)
+kaimuġaq IV ; 	!! kaimuġaqtuq	! pushes heavy sled (N)
+kaivaŋa IV_vow ; 	!! kaivaŋaruq	! is dizzy (N)
+kaivit IV ; 	!! kaivittuq	! circles around (K)
+kaivḷuk IV ; 	!! kaivḷuktuq	! pushes heavy sled
+kakaak IV ; 	!! kakaaktuq	! carries on head or shoulders
+kaki IV_vow ; 	!! kakiruq	! pricksq
+kakkaaq IV ; 	!! kakkaaqtuq	! is starving, starved to death
+kakki IV_vow ; 	!! kakkiruq	! blows nose
+kakkiñŋu IV_vow ; 	!! kakkiñŋuruq	! has a stuffy nose
+kalak IV ; 	!! kalaktuq	! burps (N, q)
+kalak IV ; 	!! kalaktuq	! clears throat
+kalivit IV ; 	!! kalivittuq	! is stuck
+kallula IV_vow ; 	!! kallularuq	! is thundering
+kamaksri IV_vow ; 	!! kamaksriruq	! obeys
+kamaksriugaq IV ; 	!! kamaksriugaqtuq	! is always obedient
+kamanaq IV ; 	!! kamanaqtuq	! is great, is to be honored
+kamanałhaaq IV ; 	!! kamanałhaaqtuq	! is greater
+kamasaaq IV ; 	!! kamasaaqtuq	! is boastful (N, q)
+kamasraaq IV ; 	!! kamasraaqtuq	! is boastful (K)
+kamatchak IV ; 	!! kamatchaktuq	! is surprised at another's ability, takes pride in another's ability
+kananiit IV ; 	!! kananiittuq	! is down there (visible)
+kanŋusruk IV ; 	!! kanŋusruktuq	! is ashamed, bashful (K)
+kanŋusuk IV ; 	!! kanŋusuktuq	! is ashamed, bashful (N)
+kanŋusuu IV_vow ; 	!! kanŋusuuruq	! is shy
+kanŋutchiaq IV ; 	!! kanŋutchiaqtuq	! is embarrassed
+kapi IV_vow ; 	!! kapiruq	! stabs
+kasuŋa IV_vow ; 	!! kasuŋaruq	! is loose (e.g. rope tied loosely around pole) (N)
+katak IV ; 	!! kataktuq	! is falling
+katit IV ; 	!! katittuq	! gathers
+kauk IV ; 	!! kauktuq	! hammers (K)
+kautaq IV ; 	!! kautaqtuq	! hammers (N)
+kayuq IV ; 	!! kayuqtuq	! fox (K)
+kayuq IV ; 	!! kayuqtuq	! red fox (N)
+kaŋataliiktak IV ; 	!! kaŋataliiktaktuq	! to rumble (as a moving sled)
+kaŋiqsi IV_vow ; 	!! kaŋiqsiruq	! understands
+kiavluk IV ; 	!! kiavluktuq	! circles around (N)
+kigiraq IV ; 	!! kigiraqtuq	! is crimping soles (K)
+kigutinŋu IV_vow ; 	!! kigutinŋuruq	! has a toothache
+kiiqsiuq IV ; 	!! kiiqsiuqtuq	! is painful
+kiiraq IV ; 	!! kiiraqtuq	! is crimping soles (N)
+kiiñaġiili IV_vow ; 	!! kiiñaġiiliruq	! blushes
+kilik IV ; 	!! kiliktuq	! tells news, warns
+kiliktau IV_vow ; 	!! kiliktauruq	! is being warned
+killaiyaq IV ; 	!! killaiyaqtuq	! mends, sews
+killukuaq IV ; 	!! killukuaqtuq	! errs
+killukuaq IV ; 	!! killukuaqtuq	! goes wrong way
+killuqsaq IV ; 	!! killuqsaqtuq	! sinned (K)
+kiluaq IV ; 	!! kiluaqtuq	! is ripped
+kiluusaqsima IV_vow ; 	!! kiluusaqsimaruq	! is locked
+kiḷiigruk IV ; 	!! kiḷiigruktuq	! has skinned self, abrased
+kinataq IV ; 	!! kinataqtuq	! brakes sled
+kiniq IV ; 	!! kiniqtuq	! thick soup
+kinnau IV_vow ; 	!! kinnauruq	! is foolish
+kinnaŋaaqsi IV_vow ; 	!! kinnaŋaaqsiruq	! is becoming senile
+kipalunik IV ; 	!! kipaluniktuq	! has helpers
+kipiqniuq IV ; 	!! kipiqniuqtuq	! is anxious to (K)
+kipiġi IV_vow ; 	!! kipiġiruq	! is anxious to
+kipiġniuq IV ; 	!! kipiġniuqtuq	! is anxious to (N)
+kipri IV_vow ; 	!! kipriruq	! cuts off, severs (K)
+kirri IV_vow ; 	!! kirriruq	! cuts off, severs (N)
+kirriqsi IV_vow ; 	!! kirriqsiruq	! has a fever
+kisimġiuq IV ; 	!! kisimġiuqtuq	! is alone
+kitñu IV_vow ; 	!! kitñuruq	! capsizes
+kivi IV_vow ; 	!! kiviruq	! sinks
+kivik IV ; 	!! kiviktuq	! lifts
+kiviliq IV ; 	!! kiviliqtuq	! cannot recall word or name, forget
+kivluk IV ; 	!! kivluktuq	! cuts across
+kivsi IV_vow ; 	!! kivsiruq	! is startled awake while dozing off
+kiñuġauti IV_vow ; 	!! kiñuġautiruq	! is too late (K)
+kiŋiaq IV ; 	!! kiŋiaqtuq	! turns head (K)
+kiŋiaq IV ; 	!! kiŋiaqtuq	! turns head, looks behind (K)
+kiŋmaq IV ; 	!! kiŋmaqtuq	! bites
+kiŋu IV_vow ; 	!! kiŋuruq	! capsizes (N)
+kiŋuvaannak IV ; 	!! kiŋuvaannaktuq	! inherits (N)
+kiŋuġautchi IV_vow ; 	!! kiŋuġautchiruq	! is too late (N)
+kukiḷuk IV ; 	!! kukiḷuktuq	! goes about from place to place
+kukiu IV_vow ; 	!! kukiuruq	! is cooking (N)
+kukkiḷi IV_vow ; 	!! kukkiḷiruq	! picks teeth
+kumik IV ; 	!! kumiktuq	! scratches
+kuraq IV ; 	!! kuraqtuq	! looks down
+kurraq IV ; 	!! kurraqtuq	! looks down, lowers head
+kuukpiaqtuq IV ; 	!! kuukpiaqtuqtuq	! is drinking coffee
+kuvi IV_vow ; 	!! kuviruq	! pours
+kuvraq IV ; 	!! kuvraqtuq	! netted fish
+kuvraqsruq IV ; 	!! kuvraqsruqtuq	! checks net
+kuvri IV_vow ; 	!! kuvriruq	! makes net
+kuvriqi IV_vow ; 	!! kuvriqiruq	! checks net
+magu IV_vow ; 	!! maguruq	! howls (dog, wolf)
+makimak IV ; 	!! makimaktuq	! understands not (N)
+makit IV ; 	!! makittuq	! arises, stands up
+makpiq IV ; 	!! makpiqtuq	! opens (as a shirt, coat)
+malik IV ; 	!! maliktuq	! follows (another)\
+maliksuktitau IV_vow ; 	!! maliksuktitauruq	! convinced
+maliksuktitau IV_vow ; 	!! maliksuktitauruq	! is convinced
+mamianaq IV ; 	!! mamianaqtuq	! is annoyed, offended
+mamit IV ; 	!! mamittuq	! heals (of sore, cut, etc.)
+manaqtuq IV ; 	!! manaqtuqtuq	! is hooking fish (tomcod) (q)
+mapkutit IV ; 	!! mapkutittuq	! slaps the water with his tail (beaver)
+mapqaq IV ; 	!! mapqaqtuq	! reports of a gun, sound of an explosion
+maptu IV_vow ; 	!! mapturuq	! is thick
+maqi IV_vow ; 	!! maqiruq	! drains (of ear, sore etc.), sweats
+maqi IV_vow ; 	!! maqiruq	! sweats (N)
+mattaq IV ; 	!! mattaqtuq	! disrobes, removes the harness from a dog
+mau IV_vow ; 	!! mauruq	! steps into, falls into a hole, breaks through (of snow)
+mauragaaq IV ; 	!! mauragaaqtuq	! crossing open water by jumping on "stepping stone" ice pans
+mayuq IV ; 	!! mayuqtuq	! ascends, climbs up
+mayuq IV ; 	!! mayuqtuq	! climbs
+maġaala IV_vow ; 	!! maġaalaruq	! yelps with pain (N)
+maŋaq IV ; 	!! maŋaqtuq	! is black (N)
+miki IV_vow ; 	!! mikiruq	! is small
+miluk IV ; 	!! miluktuq	! nurses
+miḷuq IV ; 	!! miḷuqtuq	! hits with a thrown object
+minġuq IV ; 	!! minġuqtuq	! is tired
+miquq IV ; 	!! miquqtuq	! sews (N)
+miqłiq IV ; 	!! miqłiqtuq	! child (b)
+misigaq IV ; 	!! misigaqtuq	! hops
+misuk IV ; 	!! misuktuq	! dips
+mitaaq IV ; 	!! mitaaqtuq	! jokes
+mitautu IV_vow ; 	!! mitauturuq	! mocks (K)
+mitchaaġaqsi IV_vow ; 	!! mitchaaġaqsiruq	! is proceeding to land
+miñugluk IV ; 	!! miñugluktuq	! is stained, spotted
+miñułiq IV ; 	!! miñułiqtuq	! is painting
+miġiaq IV ; 	!! miġiaqtuq	! vomits
+mulik IV ; 	!! muliktuq	! is closed, turned off (radio, etc.)
+mulu IV_vow ; 	!! muluruq	! stays a long while
+mumiksi IV_vow ; 	!! mumiksiruq	! translates
+muqpak IV ; 	!! muqpaktuq	! dives (of a sea mammal whose body curves high out of the water)
+naa IV_vow ; 	!! naaruq	! ends, runs out, finishes
+naalak IV ; 	!! naalaktuq	! listens
+naama IV_vow ; 	!! naamaruq	! is complete, is enough
+naammak IV ; 	!! naammaktuq	! is fitting, right, perfect
+naaqtu IV_vow ; 	!! naaqturuq	! is pregnant (K)
+naat IV ; 	!! naattuq	! is ended, finished, stopped, caught
+naavit IV ; 	!! naavittuq	! dumps out (non-liquid)
+naaġuq IV ; 	!! naaġuqtuq	! (moon) is full
+naglignaq IV ; 	!! naglignaqtuq	! is poor, pitiable (N)
+naglik IV ; 	!! nagliktuq	! is merciful, compassionate
+nagliksaaqtitchi IV_vow ; 	!! nagliksaaqtitchiruq	! persecute
+nagliksraq IV ; 	!! nagliksraqtuq	! pities
+nagliŋnaq IV ; 	!! nagliŋnaqtuq	! is poor, pitiable (K)
+nai IV_vow ; 	!! nairuq	! smells
+nai IV_vow ; 	!! nairuq	! smells strong, smells foul
+naipiq IV ; 	!! naipiqtuq	! watch critically (N)
+nakiq IV ; 	!! nakiqtuq	! goes direct (as path of bullet)
+nakkaq IV ; 	!! nakkaqtuq	! dives, sinks
+naktuq IV ; 	!! naktuqtuq	! is chipped
+naku IV_vow ; 	!! nakuruq	! is cross-eyed
+nakuaqsri IV_vow ; 	!! nakuaqsriruq	! likes, loves
+nakuqsi IV_vow ; 	!! nakuqsiruq	! is getting better (K)
+nakuu IV_vow ; 	!! nakuuruq	! is good
+nakuu IV_vow ; 	!! nakuuruq	! is good
+nakuu IV_vow ; 	!! nakuuruq	! is good, fine
+nakuugisi IV_vow ; 	!! nakuugisiruq	! it is going to be good
+nakuuma IV_vow ; 	!! nakuumaruq	! is in state of being good
+nakuupiaġataq IV ; 	!! nakuupiaġataqtuq	! is extremely good
+nakuupiaŋitkaluaq IV ; 	!! nakuupiaŋitkaluaqtuq	! although not very good, it is okay
+nakuuqsi IV_vow ; 	!! nakuuqsiruq	! is getting better (N)
+nakuusima IV_vow ; 	!! nakuusimaruq	! now is good (having been ot good)
+nakuułallak IV ; 	!! nakuułallaktuq	! it is very good
+nalaunŋa IV_vow ; 	!! nalaunŋaruq	! is right, just
+nalauraaq IV ; 	!! nalauraaqtuq	! rests
+nalaut IV ; 	!! nalauttuq	! is right
+nalautchaq IV ; 	!! nalautchaqtuq	! guesses, gambles
+nalautit IV ; 	!! nalautittuq	! fulfills, sights in a rifle
+nalla IV_vow ; 	!! nallaruq	! lays (himself) down
+nallaq IV ; 	!! nallaqtuq	! has lain down
+nallaq IV ; 	!! nallaqtuq	! lies down
+nalu IV_vow ; 	!! naluruq	! is ignorant, does not know
+naluk IV ; 	!! naluktuq	! swims (of sea mammals and polar bear)
+nalukataq IV ; 	!! nalukataqtuq	! is blanket tossing
+naluksriŋuaq IV ; 	!! naluksriŋuaqtuq	! has a hangover (N)
+nalunaq IV ; 	!! nalunaqtuq	! is secret, is hidden
+nalupqinaq IV ; 	!! nalupqinaqtuq	! is uncertain, unpredictable
+nalupqisuk IV ; 	!! nalupqisuktuq	! doubts, is uncertain
+nalġuqsrui IV_vow ; 	!! nalġuqsruiruq	! corrects, instructs
+naniq IV ; 	!! naniqtuq	! is trapped
+naniġiaqtuq IV ; 	!! naniġiaqtuqtuq	! is trapping
+nanmak IV ; 	!! nanmaktuq	! carries on the back, back packs (N)
+nanuk IV ; 	!! nanuktuq	! rubs with seal oil (as on neck for sore throat)
+nanġaq IV ; 	!! nanġaqtuq	! brags, praises (himself)
+nanġaq IV ; 	!! nanġaqtuq	! praises, boasts
+napa IV_vow ; 	!! naparuq	! (4) rib (4)
+napa IV_vow ; 	!! naparuq	! sticks up
+napaaq IV ; 	!! napaaqtuq	! tree
+napaaq IV ; 	!! napaaqtuq	! tree, spruce tree
+napit IV ; 	!! napittuq	! is snared
+napitu IV_vow ; 	!! napituruq	! is noisy
+napiŋa IV_vow ; 	!! napiŋaruq	! is hunchbacked (N)
+nappai IV_vow ; 	!! nappairuq	! builds
+napuŋa IV_vow ; 	!! napuŋaruq	! is hunchbacked (K)
+naqit IV ; 	!! naqittuq	! is low
+narranŋu IV_vow ; 	!! narranŋuruq	! has abdominal ache
+narranŋu IV_vow ; 	!! narranŋuruq	! stomach cramps (acute)
+nasit IV ; 	!! nasittuq	! ascends to a high spot for scanning (N)
+natchiqi IV_vow ; 	!! natchiqiruq	! washes floor (K)
+natmak IV ; 	!! natmaktuq	! carries on the back, back packs (K)
+natqiksruq IV ; 	!! natqiksruqtuq	! is correcting one who has unknowingly erred
+nau IV_vow ; 	!! nauruq	! grows
+nautchii IV_vow ; 	!! nautchiiruq	! plants
+nautkiaq IV ; 	!! nautkiaqtuq	! jumps down
+navianaq IV ; 	!! navianaqtuq	! is dangerous
+navik IV ; 	!! naviktuq	! breaks
+nayagaq IV ; 	!! nayagaqtuq	! is drowsy (N)
+nayaŋaq IV ; 	!! nayaŋaqtuq	! is drowsy
+nayuuti IV_vow ; 	!! nayuutiruq	! stays, remains
+naŋiatchak IV ; 	!! naŋiatchaktuq	! fears a situation
+naŋit IV ; 	!! naŋittuq	! is sick
+naŋit IV ; 	!! naŋittuq	! is sick (malaise)
+niaqunŋu IV_vow ; 	!! niaqunŋuruq	! has a headache
+nigaq IV ; 	!! nigaqtuq	! is snared
+nigaqtuq IV ; 	!! nigaqtuqtuq	! is snaring caribou or sheep
+nigaqtuq IV ; 	!! nigaqtuqtuq	! is snaring small game
+niglaq IV ; 	!! niglaqtuq	! has cooled (of food, drink)
+nigliñaq IV ; 	!! nigliñaqtuq	! is cold (not weather)
+niguaqtuq IV ; 	!! niguaqtuqtuq	! is wary (N)
+nikatchak IV ; 	!! nikatchaktuq	! gives up (N)
+nikpaq IV ; 	!! nikpaqtuq	! waits for an animal to appear (N)
+niksaaq IV ; 	!! niksaaqtuq	! burps (K)
+niksiksuq IV ; 	!! niksiksuqtuq	! is hooking (jigging) fish
+niksiḷiuq IV ; 	!! niksiḷiuqtuq	! makes a hook
+niliq IV ; 	!! niliqtuq	! expels flatus (gas)
+nipaala IV_vow ; 	!! nipaalaruq	! screams
+nipi IV_vow ; 	!! nipiruq	! (sun, moon) sets
+nipit IV ; 	!! nipittuq	! is sticky
+nipitu IV_vow ; 	!! nipituruq	! is noisy, loud
+nipta IV_vow ; 	!! niptaruq	! is bright weather (N)
+niptaq IV ; 	!! niptaqtuq	! is clearing, clouds are dispersing
+niqipialiuq IV ; 	!! niqipialiuqtuq	! boils meat (K)
+niqiqaq IV ; 	!! niqiqaqtuq	! has meat
+niqiłuk IV ; 	!! niqiłuktuq	! is poor meat (food)
+niqniaq IV ; 	!! niqniaqtuq	! is cooking (K)
+niu IV_vow ; 	!! niuruq	! (sun, moon) appears from behind cloud
+niu IV_vow ; 	!! niuruq	! disembarks
+niuri IV_vow ; 	!! niuriruq	! unloads
+niuri IV_vow ; 	!! niuriruq	! unloads sled (K, N)
+niuri IV_vow ; 	!! niuriruq	! unloads, longshores
+nivak IV ; 	!! nivaktuq	! paws (K)
+nivak IV ; 	!! nivaktuq	! shovels, digs
+nivaktaq IV ; 	!! nivaktaqtuq	! falls backward (N)
+niviq IV ; 	!! niviqtuq	! lays on his back (K)
+niviŋaq IV ; 	!! niviŋaqtuq	! hangs down
+niñŋiqsima IV_vow ; 	!! niñŋiqsimaruq	! is insulating dwelling by building a wall of snow blocks about it and placing soft snow between the wall and the dwelling
+niġi IV_vow ; 	!! niġiruq	! eats
+niġianik IV ; 	!! niġianiktuq	! has already eaten
+niġiaq IV ; 	!! niġiaqtuq	! is going to eat
+niġiqsu IV_vow ; 	!! niġiqsuruq	! like to eat excessively (N)
+niġiraksrau IV_vow ; 	!! niġiraksrauruq	! must be eaten
+niġiruksrau IV_vow ; 	!! niġiruksrauruq	! has to eat
+niġisuk IV ; 	!! niġisuktuq	! is hungry (K)
+niġiuk IV ; 	!! niġiuktuq	! expects, hopes (N)
+niġiľauraq IV ; 	!! niġiľauraqtuq	! is eating a little
+niġḷik IV ; 	!! niġḷiktuq	! choked to death
+niġvallaksraaq IV ; 	!! niġvallaksraaqtuq	! falls backward (K)
+niŋitchi IV_vow ; 	!! niŋitchiruq	! sets out, plants
+nui IV_vow ; 	!! nuiruq	! comes into view, rises (sun)
+nuktaq IV ; 	!! nuktaqtuq	! moves from place to place
+nullaq IV ; 	!! nullaqtuq	! camps
+nullautchiġñaqsi IV_vow ; 	!! nullautchiġñaqsiruq	! is supper time
+nunuuraq IV ; 	!! nunuuraqtuq	! is remorseful
+nuqitchi IV_vow ; 	!! nuqitchiruq	! raises an object by pulling with a rope
+nutau IV_vow ; 	!! nutauruq	! is new
+nutik IV ; 	!! nutiktuq	! leaps
+nutqaq IV ; 	!! nutqaqtuq	! stops, dies
+nuu IV_vow ; 	!! nuuruq	! moves to another dwelling
+nuut IV ; 	!! nuuttuq	! moves to another dwelling
+nuvak IV ; 	!! nuvaktuq	! has a cold
+nuvaksi IV_vow ; 	!! nuvaksiruq	! has a cold
+nuvuyalaq IV ; 	!! nuvuyalaqtuq	! is cloudy (broken)
+nuyuaq IV ; 	!! nuyuaqtuq	! is wary (K)
+nuŋu IV_vow ; 	!! nuŋuruq	! is used up
+paalak IV ; 	!! paalaktuq	! stumbles, falls forward
+paamak IV ; 	!! paamaktuq	! crawls on all fours
+paamġuq IV ; 	!! paamġuqtuq	! crawls
+paaġurraq IV ; 	!! paaġurraqtuq	! paddles (qayaq)
+pai IV_vow ; 	!! pairuq	! stays behind, stays home (when others went on a journey)
+paitchak IV ; 	!! paitchaktuq	! inherits (K)
+pakak IV ; 	!! pakaktuq	! searches
+pakik IV ; 	!! pakiktuq	! searches (K)
+panik IV ; 	!! paniktuq	! is thin, skinny
+paniq IV ; 	!! paniqtuq	! is dry
+pannau IV_vow ; 	!! pannauruq	! is thin, skinny
+paqit IV ; 	!! paqittuq	! finds
+pasiaq IV ; 	!! pasiaqtuq	! warms himself by the fire
+pasinaq IV ; 	!! pasinaqtuq	! is guilty
+patchisaiqsau IV_vow ; 	!! patchisaiqsauruq	! is not guilty, innocent
+patchisau IV_vow ; 	!! patchisauruq	! is guilty
+patik IV ; 	!! patiktuq	! slaps
+pauŋaq IV ; 	!! pauŋaqtuq	! travels inland
+payuktaq IV ; 	!! payuktaqtuq	! gives gift of food
+pałuq IV ; 	!! pałuqtuq	! capsizes (K)
+paŋalik IV ; 	!! paŋaliktuq	! gallops
+piap IV ; 	!! piaptuq	! sloppy (n)
+pigaaq IV ; 	!! pigaaqtuq	! stays up late
+pigiitḷuk IV ; 	!! pigiitḷuktuq	! it is worse
+piiguq IV ; 	!! piiguqtuq	! forgets
+piiḷaaq IV ; 	!! piiḷaaqtuq	! denies
+piiyaq IV ; 	!! piiyaqtuq	! is broken
+piksraqtaaġu IV_vow ; 	!! piksraqtaaġuruq	! chooses (N)
+piksrutitaq IV ; 	!! piksrutitaqtuq	! shovels
+piḷaaq IV ; 	!! piḷaaqtuq	! cares for baby
+piḷaiŋiaqsiaq IV ; 	!! piḷaiŋiaqsiaqtuq	! takes a rest (a break from work)
+piḷak IV ; 	!! piḷaktuq	! butchers an animal (performs surgery)
+piḷiuq IV ; 	!! piḷiuqtuq	! is making
+piḷḷa IV_vow ; 	!! piḷḷaruq	! is able to do (N)
+piḷḷuataq IV ; 	!! piḷḷuataqtuq	! is dependable, is good (N)
+piḷḷuataq IV ; 	!! piḷḷuataqtuq	! is good, dependable
+piḷuk IV ; 	!! piḷuktuq	! is bad (N)
+piḷuk IV ; 	!! piḷuktuq	! is bad, sins (N)
+piḷuk IV ; 	!! piḷuktuq	! sinned (N)
+piḷuksisuguu IV_vow ; 	!! piḷuksisuguuruq	! is always wanting to do badly
+piḷġataq IV ; 	!! piḷġataqtuq	! finally he did it
+pimaqłuk IV ; 	!! pimaqłuktuq	! is bad
+pimmaġiksaaq IV ; 	!! pimmaġiksaaqtuq	! does it well
+piqpak IV ; 	!! piqpaktuq	! is expensive, precious, valuable
+piqpaksri IV_vow ; 	!! piqpaksriruq	! loves
+piqpaksri IV_vow ; 	!! piqpaksriruq	! loves, precious
+pisaasruk IV ; 	!! pisaasruktuq	! is always trying to do (K)
+pisaasruk IV ; 	!! pisaasruktuq	! is clever (K)
+pisaasuq IV ; 	!! pisaasuqtuq	! is clever (N)
+pisaasuu IV_vow ; 	!! pisaasuuruq	! is always trying to do (N)
+pisiksaq IV ; 	!! pisiksaqtuq	! tries to shoot, tries to hit (N)
+pisruk IV ; 	!! pisruktuq	! walks (K)
+pisuaq IV ; 	!! pisuaqtuq	! walks
+pisuaq IV ; 	!! pisuaqtuq	! walks (N)
+pisuk IV ; 	!! pisuktuq	! flees
+pisuk IV ; 	!! pisuktuq	! wants, desires
+pisukataq IV ; 	!! pisukataqtuq	! takes a stroll
+pitḷa IV_vow ; 	!! pitḷaruq	! is able to do (K)
+pitḷautaq IV ; 	!! pitḷautaqtuq	! is dependable, is good
+pitqu IV_vow ; 	!! pitquruq	! commands
+pituk IV ; 	!! pituktuq	! ties up (as a dog to a pole)
+piuraaq IV ; 	!! piuraaqtuq	! plays, fools around
+pivuittaq IV ; 	!! pivuittaqtuq	! loves (of marriage) (N)
+piyaqquq IV ; 	!! piyaqquqtuq	! had an accident
+piñaq IV ; 	!! piñaqtuq	! happened
+piñiaq IV ; 	!! piñiaqtuq	! will do, happen
+piñiġli IV_vow ; 	!! piñiġliruq	! inadvertently startles animal
+piññaqnaq IV ; 	!! piññaqnaqtuq	! is good-looking, beautiful (K)
+piññaqnaq IV ; 	!! piññaqnaqtuq	! is pretty
+piññaġiaq IV ; 	!! piññaġiaqtuq	! is early
+piġuq IV ; 	!! piġuqtuq	! is haughty (N)
+piŋŋuaq IV ; 	!! piŋŋuaqtuq	! is pretending
+piŋŋuaq IV ; 	!! piŋŋuaqtuq	! pretends
+puggutchi IV_vow ; 	!! puggutchiruq	! washes dishes (N)
+puggutchiqi IV_vow ; 	!! puggutchiqiruq	! washes dishes (K)
+pui IV_vow ; 	!! puiruq	! surfaces
+puktak IV ; 	!! puktaktuq	! stinker (dead animal floating after having first sunk) (q)
+puktuk IV ; 	!! puktuktuq	! stinker (dead animal floating after having first sunk) (N)
+pula IV_vow ; 	!! pularuq	! is eclipsed (lit. slipped into the brush)
+punniliuq IV ; 	!! punniliuqtuq	! bakes bread (N)
+punŋa IV_vow ; 	!! punŋaruq	! bows low, hides from animal while stalking (used for non-appearance of sun in December) (K)
+pupta IV_vow ; 	!! puptaruq	! floats
+puptak IV ; 	!! puptaktuq	! stinker (dead animal floating after having first sunk) (K)
+put IV ; 	!! puttuq	! bows
+put IV ; 	!! puttuq	! bows, bends at the waist
+puttuqsri IV_vow ; 	!! puttuqsriruq	! comes to mind, is inspired (N)
+puturi IV_vow ; 	!! puturiruq	! made a hole, drilled a hole
+puuguq IV ; 	!! puuguqtuq	! forgets (p)
+puukaq IV ; 	!! puukaqtuq	! stumbles
+puuvraaq IV ; 	!! puuvraaqtuq	! plays in water
+puuvrak IV ; 	!! puuvraktuq	! swims, plows through deep soft snow (N)
+puuvraq IV ; 	!! puuvraqtuq	! swims (human swimming only)
+puuvruk IV ; 	!! puuvruktuq	! swims, plows through deep soft snow (K)
+puuyuq IV ; 	!! puuyuqtuq	! forgets (K)
+puyat IV ; 	!! puyattuq	! is dirty, grimy, gummy
+puyau IV_vow ; 	!! puyauruq	! is soiled, (e.g. of unwashed clothes)
+puyuaq IV ; 	!! puyuaqtuq	! stalks (K)
+puyugak IV ; 	!! puyugaktuq	! is approaching a sea mammal by crawling (N)
+qaaktuq IV ; 	!! qaaktuqtuq	! is seining
+qaaliqsi IV_vow ; 	!! qaaliqsiruq	! roofs a house
+qaamasraaq IV ; 	!! qaamasraaqtuq	! is buoyantly joyful (K)
+qaamatchak IV ; 	!! qaamatchaktuq	! is buoyantly joyful (N)
+qaaq IV ; 	!! qaaqtuq	! bursts, explodes (N)
+qaaqsiñiiraulġataq IV ; 	!! qaaqsiñiiraulġataqtuq	! readily blows his top (K)
+qaaŋaniit IV ; 	!! qaaŋaniittuq	! is on top
+qaaŋiałausrima IV_vow ; 	!! qaaŋiałausrimaruq	! veers away, goes to excess (K)
+qai IV_vow ; 	!! qairuq	! comes (N)
+qai IV_vow ; 	!! qairuq	! comes (n)
+qaitchi IV_vow ; 	!! qaitchiruq	! gives
+qaiyasi IV_vow ; 	!! qaiyasiruq	! is about to come
+qaiyumaaq IV ; 	!! qaiyumaaqtuq	! will come (someday)
+qaliuq IV ; 	!! qaliuqtuq	! cooks fish (K)
+qalli IV_vow ; 	!! qalliruq	! approaches, nears
+qallugauraqi IV_vow ; 	!! qallugauraqiruq	! washes dishes (N)
+qalu IV_vow ; 	!! qaluruq	! is dip netting
+qaluk IV ; 	!! qaluktuq	! catches a fish (K)
+qaluuq IV ; 	!! qaluuqtuq	! is dip netting
+qaluŋniaq IV ; 	!! qaluŋniaqtuq	! is fishing (K)
+qalġuq IV ; 	!! qalġuqtuq	! croaks, crows, quacks, honks, whistles
+qami IV_vow ; 	!! qamiruq	! goes out, extinguishes itself
+qamit IV ; 	!! qamittuq	! is turned off, extinguished
+qamŋui IV_vow ; 	!! qamŋuiruq	! snores (N, K)
+qanigruaq IV ; 	!! qanigruaqtuq	! is snowing (no wind) (K)
+qanit IV ; 	!! qanittuq	! is near
+qanit IV ; 	!! qanittuq	! is near, is close
+qapik IV ; 	!! qapiktuq	! is discouraged
+qapiqtaiḷiluu IV_vow ; 	!! qapiqtaiḷiluuruq	! argues heatedly
+qapiqtaiḷisuu IV_vow ; 	!! qapiqtaiḷisuuruq	! argues incessantly
+qapiŋaisaaq IV ; 	!! qapiŋaisaaqtuq	! encourages
+qaqqi IV_vow ; 	!! qaqqiruq	! bakes bread (K)
+qaqquq IV ; 	!! qaqquqtuq	! crunches, cracks
+qaquaġlaaġnaq IV ; 	!! qaquaġlaaġnaqtuq	! is tense because of impending unpleasantness (N)
+qaqugauġlaaq IV ; 	!! qaqugauġlaaqtuq	! is tense because of impending unpleasantness (K)
+qarvak IV ; 	!! qarvaktuq	! fleshes sea mammal (and polar bear), tans (N)
+qasraq IV ; 	!! qasraqtuq	! bell rings (K)
+qasru IV_vow ; 	!! qasruruq	! is withered (K)
+qasruq IV ; 	!! qasruqtuq	! ends, quits, stops, is satisfied (K)
+qasui IV_vow ; 	!! qasuiruq	! meet (by chance) while travelling
+qasuuti IV_vow ; 	!! qasuutiruq	! meets, rendezvous
+qasuŋa IV_vow ; 	!! qasuŋaruq	! is withered (N)
+qatchaqtuq IV ; 	!! qatchaqtuqtuq	! is knocking
+qatchaqtuq IV ; 	!! qatchaqtuqtuq	! knocks, is knocking
+qatiq IV ; 	!! qatiqtuq	! is white
+qatvak IV ; 	!! qatvaktuq	! fleshes sea mammal (and polar bear), tans (K)
+qaummaq IV ; 	!! qaummaqtuq	! clear, translucent, light enough to see
+qaunaksri IV_vow ; 	!! qaunaksriruq	! cares
+qauriaq IV ; 	!! qauriaqtuq	! rests
+qaurimmiaq IV ; 	!! qaurimmiaqtuq	! fainted (N)
+qauġri IV_vow ; 	!! qauġriruq	! becomes conscious
+qauġriliq IV ; 	!! qauġriliqtuq	! catches on (K)
+qavaq IV ; 	!! qavaqtuq	! sleeps on back in water (N, q)
+qavaq IV ; 	!! qavaqtuq	! to sleep on back in water (of seal)
+qaviuġnaqsau IV_vow ; 	!! qaviuġnaqsauruq	! glamorous, seductive
+qaġanaq IV ; 	!! qaġanaqtuq	! is easy (K)
+qaġanaq IV ; 	!! qaġanaqtuq	! is easy, not difficult (K)
+qaġanatluk IV ; 	!! qaġanatluktuq	! it is easier
+qia IV_vow ; 	!! qiaruq	! cries
+qiallak IV ; 	!! qiallaktuq	! cries much
+qiarraqsi IV_vow ; 	!! qiarraqsiruq	! starts to cry (N)
+qiatuq IV ; 	!! qiatuqtuq	! intestine that is turned inside out, cleaned and eaten
+qiayaqsi IV_vow ; 	!! qiayaqsiruq	! starts to cry (K)
+qichaq IV ; 	!! qichaqtuq	! stand upright (K)
+qigluk IV ; 	!! qigluktuq	! is saddened about a loss
+qigluk IV ; 	!! qigluktuq	! sorrows, mourns
+qiiqsruk IV ; 	!! qiiqsruktuq	! has convulsions, is an epileptic
+qiiyanaq IV ; 	!! qiiyanaqtuq	! is cold
+qikiŋa IV_vow ; 	!! qikiŋaruq	! is warped
+qiksiksraq IV ; 	!! qiksiksraqtuq	! respects, fear of a person who is not well known (N)
+qilu IV_vow ; 	!! qiluruq	! has a muscle cramp
+qiluri IV_vow ; 	!! qiluriruq	! has a muscle cramp
+qiḷa IV_vow ; 	!! qiḷaruq	! conjures, divines
+qiḷiq IV ; 	!! qiḷiqtuq	! ties a knot
+qiḷuk IV ; 	!! qiḷuktuq	! barks (dog, fox)
+qimak IV ; 	!! qimaktuq	! escapes, flees
+qimuk IV ; 	!! qimuktuq	! pulls
+qimuk IV ; 	!! qimuktuq	! pulls (of an animal)
+qinnak IV ; 	!! qinnaktuq	! fights, plays roughly
+qinnak IV ; 	!! qinnaktuq	! is angry
+qinu IV_vow ; 	!! qinuruq	! slush ice is forming, floating downstream
+qipiġniuq IV ; 	!! qipiġniuqtuq	! desires
+qipiŋa IV_vow ; 	!! qipiŋaruq	! is twisted
+qipri IV_vow ; 	!! qipriruq	! twists sinew, makes thread (K)
+qiqit IV ; 	!! qiqittuq	! is frozen (part of body)
+qiqsrau IV_vow ; 	!! qiqsrauruq	! is frozen (not of body) (K)
+qiquma IV_vow ; 	!! qiqumaruq	! is frozen (not of body) (N)
+qirriuq IV ; 	!! qirriuqtuq	! chops fire wood
+qiruksi IV_vow ; 	!! qiruksiruq	! carries wood inside
+qiruktaq IV ; 	!! qiruktaqtuq	! is going for wood
+qiruktaq IV ; 	!! qiruktaqtuq	! obtains fire wood
+qitchuk IV ; 	!! qitchuktuq	! scratches
+qitiqaq IV ; 	!! qitiqaqtuq	! noon (lit. has middle)
+qitiqqutchiġnaqsi IV_vow ; 	!! qitiqqutchiġnaqsiruq	! is lunch time (noon meal) (N, q)
+qitut IV ; 	!! qituttuq	! is soft, flexible
+qityaġnaq IV ; 	!! qityaġnaqtuq	! is bright, glaring
+qiuri IV_vow ; 	!! qiuriruq	! freezes
+qiuri IV_vow ; 	!! qiuriruq	! water freezes
+qiuññalaaq IV ; 	!! qiuññalaaqtuq	! is spine tingling (N)
+qivi IV_vow ; 	!! qiviruq	! lays on his back (N)
+qivialuk IV ; 	!! qivialuktuq	! first vertebra (atlas)
+qiviaq IV ; 	!! qiviaqtuq	! turns head (N)
+qiviaq IV ; 	!! qiviaqtuq	! turns head, looks behind (N)
+qiviaġaaq IV ; 	!! qiviaġaaqtuq	! turns head right and left (N)
+qivik IV ; 	!! qiviktuq	! commits suicide (N)
+qiviq IV ; 	!! qiviqtuq	! leaves another, not wanting to be together (N)
+qivit IV ; 	!! qivittuq	! goes away because angry
+qivit IV ; 	!! qivittuq	! leaves another, not wanting to be together (K)
+qiviŋaaq IV ; 	!! qiviŋaaqtuq	! stands proudly, erect
+qivliq IV ; 	!! qivliqtuq	! is shiny
+qivliq IV ; 	!! qivliqtuq	! shines, glitters, sparkles
+qivġu IV_vow ; 	!! qivġuruq	! leaves because angry (b), leaves home because angry (ap) (N)
+qiñiq IV ; 	!! qiñiqtuq	! watches
+qiñiyunaq IV ; 	!! qiñiyunaqtuq	! is beautiful (lit. pleasant looking)
+qiñiyunaq IV ; 	!! qiñiyunaqtuq	! is pretty
+qiñu IV_vow ; 	!! qiñuruq	! to cry fitfully (of a baby)
+qiñunġu IV_vow ; 	!! qiñunġuruq	! mourns (as in death)
+qiñuvġu IV_vow ; 	!! qiñuvġuruq	! mourns (as in death) (K)
+qiġñiq IV ; 	!! qiġñiqtuq	! is black (K)
+quaq IV ; 	!! quaqtuq	! splits loose (e.g. the sole from a shoe), eats quaq (frozen food)
+qui IV_vow ; 	!! quiruq	! urinates (N, K)
+quisuu IV_vow ; 	!! quisuuruq	! urinates (N)
+quiñaq IV ; 	!! quiñaqtuq	! tickles
+quiñi IV_vow ; 	!! quiñiruq	! is fat (N)
+quiññalasraaq IV ; 	!! quiññalasraaqtuq	! is spine tingling (K)
+quiññiqtau IV_vow ; 	!! quiññiqtauruq	! is ticklish
+qulaut IV ; 	!! qulauttuq	! is passing overhead
+quliaqtuaq IV ; 	!! quliaqtuaqtuq	! confess (N)
+quliaqtuaq IV ; 	!! quliaqtuaqtuq	! preach (K)
+quliaqtuaq IV ; 	!! quliaqtuaqtuq	! relates, confesses (N), preaches (K)
+quliaqtuaq IV ; 	!! quliaqtuaqtuq	! tell a true story, an experience
+quluula IV_vow ; 	!! quluularuq	! stomach growls
+qulvi IV_vow ; 	!! qulviruq	! weeps
+qupaġuq IV ; 	!! qupaġuqtuq	! (moon) is half
+qupi IV_vow ; 	!! qupiruq	! splits, cracks
+ququula IV_vow ; 	!! ququularuq	! calls (N, q)
+ququula IV_vow ; 	!! ququularuq	! shouts (N)
+qusauq IV ; 	!! qusauqtuq	! sits
+qusauqtuaq IV ; 	!! qusauqtuaqtuq	! squats (N)
+qusrauqtuaq IV ; 	!! qusrauqtuaqtuq	! squats (K)
+quviasruk IV ; 	!! quviasruktuq	! is happy (K)
+quviasuk IV ; 	!! quviasuktuq	! is happy
+quviasuk IV ; 	!! quviasuktuq	! is happy (N, q)
+quviasuk IV ; 	!! quviasuktuq	! is happy (within himself)
+quviġusruk IV ; 	!! quviġusruktuq	! is surprised, amazed, astonished (K)
+quya IV_vow ; 	!! quyaruq	! is thankful
+quya IV_vow ; 	!! quyaruq	! thanks, praises, expresses appreciation
+quyanaq IV ; 	!! quyanaqtuq	! is to be thankful, is to be praised (K)
+quyatchak IV ; 	!! quyatchaktuq	! is thankful
+quġliaq IV ; 	!! quġliaqtuq	! drools, slobbers, oozes (of tree resin)
+quġluq IV ; 	!! quġluqtuq	! waterfall
+saagaq IV ; 	!! saagaqtuq	! carries by hand, by arm
+saat IV ; 	!! saattuq	! faces him
+saat IV ; 	!! saattuq	! is thin
+saat IV ; 	!! saattuq	! turn to face someone
+saavit IV ; 	!! saavittuq	! launches a boat in chase, comes forward
+saavit IV ; 	!! saavittuq	! launches in pursuit of sea mammal, steps forward from a group
+saglu IV_vow ; 	!! sagluruq	! lies, prevaricates
+sagluuraq IV ; 	!! sagluuraqtuq	! joking by telling false stories
+sagvi IV_vow ; 	!! sagviruq	! is open, is obvious
+saiñġisuk IV ; 	!! saiñġisuktuq	! is chagrined
+saiñġitchak IV ; 	!! saiñġitchaktuq	! regrets
+sakuuk IV ; 	!! sakuuktuq	! works hard (K)
+sakłaq IV ; 	!! sakłaqtuq	! shouts (N)
+salikkuq IV ; 	!! salikkuqtuq	! sweeps (q)
+saluma IV_vow ; 	!! salumaruq	! is clean
+samaniit IV ; 	!! samaniittuq	! is down there (out of sight)
+samuŋaq IV ; 	!! samuŋaqtuq	! travels downriver, travels coastward
+sanatu IV_vow ; 	!! sanaturuq	! is skilled
+sanŋiyaq IV ; 	!! sanŋiyaqtuq	! sweeps (K)
+sanŋu IV_vow ; 	!! sanŋuruq	! is dusty, dirty
+sapi IV_vow ; 	!! sapiruq	! blocks it (one's way)
+sapiġnaq IV ; 	!! sapiġnaqtuq	! is strong, mighty (N)
+sapiġnałhaaq IV ; 	!! sapiġnałhaaqtuq	! is stronger
+sapiġñaqsi IV_vow ; 	!! sapiġñaqsiruq	! is difficult (K)
+saquŋa IV_vow ; 	!! saquŋaruq	! is crooked, bent
+savagniḷuk IV ; 	!! savagniḷuktuq	! is trying to work
+savagniuraaq IV ; 	!! savagniuraaqtuq	! is doing what work he can!
+savak IV ; 	!! savaktuq	! pisuqtilaaqtiktun is working as much as possible
+savak IV ; 	!! savaktuq	! works
+savak IV ; 	!! savaktuq	! works, makes
+savaksima IV_vow ; 	!! savaksimaruq	! is working
+savaktaksrau IV_vow ; 	!! savaktaksrauruq	! must be worked
+savaktuksrau IV_vow ; 	!! savaktuksrauruq	! has to work
+savallautaq IV ; 	!! savallautaqtuq	! is working well
+savapaluk IV ; 	!! savapaluktuq	! is working much (hard)
+savapałłuk IV ; 	!! savapałłuktuq	! is working poorly (ineffectively)
+savapiallak IV ; 	!! savapiallaktuq	! is working quite hard
+savapiaq IV ; 	!! savapiaqtuq	! is really working
+savapiaġataq IV ; 	!! savapiaġataqtuq	! is working extremely hard
+savaŋa IV_vow ; 	!! savaŋaruq	! he worked
+savaŋniuraq IV ; 	!! savaŋniuraqtuq	! is doing what work he can!
+saviksuq IV ; 	!! saviksuqtuq	! uses a knife
+savitu IV_vow ; 	!! savituruq	! sly, foxy (K, N)
+savvaktu IV_vow ; 	!! savvakturuq	! is always working diligently
+sayaktu IV_vow ; 	!! sayakturuq	! is healthy, strong
+sayaktu IV_vow ; 	!! sayakturuq	! is strong, healthy
+saġliaq IV ; 	!! saġliaqtuq	! holds baby on knee
+saġvaq IV ; 	!! saġvaqtuq	! flows
+saŋiak IV ; 	!! saŋiaktuq	! is jealous (suspecting marital unfaithfulness)
+saŋni IV_vow ; 	!! saŋniruq	! is strong (N)
+saŋŋi IV_vow ; 	!! saŋŋiruq	! is strong (K)
+sialuk IV ; 	!! sialuktuq	! is raining (N, n)
+sialukkattaq IV ; 	!! sialukkattaqtuq	! scattered rain showers
+siamit IV ; 	!! siamittuq	! spreads, scatters
+sigña IV_vow ; 	!! sigñaruq	! is greedy (N)
+siimak IV ; 	!! siimaktuq	! argues (N)
+siimak IV ; 	!! siimaktuq	! is arguing heatedly
+siiqsipkaq IV ; 	!! siiqsipkaqtuq	! sweats (K)
+siiġḷanŋu IV_vow ; 	!! siiġḷanŋuruq	! has a sour stomach (K)
+siiġruk IV ; 	!! siiġruktuq	! hisses, whistles (of wind, gas stove or lantern)
+siiġñaaq IV ; 	!! siiġñaaqtuq	! is sweet
+siki IV_vow ; 	!! sikiruq	! moves head forward and down
+siksaq IV ; 	!! siksaqtuq	! tries to shoot, tries to hit (K)
+sikuliqi IV_vow ; 	!! sikuliqiruq	! is in process of break-up
+sikña IV_vow ; 	!! sikñaruq	! is greedy (K)
+siḷaluk IV ; 	!! siḷaluktuq	! is bad weather (N)
+siḷaluk IV ; 	!! siḷaluktuq	! is raining (K)
+siḷaluk IV ; 	!! siḷaluktuq	! is rainy (K)
+siḷik IV ; 	!! siḷiktuq	! is wide (K)
+siḷġiksuq IV ; 	!! siḷġiksuqtuq	! is correcting one who wilfully erred
+siqiłhatit IV ; 	!! siqiłhatittuq	! slaps the water with his tail (beaver)
+siqquq IV ; 	!! siqquqtuq	! is hard
+siqquq IV ; 	!! siqquqtuq	! is opinionated, not easily persuaded (lit. is hard)
+siqsu IV_vow ; 	!! siqsuruq	! capable, enduring
+siqsu IV_vow ; 	!! siqsuruq	! is daring (strong), is enduring (persistent hunter) (N)
+siqu IV_vow ; 	!! siquruq	! eyes are closed
+siqu IV_vow ; 	!! siquruq	! goes to sleep, closes his eyes
+siquniġaq IV ; 	!! siquniġaqtuq	! winks
+siqunġipaktaq IV ; 	!! siqunġipaktaqtuq	! blinks
+siqusuk IV ; 	!! siqusuktuq	! wants to go to bed
+sisu IV_vow ; 	!! sisuruq	! 
+sisugaq IV ; 	!! sisugaqtuq	! slides down a hill (N)
+sisugiaq IV ; 	!! sisugiaqtuq	! baby has a wet burp
+sisuraġaaq IV ; 	!! sisuraġaaqtuq	! slides down a hill (K)
+sitquq IV ; 	!! sitquqtuq	! kneels
+sitquqsimanaq IV ; 	!! sitquqsimanaqtuq	! is "tied up in knots", tense because of impending unpleasantness
+sitquqsimanaq IV ; 	!! sitquqsimanaqtuq	! is tragic
+sivisu IV_vow ; 	!! sivisuruq	! is a long distance, is of long duration
+sivruuraq IV ; 	!! sivruuraqtuq	! whispers
+sivuniqtuuguu IV_vow ; 	!! sivuniqtuuguuruq	! is obstinate (N)
+sivunmuu IV_vow ; 	!! sivunmuuruq	! is steadfast, continues on regardless (N)
+sivunmuu IV_vow ; 	!! sivunmuuruq	! is stubborn, continues on regardless (N)
+sivutmuu IV_vow ; 	!! sivutmuuruq	! is steadfast, continues on regardless (K)
+sivutmuu IV_vow ; 	!! sivutmuuruq	! is stubborn, continues on regardless (K)
+sivutmuusruu IV_vow ; 	!! sivutmuusruuruq	! is obstinate (K)
+sivuuġa IV_vow ; 	!! sivuuġaruq	! fears the consequence (N)
+siñik IV ; 	!! siñiktuq	! sleeps
+siñiksraaq IV ; 	!! siñiksraaqtuq	! goes around visiting from house to house, collects food for the poor from house to house (K)
+siññak IV ; 	!! siññaktuq	! dream
+siññaktuq IV ; 	!! siññaktuqtuq	! dreams
+siġḷiqiraq IV ; 	!! siġḷiqiraqtuq	! works hard, is difficult
+siġḷiġnaq IV ; 	!! siġḷiġnaqtuq	! is difficult (N)
+siġñiksrau IV_vow ; 	!! siġñiksrauruq	! is devoted
+siġġaq IV ; 	!! siġġaqtuq	! works hard (N)
+siġġaqi IV_vow ; 	!! siġġaqiruq	! is difficult, laborious
+siŋaiyau IV_vow ; 	!! siŋaiyauruq	! is pregnant (N)
+suak IV ; 	!! suaktuq	! scolds
+suammak IV ; 	!! suammaktuq	! is enduring (N)
+suammak IV ; 	!! suammaktuq	! revitalized (as: engine works better, workers more diligent)
+suaŋa IV_vow ; 	!! suaŋaruq	! is strong
+sukat IV ; 	!! sukattuq	! is fast
+suliuq IV ; 	!! suliuqtuq	! is cooking
+suluktuq IV ; 	!! suluktuqtuq	! brushes clothes
+supi IV_vow ; 	!! supiruq	! blows (of a person), rushes (of a stream during break-up)
+supi IV_vow ; 	!! supiruq	! flows, rushes (river at break-up)
+suppuq IV ; 	!! suppuqtuq	! spurts out (of liquids under pressure)
+suvlik IV ; 	!! suvliktuq	! gushes out (as oil from a punctured drum)
+suġuk IV ; 	!! suġuktuq	! wrestles
+suŋaaq IV ; 	!! suŋaaqtuq	! is green
+taak IV ; 	!! taaktuq	! is dark
+taaqsi IV_vow ; 	!! taaqsiruq	! is becoming dark
+tagiala IV_vow ; 	!! tagialaruq	! moves out of a home because not wanted
+tagialanaq IV ; 	!! tagialanaqtuq	! inhospitable, unenjoyable atmosphere
+tagiuq IV ; 	!! tagiuqtuq	! sneezes
+tagraq IV ; 	!! tagraqtuq	! travels up river by boat
+tai IV_vow ; 	!! tairuq	! is named
+taiguaq IV ; 	!! taiguaqtuq	! reads (N)
+tainnait IV ; 	!! tainnaittuq	! is like
+taki IV_vow ; 	!! takiruq	! is long
+taktuk IV ; 	!! taktuktuq	! is foggy
+takupkaŋa IV_vow ; 	!! takupkaŋaruq	! has a reunion
+taliinŋa IV_vow ; 	!! taliinŋaruq	! goes over the hill
+taluqsralliaq IV ; 	!! taluqsralliaqtuq	! browbeats
+taluqsraq IV ; 	!! taluqsraqtuq	! is afraid of someone's sternness
+taluġnaq IV ; 	!! taluġnaqtuq	! is stern, unfriendly, non-communicative
+talġak IV ; 	!! talġaktuq	! travels up river by sled (N)
+tammaq IV ; 	!! tammaqtuq	! is lost
+tamuq IV ; 	!! tamuqtuq	! chews
+tanuġaqsi IV_vow ; 	!! tanuġaqsiruq	! diminishes in light
+tapiq IV ; 	!! tapiqtuq	! is along sie, is parallel
+taqqi IV_vow ; 	!! taqqiruq	! waits (K)
+tasiqsruq IV ; 	!! tasiqsruqtuq	! stretches
+tatamit IV ; 	!! tatamittuq	! gets very frightened
+tatamnaq IV ; 	!! tatamnaqtuq	! is terrible, is very frightening
+tautuk IV ; 	!! tautuktuq	! sees
+tautuksiññaq IV ; 	!! tautuksiññaqtuq	! he simply sees
+tiggaq IV ; 	!! tiggaqtuq	! is stiff
+tigliktuq IV ; 	!! tigliktuqtuq	! steals
+tigliqtaq IV ; 	!! tigliqtaqtuq	! is throbbing
+tigluk IV ; 	!! tigluktuq	! hits with side of fist
+tigluktuq IV ; 	!! tigluktuqtuq	! is knocking
+tigluktuq IV ; 	!! tigluktuqtuq	! knocks, is knocking
+tiguaq IV ; 	!! tiguaqtuq	! adopted, is
+tigumiaq IV ; 	!! tigumiaqtuq	! hand carries (N)
+tigusi IV_vow ; 	!! tigusiruq	! takes, lays hold of, picks up (N)
+tigusri IV_vow ; 	!! tigusriruq	! takes, lays hold of, picks up (K)
+tiipak IV ; 	!! tiipaktuq	! is coquettish
+tikitchumaaq IV ; 	!! tikitchumaaqtuq	! will arrive (someday)
+tikitqauraq IV ; 	!! tikitqauraqtuq	! races
+tikkuaq IV ; 	!! tikkuaqtuq	! points
+tilak IV ; 	!! tilaktuq	! washes floor (N)
+tilaġġi IV_vow ; 	!! tilaġġiruq	! sweeps (N)
+tilirau IV_vow ; 	!! tilirauruq	! was told to do something, was sent to do something
+tilisi IV_vow ; 	!! tilisiruq	! sends
+tipaaq IV ; 	!! tipaaqtuq	! stinks
+tipitu IV_vow ; 	!! tipituruq	! stinks
+titiq IV ; 	!! titiqtuq	! draws a line, makes a mark
+tivvuaq IV ; 	!! tivvuaqtuq	! spits
+tiŋi IV_vow ; 	!! tiŋiruq	! flies away, takes off
+tiŋilġai IV_vow ; 	!! tiŋilġairuq	! sails (N)
+tiŋit IV ; 	!! tiŋittuq	! drifts away
+tiŋmi IV_vow ; 	!! tiŋmiruq	! flies
+tiŋŋiqsi IV_vow ; 	!! tiŋŋiqsiruq	! gets full (of a person who eats too much or is pregnant)
+tugak IV ; 	!! tugaktuq	! pokes it with a stick
+tukku IV_vow ; 	!! tukkuruq	! stays overnight, is a guest
+tulak IV ; 	!! tulaktuq	! returns from the water, lands
+tuniqsima IV_vow ; 	!! tuniqsimaruq	! is faithful
+tunisi IV_vow ; 	!! tunisiruq	! sell
+tunut IV ; 	!! tunuttuq	! turns his back to
+tunŋa IV_vow ; 	!! tunŋaruq	! rests firmly on, trusts
+tupak IV ; 	!! tupaktuq	! is startled
+tuppi IV_vow ; 	!! tuppiruq	! builds a house (K)
+tuqpallak IV ; 	!! tuqpallaktuq	! gets upset (K)
+tuqu IV_vow ; 	!! tuquruq	! dies
+tuqut IV ; 	!! tuquttuq	! kills himself
+tuqutauyasi IV_vow ; 	!! tuqutauyasiruq	! is about to be killed
+tuqłula IV_vow ; 	!! tuqłularuq	! calls (K)
+tuqłuġaq IV ; 	!! tuqłuġaqtuq	! shouts (K)
+tusaa IV_vow ; 	!! tusaaruq	! hears (N)
+tusiat IV ; 	!! tusiattuq	! is lame (N)
+tusiḷḷaq IV ; 	!! tusiḷḷaqtuq	! is deaf
+tusraa IV_vow ; 	!! tusraaruq	! hears (K)
+tusriat IV ; 	!! tusriattuq	! is lame (K)
+tusru IV_vow ; 	!! tusruruq	! is envious (K)
+tusu IV_vow ; 	!! tusuruq	! is envious (q)
+tut IV ; 	!! tuttuq	! touches ground, bottom, lands
+tut IV ; 	!! tuttuq	! upper leg (drumstick) (N)
+tuti IV_vow ; 	!! tutiruq	! steps on
+tutquqtuu IV_vow ; 	!! tutquqtuuruq	! is settled in (having moved)
+tuttaaq IV ; 	!! tuttaaqtuq	! goes to bed (N)
+tuttuliaq IV ; 	!! tuttuliaqtuq	! is hunting caribou
+tuttutullatu IV_vow ; 	!! tuttutullaturuq	! likes to eat caribou
+tuttutuq IV ; 	!! tuttutuqtuq	! eats caribou
+tuttutuq IV ; 	!! tuttutuqtuq	! is eating caribou
+tuu IV ; 	!! tuutuq	! is lashing skin to the frame
+tuuq IV ; 	!! tuuqtuq	! chisels
+tuvaaq IV ; 	!! tuvaaqtuq	! attracts caribou by hollering
+tuvrak IV ; 	!! tuvraktuq	! is tracking
+tuvraq IV ; 	!! tuvraqtuq	! follows a trail or pattern
+uamit IV ; 	!! uamittuq	! dances
+ui IV_vow ; 	!! uiruq	! is over-excited, too eager, hurries
+ui IV_vow ; 	!! uiruq	! panics, is excited (too eager)
+uisau IV_vow ; 	!! uisauruq	! is adrift on an ice pack
+uivaq IV ; 	!! uivaqtuq	! comes around a point (N)
+uivaqsaaq IV ; 	!! uivaqsaaqtuq	! rounds a bend (N)
+ukamaq IV ; 	!! ukamaqtuq	! pulls a boat along shore with a rope
+ukpiq IV ; 	!! ukpiqtuq	! believes
+ukpiġnaq IV ; 	!! ukpiġnaqtuq	! is faithful
+ukpiŋŋuaq IV ; 	!! ukpiŋŋuaqtuq	! hypocrite (pretend believer)
+ukpiŋŋuaq IV ; 	!! ukpiŋŋuaqtuq	! is pretend believing (hypocrite)
+ukuŋa IV_vow ; 	!! ukuŋaruq	! is moldy
+uliq IV ; 	!! uliqtuq	! wind
+uluk IV ; 	!! uluktuq	! rubs and twists hide to soften it
+ululi IV_vow ; 	!! ululiruq	! is making an ulu
+ulġu IV_vow ; 	!! ulġuruq	! topples, falls over
+umialiuq IV ; 	!! umialiuqtuq	! makes a boat
+umiaqtuq IV ; 	!! umiaqtuqtuq	! travels by umiaq
+umik IV ; 	!! umiktuq	! is closed (e.g. the chimney draft)
+umŋiyaq IV ; 	!! umŋiyaqtuq	! shaves
+uniagiyaq IV ; 	!! uniagiyaqtuq	! sled is broken
+uniaġaq IV ; 	!! uniaġaqtuq	! sleds, travels by sled
+uniuq IV ; 	!! uniuqtuq	! misses, doesn't hit (as nail, bull's eye)
+unnautai IV_vow ; 	!! unnautairuq	! is not now feverish
+unniqsuqłii IV_vow ; 	!! unniqsuqłiiruq	! promises (N)
+unuŋaq IV ; 	!! unuŋaqtuq	! travels downriver, travels out on sea ice
+upaktuq IV ; 	!! upaktuqtuq	! charges (of an angry animal or person)
+uqaala IV_vow ; 	!! uqaalaruq	! talks bad language, blasphemes
+uqaaqtuq IV ; 	!! uqaaqtuqtuq	! relates experiences, tells what happened (K)
+uqallak IV ; 	!! uqallaktuq	! is speaking
+uqamaqłuk IV ; 	!! uqamaqłuktuq	! blasphemes
+uqamaqłuk IV ; 	!! uqamaqłuktuq	! is speaking badly (cursing)
+uqaq IV ; 	!! uqaqtuq	! speaks
+uqaq IV ; 	!! uqaqtuq	! speaks, says, tells
+uqaq IV ; 	!! uqaqtuq	! talks
+uqaqsiġiaq IV ; 	!! uqaqsiġiaqtuq	! is open to counsel (K)
+uqautisruġnaq IV ; 	!! uqautisruġnaqtuq	! is easy to talk to, amiable (K)
+uqautisuġnaq IV ; 	!! uqautisuġnaqtuq	! is easy to talk to, amiable (N, q)
+uqayunaq IV ; 	!! uqayunaqtuq	! is receptive
+uqayunaq IV ; 	!! uqayunaqtuq	! is receptive (lit. pleasant to talk with)
+uqaġniġluk IV ; 	!! uqaġniġluktuq	! talks bad language, blasphemes (K)
+uqigiyummik IV ; 	!! uqigiyummiktuq	! heady, giddy, feeling light of body (N)
+uqigḷi IV_vow ; 	!! uqigḷiruq	! heady, giddy, feeling light of body (K)
+uqqaqtu IV_vow ; 	!! uqqaqturuq	! talks always (i.e. like to talk), gossips (K)
+uqsruqtiq IV ; 	!! uqsruqtiqtuq	! anoints, rub oil on body
+uqsruu IV_vow ; 	!! uqsruuruq	! is fat (K)
+urraaq IV ; 	!! urraaqtuq	! gesticulates
+urriuq IV ; 	!! urriuqtuq	! boils meat (N)
+usriḷii IV_vow ; 	!! usriḷiiruq	! loads sled (K)
+utaqqi IV_vow ; 	!! utaqqiruq	! waits (N, q)
+utiq IV ; 	!! utiqtuq	! returns
+utuqqau IV_vow ; 	!! utuqqauruq	! is old
+uu IV_vow ; 	!! uuruq	! boiled meat
+uuk IV ; 	!! uuktuq	! tests
+uuksi IV_vow ; 	!! uuksiruq	! tastes
+uuktuaq IV ; 	!! uuktuaqtuq	! tries, tests, measures
+uulik IV ; 	!! uuliktuq	! quivers, shakes, trembles
+uuma IV_vow ; 	!! uumaruq	! is alive
+uumalaaq IV ; 	!! uumalaaqtuq	! lively child
+uumaniit IV ; 	!! uumaniittuq	! it is this one here
+uumiksri IV_vow ; 	!! uumiksriruq	! hates (K)
+uunaq IV ; 	!! uunaqtuq	! is hot
+uunaq IV ; 	!! uunaqtuq	! is warm
+uunaqsi IV_vow ; 	!! uunaqsiruq	! is becoming hot
+uunaqłuk IV ; 	!! uunaqłuktuq	! has a fever (K)
+uunautiqaq IV ; 	!! uunautiqaqtuq	! has a fever (N)
+uusi IV_vow ; 	!! uusiruq	! is over-excited, too eager, hurries
+uuyu IV_vow ; 	!! uuyuruq	! is linked to
+uvaniit IV ; 	!! uvaniittuq	! is here
+uviñak IV ; 	!! uviñaktuq	! is fat
+uvli IV_vow ; 	!! uvliruq	! layover, rests between periods of travel or other activity
+uvluqtusi IV_vow ; 	!! uvluqtusiruq	! days are getting longer (N, q)
+uvluqtusri IV_vow ; 	!! uvluqtusriruq	! days are getting longer (K)
+uvuŋaq IV ; 	!! uvuŋaqtuq	! comes here, hither
+uġuq IV ; 	!! uġuqtuq	! is damp
+uġuu IV_vow ; 	!! uġuuruq	! is wet from dew
+uŋasiksigi IV_vow ; 	!! uŋasiksigiruq	! is thus far
+uŋiarri IV_vow ; 	!! uŋiarriruq	! worries (N)
+uŋuluġusaaq IV ; 	!! uŋuluġusaaqtuq	! frightens away an attacking animal (N)
+ŋraiḷiuq IV ; 	!! ŋraiḷiuqtuq	! fries meat
