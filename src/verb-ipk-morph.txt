@@ -162,66 +162,69 @@ LEXICON indpersonaffix_tv
 +2Sg+1SgO:%>ŋma     clit ;
 +2Sg+1DuO:%>vsiguk  clit ;
 +2Sg+1PlO:%>vsigut  clit ;
-!+2Sg+3SgO:%>  clit ;
-!+2Sg+3DuO:%>  clit ;
-!+2Sg+3PlO:%>  clit ;
-!
-!+3Sg+1SgO:%>  clit ;
-!+3Sg+1DuO:%>  clit ;
-!+3Sg+1PlO:%>  clit ;
-!+3Sg+2SgO:%>  clit ;
-!+3Sg+2DuO:%>  clit ;
-!+3Sg+2PlO:%>  clit ;
++2Sg+3SgO:%>n  clit ;
++2Sg+3DuO:%>kiñ  clit ;
++2Sg+3PlO:%>tin  clit ;
+
++3Sg+1SgO:%>aŋa  clit ; ! see fn 2,3 p. 70 in Edna II
++3Sg+1SgO:%>aŋi  clit ; ! see fn 2,3 p. 70 in Edna II
++3Sg+1DuO:%>atiguk  clit ;
++3Sg+1PlO:%>atigut  clit ;
++3Sg+2SgO:%>atin  clit ;
++3Sg+2DuO:%>asik  clit ;
++3Sg+2PlO:%>asi  clit ;
 +3Sg+3SgO:%>a  clit_sing ;
-!+3Sg+3DuO:%>  clit ;
-!+3Sg+3PlO:%>  clit ;
-!
-!+1Du+2SgO:%>  clit ;
-!+1Du+2DuO:%>  clit ;
-!+1Du+2PlO:%>  clit ;
-!+1Du+3SgO:%>  clit ;
-!+1Du+3DuO:%>  clit ;
-!+1Du+3PlO:%>  clit ;
-!
-!+2Du+1SgO:%>  clit ;
-!+2Du+1DuO:%>  clit ;
-!+2Du+1PlO:%>  clit ;
-!+2Du+3SgO:%>  clit ;
-!+2Du+3DuO:%>  clit ;
-!+2Du+3PlO:%>  clit ;
-!
-!+3Du+1SgO:%>  clit ;
-!+3Du+1DuO:%>  clit ;
-!+3Du+1PlO:%>  clit ;
-!+3Du+2SgO:%>  clit ;
-!+3Du+2DuO:%>  clit ;
-!+3Du+2PlO:%>  clit ;
-!+3Du+3SgO:%>  clit ;
-!+3Du+3DuO:%>  clit ;
-!+3Du+3PlO:%>  clit ;
-!
-!+1Pl+2SgO:%>  clit ;
-!+1Pl+2DuO:%>  clit ;
-!+1Pl+2PlO:%>  clit ;
-!+1Pl+3SgO:%>  clit ;
-!+1Pl+3DuO:%>  clit ;
-!+1Pl+3PlO:%>  clit ;
-!
-!+2Pl+1SgO:%>  clit ;
-!+2Pl+1DuO:%>  clit ;
-!+2Pl+1PlO:%>  clit ;
-!+2Pl+3SgO:%>  clit ;
-!+2Pl+3DuO:%>  clit ;
-!+2Pl+3PlO:%>  clit ;
-!
-!+3Pl+1SgO:%>  clit ;
-!+3Pl+1DuO:%>  clit ;
-!+3Pl+1PlO:%>  clit ;
-!+3Pl+2SgO:%>  clit ;
-!+3Pl+2DuO:%>  clit ;
-!+3Pl+2PlO:%>  clit ;
-!+3Pl+3SgO:%>  clit ;
-!+3Pl+3DuO:%>  clit ;
-!+3Pl+3PlO:%>  clit ;
++3Sg+3DuO:%>ik  clit ;
++3Sg+3PlO:%>it clit ; !I(t)
+
++1Du+2SgO:%>vsigiñ  clit ;
++1Du+2DuO:%>vsik  clit ;
++1Du+2PlO:%>vsi  clit ; !vsI
++1Du+3SgO:%>kpuk  clit ;
++1Du+3DuO:%>vuk  clit ; 
++1Du+3PlO:%>vuk  clit ;
+
++2Du+1SgO:%>ksik  clit ;
++2Du+1DuO:%>sik  clit ;
++2Du+1PlO:%>sik  clit ;
++2Du+3SgO:%>vsiŋŋa  clit ;
++2Du+3DuO:%>vsiguk  clit ;
++2Du+3PlO:%>vsigut  clit ;
+
++3Du+1SgO:%>aŋŋa  clit ; ! see fn 2,3 p. 70 in Edna II
++3Du+1SgO:%>aŋŋi  clit ; ! see fn 2,3 p. 70 in Edna II
++3Du+1DuO:%>atiguk  clit ;
++3Du+1PlO:%>atigut  clit ;
++3Du+2SgO:%>atin  clit ;
++3Du+2DuO:%>asik  clit ;
++3Du+2PlO:%>asi  clit ;
++3Du+3SgO:%>ak  clit ;
++3Du+3DuO:%>ik  clit ;
++3Du+3PlO:%>it clit ; !!ik?
+
++1Pl+2SgO:%>vsigiñ  clit ;
++1Pl+2DuO:%>vsik  clit ;
++1Pl+2PlO:%>vsi  clit ;
++1Pl+3SgO:%>kput  clit ;
++1Pl+3DuO:%>vut  clit ;
++1Pl+3PlO:%>vut  clit ;
+
++2Pl+1SgO:%>vsiŋŋa  clit ; !grammar says vsiñŋa, looks like typo
++2Pl+1DuO:%>vsiguk  clit ;
++2Pl+1PlO:%>vsigut  clit ;
++2Pl+3SgO:%>ksi  clit ;
++2Pl+3DuO:%>si  clit ;
++2Pl+3PlO:%>si  clit ;
+
++3Pl+1SgO:%>anŋa  clit ; ! see fn 2,3 p. 70 in Edna II (nŋ typo?)
++3Pl+1SgO:%>anni  clit ; ! see fn 2,3 p. 70 in Edna II
++3Pl+1DuO:%>atiguk clit ;
++3Pl+1PlO:%>atigut  clit ;
++3Pl+2SgO:%>atin  clit ;
++3Pl+2DuO:%>asik  clit ;
++3Pl+2PlO:%>asi  clit ;
++3Pl+3SgO:%>at  clit ; 
++3Pl+3DuO:%>ik  clit ;
++3Pl+3PlO:%>ait  clit ;
 
 
