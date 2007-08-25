@@ -43,7 +43,7 @@ LEXICON junctionIV_vow
 LEXICON verb_intr_vow
 +V+Ind+Prs:%>ru      indpersonaffix ;
 +V+Ind+Pst:%>rua     indpersonaffix ;
-+V+Int:%>vi          intverbaffix2 ;
++V+Int:%>vi          intverbaffix2 ; !XXX ve?
 +V+Int:%>va          intverbaffix3 ;
 +V+ConReal:%>vlu     conpersonaffix ;
 +V+ConUnreal:%>lu    conpersonaffix ;
@@ -61,8 +61,12 @@ LEXICON junctionTV
 	verb_tr ;
 
 LEXICON verb_tr  
-+V+Ind+Prs:%>ge     indpersonaffix_tv ; 
-+V+Ind+Pst:%>ge     indpersonaffix_tv ; !Just a slot holder. Correct mode morpheme must be entered
++V+Ind+Prs:%>ge     indpersonaffix_tv_12 ; 
++V+Ind+Prs:%>ga     indpersonaffix_tv_3  ; 
++V+Ind+Pst:%>raq     indpersonaffix_tv ; !XXX Note that q should be deleted in front of k
++V+Ind+Pst:%>t     indpersonaffix_tv ;   !XXX So, what about the vowel following t?
++V+Int%>vi           intpersonaffix_tv_12 ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
++V+Int%>va          intpersonaffix_tv_3  ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
 +V+ConReal:%>łu     conpersonaffix_tv ;
 +V+ConUnreal:%>lu   conpersonaffix_tv ;
 !+V+Cau+3Sg:%>      clit ;
@@ -77,8 +81,11 @@ LEXICON junctionTV_vow
 
 
 LEXICON verb_tr_vow 
-+V+Ind+Prs:%>ge     indpersonaffix_tv ; 
-+V+Ind+Pst:%>       indpersonaffix_tv ;
++V+Ind+Prs:%>ge     indpersonaffix_tv_12 ; 
++V+Ind+Prs:%>ga     indpersonaffix_tv_3  ; 
++V+Ind+Pst:%>raq    indpersonaffix_tv ; !XXX
++V+Int%>vi          intpersonaffix_tv_12 ; !XXX
++V+Int%>va          intpersonaffix_tv_3  ;  !XXX
 +V+ConReal:%>vlu    conpersonaffix_tv ;
 +V+ConUnreal:%>lu   conpersonaffix_tv ;
 !+V+Cau+3Sg:%>      clit ;
@@ -152,6 +159,11 @@ LEXICON   conpersonaffix_tv
 +1Sg+3Sg:%>ŋa clit ;
 
 LEXICON indpersonaffix_tv
+ indpersonaffix_tv_12 ;
+ indpersonaffix_tv_3  ;
+
+
+LEXICON indpersonaffix_tv_12
 +1Sg+2SgO:%>kpiñ    clit ;
 +1Sg+2DuO:%>vsik    clit ;
 +1Sg+2PlO:%>vsi     clit ;
@@ -165,17 +177,6 @@ LEXICON indpersonaffix_tv
 +2Sg+3SgO:%>n  clit ;
 +2Sg+3DuO:%>kiñ  clit ;
 +2Sg+3PlO:%>tin  clit ;
-
-+3Sg+1SgO:%>aŋa  clit ; ! see fn 2,3 p. 70 in Edna II
-+3Sg+1SgO:%>aŋi  clit ; ! see fn 2,3 p. 70 in Edna II
-+3Sg+1DuO:%>atiguk  clit ;
-+3Sg+1PlO:%>atigut  clit ;
-+3Sg+2SgO:%>atin  clit ;
-+3Sg+2DuO:%>asik  clit ;
-+3Sg+2PlO:%>asi  clit ;
-+3Sg+3SgO:%>a  clit_sing ;
-+3Sg+3DuO:%>ik  clit ;
-+3Sg+3PlO:%>it clit ; !I(t)
 
 +1Du+2SgO:%>vsigiñ  clit ;
 +1Du+2DuO:%>vsik  clit ;
@@ -191,6 +192,33 @@ LEXICON indpersonaffix_tv
 +2Du+3DuO:%>vsiguk  clit ;
 +2Du+3PlO:%>vsigut  clit ;
 
++1Pl+2SgO:%>vsigiñ  clit ;
++1Pl+2DuO:%>vsik  clit ;
++1Pl+2PlO:%>vsi  clit ;
++1Pl+3SgO:%>kput  clit ;
++1Pl+3DuO:%>vut  clit ;
++1Pl+3PlO:%>vut  clit ;
+
++2Pl+1SgO:%>vsiñŋa  clit ; !grammar says vsiñŋa, looks like typo for ŋŋ
++2Pl+1DuO:%>vsiguk  clit ;
++2Pl+1PlO:%>vsigut  clit ;
++2Pl+3SgO:%>ksi  clit ;
++2Pl+3DuO:%>si  clit ;
++2Pl+3PlO:%>si  clit ;
+
+
+LEXICON indpersonaffix_tv_3 
++3Sg+1SgO:%>aŋa  clit ; ! see fn 2,3 p. 70 in Edna II
++3Sg+1SgO:%>aŋi  clit ; ! see fn 2,3 p. 70 in Edna II
++3Sg+1DuO:%>atiguk  clit ;
++3Sg+1PlO:%>atigut  clit ;
++3Sg+2SgO:%>atin  clit ;
++3Sg+2DuO:%>asik  clit ;
++3Sg+2PlO:%>asi  clit ;
++3Sg+3SgO:%>a  clit_sing ;
++3Sg+3DuO:%>ik  clit ;
++3Sg+3PlO:%>it clit ; !I(t)
+
 +3Du+1SgO:%>aŋŋa  clit ; ! see fn 2,3 p. 70 in Edna II
 +3Du+1SgO:%>aŋŋi  clit ; ! see fn 2,3 p. 70 in Edna II
 +3Du+1DuO:%>atiguk  clit ;
@@ -201,20 +229,6 @@ LEXICON indpersonaffix_tv
 +3Du+3SgO:%>ak  clit ;
 +3Du+3DuO:%>ik  clit ;
 +3Du+3PlO:%>it clit ; !!ik?
-
-+1Pl+2SgO:%>vsigiñ  clit ;
-+1Pl+2DuO:%>vsik  clit ;
-+1Pl+2PlO:%>vsi  clit ;
-+1Pl+3SgO:%>kput  clit ;
-+1Pl+3DuO:%>vut  clit ;
-+1Pl+3PlO:%>vut  clit ;
-
-+2Pl+1SgO:%>vsiŋŋa  clit ; !grammar says vsiñŋa, looks like typo
-+2Pl+1DuO:%>vsiguk  clit ;
-+2Pl+1PlO:%>vsigut  clit ;
-+2Pl+3SgO:%>ksi  clit ;
-+2Pl+3DuO:%>si  clit ;
-+2Pl+3PlO:%>si  clit ;
 
 +3Pl+1SgO:%>anŋa  clit ; ! see fn 2,3 p. 70 in Edna II (nŋ typo?)
 +3Pl+1SgO:%>anni  clit ; ! see fn 2,3 p. 70 in Edna II
@@ -227,4 +241,81 @@ LEXICON indpersonaffix_tv
 +3Pl+3DuO:%>ik  clit ;
 +3Pl+3PlO:%>ait  clit ;
 
+LEXICON  intpersonaffix_tv
+ intpersonaffix_tv_12 ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
+ intpersonaffix_tv_3  ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
+
+LEXICON  intpersonaffix_tv_12 !!!!! note, still wrong affixes
++1Sg+2SgO:%>giñ    clit ;
++1Sg+2DuO:%>sik    clit ;
++1Sg+2PlO:%>si     clit ;
++1Sg+3SgO:%>gu      clit ;
++1Sg+3DuO:%>gik      clit ; 
++1Sg+3PlO:%>gi     clit ;
+
++2Sg+1SgO:%>ŋa     clit ;
++2Sg+1DuO:%>siguk  clit ;
++2Sg+1PlO:%>sigut  clit ;
++2Sg+3SgO:%>uŋ  clit ;
++2Sg+3DuO:%>gik  clit ;
++2Sg+3PlO:%>gi  clit ;
+
++1Du+2SgO:%>sigiñ  clit ;
++1Du+2DuO:%>sik  clit ;
++1Du+2PlO:%>si  clit ; !vsI
++1Du+3SgO:%>sigu  clit ;
++1Du+3DuO:%>sigik  clit ; 
++1Du+3PlO:%>sigik  clit ;
+
++2Du+1SgO:%>siŋŋa  clit ;
++2Du+1DuO:%>siguk  clit ;
++2Du+1PlO:%>sigut  clit ;
++2Du+3SgO:%>tku  clit ;
++2Du+3DuO:%>tkik  clit ;
++2Du+3PlO:%>sigik  clit ; !sigik/ŋ
+
++1Pl+2SgO:%>sigiñ  clit ;
++1Pl+2DuO:%>sik  clit ;
++1Pl+2PlO:%>si  clit ;
++1Pl+3SgO:%>sigu  clit ;
++1Pl+3DuO:%>sigiŋ  clit ;
++1Pl+3PlO:%>sigiŋ  clit ;
+
++2Pl+1SgO:%>siñŋa  clit ; !grammar says vsiñŋa, looks like typo
++2Pl+1DuO:%>siguk  clit ;
++2Pl+1PlO:%>sigut  clit ;
++2Pl+3SgO:%>siuŋ  clit ;
++2Pl+3DuO:%>sigik  clit ;
++2Pl+3PlO:%>sigik  clit ;
+
+LEXICON  intpersonaffix_tv_3 !!!!! note, still wrong affixes
++3Sg+1SgO:%>ŋa  clit ; ! see fn 2,3 p. 70 in Edna II
++3Sg+1DuO:%>tiguk  clit ;
++3Sg+1PlO:%>tigut  clit ;
++3Sg+2SgO:%>tin  clit ;
++3Sg+2DuO:%>sik  clit ;
++3Sg+2PlO:%>si  clit ;
++3Sg+3SgO:%>uŋ  clit_sing ;
++3Sg+3DuO:%>gik  clit ;
++3Sg+3PlO:%>git clit ; !gI(t)
+
++3Du+1SgO:%>ŋŋa  clit ; ! see fn 2,3 p. 70 in Edna II
++3Du+1DuO:%>tiguk  clit ;
++3Du+1PlO:%>tigut  clit ;
++3Du+2SgO:%>tin  clit ;
++3Du+2DuO:%>sik  clit ;
++3Du+2PlO:%>si  clit ;
++3Du+3SgO:%>tku  clit ;
++3Du+3DuO:%>tigik  clit ;
++3Du+3PlO:%>tigik clit ; !!ik?
+
++3Pl+1SgO:%>nŋa  clit ; ! see fn 2,3 p. 70 in Edna II (nŋ typo?)
++3Pl+1DuO:%>tiguk clit ;
++3Pl+1PlO:%>tigut  clit ;
++3Pl+2SgO:%>tin  clit ;
++3Pl+2DuO:%>sik  clit ;
++3Pl+2PlO:%>si  clit ;
++3Pl+3SgO:%>rruŋ  clit ; 
++3Pl+3DuO:%>tigik  clit ;
++3Pl+3PlO:%>tigik  clit ;
 
