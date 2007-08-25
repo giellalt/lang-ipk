@@ -99,6 +99,11 @@ uniat:uniaq	tp_pl ; ! to avoid singular but accept plural endings
 uvluġiaq	tp_gem ; !star
 
 etc	abbr ; !!just rubbish to fill the slot
+
+
+! Added from dictionary
+! =====================
+
 Agaayun:Agaayute tpt ; ! God (K)
 Anniqsuun:Anniqsuute tpt ; ! Savior (K)
 Tiliŋmun:Tiliŋmute tpt ; ! nibitqugai. He wants Tilak to eat them.
