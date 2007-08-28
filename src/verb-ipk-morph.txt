@@ -241,9 +241,9 @@ LEXICON indpersonaffix_tv_3
 +3Pl+3DuO:%>ik  clit ;
 +3Pl+3PlO:%>ait  clit ;
 
-LEXICON  intpersonaffix_tv
- intpersonaffix_tv_12 ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
- intpersonaffix_tv_3  ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
+!LEXICON  intpersonaffix_tv
+! intpersonaffix_tv_12 ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
+! intpersonaffix_tv_3  ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
 
 LEXICON  intpersonaffix_tv_12 !!!!! note, still wrong affixes
 +1Sg+2SgO:%>giñ    clit ;
