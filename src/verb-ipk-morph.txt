@@ -65,8 +65,8 @@ LEXICON verb_tr
 +V+Ind+Prs:%>ga     indpersonaffix_tv_3  ; 
 +V+Ind+Pst:%>raq     indpersonaffix_tv ; !XXX Note that q should be deleted in front of k
 +V+Ind+Pst:%>t     indpersonaffix_tv ;   !XXX So, what about the vowel following t?
-+V+Int%>vi           intpersonaffix_tv_12 ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
-+V+Int%>va          intpersonaffix_tv_3  ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
++V+Int:%>vi           intpersonaffix_tv_12 ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
++V+Int:%>va          intpersonaffix_tv_3  ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
 +V+ConReal:%>łu     conpersonaffix_tv ;
 +V+ConUnreal:%>lu   conpersonaffix_tv ;
 !+V+Cau+3Sg:%>      clit ;
@@ -84,8 +84,8 @@ LEXICON verb_tr_vow
 +V+Ind+Prs:%>ge     indpersonaffix_tv_12 ; 
 +V+Ind+Prs:%>ga     indpersonaffix_tv_3  ; 
 +V+Ind+Pst:%>raq    indpersonaffix_tv ; !XXX
-+V+Int%>vi          intpersonaffix_tv_12 ; !XXX
-+V+Int%>va          intpersonaffix_tv_3  ;  !XXX
++V+Int:%>vi          intpersonaffix_tv_12 ; !XXX
++V+Int:%>va          intpersonaffix_tv_3  ;  !XXX
 +V+ConReal:%>vlu    conpersonaffix_tv ;
 +V+ConUnreal:%>lu   conpersonaffix_tv ;
 !+V+Cau+3Sg:%>      clit ;
@@ -94,17 +94,17 @@ LEXICON verb_tr_vow
 ! ===========================
 
 LEXICON verbalderivatives  ! hundreds of derivatives in here
-+LLATU:%TRUNC%>llatu	        verbalderivatives_cont_vow ;
-+LLATU=NIAQ:%TRUNC%>llatuniaq	verbalderivatives_cont ;
++LLATU:%TRUNC:%>llatu	        verbalderivatives_cont_vow ;
++LLATU=NIAQ:%TRUNC:%>llatuniaq	verbalderivatives_cont ;
 +NIAQ:%>niaq                    verbalderivatives_cont ; !isiq-niaq-tuq 
 +NIAQ=ŊIT:%>niaŋit              verbalderivatives_cont ;
-+ŊIT:%TRUNC%>ŋit                verbalderivatives_cont ;
++ŊIT:%TRUNC:%>ŋit                verbalderivatives_cont ;
 +SAAĠE:%>saaġe	                verbalderivatives_cont_vow ;
 +SAAĠE=ŊIT:%>saaġeŋit           verbalderivatives_cont ;
-+TEQ:%TRUNC%>teq                verbalderivatives_cont ;
++TEQ:%TRUNC:%>teq                verbalderivatives_cont ;
 
 LEXICON nominalizers !Taken out of verbalderivatives to avoid transitive stems going here 
-+VIK:%C%>vik	 tup- ; 
++VIK:%C:%>vik	 tup- ; 
 
 LEXICON verbalderivatives_cont
 @R.IV.ON@ verb_intr ;
