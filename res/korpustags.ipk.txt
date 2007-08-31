@@ -1,0 +1,163 @@
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
+%                                                                            %
+%    List of morphological and syntactic tags used in the Ïnupiaq corpus     %
+%                                                                            %
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
+
+%     Table of contents
+%  0. A short explanation
+%  1. Structure of the different POS (the details of sect. 1 are just the sme ones)
+%  2. List of the tags, and their internal distribution (these lists are the smj ones)
+
+
+
+% The Document has two parts. 
+% The first part outlines the internal structure of
+% the complex POS, these should be built as boxes or panes.
+% The last part is a list over the different morphosyntactic categories.
+
+% The tags are in complementary distribution within each tag column.
+% The derivation component is ignored.
+
+
+% 1. Structure of the different POS
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Note!!! The tag grouping under this section is not up to date
+
+% Tag syntax for the larger POS
+% Not all combinations within each box are possibe.
+
+% "-" indicates optionality. It is perhaps not needed. "|" means "OR".
+% The Function: list is listed below, and not indicated here.
+
+% The name of these boxes are now legible, rather than the tags (tags in parentheses?)
+% Noun: N
+% Derivation: -
+% Number: Sg|Du|Pl
+% Case: Abs|Rel|Trm|Abl|Loc
+% Possessive: -|1Sg|2Sg|3Sg|4Sg|1Pl|2Pl|3Pl|4Pl|1Du|2Du|3Du|4Du
+% Clitic: -|Clt
+% Function:
+
+
+% Verb: V
+% Mood: Ind|Int|Opt|Cau|ConReal|ConUnreal
+% SubjectPersonNumber: 1Sg|2Sg|3Sg|4Sg|1Pl|2Pl|3Pl|4Pl|1Du|2Du|3Du|4Du
+% ObjectPersonNumber: 1SgO|2SgO|3SgO|4SgO|1PlO|2PlO|3PlO|4PlO|1DuO|2DuO|3DuO|4DuO
+% Clitic: -|Clt
+% Function:
+
+% Adverb: Adv
+% Case: Loc|Abl|Via|Trm
+% Clitic: -|Qst
+% Function:
+
+% Pronoun: Pron
+% Case: Abs|Rel|Trm|Abl|Loc|Aeq|Ins|Via|Voc
+% Number: Sg|Pl
+% Clitic: -|Clt
+% Function:
+
+% Numeral: Num
+% Case: -|Abs|Rel|Trm|Abl|Loc|Aeq|Ins|Via
+% Number: Sg|Pl
+% Function:
+
+% DerivedRoot
+% Comment: These are tags for what the words have been at an earlier stage
+% in the derivation. They are syntactically irrelevant.
+
+
+% 2.  List of the tags, and their internal distribution
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Initial star = not yet found in kal file
+N	Noun
+V	Verb
+Part Particle
+#Wordclass
+
+Prop	Propernoun
+#Subclass
+
+Sg	Singular
+Pl	Plural
+Du	Dual
+#Number
+
+Abs Absolutive
+Rel Relative
+Trm Terminal
+Abl Ablative
+Loc Locative
+Aeq Aequative
+Ins Instrumental
+Via Vialis
+Voc Vocative
+#Case
+
+Attr	Attribute
+#Attributive
+
+Comp	Comparative
+Superl	Superlative
+#Grade
+
+1Sg	Possessive Singular 1st Person
+2Sg	Possessive Singular 2nd Person
+3Sg	Possessive Singular 3rd Person
+1Du	Possessive Dual 1st Person
+2Du	Possessive Dual 2nd Person
+3Du	Possessive Dual 3rd Person
+1Pl	Possessive Plural 1st Person
+2Pl	Possessive Plural 2nd Person
+3Pl	Possessive Plural 3rd Person
+4Sg	Possessive Singular 4th Person
+4Du	Possessive Dual 4th Person
+4Pl	Possessive Plural 4th Person
+#Possessive
+
+
+Ind Indicative
+Int Interrogative
+Opt Optative
+Cau Causative
+Con Conditional
+Par Partitive
+Inf Infinitive
+InfNeg Infitival negative
+Ite Iterative
+#Mood
+
+1Sg First Person singular
+2Sg Second Person singular
+3Sg Third Person singular
+4Sg Fourth Person singular
+1Du First Person dual
+2Du Second Person dual
+3Du Third Person dual
+4Du	Fourth Person dual
+1Pl First Person plural
+2Pl Second Person plural
+3Pl Third Person plural
+4Pl Fourth Person plural
+#SubjectPersonNumber
+
+1SgO First Person singular
+2SgO Second Person singular
+3SgO Third Person singular
+4SgO Fourth Person singular
+1DuO First Person dual
+2DuO Second Person dual
+3DuO Third Person dual
+4DuO	Fourth Person dual
+1PlO First Person plural
+2PlO Second Person plural
+3PlO Third Person plural
+4PlO Fourth Person plural
+#ObjectPersonNumber
+
+Clt
+#Clitic
+
