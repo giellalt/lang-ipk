@@ -43,6 +43,7 @@
 
 % Verb: V
 % Mood: Ind|Int|Opt|Cau|ConReal|ConUnreal
+% Tense: Prs|Prt
 % SubjectPersonNumber: 1Sg|2Sg|3Sg|4Sg|1Pl|2Pl|3Pl|4Pl|1Du|2Du|3Du|4Du
 % ObjectPersonNumber: 1SgO|2SgO|3SgO|4SgO|1PlO|2PlO|3PlO|4PlO|1DuO|2DuO|3DuO|4DuO
 % Clitic: -|Clt
@@ -121,14 +122,14 @@ Superl	Superlative
 
 Ind Indicative
 Int Interrogative
-Opt Optative
+ConReal ConReal
+ConUnread ConUnreal
 Cau Causative
-Con Conditional
-Par Partitive
-Inf Infinitive
-InfNeg Infitival negative
-Ite Iterative
 #Mood
+
+Prs Present
+Pst Past
+#Tense
 
 1Sg First Person singular
 2Sg Second Person singular
