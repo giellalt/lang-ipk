@@ -1421,3 +1421,203 @@ uŋasiksigi IV_vow ; 	!! uŋasiksigiruq	! is thus far
 uŋiarri IV_vow ; 	!! uŋiarriruq	! worries (N)
 uŋuluġusaaq IV ; 	!! uŋuluġusaaqtuq	! frightens away an attacking animal (N)
 ŋraiḷiuq IV ; 	!! ŋraiḷiuqtuq	! fries meat
+
+! Nuuk additions
+! ==============
+
+! ġaa verbs
+! ---------
+
+nalautchaa TV_vow ; !! nalautchaaġaa  	! travels past (N)
+ikaa TV_vow ; !! ikaaġaa  	! crosses it
+paa TV_vow ; !! paaġaa  	! meets him
+suksraa TV_vow ; !! suksraaġaa  	! gives up on it, forsakes him
+apqusraa TV_vow ; !! apqusraaġaa  	! passes him (K)
+qapiŋaisaa TV_vow ; !! qapiŋaisaaġaa  	! encourages him
+putchimaapkaqsaa TV_vow ; !! putchimaapkaqsaaġaa  	! stores moistened skin overnight
+akiga TV_vow ; !! akigaġaa  	! bears it, carries it
+qiġġa TV_vow ; !! qiġġaġaa  	! has a stiff muscle
+piḷġa TV_vow ; !! piḷġaġaa  	! braids hair
+nanġa TV_vow ; !! nanġaġaa  	! praises him, brags about him
+pisaayuga TV_vow ; !! pisaayugaġaa  	! provokes him
+niġipcha TV_vow ; !! niġipchaġaa  	! he feeds him
+aŋipcha TV_vow ; !! aŋipchaġaa  	! resuscitated him, resurrected him (K)
+tasritcha TV_vow ; !! tasritchaġaa  	! stretches it
+putchimaallaktitcha TV_vow ; !! putchimaallaktitchaġaa  	! stores moistened skin for short while
+paġla TV_vow ; !! paġlaġaa  	! welcomes him
+tuniḷa TV_vow ; !! tuniḷaġaa  	! gives it, makes a present of it, sacrifices it
+ama TV_vow ; !! amaġaa  	! puts him (baby) on her back (inside the parka)
+salumma TV_vow ; !! salummaġaa  	! cleanses it
+aġiisrukna TV_vow ; !! aġiisruknaġaa  	! is offended by it
+nayaaŋa TV_vow ; !! nayaaŋaġaa  	! greets him, sends him greetings (K)
+niviŋa TV_vow ; !! niviŋaġaa  	! hangs it up
+nuvuyaŋŋuqsaiñña TV_vow ; !! nuvuyaŋŋuqsaiññaġaa  	! is changing to cloudy weather
+kiugiñña TV_vow ; !! kiugiññaġaa  	! is merely answering him
+uumisaaġura TV_vow ; !! uumisaaġuraġaa  	! provokes him (K)
+aŋivra TV_vow ; !! aŋivraġaa  	! unravels it, unscrews it, unties it
+tuvra TV_vow ; !! tuvraġaa  	! follows him, tracks him, imitates him
+kiluusa TV_vow ; !! kiluusaġaa  	! locks it
+aŋalata TV_vow ; !! aŋalataġaa  	! directs him, controls him
+uqaqtita TV_vow ; !! uqaqtitaġaa  	! asked him to speak, talk
+akua TV_vow ; !! akuaġaa  	! catches it
+upkua TV_vow ; !! upkuaġaa  	! closes it
+siquyaqtuquyumagalua TV_vow ; !! siquyaqtuquyumagaluaġaa  	! want him to go to bed
+qua TV_vow ; !! quaġaa  	! splits, separates, loosens it (of things frozen or otherwise fused together)
+uuktua TV_vow ; !! uuktuaġaa  	! tests it, measures it
+piyua TV_vow ; !! piyuaġaa  	! tempts him, pursues him
+saġva TV_vow ; !! saġvaġaa  	! flows swiftly over it
+tuġva TV_vow ; !! tuġvaġaa  	! puts it away
+allaiya TV_vow ; !! allaiyaġaa  	! is mending net
+piiya TV_vow ; !! piiyaġaa  	! breaks it
+ugai TV_vow ; !! ugaiġaa  	! bites him, mauls him
+patchisai TV_vow ; !! patchisaiġaa  	! frees him
+isiḷġi TV_vow ; !! isiḷġiġaa  	! corrects his misundertanding
+atchi TV_vow ; !! atchiġaa  	! names him
+natchitchi TV_vow ; !! natchitchiġaa  	! lays flooring
+pii TV_vow ; !! piiġaa  	! removes it
+qaki TV_vow ; !! qakiġaa  	! boxes him
+simmiḷi TV_vow ; !! simmiḷiġaa  	! returns something borrowed
+miñułi TV_vow ; !! miñułiġaa  	! paints it
+sivulli TV_vow ; !! sivulliġaa  	! he leads him (lit. he is foremost to him)
+kipli TV_vow ; !! kipliġaa  	! cuts it in two, severs it
+igruli TV_vow ; !! igruliġaa  	! has chills (K)
+immi TV_vow ; !! immiġaa  	! fills it
+simmi TV_vow ; !! simmiġaa  	! changes it, exchanges it
+puuġni TV_vow ; !! puuġniġaa  	! wraps it
+aŋi TV_vow ; !! aŋiġaa  	! agrees with him, assents to it
+iŋi TV_vow ; !! iŋiġaa  	! asks him, begs him, prays to him
+taŋŋi TV_vow ; !! taŋŋiġaa  	! does what is told, brings it to reality
+qanni TV_vow ; !! qanniġaa  	! orders it
+atanni TV_vow ; !! atanniġaa  	! judges him (K)
+nagliginni TV_vow ; !! nagliginniġaa  	! is merciful to him
+qiñi TV_vow ; !! qiñiġaa  	! watches it
+sivunni TV_vow ; !! sivunniġaa  	! decides it, plans it
+matuni TV_vow ; !! matuniġaa  	! covers it
+sapi TV_vow ; !! sapiġaa  	! is difficult (K)
+sanuqi TV_vow ; !! sanuqiġaa  	! puts siding on it (house)
+tauqsi TV_vow ; !! tauqsiġaa  	! buys it
+aati TV_vow ; !! aatiġaa  	! snatches it away
+qiqiti TV_vow ; !! qiqitiġaa  	! has frostbite
+titi TV_vow ; !! titiġaa  	! marks it, draws a line on it
+qitchukti TV_vow ; !! qitchuktiġaa  	! scratches it
+itqaqti TV_vow ; !! itqaqtiġaa  	! it comes to mind (K)
+iñiqti TV_vow ; !! iñiqtiġaa  	! threatened him
+apuqti TV_vow ; !! apuqtiġaa  	! bumps, strikes against it, meets him
+upkui TV_vow ; !! upkuiġaa  	! opens it
+tuglau TV_vow ; !! tuglauġaa  	! shields him, protects him
+tuvlau TV_vow ; !! tuvlauġaa  	! shields him, protects him
+uunaġu TV_vow ; !! uunaġuġaa  	! it's warm
+taktugu TV_vow ; !! taktuguġaa  	! it's foggy
+aatchu TV_vow ; !! aatchuġaa  	! gave it, gives it
+aatchu TV_vow ; !! aatchuġaa  	! gives it
+aitchu TV_vow ; !! aitchuġaa  	! gave it, gives it
+aitchu TV_vow ; !! aitchuġaa  	! gives it
+tuqłu TV_vow ; !! tuqłuġaa  	! calls him, hails
+tuqłu TV_vow ; !! tuqłuġaa  	! calls him, hails him
+irriŋu TV_vow ; !! irriŋuġaa  	! is icy cold (N)
+itriŋu TV_vow ; !! itriŋuġaa  	! is icy cold (K)
+kisiŋŋu TV_vow ; !! kisiŋŋuġaa  	! left him alone, left her bereaved
+apu TV_vow ; !! apuġaa  	! bumps, strikes against it, meets him
+qaqqu TV_vow ; !! qaqquġaa  	! cracks it
+igru TV_vow ; !! igruġaa  	! gets stiff (of a dead body)
+alġaqsru TV_vow ; !! alġaqsruġaa  	! exhorts him, tells him the right way to behave
+tumaqsru TV_vow ; !! tumaqsruġaa  	! fits it together
+apiqsru TV_vow ; !! apiqsruġaa  	! is about to question him, ask him
+nalġuqsru TV_vow ; !! nalġuqsruġaa  	! straightens it, corrects him
+iḷḷiaġuru TV_vow ; !! iḷḷiaġuruġaa  	! combs it (K)
+tasu TV_vow ; !! tasuġaa  	! obtains it, redeems it (N)
+tasu TV_vow ; !! tasuġaa  	! ransomed, redeemed him (N,q)
+anniqsu TV_vow ; !! anniqsuġaa  	! benefits him
+urriqsu TV_vow ; !! urriqsuġaa  	! demonstrates it, shows it by his actions
+atu TV_vow ; !! atuġaa  	! sings it
+atu TV_vow ; !! atuġaa  	! uses it
+satu TV_vow ; !! satuġaa  	! obtains it back, redeems it (K)
+satu TV_vow ; !! satuġaa  	! ransomed, redeemed him (K)
+upaktu TV_vow ; !! upaktuġaa  	! charges him, goes after him
+kiliktu TV_vow ; !! kiliktuġaa  	! tells him news, warns him
+aqtu TV_vow ; !! aqtuġaa  	! touches it
+ipiġaqtu TV_vow ; !! ipiġaqtuġaa  	! whips him
+arguaqtu TV_vow ; !! arguaqtuġaa  	! doubts it
+ivayaqtu TV_vow ; !! ivayaqtuġaa  	! defrauds, robs him (K)
+akuqtu TV_vow ; !! akuqtuġaa  	! accepts it
+igḷutu TV_vow ; !! igḷutuġaa  	! endures it, suffers it
+tuu TV_vow ; !! tuuġaa  	! chisels it
+ikayu TV_vow ; !! ikayuġaa  	! helps him
+nayu TV_vow ; !! nayuġaa  	! lives with him, stays with him
+
+
+! suq verbs
+! ---------
+
+siḷagik verb_intr_suq ;	!! siḷagiksuq	! is good weather
+nunagik verb_intr_suq ;	!! nunagiksuq	! is a good land
+qaummaġik verb_intr_suq ;	!! qaummaġiksuq	! is bright
+qiñiġik verb_intr_suq ;	!! qiñiġiksuq	! is good looking
+iñugik verb_intr_suq ;	!! iñugiksuq	! is a good or pretty person
+iñugik verb_intr_suq ;	!! iñugiksuq	! is handsome, beautiful
+atchik verb_intr_suq ;	!! atchiksuq	! is lowly, is humble (K)
+qutchik verb_intr_suq ;	!! qutchiksuq	! is high
+siik verb_intr_suq ;	!! siiksuq	! is cutting fish (for drying)
+qatmik verb_intr_suq ;	!! qatmiksuq	! is impatient, dislikes to wait (K)
+minik verb_intr_suq ;	!! miniksuq	! is misty
+qannik verb_intr_suq ;	!! qanniksuq	! is snowing (no wind) (N)
+takpik verb_intr_suq ;	!! takpiksuq	! has keen eyesight
+siatqik verb_intr_suq ;	!! siatqiksuq	! is straight (as of a board)
+tutqik verb_intr_suq ;	!! tutqiksuq	! is content, is at peace (within)
+tutqik verb_intr_suq ;	!! tutqiksuq	! is content, is solid, is peaceful
+puqik verb_intr_suq ;	!! puqiksuq	! is quick to learn, is wise (K)
+uŋasrik verb_intr_suq ;	!! uŋasriksuq	! is far
+uŋasik verb_intr_suq ;	!! uŋasiksuq	! is far
+kusik verb_intr_suq ;	!! kusiksuq	! is dripping
+natiġvik verb_intr_suq ;	!! natiġviksuq	! is ground drifting
+piḷaiq verb_intr_suq ;	!! piḷaiqsuq	! is tired
+piḷaiq verb_intr_suq ;	!! piḷaiqsuq	! is tired (N)
+imaiq verb_intr_suq ;	!! imaiqsuq	! is low (water in river)
+itqanaiq verb_intr_suq ;	!! itqanaiqsuq	! is ready, finished
+atuŋaiq verb_intr_suq ;	!! atuŋaiqsuq	! is useless (having been useable)
+atuŋaiq verb_intr_suq ;	!! atuŋaiqsuq	! is worthless
+apaiq verb_intr_suq ;	!! apaiqsuq	! is enough, had enough
+qaiq verb_intr_suq ;	!! qaiqsuq	! is smooth, level, flat
+itraiq verb_intr_suq ;	!! itraiqsuq	! has moderated (having been cold) (K)
+agniġiq verb_intr_suq ;	!! agniġiqsuq	! blizzard has ceased (N)
+taŋiġiq verb_intr_suq ;	!! taŋiġiqsuq	! is false (lies)
+aŋniġiq verb_intr_suq ;	!! aŋniġiqsuq	! blizzard has ceased (K)
+suurimaanġiq verb_intr_suq ;	!! suurimaanġiqsuq	! is not concerned for law or other people (N)
+suksraunġiq verb_intr_suq ;	!! suksraunġiqsuq	! is destroyed
+atlaġiiq verb_intr_suq ;	!! atlaġiiqsuq	! is different, other (K)
+piiq verb_intr_suq ;	!! piiqsuq	! is absent
+piiq verb_intr_suq ;	!! piiqsuq	! is taken away
+uiñġaliq verb_intr_suq ;	!! uiñġaliqsuq	! is sleepy
+nuviyaliq verb_intr_suq ;	!! nuviyaliqsuq	! is overcast, is getting cloudy
+kapyaliq verb_intr_suq ;	!! kapyaliqsuq	! worries, gets dizzy, has a headache (K)
+nuvuyaliq verb_intr_suq ;	!! nuvuyaliqsuq	! is overcast, is getting cloudy
+ukpiliq verb_intr_suq ;	!! ukpiliqsuq	! has come to believe
+alliq verb_intr_suq ;	!! alliqsuq	! is deep
+qaummaiḷiq verb_intr_suq ;	!! qaummaiḷiqsuq	! is lightning
+qaiḷiq verb_intr_suq ;	!! qaiḷiqsuq	! is rough water
+iñugiiḷiq verb_intr_suq ;	!! iñugiiḷiqsuq	! frowns (lit. makes himself ugly)
+kiḷiq verb_intr_suq ;	!! kiḷiqsuq	! has cut self
+piḷuiḷḷiq verb_intr_suq ;	!! piḷuiḷḷiqsuq	! is not as capable as used to be
+anuqłiq verb_intr_suq ;	!! anuqłiqsuq	! is windy
+siiġḷanŋuliq verb_intr_suq ;	!! siiġḷanŋuliqsuq	! has a sour stomach (N)
+taiguanŋuliq verb_intr_suq ;	!! taiguanŋuliqsuq	! is tired of reading
+qaayuliq verb_intr_suq ;	!! qaayuliqsuq	! dirties himself (of baby messing diaper)
+immiq verb_intr_suq ;	!! immiqsuq	! is full
+uyummiq verb_intr_suq ;	!! uyummiqsuq	! is misty, blurred
+qupyuġaġniq verb_intr_suq ;	!! qupyuġaġniqsuq	! is whiteout (K)
+quvyuġaġniq verb_intr_suq ;	!! quvyuġaġniqsuq	! is whiteout
+qaisugnaġniq verb_intr_suq ;	!! qaisugnaġniqsuq	! is thought he is coming (I think he is coming
+siḷaŋiq verb_intr_suq ;	!! siḷaŋiqsuq	! is carousing
+taŋŋiq verb_intr_suq ;	!! taŋŋiqsuq	! is fulfilled
+iñuŋniq verb_intr_suq ;	!! iñuŋniqsuq	! is a gentleman
+tuttunniq verb_intr_suq ;	!! tuttunniqsuq	! has apparently caught a caribou
+quuniq verb_intr_suq ;	!! quuniqsuq	! is calm
+kuvriq verb_intr_suq ;	!! kuvriqsuq	! is setting net
+piqsiq verb_intr_suq ;	!! piqsiqsuq	! is snow storming (b)
+niġisuġuiq verb_intr_suq ;	!! niġisuġuiqsuq	! has had enough food
+atuġuiq verb_intr_suq ;	!! atuġuiqsuq	! is worthless
+nuyuiq verb_intr_suq ;	!! nuyuiqsuq	! is not afraid, is not scared
+kaviq verb_intr_suq ;	!! kaviqsuq	! is red
+pisuġiuq verb_intr_suq ;	!! pisuġiuqsuq	! is enough (as when filling gas tank)
+
+
