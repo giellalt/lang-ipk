@@ -49,6 +49,24 @@ LEXICON verb_intr_vow
 +V+ConUnreal:%>lu    conpersonaffix ;
 +V+Cau+3Sg:%>man     clit ;
 
+LEXICON verb_intr_suq
++V+Ind+Prs:%>su      indpersonaffix ;
++V+Ind+Prt:%>sua     indpersonaffix ;
++V+Int:%>pi          intverbaffix2 ;
++V+Int:%>pa	     intverbaffix3 ;
++V+ConReal:%>łu      conpersonaffix ;
++V+ConUnreal:%>lu    conpersonaffix ;
++V+Cau+3Sg:%>man     clit ;
+
+LEXICON verb_intr_chuq
++V+Ind+Prs:%>chu      indpersonaffix ;
++V+Ind+Prt:%>chua     indpersonaffix ;
++V+Int:%>pi          intverbaffix2 ;
++V+Int:%>pa	     intverbaffix3 ;
++V+ConReal:%>łu      conpersonaffix ;
++V+ConUnreal:%>lu    conpersonaffix ;
++V+Cau+3Sg:%>man     clit ;
+
 
 ! TV
 ! --
