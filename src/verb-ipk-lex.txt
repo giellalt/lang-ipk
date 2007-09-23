@@ -69,7 +69,7 @@ agliuti TV_vow ;	!! agliutigaa	! take one's picture (K)
 agliġi TV_vow ;	!! agliġigaa	! abstains from it, avoids it
 ai TV_vow ;	!! aigaa	! fetches it, goes to get it (K)
 aitchuusiaġisuu TV_vow ;	!! aitchuusiaġisuugaa	! is always receiving it
-akiiḷi TV_vow ;	!! akiiḷigaa	! beats him (in contest)
+akiiḷigaa:akiiḷi TV_vow ;	!! akiiḷigaa	! beats him (in contest)
 akiqsruġi TV_vow ;	!! akiqsruġigaa	! promises it
 aksik TV ;	!! aksikkaa	! touches it
 anau TV_vow ;	!! anaugaa	! hits him, beats him
