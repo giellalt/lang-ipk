@@ -9,6 +9,14 @@ SHELL = /bin/sh
 # VARIABLE DEFINITIONS
 # ====================
 
+#XFST = fst -utf8
+XFST = xfst -utf8
+
+ifeq (victorio.uit.no, $(shell hostname))
+XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
+endif
+
+
 # Where all the perl scripts are:
 BINDIR = ~/gt/script/testing
 
@@ -178,7 +186,7 @@ n-paradigm: n-para.ptest savefile
 	@printf "load $(SAVEFILE) \n\
 	apply down <$< \n\
 	quit \n" > $(TEMP)/$@-gtest-script
-	@xfst -utf8 < $(TEMP)/$@-gtest-script > $(WORD).paradigm
+	$(XFST) < $(TEMP)/$@-gtest-script > $(WORD).paradigm
 	@rm -f $(TEMP)/$@-gtest-script
 	@rm -f $<
 	@less $(WORD).paradigm
@@ -233,7 +241,7 @@ i-paradigm: i-para.ptest savefile
 	@printf "load $(SAVEFILE) \n\
 	apply down <$< \n\
 	quit \n" > $(TEMP)/$@-gtest-script
-	@xfst -utf8 < $(TEMP)/$@-gtest-script > $(WORD).paradigm
+	$(XFST) < $(TEMP)/$@-gtest-script > $(WORD).paradigm
 	@rm -f $(TEMP)/$@-gtest-script
 	@rm -f $<
 	@less $(WORD).paradigm
@@ -288,7 +296,7 @@ t-paradigm: t-para.ptest savefile
 	@printf "load $(SAVEFILE) \n\
 	apply down <$< \n\
 	quit \n" > $(TEMP)/$@-gtest-script
-	@xfst -utf8 < $(TEMP)/$@-gtest-script > $(WORD).paradigm
+	$(XFST) < $(TEMP)/$@-gtest-script > $(WORD).paradigm
 	@rm -f $(TEMP)/$@-gtest-script
 	@rm -f $<
 	@less $(WORD).paradigm
@@ -343,7 +351,7 @@ p-paradigm: p-para.ptest savefile
 	@printf "load $(SAVEFILE) \n\
 	apply down <$< \n\
 	quit \n" > $(TEMP)/$@-gtest-script
-	@xfst -utf8 < $(TEMP)/$@-gtest-script > $(WORD).paradigm
+	$(XFST) < $(TEMP)/$@-gtest-script > $(WORD).paradigm
 	@rm -f $(TEMP)/$@-gtest-script
 	@rm -f $<
 	@less $(WORD).paradigm
@@ -389,7 +397,7 @@ savefile:
 	@printf "load $(SAVEFILE) \n\
 	apply down <$< \n\
 	quit \n" > $(TEMP)/$*-gtest-script
-	@xfst -utf8 < $(TEMP)/$*-gtest-script > $@
+	$(XFST) < $(TEMP)/$*-gtest-script > $@
 	@rm -f $(TEMP)/$*-gtest-script
 
 # Then we compare with the facit, and report any differences:
@@ -448,7 +456,7 @@ savefile:
 	@printf "load $(SAVEFILE) \n\
 	apply up <$< \n\
 	quit \n" > $(TEMP)/$*-atest-script
-	@xfst -utf8 < $(TEMP)/$*-atest-script > $@
+	$(XFST) < $(TEMP)/$*-atest-script > $@
 	@rm -f $(TEMP)/$*-atest-script
 
 # Finally, we compare with the facit, and report any differences:
