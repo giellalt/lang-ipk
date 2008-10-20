@@ -7,7 +7,7 @@
 # Tools used when compiling the transducers
 
 XFST = fst -utf8
-XFST = xfst -utf8
+#XFST = xfst -utf8
 LEXC = lexc -utf8
 
 ifeq (victorio.uit.no, $(shell hostname))
