@@ -9,8 +9,8 @@ SHELL = /bin/sh
 # VARIABLE DEFINITIONS
 # ====================
 
-#XFST = fst -utf8
-XFST = xfst -utf8
+
+XFST = xfst #-utf8
 
 ifeq (victorio.uit.no, $(shell hostname))
 XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
@@ -18,7 +18,7 @@ endif
 
 
 # Where all the perl scripts are:
-BINDIR = ~/gt/script/testing
+BINDIR = ~/../../../gt/script/testing
 
 # Directory where all the compiled fst's are:
 FSTDIR = ../bin
