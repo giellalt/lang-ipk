@@ -6,43 +6,72 @@
 ! Tense-Mood and pointers to derivational affxes for IV and TV
 ! ============================================================
 
-! Stems are first flagged according to transitivity in IV, IV_vow, TV, and TV_vow 
-! Secondly they get derivatives and mood markers according to stem type
-! Thirdly they get personal endings
-! Fourthly they get enclitic endings
-! Finally they pass through a household utensil that clears away left-over flags
+! 1. Stems are first flagged according to transitivity in IV, IV_vow, TV, and TV_vow 
+! 2. Secondly they get derivatives and mood markers according to stem type
+! 3. Thirdly they get personal endings
+! 4. Fourthly they get enclitic endings
+! 5. Finally they pass through a household utensil that clears away left-over flags
 
 
+! ============================ !
+! 1. Basic verb and mode tags  !
+! ============================ !
+
+! The stem classes get their flags
 
 LEXICON IV
 @P.IV.ON@    junctionIV ;
+
+LEXICON IV_vow
+@P.IV.ON@ junctionIV_vow ;
+
+LEXICON TV
+@P.TV.ON@   junctionTV ;
+
+LEXICON TV_vow
+@P.TV.ON@  junctionTV_vow ;
+
+
+! The stem classes are split in three:
+! vn, vv and directly to inflection
 
 LEXICON junctionIV
 	nominalizers ;
 	verbalderivatives ;
 	verb_intr ;
 
-LEXICON verb_intr
-+V+Ind+Prs:%>tu      indpersonaffix ;
-+V+Ind+Prt:%>tua     indpersonaffix ;
-+V+Int:%>pi          intverbaffix2 ;
-+V+Int:%>pa	     intverbaffix3 ;
-+V+ConReal:%>łu      conpersonaffix ;
-+V+ConUnreal:%>lu    conpersonaffix ;
-+V+Cau+3Sg:%>man     clit ;
-
-
-LEXICON IV_vow
-@P.IV.ON@ junctionIV_vow ;
-
 LEXICON junctionIV_vow
 	nominalizers ;
 	verbalderivatives ; 
 	verb_intr_vow ;
 
+LEXICON junctionTV
+	verbalderivatives ;
+	verb_tr ;
+
+LEXICON junctionTV_vow
+	verbalderivatives ;
+	verb_tr_vow ;
+
+
+! ============= !
+! 2a. Mode tags !
+! ============= !
+
+! IV modes
+
+LEXICON verb_intr
++V+Ind+Prs:%>tu      indpersonaffix ;
++V+Ind+Prt:%>tua     indpersonaffix ;
++V+Int:%>pi          intverbaffix2 ;
++V+Int:%>pa	         intverbaffix3 ;
++V+ConReal:%>łu      conpersonaffix ;
++V+ConUnreal:%>lu    conpersonaffix ;
++V+Cau+3Sg:%>man     clit ;
+
 LEXICON verb_intr_vow
 +V+Ind+Prs:%>ru      indpersonaffix ;
-+V+Ind+Pst:%>rua     indpersonaffix ;
++V+Ind+Prt:%>rua     indpersonaffix ;
 +V+Int:%>vi          intverbaffix2 ; !XXX ve?
 +V+Int:%>va          intverbaffix3 ;
 +V+ConReal:%>vlu     conpersonaffix ;
@@ -53,7 +82,7 @@ LEXICON verb_intr_suq
 +V+Ind+Prs:%>su      indpersonaffix ;
 +V+Ind+Prt:%>sua     indpersonaffix ;
 +V+Int:%>pi          intverbaffix2 ;
-+V+Int:%>pa	     intverbaffix3 ;
++V+Int:%>pa	         intverbaffix3 ;
 +V+ConReal:%>łu      conpersonaffix ;
 +V+ConUnreal:%>lu    conpersonaffix ;
 +V+Cau+3Sg:%>man     clit ;
@@ -62,67 +91,55 @@ LEXICON verb_intr_chuq
 +V+Ind+Prs:%>chu      indpersonaffix ;
 +V+Ind+Prt:%>chua     indpersonaffix ;
 +V+Int:%>pi          intverbaffix2 ;
-+V+Int:%>pa	     intverbaffix3 ;
++V+Int:%>pa	         intverbaffix3 ;
 +V+ConReal:%>łu      conpersonaffix ;
 +V+ConUnreal:%>lu    conpersonaffix ;
 +V+Cau+3Sg:%>man     clit ;
 
 
-! TV
-! --
-
-LEXICON TV
-@P.TV.ON@   junctionTV ;
-
-LEXICON junctionTV
-	verbalderivatives ;
-	verb_tr ;
+! TV modes
 
 LEXICON verb_tr  
 +V+Ind+Prs:%>ge     indpersonaffix_tv_12 ; 
 +V+Ind+Prs:%>ga     indpersonaffix_tv_3  ; 
-+V+Ind+Pst:%>raq     indpersonaffix_tv ; !XXX Note that q should be deleted in front of k
-+V+Ind+Pst:%>t     indpersonaffix_tv ;   !XXX So, what about the vowel following t?
-+V+Int:%>vi           intpersonaffix_tv_12 ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
-+V+Int:%>va          intpersonaffix_tv_3  ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
++V+Ind+Prt:%>raq    indpersonaffix_tv ;     !XXX Note that q should be deleted in front of k
++V+Ind+Prt:%>t      indpersonaffix_tv ;     !XXX So, what about the vowel following t?
++V+Int:%>vi         intpersonaffix_tv_12 ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
++V+Int:%>va         intpersonaffix_tv_3  ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
 +V+ConReal:%>łu     conpersonaffix_tv ;
 +V+ConUnreal:%>lu   conpersonaffix_tv ;
 !+V+Cau+3Sg:%>      clit ;
-
-LEXICON TV_vow
-@P.TV.ON@  junctionTV_vow ;
-
-LEXICON junctionTV_vow
-	verbalderivatives ;
-	verb_tr_vow ;
-
 
 
 LEXICON verb_tr_vow 
 +V+Ind+Prs:%>ge     indpersonaffix_tv_12 ; 
 +V+Ind+Prs:%>ga     indpersonaffix_tv_3  ; 
-+V+Ind+Pst:%>raq    indpersonaffix_tv ; !XXX
++V+Ind+Prt:%>raq    indpersonaffix_tv ; !XXX
 +V+Int:%>vi          intpersonaffix_tv_12 ; !XXX
 +V+Int:%>va          intpersonaffix_tv_3  ;  !XXX
 +V+ConReal:%>vlu    conpersonaffix_tv ;
 +V+ConUnreal:%>lu   conpersonaffix_tv ;
 !+V+Cau+3Sg:%>      clit ;
 
-! Verbal derivational affixes
-! ===========================
+
+
+
+! =============================== !
+! 2b. Verbal derivational affixes !
+! =============================== !
 
 LEXICON verbalderivatives  ! hundreds of derivatives in here
-+LLATU%TRUNC:%>llatu	        verbalderivatives_cont_vow ;
-+LLATU=NIAQ%TRUNC:%>llatuniaq	verbalderivatives_cont ;
++LLATU:%^TRUNC%>llatu	        verbalderivatives_cont_vow ;
++LLATU=NIAQ:%^TRUNC%>llatuniaq	verbalderivatives_cont ;
 +NIAQ:%>niaq                    verbalderivatives_cont ; !isiq-niaq-tuq 
 +NIAQ=ŊIT:%>niaŋit              verbalderivatives_cont ;
-+ŊIT%TRUNC:%>ŋit                verbalderivatives_cont ;
++ŊIT:%^TRUNC%>ŋit                verbalderivatives_cont ;
 +SAAĠE:%>saaġe	                verbalderivatives_cont_vow ;
 +SAAĠE=ŊIT:%>saaġeŋit           verbalderivatives_cont ;
-+TEQ%TRUNC:%>teq                verbalderivatives_cont ;
++TEQ:%^TRUNC%>teq                verbalderivatives_cont ;
 
 LEXICON nominalizers !Taken out of verbalderivatives to avoid transitive stems going here 
-+VIK%C:%>vik	 tup- ; 
++VIK:%^C%>vik	 tup- ; 
 
 LEXICON verbalderivatives_cont
 @R.IV.ON@ verb_intr ;
@@ -132,8 +149,15 @@ LEXICON verbalderivatives_cont_vow
 @R.IV.ON@ verb_intr_vow ;
 @R.TV.ON@ verb_tr_vow ;
 
-! Person-number affixes
-! =====================
+
+
+
+
+
+
+! ======================== !
+! 3. Person-number affixes !
+! ======================== !
 
 ! IV
 ! --
@@ -174,7 +198,7 @@ LEXICON conpersonaffix !NB Incorrect flexives. Basically just transferred from K
 ! --
 
 LEXICON   conpersonaffix_tv 
-+1Sg+3Sg:%>ŋa clit ;
++1Sg+3SgO:%>ŋa clit ;
 
 LEXICON indpersonaffix_tv
  indpersonaffix_tv_12 ;
@@ -258,10 +282,6 @@ LEXICON indpersonaffix_tv_3
 +3Pl+3SgO:%>at  clit ; 
 +3Pl+3DuO:%>ik  clit ;
 +3Pl+3PlO:%>ait  clit ;
-
-!LEXICON  intpersonaffix_tv
-! intpersonaffix_tv_12 ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
-! intpersonaffix_tv_3  ;  !XXX affix is p/vI for 1, 2 and p/va for 3rd subj
 
 LEXICON  intpersonaffix_tv_12 !!!!! note, still wrong affixes
 +1Sg+2SgO:%>giñ    clit ;
