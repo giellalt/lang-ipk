@@ -187,3 +187,5 @@
 +V+Int+3Pl+3SgO
 +V+Int+3Pl+3DuO
 +V+Int+3Pl+3PlO
++V+ConReal+1Sg+3SgO
++V+ConUnreal+1Sg+3SgO
