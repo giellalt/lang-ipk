@@ -18,7 +18,7 @@ endif
 
 
 # Where all the perl scripts are:
-BINDIR = ~/../../../gt/script/testing
+BINDIR = ~/gtsvn/gt/script/testing
 
 # Directory where all the compiled fst's are:
 FSTDIR = ../bin
@@ -193,7 +193,7 @@ n-paradigm: n-para.ptest savefile
 
 
 # INTRANSITIVE VERBS
-# =====
+# ==================
 
 # Create all the intransitive verb test file bases:
 i-%.testbase: i-%.txt intrans-codes.txt
@@ -248,7 +248,7 @@ i-paradigm: i-para.ptest savefile
 
 
 # TRANSITIVE VERBS
-# =====
+# ================
 
 # Create all the transitive verb test file bases:
 t-%.testbase: t-%.txt trans-codes.txt
