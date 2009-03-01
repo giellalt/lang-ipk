@@ -1,104 +1,123 @@
+! ============== !
+! Nouminal roots !
+! ============== !
+
 ! stems according to Edna MacLean
 
+
+! ==================================== !
+! Proper nouns, pronouns and particles !
+! ==================================== !
+
+! These lexica are stored here for convenience at the moment.
+! They should be moved to separate files when the project is
+! scaled up to full size.
+
 LEXICON prop
-Nayuk	propmorph ;
+Nayuk propmorph ;
 
 LEXICON pron
-suna	pronmorph ; ! what
-keña	pronmorph ; ! who
-una	pronmorph ; ! =KAL
+suna pronmorph ; ! what
+kiña:keña pronmorph ; ! who
+una pronmorph ; ! =KAL
 
+LEXICON part
+aaqagu partmorph ; ! wait a minute
+atakhii:atakhee partmorph ; ! look at that
+ii:ee partmorph ; ! yes
+naagga partmorph ; ! no
+naumi partmorph ; ! no
+qakugulu partmorph ; ! until next time
+
+
+
+! ================ !
+! The noun lexicon !
+! ================ !
 
 ! Tronds additions marked !tt, remove !tt tag when the contlex is checked.
 
 LEXICON Nouns
-aaka	tp ; ! a mother
-aapa	tp ; ! a father
+aaka tp "a mother" ;
+aapa tp "a father" ; 
 aapiyaq tp ; ! elder brother !tt
-aaqagu	part ; ! wait a minute
-aaqhaalliq	tp ; ! old squaw duck. ?? One l p. 14, two l p. 39 and 247???
+aaqhaalliq tp ; ! old squaw duck. ?? One l p. 14, two l p. 39 and 247?
 aatauraq tp ; ! elder sister !tt
 aglak tp ; ! a letter !tt
-aiviq:aiveq	tup ; ! a walrus
-akiñ:akise	tpt ; ! a pillow NB i vs. schwa not in accordance with Edna
-akiľhun	tp ; ! lantern chimney
+aiviq:aiveq tup ; ! a walrus
+akiñ:akise tpt ; ! a pillow NB i vs. schwa not in accordance with Edna
+akiľhun tp ; ! lantern chimney
 akuq tp ; ! skirt !tt
 akutuq tp ; ! ice cream !tt
-akłaq	tp ; ! a brown bear
+akłaq tp ; ! a brown bear
 akłunaaq tp ; ! a rope !tt
-amaġuq	tp_gem ; ! a wolf
+amaġuq tp_gem ; ! a wolf
 amiq:ameq tp ; ! animal hide !tt
-aniu	tp ; ! packed snow
+aniu tp ; ! packed snow
 annuġaaq tp ; ! piece of clothing
-apun:apute	tpt ; ! snow
-aqvaluqtaaq	tp ; ! something round
-atakhii:atakhee	part ; ! look at that
-atigi:atege	tp ; ! a parka
-atiq:ateq	tup ; ! a name
-aviŋŋaq:aveŋŋaq	tup ; ! a lemming
-ayuktaq	tp ; ! a ball
-aġnaq	tp ; ! a woman
-aġviq:aġveq	tup ; ! a whale
+apun:apute tpt ; ! snow
+aqvaluqtaaq tp ; ! something round
+atigi:atege tp ; ! a parka
+atiq:ateq tup ; ! a name
+aviŋŋaq:aveŋŋaq tup ; ! a lemming
+ayuktaq tp ; ! a ball
+aġnaq tp ; ! a woman
+aġviq:aġveq tup ; ! a whale
 aŋaiyyuvik:aŋaiyyuvek tp ; ! church !tt
-aŋun:aŋute	tpt ; ! a man
+aŋun:aŋute tpt ; ! a man
 aŋutaiyaaq tp ; ! a boy !tt
-iglu:eglu	tp ; ! a house
-ii:ee	part ; ! yes
-ini:ene	tp ; ! a room
-iqaluk	tup- ; ! fish
-iqsraq:eqsraq	tp ; ! a cheek
-iqľak	tp ; ! hook and line (term. tech.)
-iri:ere	tp ; ! an eye
-irri:erre	tp_sing ; ! cold air
-iñuk	tup- ; ! inuk
-iġñiq:iġñeq	tup ; ! a son
-iġġi	tp ; !a mountain
-iḷa	tp ; ! =KAL ila
-iḷiappak:iḷeappak	tp ; ! poor person, orphan
-kamik:kamek	tup- ; ! boot NB: declination is an unqualified guess
-kiña:keña	pron ; ! who
-kutchuq	tp ; ! chewing gum, resin 'kutchuq'
-kuuk	tp ; ! a river
-mannik	tup- ; ! egg
-miqłiqtuq:meqłeqtuq	tp ; ! a child
-naagga	part ; ! no
-nasaq	tp_gem ; ! a hood
-natchiq	tup ; ! seal 'natchiq'
-natiq:nateq	tup ; ! floor
-naumi	part ; ! no
-niksik	tup- ; ! fishing hook
-niu:neu	tp ; ! a leg
-nuna	tp ; ! land
-nusaq	tp_gem ; ! a strand of hair
-nuyaq	tp_gem ; ! a strand of hair
-pisiksi:peseksi	tp ; ! a bow
-qakugulu	part ; ! until next time
-qallun	tp ; ! a cup
-qamun:qamute	tpt ; !car
-qaugak	tp ; ! a duck
-qayaq	tp ; ! kayak
-qimmiq	tp ; ! a dog
-quaq	tp ; ! frozen meat
-savik	tp ; ! a tp
-saviľhaq	tp ; ! metal
-siksrik:seksrik	tup- ; ! a squirrel
-siku	tp ; ! ice
-sikľaq	tp ; ! a pickax
-siqiñiq:siqiñeq	tup ; !sun
-suppun:suppute	tpt ; ! a gun
-tatqiq	tup ; ! moon
-tavsi	tp ; ! a belt for carrying a baby
-tiŋŋun:tiŋŋute	tpt ; ! an airplane
-tumi:tume	tp ; ! a footprint
-tupiq:tupeq	tup ; ! a tent
-ulu	tp ; ! =KAL
-umialik	tup- ; !Not verified in corpus???
-umiaq	tp ;
-uniat:uniaq	tp_du ; ! to avoid singular but accept dual endings
-uniat:uniaq	tp_pl ; ! to avoid singular but accept plural endings
-uvluġiaq	tp_gem ; !star
+iglu:eglu tp ; ! a house
+ini:ene tp ; ! a room
+iqaluk tup- ; ! fish
+iqsraq:eqsraq tp ; ! a cheek
+iqľak tp ; ! hook and line (term. tech.)
+iri:ere tp ; ! an eye
+irri:erre tp_sing ; ! cold air
+iñuk tup- ; ! inuk
+iġñiq:iġñeq tup ; ! a son
+iġġi tp ; !a mountain
+iḷa tp ; ! =KAL ila
+iḷiappak:iḷeappak tp ; ! poor person, orphan
+kamik:kamek tup- ; ! boot NB: declination is an unqualified guess
+kutchuq tp ; ! chewing gum, resin 'kutchuq'
+kuuk tp ; ! a river
+mannik tup- ; ! egg
+miqłiqtuq:meqłeqtuq tp ; ! a child
+nasaq tp_gem ; ! a hood
+natchiq tup ; ! seal 'natchiq'
+natiq:nateq tup ; ! floor
+niksik tup- ; ! fishing hook
+niu:neu tp ; ! a leg
+nuna tp ; ! land
+nusaq tp_gem ; ! a strand of hair
+nuyaq tp_gem ; ! a strand of hair
+pisiksi:peseksi tp ; ! a bow
+qallun tp ; ! a cup
+qamun:qamute tpt ; !car
+qaugak tp ; ! a duck
+qayaq tp ; ! kayak
+qimmiq tp ; ! a dog
+quaq tp ; ! frozen meat
+savik tp ; ! a tp
+saviľhaq tp ; ! metal
+siksrik:seksrik tup- ; ! a squirrel
+siku tp ; ! ice
+sikľaq tp ; ! a pickax
+siqiñiq:siqiñeq tup ; !sun
+suppun:suppute tpt ; ! a gun
+tatqiq tup ; ! moon
+tavsi tp ; ! a belt for carrying a baby
+tiŋŋun:tiŋŋute tpt ; ! an airplane
+tumi:tume tp ; ! a footprint
+tupiq:tupeq tup ; ! a tent
+ulu tp ; ! =KAL
+umialik tup- ; !Not verified in corpus???
+umiaq tp ;
+uniat:uniaq tp_du ; ! to avoid singular but accept dual endings
+uniat:uniaq tp_pl ; ! to avoid singular but accept plural endings
+uvluġiaq tp_gem ; !star
 
-etc	abbr ; !!just rubbish to fill the slot
+etc abbr ; !!just rubbish to fill the slot
 
 
 ! Added from dictionary
@@ -323,11 +342,9 @@ tuggaun:tuggaute tpt ; ! poking stick
 tugrun:tugrute tpt ; ! (11) skin's lashing ropes (11)
 tulukkatun:tulukkatute tpt ; ! ittuq rusty blackbird (Euphagus carolinus) (lit. like raven)
 tuquŋaiñŋaaġman:tuquŋaiñŋaaġmate tpt ; ! before he had died . . .
-tutqiun:tutqiute tpt ; ! peace (N)
 tutqiun:tutqiute tpt ; ! peace, contentment
 uiksraun:uiksraute tpt ; ! bridegroom
 ukiuġaġimman:ukiuġaġimmate tpt ; ! whenever it is winter
-ukpiġun:ukpiġute tpt ; ! faith
 ukpiġun:ukpiġute tpt ; ! faith (N)
 ukunatun:ukunatute tpt ; ! like these
 ulimaun:ulimaute tpt ; ! adze
@@ -335,10 +352,8 @@ uluun:uluute tpt ; ! saw
 unniqsuqłiun:unniqsuqłiute tpt ; ! promise, covenant (N)
 unnuŋman:unnuŋmate tpt ; ! yesterday (lit. when it was evening) (b)
 uqsruġun:uqsruġute tpt ; ! ointment
-uuktuun:uuktuute tpt ; ! parable, example
-uuktuun:uuktuute tpt ; ! ruler, measuring device
+uuktuun:uuktuute tpt ; ! ruler, measuring device, parable, example
 uumatun:uumatute tpt ; ! like this
-uumman:uummate tpt ; ! heart
 uumman:uummate tpt ; ! heart (K, N)
 uunaqsaun:uunaqsaute tpt ; ! heater
 uvlaakun:uvlaakute tpt ; ! tomorrow (lit. by way of morning)
