@@ -40,14 +40,14 @@ qakugulu partmorph ; ! until next time
 LEXICON Nouns
 aaka tp "a mother" ;
 aapa tp "a father" ; 
-aapiyaq tp ; ! elder brother !tt
-aaqhaalliq tp ; ! old squaw duck. ?? One l p. 14, two l p. 39 and 247?
-aatauraq tp ; ! elder sister !tt
-aglak tp ; ! a letter !tt
+aapiyaq tp "elder brother" ; !  !tt
+aaqhaalliq tp "old squaw duck" ; !?? One l p. 14, two l p. 39 and 247?
+aatauraq tp "elder sister" ; !  !tt
+aglak tp "a letter" ; !  !tt
 aiviq:aiveq tup ; ! a walrus
-akiñ:akise tpt ; ! a pillow NB i vs. schwa not in accordance with Edna
-akiľhun tp ; ! lantern chimney
-akuq tp ; ! skirt !tt
+akiñ:akise tpt "a pillow" ; !  NB i vs. schwa not in accordance with Edna
+akiľhun tp "lantern chimney" ;
+akuq tp "skirt" ; !tt
 akutuq tp ; ! ice cream !tt
 akłaq tp ; ! a brown bear
 akłunaaq tp ; ! a rope !tt
