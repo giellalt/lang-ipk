@@ -54,7 +54,7 @@ SRCS = ipk-lex.txt \
 # It is dependent upon ipk.save
 
 iipk.fst: ../bin/iipk.fst
-../bin/iipk.fst: ../bin/ipk.fst ../bin/abbr.txt #../bin/str-ipk.fst
+../bin/iipk.fst: ../bin/ipk.fst ../bin/abbr.txt ../bin/ipkfont.fst #../bin/str-ipk.fst
 	@echo
 	@echo "*** Building the inverse iipk.fst ***"
 	@echo
@@ -180,6 +180,24 @@ xfst-ipk.bin: ../bin/xfst-ipk.bin
 	quit \n" > ../tmp/xfst-ipk-script
 	$(XFST) < ../tmp/xfst-ipk-script
 	@rm -f ../tmp/xfst-ipk-script
+
+
+
+# Here we build a dictionary-to-UTF-8 transducer.
+
+ikpfont.fst: ../bin/ipkfont.fst
+../bin/ipkfont.fst: ../script/ipkfont.regex
+	@echo
+	@echo "*** Building ipkfont.fst ***" ;
+	@echo
+	@printf "source < ../script/ipkfont.regex  \n\
+	invert net \n\
+	save stack ../bin/ipkfont.fst \n\
+	quit \n" > ../tmp/ipkfont-fst-script
+	$(XFST) < ../tmp/ipkfont-fst-script
+	@rm -f ../tmp/ipkfont-fst-script
+
+
 
 
 
