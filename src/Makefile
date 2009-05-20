@@ -54,7 +54,7 @@ SRCS = ipk-lex.txt \
 # It is dependent upon ipk.save
 
 iipk.fst: ../bin/iipk.fst
-../bin/iipk.fst: ../bin/ipk.fst ../bin/abbr.txt ../bin/ipkfont.fst #../bin/str-ipk.fst
+../bin/iipk.fst: ../bin/ipk.fst ../bin/abbr.txt ../bin/orth-ipk.fst #../bin/str-ipk.fst
 	@echo
 	@echo "*** Building the inverse iipk.fst ***"
 	@echo
