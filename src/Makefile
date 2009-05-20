@@ -185,17 +185,17 @@ xfst-ipk.bin: ../bin/xfst-ipk.bin
 
 # Here we build a dictionary-to-UTF-8 transducer.
 
-ikpfont.fst: ../bin/ipkfont.fst
-../bin/ipkfont.fst: ../script/ipkfont.regex
+ikpfont.fst: ../bin/orth-ipk.fst
+../bin/orth-ipk.fst: ../script/orth-ipk.xfst
 	@echo
-	@echo "*** Building ipkfont.fst ***" ;
+	@echo "*** Building orth-ipk.fst ***" ;
 	@echo
-	@printf "source < ../script/ipkfont.regex  \n\
+	@printf "source < ../script/orth-ipk.xfst  \n\
 	invert net \n\
-	save stack ../bin/ipkfont.fst \n\
-	quit \n" > ../tmp/ipkfont-fst-script
-	$(XFST) < ../tmp/ipkfont-fst-script
-	@rm -f ../tmp/ipkfont-fst-script
+	save stack ../bin/orth-ipk.fst \n\
+	quit \n" > ../tmp/orth-ipk-fst-script
+	$(XFST) < ../tmp/orth-ipk-fst-script
+	@rm -f ../tmp/orth-ipk-fst-script
 
 
 
