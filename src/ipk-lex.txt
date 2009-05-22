@@ -62,6 +62,8 @@ Multichar_Symbols
 LEXICON Root
  Nouns ; 
  Verbs ;
+ Determiners ;
+ Adverbs ;
  prop ;
  pron ;
  part ;

@@ -27,7 +27,8 @@ endif
 
 SRCS = ipk-lex.txt \
 	noun-ipk-lex.txt noun-ipk-morph.txt verb-ipk-lex.txt \
-	abbr-ipk-lex.txt verb-ipk-morph.txt
+	abbr-ipk-lex.txt verb-ipk-morph.txt det-ipk-lex.txt \
+	adv-ipk-lex.txt
 #	acro-ipk-lex.txt \
 #	punct-ipk-lex.txt prt-ipk-lex.txt num-ipk-lex.txt 
 
