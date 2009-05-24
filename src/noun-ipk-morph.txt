@@ -57,6 +57,7 @@ LEXICON tp_du
 
 LEXICON tp_pl
 +Abs+Pl:%^TRUNC%>t clit ;
++Abs+Pl:%^TRUNC%>ch clit ; ! hypercorrect
 :%^TRUNC ObliqueCases_Pl ; 
 +Abs+Pl+1Sg:%^TRUNC%>tka clit ;
 +Abs+Pl+2Sg:%^TRUNC%>tin clit ;
