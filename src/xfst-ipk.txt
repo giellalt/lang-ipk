@@ -15,7 +15,7 @@ define cont      [ v | V | s | S | s r | l | ł | ḷ | ľ | y | r | g | k h | �
 define nas       [ m | M | n | N | ñ | ŋ ] ; 
 define cns       [ stops | cont | nas ] ;
 define vow       [ i | e | a | u ] ; ! NB not in accordance with Alaskan tradition: i = strong i whereas e represents the schwa
-define dummy     [ %> | %^TRUNC | %^VCTRUNC | %^C | %^CLIT | %^FRIC | %^C | %^DEFRIC ] ;
+define dummy     [ %> | %^TRUNC | %^VCTRUNC | %^CVCTRUNC% | %^C | %^CLIT | %^FRIC | %^C | %^DEFRIC ] ;
 define foreign   [ b | d | f | j | o | w | x | z ]
 define segment   [ cns | vow | foreign | dummy ] ; ! dummy as segment??? XXX 
 define flags     [ %@P%.IV%.ON%@ | %@P%.TV%.ON%@ | %@R%.IV%.ON%@ | %@R%.TV%.ON%@ | %@D%.IV%.ON%@ | %@D%.TV%.ON%@  ] ;
@@ -47,19 +47,20 @@ define fricativization [ q -> ġ || _ ( flags ) %> [ %^FRIC | nas ] ] ; !????? N
 define AltKN [ k (->) ŋ || _ ( flags ) %> n ] ;
 define AltML [ m (->) v || _ %> l ] ;
 define AltNL [ n (->) l || _ %> l ] ;
-define palatŁ [ ł -> ľ || i ( cns ) ( flags ) _ ] ;
-define palatL [ l -> ḷ || i ( cns ) ( flags ) _ ] ;
-define palatN [ n -> ñ || i ( cns ) ( flags ) _ ] ;
-define AltpalatT [ t (->) c h || i ( cns ) _ ( flags ) \segment ] ; 
+define palatŁ [ ł -> ľ || i ( cns ) ( flags ) %> _ ] ; ! Not stem-internal palatalisation
+define palatL [ l -> ḷ || i ( cns ) ( flags ) %> _ ] ; ! ditto
+define palatN [ n -> ñ || i ( cns ) ( flags ) %> _ ] ; ! ditto
+!define AltpalatT [ t (->) c h || i ( cns ) _ ( flags ) \segment ] ; 
+define AltpalatT [ t (->) c h || i ( cns ) _ ( flags ) .#. ] ; 
 define palatT [ t -> c h || i ( cns ) _ vow segment ] ; 
 define Rgemination [ r -> r r || vow _ vow (cns) %^C %> ] ;
-define Ggemination [ g -> g g || vow _ vow (cns) ( flags ) %^C %> ] ;
-define Mgemination [ m -> m m || vow _ vow (cns) ( flags ) %^C %> ] ;
-define Ġgemination [ ġ -> ġ ġ || vow _ vow (cns) ( flags ) %^C %> ] ;
+define Ggemination [ g -> g g || vow _ vow (cns) ( flags | dummy ) %^C %> ] ;
+define Mgemination [ m -> m m || vow _ vow (cns) ( flags | dummy  ) %^C %> ] ;
+define Ġgemination [ ġ -> ġ ġ || vow _ vow (cns) ( flags | dummy  ) %^C %> ] ;
 define ĠQgemination [ ġ -> q q || vow _ vow (cns) ( flags ) %^DEFRIC %> ] ; !amaġu%^DEFRIC%>k -> amaqquk
 define Gstop [ g -> k || [ t | k ] %> _ ] ;
-define Qfusion1 [ g -> ġ || q ( flags ) ( flags )%> ( flags ) _ ] ; 
-define Qfusion2 [ q -> 0 || _ ( flags ) ( flags )%> ( flags ) ġ ] ; 
+define Qfusion1 [ g -> ġ || q ( flags ) ( flags ) %> ( flags ) _ ] ; 
+define Qfusion2 [ q -> 0 || _ ( flags ) ( flags ) %> ( flags ) ġ ] ; 
 define Kfusion [ k -> 0 || _ %^FRIC %> g ] ; 
 define LongTassibilation [ t -> c h || i t ( flags ) %> _ ] ; ! MUST precede assibilation
 define assibilation [ t -> s || i ( cns ) ( flags ) %> _ ( flags ) vow segment ] ;
@@ -97,12 +98,12 @@ echo
 echo ===> Compiling our rules... <===
 
 read regex [
-    SchwaDel1 ! [ e -> 0 || vow cns _ cns %^SCHWADEL ] ;
+     VeryLongTruncation
+.o. SchwaDel1 ! [ e -> 0 || vow cns _ cns %^SCHWADEL ] ;
 .o. SchwaDel2  ![ cns -> 0 || [ i | a | u ] %^SCHWADEL ] ;
 .o. DelSchwaDel ![ %^SCHWADEL -> 0 ] ;
 .o. truncation
 .o. TruncDelete !
-.o. VeryLongTruncation
 .o. CleanVeryLongTruncation
 .o. Kfusion
 .o. Mgemination
