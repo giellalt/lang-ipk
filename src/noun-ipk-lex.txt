@@ -154,9 +154,11 @@ apiqsruun:apiqsruute tpt ; ! question
 apqun:apqute tpt ; ! trail
 apun:apute tpt ; ! snow
 apuġun:apuġute tpt ; ! (11) front crosspiece (11)
+
 aqsraatchaun:aqsraatchaute tpt ; ! high-kick ball
 aquġun:aquġute tpt ; ! (17) sled bag (17)
-atanniqsuġaatin:atanniqsuġaatite tpt ; ! orders you to do it and you must do it
+!atanniqsuġaatin:atanniqsuġaatite tpt ; ! orders you to do it and you must do it
+atanniqsuġaatin:atanniqsuġaatete tpt ; ! orders you to do it and you must do it
 atanniun:atanniute tpt ; ! judgment (K)
 atanġirrun:atanġirrute tpt ; ! liberty
 atuun:atuute tpt ; ! song
@@ -202,7 +204,8 @@ iqaqqun:iqaqqute tpt ; ! soap (N)
 iqquliñ:iqquliñse tpt ; ! small pointed knife
 isivġiun:isivġiute tpt ; ! judgment (N)
 isiŋaiñŋaan:isiŋaiñŋaate tpt ; ! before he entered
-isummalluaġiitchuatiin:isummalluaġiitchuatiite tpt ; ! you fool!
+!isummalluaġiitchuatiin:isummalluaġiitchuatiite tpt ; ! you fool!
+isummalluaġiitchuatiin:isummalluaġiitchuateete tpt ; ! you fool!
 itrisiun:itrisiute tpt ; ! thermometer (K)
 itrisriun:itrisriute tpt ; ! thermometer (K)
 ivgun:ivgute tpt ; ! napkin
@@ -268,7 +271,8 @@ paulġiñ:paulġiñse tpt ; ! shovel
 paułhiñ:paułhiñse tpt ; ! shovel (n)
 paġlan:paġlate tpt ; ! greeting, welcome
 pichqun:pichqute tpt ; ! law (what is wanted to be done), commandment (K)
-pigaatin:pigaatite tpt ; ! he (wants) you
+pigaatin:pigaatete tpt ; ! he (wants) you
+!pigaatin:pigaatite tpt ; ! he (wants) you
 piksrun:piksrute tpt ; ! shovel
 piḷiun:piḷiute tpt ; ! blessing (passing of power from a shaman to his disciple)
 piḷuun:piḷuute tpt ; ! error, crime, sin (N)
@@ -283,7 +287,8 @@ puttun:puttute tpt ; ! piercing tool
 putyuun:putyuute tpt ; ! crab (lit. pinching tool) (K)
 qaaglaan:qaaglaate tpt ; ! when? (past tense interrogative) (K)
 qaaktuun:qaaktuute tpt ; ! seining net
-qaipkaġmagitin:qaipkaġmagitite tpt ; ! tell her to come (cause her to come)
+qaipkaġmagitin:qaipkaġmagitete tpt ; ! tell her to come (cause her to come)
+!qaipkaġmagitin:qaipkaġmagitite tpt ; ! tell her to come (cause her to come)
 qakugun:qakugute tpt ; ! when? (future interrogative)
 qallun:qallute tpt ; ! bailer, cup
 qallun:qallute tpt ; ! cup, dipper
@@ -313,7 +318,8 @@ sanalġun:sanalġute tpt ; ! tool (K)
 sanalġun:sanalġute tpt ; ! tool (N)
 saniġaagun:saniġaagute tpt ; ! (12) crossed ropes (12)
 satkuun:satkuute tpt ; ! ammunition case (N)
-savaŋniqsutin:savaŋniqsutite tpt ; ! you are working (lit. in state of working)
+!savaŋniqsutin:savaŋniqsutite tpt ; ! you are working (lit. in state of working)
+savaŋniqsutin:savaŋniqsutete tpt ; ! you are working (lit. in state of working)
 sikuiñŋaan:sikuiñŋaate tpt ; ! before it froze
 siḷḷiñ:siḷḷiñse tpt ; ! knife sharpener (emery stone)
 sippun:sippute tpt ; ! gun, rifle (K)
