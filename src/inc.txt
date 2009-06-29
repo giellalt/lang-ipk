@@ -24,40 +24,18 @@ pavaŋŋa#! from back there (N)
 uvaŋŋa#! from here, hence (N)
 iḷaŋa#! piibaa is subtracting (lit. its part he takes away)
 ikayullapiaġaaŋa#! he helped me very much
-uumaaġa#! my female cousin (female to female), my girlfriend (female of same age) (K)
 aktilaaŋa#! its size
-suunaaġa#! my friend (male to male)
 qaaŋa#! its top side, dorsal area of a fish
 qaaŋa#! its topside, dorsal area
-ayaġruksaaġa#! my aunt (mother's sister)
-aŋatchiaġa#! my uncle (mother's brother) (K)
-nukatchiaġa#! my younger sibling (K)
-nukatchiaġa#! my younger sister (N)
-tutitchiaġa#! my grandchild
-nuliaġa#! abnaba my wife
 atukkaŋa#! his song (singing)
-aññaġa#! my female cousin (female to female), my girlfriend (female of same age) (N,q)
 qaŋa#! when? (past tense interrogative) (N)
-aapaksraġa#! my stepfather
-iġñiksraġa#! my stepson
-aakauraġa#! my older sister (K)
-aatauraġa#! my older sister (N)
-qataġa#! my illegitimate child
-ukuaġa#! my sister-in-law, my daughter-in-law
-aanaruaġa#! my grandmother, great aunt (K)
-taataruaġa#! my grandfather, great uncle (K)
 uvaŋa#! I, me
-aapiyaġa#! my older brother
-aŋayukłiġa#! my oldest child
-nukaqłiġa#! my youngest child
-iġñiġa#! my son
 taavrumiŋa#! (with/about) that
 uumiŋa#! (with/about) this one
 makuniŋa#! with these
 taapkuniŋa#! (with/about) those
 ukuniŋa#! (with/about) these
 quviasuqasiqsiŋa#! rejoice with me!
-atiġa#! my namesake (relationship based upon sharing name of deceased person)
 maakŋa#! from around here
 paakŋa#! from up there (K)
 amakŋa#! from over there (K)
@@ -75,7 +53,6 @@ ukunakŋa#! from these (K)
 avakŋa#! from afar off, from over there (K)
 pavakŋa#! from back there (K)
 uvakŋa#! from here, hence (K)
-iḷḷuġa#! my cross-cousin, my joking partner (K, N)
 mauŋa#! hither
 pauŋa#! towards up there
 Piyumiñaitchuŋa#! I cannot do it.
@@ -96,7 +73,6 @@ ukunuŋa#! to, for these
 iglaaŋuruŋa#! I am a traveler (K)
 uvaŋauruŋa#! it is I
 imiqqaaġuktuŋa#! first I want to drink
-agaayuviŋmuŋniaqtuŋa#! I'm on my way to church
 Piyumiñaqtuŋa#! I can do it.
 avuŋa#! towards there (over there)
 pavuŋa#! towards back there
@@ -134,19 +110,7 @@ saa#! body front
 ataa#! hush! Be still!
 ataa#! its underside, ventral area
 tavrauvvaa#! at once, immediately (N, q)
-abnaba#! my wife
 atchaga#! father's sister (K)
-atchaga#! my aunt (N)
-aakaga#! my mother (N,q)
-akkaga#! my uncle (father's brother) (K)
-uumaga#! my namesake's wife (N)
-aanaga#! my grandmother (N,q)
-aanaga#! my great aunt
-aanaga#! my mother (K)
-aanaga#! my mother (K)
-aapaga#! my father (N, q)
-taataga#! my father (K)
-ataataga#! my grandfather, great uncle (N, q)
 agga#! across there (visible)
 naagga#! no! (emphatic), or (N, q)
 pagga#! up ther (above and behind speaker), away from shore, landwards, mountainwards
@@ -156,33 +120,12 @@ Apiġigiga#! puttuqsritquvlusi. I ask that you be inspired
 pigigiga#! it is mine
 tautukpaallukkiga#! first time I see it
 niġivaallukkiga#! first time I eat it
-paniga#! my daughter
 piga#! mine
-iḷaqatiga#! my namesake's wife (K)
-iḷaqatiga#! my partner (husband or wife) (K)
-tuvaaqatiga#! my partner (husband or wife) (N)
-aġnaqatiga#! my cousin (by my mother's sister)
-aniqatiga#! my sibling (my brother or my sister)
-aŋutiqatiga#! my cousin (by my father's brother)
-qataŋutiga#! my illegitimate sibling
-uiga#! my husband
-uyuġuga#! my nephew, my niece
-niŋauga#! my brother-in-law, my son in-law
-amauga#! my great grandparent
-aŋaaluga#! my uncle (N)
-nukaaluga#! my younger brother (N)
-tutaaluga#! my grandchild
 itcha#! on the other side, over there
 pitcha#! up there (above, visible)
 kia#! whose?
 suppuqtaġvia#! (4) blowhole (4)
 tiniika#! moose (Alces alces) (K)
-iḷauraatka#! ixatka my relatives
-kiŋuvaatka#! my ancestors
-ixatka#! my relatives
-qitunġaaġaitka#! my family
-aŋauqaaġaitka#! my family
-nukaġiitka#! my family
 kiña#! who?
 piñña#! up there (above, visible)
 imña#! that one (remote in place or time)
@@ -674,7 +617,6 @@ siksrik#! ground squirrel (Citellus parryi)
 ikusrik#! elbow (K)
 utkusrik#! cooking pot (K)
 asik#! dear one
-kiasik#! shoulder blade
 kiasik#! shoulder blade (scapula)
 kiggisik#! pliers (K)
 sallisik#! scissors
@@ -2191,3 +2133,71 @@ avu#! sugar
 sivu#! (7) bow (7)
 sivu#! front (bow of boat)
 saiyu#! tea
+
+
+! Words of certain types
+! 1Sg Px
+
+uumaaġa#! my female cousin (female to female), my girlfriend (female of same age) (K)
+suunaaġa#! my friend (male to male)
+ayaġruksaaġa#! my aunt (mother's sister)
+aŋatchiaġa#! my uncle (mother's brother) (K)
+nukatchiaġa#! my younger sibling (K)
+nukatchiaġa#! my younger sister (N)
+tutitchiaġa#! my grandchild
+nuliaġa#! abnaba my wife
+aññaġa#! my female cousin (female to female), my girlfriend (female of same age) (N,q)
+aapaksraġa#! my stepfather
+iġñiksraġa#! my stepson
+aakauraġa#! my older sister (K)
+aatauraġa#! my older sister (N)
+qataġa#! my illegitimate child
+ukuaġa#! my sister-in-law, my daughter-in-law
+aanaruaġa#! my grandmother, great aunt (K)
+taataruaġa#! my grandfather, great uncle (K)
+aapiyaġa#! my older brother
+aŋayukłiġa#! my oldest child
+nukaqłiġa#! my youngest child
+iġñiġa#! my son
+atiġa#! my namesake (relationship based upon sharing name of deceased person)
+iḷḷuġa#! my cross-cousin, my joking partner (K, N)
+agaayuviŋmuŋniaqtuŋa#! I'm on my way to church
+abnaba#! my wife
+atchaga#! my aunt (N)
+aakaga#! my mother (N,q)
+akkaga#! my uncle (father's brother) (K)
+uumaga#! my namesake's wife (N)
+aanaga#! my grandmother (N,q)
+aanaga#! my great aunt
+aanaga#! my mother (K)
+aanaga#! my mother (K)
+aapaga#! my father (N, q)
+taataga#! my father (K)
+ataataga#! my grandfather, great uncle (N, q)
+paniga#! my daughter
+iḷaqatiga#! my namesake's wife (K)
+iḷaqatiga#! my partner (husband or wife) (K)
+tuvaaqatiga#! my partner (husband or wife) (N)
+aġnaqatiga#! my cousin (by my mother's sister)
+aniqatiga#! my sibling (my brother or my sister)
+aŋutiqatiga#! my cousin (by my father's brother)
+qataŋutiga#! my illegitimate sibling
+uiga#! my husband
+uyuġuga#! my nephew, my niece
+niŋauga#! my brother-in-law, my son in-law
+amauga#! my great grandparent
+aŋaaluga#! my uncle (N)
+nukaaluga#! my younger brother (N)
+tutaaluga#! my grandchild
+iḷauraatka#! ixatka my relatives
+kiŋuvaatka#! my ancestors
+ixatka#! my relatives
+qitunġaaġaitka#! my family
+aŋauqaaġaitka#! my family
+nukaġiitka#! my family
+
+
+
+
+
+
