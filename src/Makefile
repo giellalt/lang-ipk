@@ -21,14 +21,18 @@ endif
 # ln -s xfst fst
 # This will give a pointer from "fst" to xfst, and the transducers will compile.
 
+# Directories:
+scripts=$(GTHOME)/gt/script
 
 # Source files
-
-
-SRCS = ipk-lex.txt \
-	noun-ipk-lex.txt noun-ipk-morph.txt verb-ipk-lex.txt \
-	abbr-ipk-lex.txt verb-ipk-morph.txt det-ipk-lex.txt \
-	adv-ipk-lex.txt
+SRCS =  ipk-lex.txt \
+		noun-ipk-lex.txt \
+		noun-ipk-morph.txt \
+		verb-ipk-lex.txt \
+    	abbr-ipk-lex.txt \
+    	verb-ipk-morph.txt \
+    	det-ipk-lex.txt \
+    	adv-ipk-lex.txt
 #	acro-ipk-lex.txt \
 #	punct-ipk-lex.txt prt-ipk-lex.txt num-ipk-lex.txt 
 
@@ -68,8 +72,6 @@ iipk.fst: ../bin/iipk.fst
 
 
 
-
-
 # Here comes the part building the basic parser.
 # **********************************************
 
@@ -98,10 +100,10 @@ comma:=,
 space:=$(empty) $(empty)
 ABBRSRCS=$(subst $(space),$(comma),$(SRCS))
 
-scripts=$(HOME)/gtsvn/gt/script
-
 abbr: ../bin/abbr.txt
-../bin/abbr.txt: $(scripts)/abbr-extract $(scripts)/langTools/Util.pm $(SRCS)
+../bin/abbr.txt: $(scripts)/abbr-extract \
+				 $(scripts)/langTools/Util.pm \
+				 $(SRCS)
 	@echo
 	@echo "*** Extracting abbreviations from abbr-ipk-lex.txt to abbr.txt ***" ;
 	@echo
@@ -124,7 +126,6 @@ caseconv.fst: ../bin/caseconv.fst
 	quit \n" > ../tmp/caseconv-script
 	$(XFST) < ../tmp/caseconv-script
 	@rm -f ../tmp/caseconv-script
-
 
 
 ipk.save: ../bin/ipk.save
@@ -167,7 +168,6 @@ ipk-lex.save: ../bin/ipk-lex.save
 #$(LEX): $(SRCS)
 #endif
 
-
 # Here we build xfst-ipk.bin, the morphophonological component.
 # This goal depends on xfst-ipk.txt
 
@@ -181,7 +181,6 @@ xfst-ipk.bin: ../bin/xfst-ipk.bin
 	quit \n" > ../tmp/xfst-ipk-script
 	$(XFST) < ../tmp/xfst-ipk-script
 	@rm -f ../tmp/xfst-ipk-script
-
 
 
 # Here we build a dictionary-to-UTF-8 transducer.
@@ -199,11 +198,5 @@ ikpfont.fst: ../bin/orth-ipk.fst
 	@rm -f ../tmp/orth-ipk-fst-script
 
 
-
-
-
-
 clean:
 	@rm -f ../bin/*.bin ../bin/*.fst ../bin/*.save
-
-
