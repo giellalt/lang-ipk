@@ -25,16 +25,18 @@ endif
 scripts=$(GTHOME)/gt/script
 
 # Source files
-SRCS =  ipk-lex.txt \
-		noun-ipk-lex.txt \
-		noun-ipk-morph.txt \
-		verb-ipk-lex.txt \
-    	abbr-ipk-lex.txt \
-    	verb-ipk-morph.txt \
-    	det-ipk-lex.txt \
-    	adv-ipk-lex.txt
-#	acro-ipk-lex.txt \
-#	punct-ipk-lex.txt prt-ipk-lex.txt num-ipk-lex.txt 
+SRCS = tull.lexc
+
+#SRCS =  ipk-lex.txt \
+#	noun-ipk-lex.txt \
+#	noun-ipk-morph.txt \
+#	verb-ipk-lex.txt \
+#	abbr-ipk-lex.txt \
+#	verb-ipk-morph.txt \
+#	det-ipk-lex.txt \
+#	adv-ipk-lex.txt
+##	acro-ipk-lex.txt \
+##	punct-ipk-lex.txt prt-ipk-lex.txt num-ipk-lex.txt 
 
 # No strict / sloppy distinction here
 #ifeq ($(TARGET), strict)
@@ -149,11 +151,23 @@ ipk-lex.save: ../bin/ipk-lex.save
 	@echo
 	@echo "*** Building ipk-lex.save ***" ;
 	@echo
-	printf "compile-source $(SRCS) \n\
-	save-source ../bin/ipk-lex.save \n\
+	printf "read lexc < $(SRCS) \n\
+	save ../bin/ipk-lex.save \n\
 	quit \n" > ../tmp/ipk-lex-save-script
-	$(LEXC) < ../tmp/ipk-lex-save-script
+	$(XFST) < ../tmp/ipk-lex-save-script
 	@rm -f ../tmp/ipk-lex-save-script
+
+# The old LEXC version
+#ipk-lex.save: ../bin/ipk-lex.save
+#../bin/ipk-lex.save: $(SRCS)
+#	@echo
+#	@echo "*** Building ipk-lex.save ***" ;
+#	@echo
+#	printf "compile-source $(SRCS) \n\
+#	save-source ../bin/ipk-lex.save \n\
+#	quit \n" > ../tmp/ipk-lex-save-script
+#	$(LEXC) < ../tmp/ipk-lex-save-script
+#	@rm -f ../tmp/ipk-lex-save-script
 
 
 #ifeq ($(TARGET), strict)

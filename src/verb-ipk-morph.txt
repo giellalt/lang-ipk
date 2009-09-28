@@ -10,7 +10,7 @@
 ! 2. Secondly they get derivatives and mood markers according to stem type
 ! 3. Thirdly they get personal endings
 ! 4. Fourthly they get enclitic endings
-! 5. Finally they pass through a household utensil that clears away left-over flags
+! 5. Finally they pass through a filter that clears away left-over flags
 
 
 ! ============================ !

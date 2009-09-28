@@ -1,3 +1,5 @@
+! GNU, etc.
+
 LEXICON Punctuation 
 +CLB:%,   # ;
 +CLB:%.   # ;

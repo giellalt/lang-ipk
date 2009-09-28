@@ -48,6 +48,10 @@ LEXICON tp_sing !erre
 ! just some slotholder forms here. When full paradigms
 ! are added they should be moved to a separate section.
 
+LEXICON tp_dupl
+tp_du ;
+tp_pl ;
+
 LEXICON tp_du
 +Abs+Du:%^TRUNC%^C%>k clit ; 
 :%^C%>k ObliqueCases_Du ; 
