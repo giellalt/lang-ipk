@@ -25,16 +25,15 @@ endif
 scripts=$(GTHOME)/gt/script
 
 # Source files
-SRCS = tull.lexc
 
-#SRCS =  ipk-lex.txt \
-#	noun-ipk-lex.txt \
-#	noun-ipk-morph.txt \
-#	verb-ipk-lex.txt \
-#	abbr-ipk-lex.txt \
-#	verb-ipk-morph.txt \
-#	det-ipk-lex.txt \
-#	adv-ipk-lex.txt
+SRCS =  ipk-lex.txt \
+	noun-ipk-lex.txt \
+	noun-ipk-morph.txt \
+	verb-ipk-lex.txt \
+	abbr-ipk-lex.txt \
+	verb-ipk-morph.txt \
+	det-ipk-lex.txt \
+	adv-ipk-lex.txt
 ##	acro-ipk-lex.txt \
 ##	punct-ipk-lex.txt prt-ipk-lex.txt num-ipk-lex.txt 
 
@@ -146,13 +145,18 @@ ipk.save: ../bin/ipk.save
 # The first goal is to build ipk-lex.save
 # This goal depends on a bunch of lexicon files
 
+ipk-lex-allinone.lexc: $(SRCS)
+	cat ipk-lex.txt *-ipk-lex.txt *-ipk-morph.txt > $@
+
 ipk-lex.save: ../bin/ipk-lex.save
-../bin/ipk-lex.save: $(SRCS)
+#../bin/ipk-lex.save: $(SRCS)
+../bin/ipk-lex.save: ipk-lex-allinone.lexc
 	@echo
 	@echo "*** Building ipk-lex.save ***" ;
 	@echo
-	printf "read lexc < $(SRCS) \n\
-	save ../bin/ipk-lex.save \n\
+#	printf "read lexc < $(SRCS) \n
+	printf "read lexc < ipk-lex-allinone.lexc \n\
+	save stack ../bin/ipk-lex.save \n\
 	quit \n" > ../tmp/ipk-lex-save-script
 	$(XFST) < ../tmp/ipk-lex-save-script
 	@rm -f ../tmp/ipk-lex-save-script
@@ -185,12 +189,18 @@ ipk-lex.save: ../bin/ipk-lex.save
 # Here we build xfst-ipk.bin, the morphophonological component.
 # This goal depends on xfst-ipk.txt
 
+../tmp/xfst-ipk.tmp: xfst-ipk.txt
+	@echo
+	@echo "*** cleaning $< for comments (foma compatibility) ***"
+	@echo
+	@sed 's/\s!.*$$/ /g' $< | grep -v '^!' | sed 's/$$/ /g' | grep -v 'echo' > $@
+
 xfst-ipk.bin: ../bin/xfst-ipk.bin
-../bin/xfst-ipk.bin: xfst-ipk.txt
+../bin/xfst-ipk.bin: ../tmp/xfst-ipk.tmp
 	@echo
 	@echo "*** Building xfst-ipk.bin ***" ;
 	@echo
-	@printf "source xfst-ipk.txt \n\
+	@printf "source ../tmp/xfst-ipk.tmp \n\
 	save stack ../bin/xfst-ipk.bin \n\
 	quit \n" > ../tmp/xfst-ipk-script
 	$(XFST) < ../tmp/xfst-ipk-script
@@ -213,4 +223,4 @@ ikpfont.fst: ../bin/orth-ipk.fst
 
 
 clean:
-	@rm -f ../bin/*.bin ../bin/*.fst ../bin/*.save
+	@rm -f ../bin/*.bin ../bin/*.fst ../bin/*.save ../tmp/*
