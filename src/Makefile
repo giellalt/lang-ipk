@@ -122,7 +122,7 @@ caseconv.fst: ../bin/caseconv.fst
 	@echo
 	@echo "*** Building caseconv.fst ***" ;
 	@echo
-	@printf "read regex < case.regex \n\
+	@printf "read regex case.regex ;\n\
 	save stack ../bin/caseconv.fst \n\
 	quit \n" > ../tmp/caseconv-script
 	$(XFST) < ../tmp/caseconv-script
@@ -214,7 +214,7 @@ ikpfont.fst: ../bin/orth-ipk.fst
 	@echo
 	@echo "*** Building orth-ipk.fst ***" ;
 	@echo
-	@printf "source < ../script/orth-ipk.xfst  \n\
+	@printf "source ../script/orth-ipk.xfst  \n\
 	invert net \n\
 	save stack ../bin/orth-ipk.fst \n\
 	quit \n" > ../tmp/orth-ipk-fst-script
