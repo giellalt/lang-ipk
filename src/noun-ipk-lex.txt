@@ -127,7 +127,7 @@ saviľhaq tp "metal" ;
 siksrik:seksrik tup- "a squirrel" ;
 siku tp "ice" ;
 sikľaq tp "a pickax" ;
-siqiñiq:siqiñeq tup "sun" ;  ;
+siqiñiq:siqiñeq tup "sun" ; 
 suppun:suppute tpt "a gun" ;
 tatqiq tup "moon" ;
 tavsi tp "a belt for carrying a baby" ;
