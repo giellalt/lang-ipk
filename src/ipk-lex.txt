@@ -98,8 +98,8 @@ LEXICON clit
 ! ================================================== !
 
 LEXICON f
-!!< "@D.[IT]V.ON@" >  # ; ! Deletes unwated iv/tv combinations
-< @D.[IT]V.ON@ >  # ; ! Deletes unwated iv/tv combinations
+< "@D.[IT]V.ON@" >  # ; ! Deletes unwated iv/tv combinations xfst style
+!!< @D.[IT]V.ON@ >  # ; ! Deletes unwated iv/tv combinations foma style
 
 !! The philosophy behind this is that we need only one
 !! derivational section:
