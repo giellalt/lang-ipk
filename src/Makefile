@@ -145,17 +145,17 @@ ipk.save: ../bin/ipk.save
 # The first goal is to build ipk-lex.save
 # This goal depends on a bunch of lexicon files
 
-ipk-lex-allinone.lexc: $(SRCS)
+../tmp/ipk-lex-allinone.lexc: $(SRCS)
 	cat ipk-lex.txt *-ipk-lex.txt *-ipk-morph.txt > $@
 
 ipk-lex.save: ../bin/ipk-lex.save
 #../bin/ipk-lex.save: $(SRCS)
-../bin/ipk-lex.save: ipk-lex-allinone.lexc
+../bin/ipk-lex.save: ../tmp/ipk-lex-allinone.lexc
 	@echo
 	@echo "*** Building ipk-lex.save ***" ;
 	@echo
 #	printf "read lexc < $(SRCS) \n
-	printf "read lexc < ipk-lex-allinone.lexc \n\
+	printf "read lexc < ../tmp/ipk-lex-allinone.lexc \n\
 	save stack ../bin/ipk-lex.save \n\
 	quit \n" > ../tmp/ipk-lex-save-script
 	$(XFST) < ../tmp/ipk-lex-save-script
@@ -193,7 +193,7 @@ ipk-lex.save: ../bin/ipk-lex.save
 	@echo
 	@echo "*** cleaning $< for comments (foma compatibility) ***"
 	@echo
-	@sed 's/\s!.*$$/ /g' $< | grep -v '^!' | sed 's/$$/ /g' | grep -v 'echo' > $@
+	@sed 's/ \!.*$$/ /g' $< | grep -v '^!' | sed 's/$$/ /g' | grep -v 'echo' > $@
 
 xfst-ipk.bin: ../bin/xfst-ipk.bin
 ../bin/xfst-ipk.bin: ../tmp/xfst-ipk.tmp
