@@ -146,7 +146,7 @@ ipk.save: ../bin/ipk.save
 # This goal depends on a bunch of lexicon files
 
 ../tmp/ipk-lex-allinone.lexc: $(SRCS)
-	cat ipk-lex.txt *-ipk-lex.txt *-ipk-morph.txt > $@
+	cat ipk-lex.txt *-ipk-lex.txt *-ipk-morph.txt | sed 's/ \".*\" //g' > $@
 
 ipk-lex.save: ../bin/ipk-lex.save
 #../bin/ipk-lex.save: $(SRCS)
