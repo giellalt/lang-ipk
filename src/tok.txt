@@ -1,3 +1,6 @@
+# Distributed under the terms of the GNU General Public License version 2
+#  or any later version.
+
 # =============================================================
 # CONTENT: Sample Finite-State Tokenizer (no multi-words)
 # AUTHOR: Original version by Anne Schiller, copied from the

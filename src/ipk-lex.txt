@@ -1,3 +1,6 @@
+!Distributed under the terms of the GNU General Public License version 2
+! or any later version.
+
 ! ================================================================================ !
 ! This is the file that hosts the morphology for the Inupiaq morphological parser  !
 ! Rules for phonology and orthography are kept in the rule-file xfst-ipk.txt       !

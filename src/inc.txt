@@ -1,3 +1,6 @@
+!Distributed under the terms of the GNU General Public License version 2
+! or any later version.
+
 ta-#! adds emphasis or extends direction
 uqsruġmik-#! rubs with seal oil (as on neck for sore throat)
 itqutchiq-#! to eat breakfast (K)
