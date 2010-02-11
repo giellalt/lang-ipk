@@ -126,7 +126,7 @@ inituppercase.fst: ../bin/inituppercase.fst
 	@echo
 	@echo "*** Building inituppercase.fst ***" ;
 	@echo
-	@printf "read regex inituppercase.regex ;\n\
+	@printf "read regex < inituppercase.regex \n\
 	save stack ../bin/inituppercase.fst \n\
 	quit \n" > ../tmp/inituppercase-script
 	$(XFST) < ../tmp/inituppercase-script
@@ -139,7 +139,7 @@ ipk.save: ../bin/ipk.save
 	@echo "*** Building the parser ipk.save ***"
 	@echo
 	@printf "read regex [[@\"../bin/ipk-lex.save\"] .o. \
-	[@\"../bin/xfst-ipk.bin\"]] \n\
+	[@\"../bin/xfst-ipk.bin\"]] ; \n\
 	save stack ../bin/ipk.save \n\
 	quit \n" > ../tmp/ipk-save-script
 	$(XFST) < ../tmp/ipk-save-script
