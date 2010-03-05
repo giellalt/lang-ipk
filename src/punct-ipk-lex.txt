@@ -6,7 +6,8 @@ LEXICON Punctuation
 +CLB:%.   # ;
 +CLB:%:   # ;
 +CLB:%;	  # ;
-<‰+CLB:%!>	  # ;
+^excl+CLB:%!	    # ;	!^C^
+!<‰+CLB:%!>	  # ;
 +CLB:%?	  # ;
 +PUNCT:%-  # ;
 +HYPH:%" # ;
