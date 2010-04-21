@@ -106,13 +106,13 @@ space:=$(empty) $(empty)
 ABBRSRCS=$(subst $(space),$(comma),$(SRCS))
 
 abbr: ../bin/abbr.txt
-../bin/abbr.txt: $(scripts)/abbr-extract \
+../bin/abbr.txt: $(scripts)/abbr-extract.pl \
 				 $(scripts)/langTools/Util.pm \
 				 $(SRCS)
 	@echo
 	@echo "*** Extracting abbreviations from abbr-ipk-lex.txt to abbr.txt ***" ;
 	@echo
-	@perl -I $(scripts) $(scripts)/abbr-extract \
+	@perl -I $(scripts) $(scripts)/abbr-extract.pl \
 		--output=$@ \
 		--abbr_lex=abbr-ipk-lex.txt \
 		--lex=$(ABBRSRCS)
