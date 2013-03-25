@@ -1,0 +1,57 @@
+!Distributed under the terms of the GNU General Public License version 2
+! or any later version.
+
+LEXICON detna
++Det+Sg:na # ;
+
+LEXICON detnja
++Det+Sg:ña # ;
+
+LEXICON detobl
++Det+Du:kuak # ;
++Det+Pl:kua # ;
+
+LEXICON Determiners
+agna:ak detobl ;
+agna:ag detna ;
+akimna:akim detna ;
+akimna:akip detobl ;
+amna:am detna ;
+amna:ap detobl ;
+igña:ig detnja ;
+igña:ik detobl ;
+imña:im detnja ;
+imña:ip detobl ;
+kanna:kan detna ;
+kanna:kat detnja ;
+kigña: kig detnja ;
+kigña:kik detobl ;
+komña:kim detnja ;
+kimña:kip detobl ;
+manna:man detna ;
+manna:mat detobl ;
+manna:ma detobl ;
+pagna:pag detna ;
+pagna.pak detobl ;
+pakimna:pakim detna ;
+pakimna:pakip detobl ;
+pamna:pam detna ;
+pamna:pap detobl ;
+pigña:pig detna ;
+pigña:pik detobl ;
+qagna:qag detna ;
+qagna:qak detobl ;
+qakimna:qakim detna ;
+qakimna:pakip detobl ;
+qamna:qam detna ;
+qamna:qap detobl ;
+sakimna:sakim detna ;
+sakimna:sakip detobl ;
+samna:sam detna ;
+samna:sap detobl ;
+una:u detna ;
+una:u detobl ;
+unna:un detna ;
+unna:ut detobl ;
+
+

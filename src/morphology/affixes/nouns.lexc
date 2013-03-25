@@ -1,0 +1,199 @@
+!Distributed under the terms of the GNU General Public License version 2
+! or any later version.
+
+! =============== !
+! Noun morphology !
+! =============== !
+
+! ================================= !
+! Distributing the declension types !
+! ================================= !
+
+! We first add +N and divide into subgroups
+
+LEXICON tp !aġnaq ere
++N: tp_sing ;
++N: tp_du ;
++N: tp_pl ;
+
+LEXICON tp_gem !geminating stems of 1. declination - amaġuq nusaq/nuyaq
++N: tp_gem_sing ;
++N: tp_gem_du ;
++N: tp_gem_pl ;
+
+LEXICON tpt
++N: tpt_sing ;
++N: tpt_du ;
++N: tp_pl ;
+
+LEXICON tup !aiviq
++N: tup_sg_du_pl ; ! awaiting a split into sg/du/pl lexica
+
+LEXICON tup- !siksrik iñuk
++N: tup-_sg_du_pl ; ! awaiting a split into sg/du/pl lexica
+
+
+!=======================!
+! Simple 1. declination !
+!=======================!
+
+LEXICON tp_sing !erre
++Abs+Sg: clit_sing ;
++Rel+Sg:%^TRUNC%>m clit_sing ;
++Abs+Sg+1Sg:%^FRIC%>ga clit_sing ;
++Abs+Sg+2Sg:%^TRUNC%>n clit_sing ;
++Abs+Sg+3Sg:%^TRUNC%>a clit_sing ; !Not verified aġnaq
+:%^TRUNC ObliqueCases_Sg ;
++QAQ:%^TRUNC%>qaq IV ;
++IT:%^TRUNC%>it IV ;
+
+! The possessive paradigms are deviant, there are
+! just some slotholder forms here. When full paradigms
+! are added they should be moved to a separate section.
+
+LEXICON tp_dupl
+tp_du ;
+tp_pl ;
+
+LEXICON tp_du
++Abs+Du:%^TRUNC%^C%>k clit ; 
+:%^C%>k ObliqueCases_Du ; 
++Abs+Du+1Sg:%^TRUNC%>kka clit ;
++Abs+Du+2Sg:%^TRUNC%>kiñ clit ;
++Abs+Du+2Sg+Arch:%^TRUNC%>kkiñ clit ;
+
+LEXICON tp_pl
++Abs+Pl:%^TRUNC%>t clit ;
++Abs+Pl:%^TRUNC%>ch clit ; ! hypercorrect
+:%^TRUNC ObliqueCases_Pl ; 
++Abs+Pl+1Sg:%^TRUNC%>tka clit ;
++Abs+Pl+2Sg:%^TRUNC%>tin clit ;
++Abs+Pl+3Sg:%^TRUNC%>ŋi clit ;
++Rel+Pl+3Sg:%^TRUNC%>ŋisa clit ;
+
+
+!===========================!
+! Geminating 1. declination !
+!===========================!
+
+LEXICON tp_gem_sing
+                       ObliqueCases_Sg ;
++Abs+Sg:               clit ;
++Rel+Sg:%^TRUNC%^C%>m  clit ; ! = kal???
++Abs+Sg+1Sg:%^FRIC%>ga clit ; !just a slotholder
++Abs+Sg+2Sg:%^TRUNC%>n clit ; !just a slotholder
++QAQ:%^TRUNC%>qaq IV ;
++IT:%^TRUNC%>it IV ;
+
+LEXICON tp_gem_du
++Abs+Du:%^TRUNC%^DEFRIC%>k clit ;
+:%^C%>k                    ObliqueCases_Du ; 
++Abs+Du+1Sg:%^TRUNC%>kka   clit ; !just a slotholder
++Abs+Du+2Sg:%^TRUNC%>kiñ   clit ; !just a slotholder
++Abs+Du+2Sg+Arch:%^TRUNC%>kkiñ clit ; !just a slotholder
+
+LEXICON tp_gem_pl
++Abs+Pl:%^TRUNC%^C%>t clit ;
+:%^TRUNC%^C%>t ObliqueCases_Pl ; 
++Abs+Pl+1Sg:%^TRUNC%>tka clit ; !just a slotholder
++Abs+Pl+2Sg:%^TRUNC%>tin clit ; !just a slotholder
+
+
+
+! ======================= !
+! 1. declination in schwa !
+! ======================= !
+
+
+LEXICON tpt_sing !aŋun:aŋute
++Abs+Sg:%^CVCTRUNC%>n clit ;
++Rel+Sg:%>m clit ;
++Abs+Sg+1Sg:%^FRIC%>ga clit ; !just a slotholder
++Abs+Sg+2Sg:%^TRUNC%>n clit ; !just a slotholder
+:%^CVCTRUNC%>n ObliqueCases_Sg ;
++QAQ:%^TRUNC%>qaq IV ; 
++IT:%>it IV ;  
+
+LEXICON tpt_du
++Abs+Du:%^EBLOCK%>k clit ; 
+:%^EBLOCK%>k        ObliqueCases_Du ; 
++Abs+Du+1Sg:%^TRUNC%>kka clit ; !just a slotholder
++Abs+Du+2Sg:%^TRUNC%>kiñ clit ; !just a slotholder
++Abs+Du+2Sg+Arch:%^TRUNC%>kkiñ clit ; !just a slotholder
+
+! Plural forms go to tp_pl, there is no separate tpt_pl lexicon
+
+
+!=======================!
+! Simple 2. declination !
+!=======================!
+
+! (assuming tup is 2nd decl)
+
+LEXICON tup_sg_du_pl
++Abs+Sg: clit ;
++Abs+Pl:%>%^FRIC%>it clit ;
+ObliqueCases ; ! Not checked for stem adjustment
++QAQ:%^TRUNC%>qaq IV ;
++IT:%^SCHWADEL%>it IV ;
+
+! This paradigm must be completed
+
+LEXICON tup-_sg_du_pl
++Abs+Sg: clit ;
++Abs+Du:%^TRUNC%^C%>k clit ; 
++Abs+Pl:%^TRUNC%>it clit ;
++Abs+Sg+1Sg:%^FRIC%>ga clit ; ! to be moved to Px section
+ObliqueCases ; ! Not checked for stem adjustment
++QAQ:%^TRUNC%>qaq IV ;
++IT:%^SCHWADEL%>it IV ;
+
+! This paradigm must be completed
+
+
+! ============= !
+! Oblique cases !
+! ============= !
+
+LEXICON ObliqueCases
+ ObliqueCases_Sg ;
+ ObliqueCases_Du ;
+ ObliqueCases_Pl ;
+
+LEXICON ObliqueCases_Sg
++Loc+Sg:%>mi clit_sing ;
++Mod+Sg:%>mik clit_sing ;
++Trm+Sg:%>mun clit_sing ;
++Abl+Sg:%>miñ clit_sing ;
+! +Trm+Sg:%^CVCTRUNC%>n%>mun clit ; ! Check, from tp_sing
+
+LEXICON ObliqueCases_Du
++Loc+Du:%>ni clit ;
+
+LEXICON ObliqueCases_Pl
++Loc+Pl:%>ni clit ;
++Trm+Pl:%>nun clit ;
+
+! This paradigm must be completed
+
+
+
+! ============================================== !
+! Lexica for propernouns, pronouns and particles !
+! ============================================== !
+
+! Proper nouns ! Still a dummy
+LEXICON propmorph
++N+Prop: clit ; ! Both tags here
+
+! Pronouns ! Still a dummy
+LEXICON pronmorph
++Pron: clit ; ! thus no +N tag here
+
+! Particles
+LEXICON partmorph
++Part:%>   clit ;
+
+
+
+
