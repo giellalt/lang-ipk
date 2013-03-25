@@ -9,12 +9,18 @@
 Multichar_Symbols
 +N +V +Part +Prop +Pron
 +Sg +Du +Pl
-+1Sg +2Sg +3Sg +4Sg +1Du +2Du +3Du +4Du +1Pl +2Pl +3Pl +4Pl 
-+1SgO +2SgO +3SgO +4SgO +1DuO +2DuO +3DuO +4DuO +1PlO +2PlO +3PlO +4PlO !Objects' persons
-! 4th person still missing in the transitive conjugation
-+Abs +Rel +Trm +Loc +Abl +Mod !cases
-+Prs +Prt ! Tenses
-+Ind +Int +Cau +ConReal +ConUnreal ! Modes NB! No Imp
++1Sg +2Sg +3Sg +4Sg 
++1Du +2Du +3Du +4Du 
++1Pl +2Pl +3Pl +4Pl 
++1SgO +2SgO +3SgO +4SgO 
++1DuO +2DuO +3DuO +4DuO 
++1PlO +2PlO +3PlO +4PlO !Objects' persons
+
+!! 4th person still missing in the transitive conjugation
+
++Abs +Rel +Trm +Loc +Abl +Mod !! Cases
++Prs +Prt !! Tenses
++Ind +Int +Cau +ConReal +ConUnreal !! Modes NB! No Imp
 +Arch !tags for archaic forms. In this pilot just used to indicate twin forms
 
 ! ľ !digraphs plus ľ for voiceless palatalized l
@@ -52,17 +58,17 @@ Multichar_Symbols
 
 
 
-! This file gives the start and end of the Iñupiaq lexicon. 
-! The lexicon Root points at the different parts of speech.
-! Each POS has its own file noun-ipk-lex.txt, etc., which in
-! turn points to noun-ipk-morph.txt, etc.
-! POS-changing nominalizers are found in verb-ipk-morph.txt and 
-! verbalizers in noun-ipk-morph.txt
-! It might be a good idea to have noun-ipk-der.txt etc. as well.
-! The common, final lexica, are found in this file.
+!! This file gives the start  of the Iñupiaq lexicon. 
+!! The lexicon Root points at the different parts of speech.
+!! Each POS has its own file stems/nouns.lexc, etc., which in
+!! turn points to affixes/nouns.lexc, etc.
+!! POS-changing nominalizers are found in affixes/verbs.lexc and 
+!! verbalizers in affixes/nouns.lexc
+!! It might be a good idea to have noun-ipk-der.txt etc. as well.
+!! The common, final lexica, are found in clitics.lexc.
 
 
-LEXICON Root
+LEXICON Root !!= @CODE@
  Nouns ; 
  Verbs ;
  Determiners ;
@@ -77,35 +83,4 @@ LEXICON Root
 ! all numbers, this is a better solution: Normal nouns are tagged tp,
 ! tup etc. whereas specials are tagged with the continuation lexicon
 
-
-
-! ======= !
-! Clitics !
-! ======= !
-
-! This is part 4 of the verb derivation process
-! It is also the final part of the nouminal process
-
-LEXICON clit_sing
-+UNA:%>una clit ;
-           clit ;
-
-LEXICON clit
-+GUUQ:%>guuq  f ;
-+LU:%>lu      f ;
-              f ;
-
-
-! ================================================== !
-! Flag check (part 5 of the verb derivation process) !
-! ================================================== !
-
-LEXICON f
-<"@D.[IT]V.ON@">  # ; ! Deletes unwated iv/tv combinations
-
-!! The philosophy behind this is that we need only one
-!! derivational section:
-!! verb iv or tv -> DER -> infl iv or tv -> f lexicon
-!! The f lexicon then deletes iv+tv and tv+iv combinations,
-!! and leaves only iv+ív and tv+tv
 
