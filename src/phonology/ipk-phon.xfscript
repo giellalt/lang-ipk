@@ -1,0 +1,150 @@
+!Distributed under the terms of the GNU General Public License version 2
+! or any later version.
+
+!====================================
+!FST-rules in Inupiaq - Pilot project
+!====================================
+
+! ======================== !
+! Phonological definitions !
+! ======================== !
+echo
+echo ===> Making the Ïnupiaq phonological component <===
+echo
+echo ===> Defining the phonological inventory <===
+
+define stops     [ p | P | t | T | c h | k | q ] ;
+define cont      [ v | V | s | S | s r | l | ł | ḷ | ľ | y | r | g | k h | ġ | q h | h ] ; ! ľ palatalized unvoiced lateral
+define nas       [ m | M | n | N | ñ | ŋ ] ; 
+define cns       [ stops | cont | nas ] ;
+define vow       [ i | e | a | u ] ; ! NB not in accordance with Alaskan tradition: i = strong i whereas e represents the schwa
+define dummy     [ %> | %^TRUNC | %^VCTRUNC | %^CVCTRUNC% | %^C | %^CLIT | %^FRIC | %^C | %^DEFRIC ] ;
+define foreign   [ b | d | f | j | o | w | x | z ]
+define segment   [ cns | vow | foreign | dummy ] ; ! dummy as segment??? XXX 
+define flags     [ %@P%.IV%.ON%@ | %@P%.TV%.ON%@ | %@R%.IV%.ON%@ | %@R%.TV%.ON%@ | %@D%.IV%.ON%@ | %@D%.TV%.ON%@  ] ;
+
+
+
+!********************
+!Phonological rules *
+!********************
+
+echo
+echo ===> Defining the phonological rules <===
+
+define SchwaDel1 [ e -> 0 || vow cns _ cns %^SCHWADEL ] ;
+define SchwaDel2 [ cns -> 0 || [ i | a | u ] _ %^SCHWADEL ] ;
+define DelSchwaDel [ %^SCHWADEL -> 0 ] ;
+define PartAssKC [ k -> g || _ ( flags ) %> [ cont | nas ] ] ;
+define PartAssQC [ q -> ġ || _ ( flags ) %> [ l | ł | nas ] ] ; !To be updated
+define AssKG [ g -> k || k ( flags ) %>  _ ] ;
+define AssTnas [ t -> n || _ ( flags ) %> nas ] ;
+define AssTŁ [ t -> ł || _ ( flags ) %> ł ] ;
+define AssTL [ t -> l || _ ( flags ) %> l ] ;
+define PartAssTC [ t -> r || _ (flags ) %> [ v | g ] ] ;
+define truncation [ stops -> 0 || _ ( flags ) %^TRUNC ( [ %^C | %^DEFRIC | flags ] ) %> ] ;
+!iḷisaq@P.IV.ON@%^TRUNCllatu@R.IV.ON@%>ru      indpersonaffix ;
+
+define TruncDelete [ %^TRUNC -> 0 ] ;
+define fricativization [ q -> ġ || _ ( flags ) %> [ %^FRIC | nas ] ] ; !????? Not verified in corpus????
+define AltKN [ k (->) ŋ || _ ( flags ) %> n ] ;
+define AltML [ m (->) v || _ %> l ] ;
+define AltNL [ n (->) l || _ %> l ] ;
+define palatŁ [ ł -> ľ || i ( cns ) ( flags ) %> _ ] ; ! Not stem-internal palatalisation
+define palatL [ l -> ḷ || i ( cns ) ( flags ) %> _ ] ; ! ditto
+define palatN [ n -> ñ || i ( cns ) ( flags ) %> _ ] ; ! ditto
+!define AltpalatT [ t (->) c h || i ( cns ) _ ( flags ) \segment ] ; 
+define AltpalatT [ t (->) c h || i ( cns ) _ ( flags ) .#. ] ; 
+define palatT [ t -> c h || i ( cns ) _ vow segment ] ; 
+define Rgemination [ r -> r r || vow _ vow (cns) %^C %> ] ;
+define Ggemination [ g -> g g || vow _ vow (cns) ( flags | dummy ) %^C %> ] ;
+define Mgemination [ m -> m m || vow _ vow (cns) ( flags | dummy  ) %^C %> ] ;
+define Ġgemination [ ġ -> ġ ġ || vow _ vow (cns) ( flags | dummy  ) %^C %> ] ;
+define ĠQgemination [ ġ -> q q || vow _ vow (cns) ( flags ) %^DEFRIC %> ] ; !amaġu%^DEFRIC%>k -> amaqquk
+define Gstop [ g -> k || [ t | k ] %> _ ] ;
+define Qfusion1 [ g -> ġ || q ( flags ) ( flags ) %> ( flags ) _ ] ; 
+define Qfusion2 [ q -> 0 || _ ( flags ) ( flags ) %> ( flags ) ġ ] ; 
+define Kfusion [ k -> 0 || _ %^FRIC %> g ] ; 
+define LongTassibilation [ t -> c h || i t ( flags ) %> _ ] ; ! MUST precede assibilation
+define assibilation [ t -> s || i ( cns ) ( flags ) %> _ ( flags ) vow segment ] ;
+
+define VeryLongTruncation [ cns vow (cns) -> 0 || _ %^CVCTRUNC ] ;
+
+
+!**********************
+!Simple rewrite rules *
+!**********************
+
+define SchwaReplace1 [ e -> a || _ ( dummy ) %> [ k | vow ] ] ;
+define SchwaReplace2 [ e -> i ] ;
+define StoCH [ s -> c h || t ( flags ) _ ] ;
+define CleanCH [ c h ( flags ) c h -> t c h ] ; ! This is a stupid rule cleaning up the messy set of palatalization rules. Must be reorganized away
+
+
+! ============= !
+! Cleanup rules !
+! ============= !
+
+echo
+echo ===> Defining the cleanup rules <===
+
+define CleanVeryLongTruncation [ %^CVCTRUNC -> 0 ] ;
+define DummyDeletion [ dummy -> 0 ] ;
+define GemDelete [ %^C -> 0 ] ;
+define EblockDelete [ %^EBLOCK -> 0 ] ; !Works because %^EBLOCK is not defined as dummy
+
+!************* 
+!The cascade *
+!*************
+
+echo
+echo ===> Compiling our rules... <===
+
+read regex [
+     VeryLongTruncation
+.o. SchwaDel1 ! [ e -> 0 || vow cns _ cns %^SCHWADEL ] ;
+.o. SchwaDel2  ![ cns -> 0 || [ i | a | u ] %^SCHWADEL ] ;
+.o. DelSchwaDel ![ %^SCHWADEL -> 0 ] ;
+.o. truncation
+.o. TruncDelete !
+.o. CleanVeryLongTruncation
+.o. Kfusion
+.o. Mgemination
+.o. Rgemination
+.o. ĠQgemination  !maket@P.IV.ON@%>saaġe@R.IV.ON@%>ru%>k
+.o. Ġgemination
+.o. Ggemination
+.o. GemDelete ! why this here?
+.o. fricativization !atuġ@P.TV.ON@%>niaq@R.TV.ON@%>ge%>a
+.o. SchwaReplace1 
+.o. EblockDelete ! Why so early ???
+.o. Qfusion1 ![ g -> ġ || q ( flags ) %> _ ] ;  
+.o. Qfusion2
+.o. PartAssQC 
+.o. AltKN
+.o. AssKG ![ g -> k || k ( flags ) %>  _ ] ;
+.o. PartAssKC ![ k -> g || _ ( flags ) %> [ cont | nas ] ] ;
+.o. LongTassibilation ![ t -> c h || i t ( flags ) %> _ ] ; ! MUST precede assibilation
+.o. PartAssTC 
+.o. Gstop
+.o. AssTnas
+.o. AssTL
+.o. AssTŁ
+.o. AltML
+.o. AltNL
+.o. assibilation !Is it really a very late rule??![ t -> s || i ( cns ) ( flags ) %> _ ( flags ) vow segment ]
+! .o. DummyDeletion ! at the end!!
+.o. palatL
+.o. palatŁ
+.o. palatN
+.o. AltpalatT ![ t (->) c h || i ( cns ) _ ( flags ) \segment ] ; ! Works fine
+.o. palatT ![ t -> c h || i ( cns ) _ vow segment ] ;
+.o. StoCH ! [ s -> c h || t ( flags ) _ ] ;
+.o. CleanCH
+.o. SchwaReplace2
+.o. DummyDeletion !!make@P.IV.ON@tiq@R.IV.ON@tuq
+] ;
+
+echo ===> Done, congratulations! <===
+
+
