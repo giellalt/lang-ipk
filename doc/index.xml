@@ -3,7 +3,7 @@
 "http://forrest.apache.org/dtd/document-v20.dtd">
 <document xml:lang="en">
   <header>
-    <title>General information</title>
+    <title>The Iñupiaq parser</title>
 
     <authors>
       <person email="pela@gh.gl" name="Per Langgård" />
@@ -13,14 +13,12 @@
 
   <body>
 
-    <section>
-        <title>Documentation and information for developers</title>
-        <p>Here you find the technical documentation of the Iñupiaq parser. The parser is built in close cooperation with the Sámi language technology project, with a file structure and setup close to the Sámi ones. General documentation can be found at <a href="/doc/index.html">the Sámi project documentation</a>.</p>
-    
-        <ul>
-            <li><a href="lex.html">The lexicon structure</a></li>
-        </ul>
-        
+    <section id="links">
+      <title>Browsing the documentation</title>
+      <p>
+        The documentation provided in the source code can be viewed by following
+        the links provided on <a href="Links.html">this page</a>.
+      </p>
     </section>
     
     <section id="General_information_for_new_users">
@@ -49,6 +47,15 @@
 				</ul>
 			</li>
 		</ul>
+    </section>
+    <section>
+        <title>Documentation and information for developers</title>
+        <p>Here you find the technical documentation of the Iñupiaq parser. </p>
+    
+        <ul>
+            <li><a href="lex.html">The lexicon structure</a></li>
+        </ul>
+        
     </section>
     
     <p class="last_modified">Last changed: $Id: intro.xml,v 1.8 2005/06/21
