@@ -12,31 +12,3 @@ This is free and open source South Sámi morphology.
 
 
 
-4th person still missing in the transitive conjugation
-
-Cases
-Tenses
-Modes NB! No Imp
-
-
-
-
-
-
-
-
-
-This file gives the start  of the Iñupiaq lexicon. 
-The lexicon Root points at the different parts of speech.
-Each POS has its own file stems/nouns.lexc, etc., which in
-turn points to affixes/nouns.lexc, etc.
-POS-changing nominalizers are found in affixes/verbs.lexc and 
-verbalizers in affixes/nouns.lexc
-It might be a good idea to have noun-ipk-der.txt etc. as well.
-The common, final lexica, are found in clitics.lexc.
-
-
- LEXICON Root 
-
-
-
