@@ -9,9 +9,9 @@
 ! Phonological definitions !
 ! ======================== !
 echo
-echo ===> Making the Ïnupiaq phonological component <===
+echo <<< Making the Ïnupiaq phonological component >>>
 echo
-echo ===> Defining the phonological inventory <===
+echo <<< Defining the phonological inventory >>>
 
 define stops     [ p | P | t | T | c h | k | q ] ;
 define cont      [ v | V | s | S | s r | l | ł | ḷ | ľ | y | r | g | k h | ġ | q h | h ] ; ! ľ palatalized unvoiced lateral
@@ -30,7 +30,7 @@ define flags     [ %@P%.IV%.ON%@ | %@P%.TV%.ON%@ | %@R%.IV%.ON%@ | %@R%.TV%.ON%@
 !********************
 
 echo
-echo ===> Defining the phonological rules <===
+echo <<< Defining the phonological rules >>>
 
 define SchwaDel1 [ e -> 0 || vow cns _ cns %^SCHWADEL ] ;
 define SchwaDel2 [ cns -> 0 || [ i | a | u ] _ %^SCHWADEL ] ;
@@ -86,7 +86,7 @@ define CleanCH [ c h ( flags ) c h -> t c h ] ; ! This is a stupid rule cleaning
 ! ============= !
 
 echo
-echo ===> Defining the cleanup rules <===
+echo <<< Defining the cleanup rules >>>
 
 define CleanVeryLongTruncation [ %^CVCTRUNC -> 0 ] ;
 define DummyDeletion [ dummy -> 0 ] ;
@@ -98,7 +98,7 @@ define EblockDelete [ %^EBLOCK -> 0 ] ; !Works because %^EBLOCK is not defined a
 !*************
 
 echo
-echo ===> Compiling our rules... <===
+echo <<< Compiling our rules... >>>
 
 read regex [
      VeryLongTruncation
@@ -145,6 +145,6 @@ read regex [
 .o. DummyDeletion !!make@P.IV.ON@tiq@R.IV.ON@tuq
 ] ;
 
-echo ===> Done, congratulations! <===
+echo <<< Done, congratulations! >>>
 
 
