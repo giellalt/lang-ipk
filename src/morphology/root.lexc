@@ -104,6 +104,7 @@ LEXICON Root !!= @CODE@
  pron ;
  part ;
  Punctuation ;
+ Symbols     ;
 
 !About lexica and continuations. Instead of separate lexica for words
 ! that can only be sing or only plur and others for words that can take
