@@ -23,9 +23,9 @@
     <ul>
     <li><a href="Links.html">Source file documentation</a></li>
     <li>Source files: 
-        <a href="https://victorio.uit.no/langtech/trunk/langs/ipk/src/morphology/stems/">stems</a> /    
-       <a href="https://victorio.uit.no/langtech/trunk/langs/ipk/src/morphology/affixes/">affixes</a> /  
-       <a href="https://victorio.uit.no/langtech/trunk/langs/ipk/src/phonology/ipk-phon.xfscript">morphophonology</a></li>
+        <a href="https://gtsvn.uit.no/langtech/trunk/langs/ipk/src/morphology/stems/">stems</a> /    
+       <a href="https://gtsvn.uit.no/langtech/trunk/langs/ipk/src/morphology/affixes/">affixes</a> /  
+       <a href="https://gtsvn.uit.no/langtech/trunk/langs/ipk/src/phonology/ipk-phon.xfscript">morphophonology</a></li>
      <li>Generation of: 
        <a href="http://giellatekno.uit.no/cgi/p-ipk.ipk.html">paradigms</a> / 
        <a href="http://giellatekno.uit.no/cgi/d-ipk.ipk.html">text</a> / 
