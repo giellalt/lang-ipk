@@ -28,6 +28,16 @@ Multichar_Symbols
 ! ľ !digraphs plus ľ for voiceless palatalized l
 ! Remember to check this letter, it was problematic on Linux
 
+
+        !! !!Symbols that need to be escaped on the lower side (towards twolc):
+ »7     !!≈ ; @CODE@ : Literal »
+ «7     !!≈ ; @CODE@ : Literal «
+        !! {{{
+ %[%>%] !!= @CODE@ - Literal >
+ %[%<%] !!= @CODE@ - Literal <
+        !! }}}
+
+
 %> !morphemeborder
 
 ! Derivational affixes
