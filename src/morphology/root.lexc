@@ -7,23 +7,23 @@
 ! ================================================================================ !
 
 Multichar_Symbols
-+N +V +Part +Prop +Pron
-+Sg +Du +Pl
-+1Sg +2Sg +3Sg +4Sg
-+1Du +2Du +3Du +4Du
-+1Pl +2Pl +3Pl +4Pl
-+1SgO +2SgO +3SgO +4SgO
-+1DuO +2DuO +3DuO +4DuO
-+1PlO +2PlO +3PlO +4PlO !Objects' persons
++N +V +Part +Prop +Pron  !!= * @CODE@ POS
++Sg +Du +Pl			     !!= * @CODE@ Number
++1Sg +2Sg +3Sg +4Sg	     !!= * @CODE@ Intransitive number Sg
++1Du +2Du +3Du +4Du	     !!= * @CODE@ Intransitive number Du
++1Pl +2Pl +3Pl +4Pl	     !!= * @CODE@ Intransitive number Pl
++1SgO +2SgO +3SgO +4SgO  !!= * @CODE@ Objective conjugation
++1DuO +2DuO +3DuO +4DuO  !!= * @CODE@ Objective conjugation
++1PlO +2PlO +3PlO +4PlO   !!= * @CODE@ Objective conjugation
 
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 
 !! 4th person still missing in the transitive conjugation
 
-+Abs +Rel +Trm +Loc +Abl +Mod !! Cases
-+Prs +Prt !! Tenses
-+Ind +Int +Cau +ConReal +ConUnreal !! Modes NB! No Imp
-+Arch !tags for archaic forms. In this pilot just used to indicate twin forms
++Abs +Rel +Trm +Loc +Abl +Mod !!= * @CODE@ Cases
++Prs +Prt !!= * @CODE@ Tenses
++Ind +Int +Cau +ConReal +ConUnreal !!= * @CODE@ Modes NB! No Imp
++Arch !!= * @CODE@ tags for archaic forms. In this pilot just used to indicate twin forms
 
 ! ľ !digraphs plus ľ for voiceless palatalized l
 ! Remember to check this letter, it was problematic on Linux
@@ -41,34 +41,34 @@ Multichar_Symbols
 %> !morphemeborder
 
 ! Derivational affixes
-+LLATU +LLATU=NIAQ +NIAQ +NIAQ=ŊIT +ŊIT +SAAĠE +SAAĠE=ŊIT +TEQ ! verb elaborating
-+IT +QAQ
-+VIK ! nominalizers
-+LU +GUUQ +UNA! clitics
++LLATU +LLATU=NIAQ +NIAQ +NIAQ=ŊIT +ŊIT +SAAĠE +SAAĠE=ŊIT +TEQ !!= * @CODE@ verb elaborating
++IT +QAQ !!= @CODE@
++VIK !!= * @CODE@ nominalizers
++LU +GUUQ +UNA !!= * @CODE@ clitics
 
 ! Morphophonological dummy symbols
-%^TRUNC !truncation dummy
-%^CVCTRUNC !dummy for very long truncations
-%^VCTRUNC !dummy for long truncation
-%^FRIC !dummy for fricativizing stem-final consonants.
-! Needed to avoid a general rule that also would affect unwantedly as in *aaġagu for aaqagu.
-! The alternative would have been to postulate truncating flexives with a fricative first consonant (*aiviq -q +ġit) but that is hokus pokus
-%^EBLOCK !dummy to block schwa going to a (aŋutik not *aŋuttak)
-%^C ! dummy for intermediate gemination
-%^DEFRIC !dummy when fricatives go stops (amaġuq -> amaqquk) as apposed to %C in niġi+VIK -> niġġivik
-%^SCHWADEL !dummy with derivatives truncating semi-final schwa
+%^TRUNC !!= * @CODE@ truncation dummy
+%^CVCTRUNC !!= * @CODE@ dummy for very long truncations
+%^VCTRUNC !!= * @CODE@ dummy for long truncation
+%^FRIC !!= * @CODE@ dummy for fricativizing stem-final consonants.
+!! Needed to avoid a general rule that also would affect unwantedly as in *aaġagu for aaqagu.
+!! The alternative would have been to postulate truncating flexives with a fricative first consonant (*aiviq -q +ġit) but that is hokus pokus
+%^EBLOCK !!= * @CODE@ dummy to block schwa going to a (aŋutik not *aŋuttak)
+%^C !!= * @CODE@ dummy for intermediate gemination
+%^DEFRIC !!= * @CODE@ dummy when fricatives go stops (amaġuq -> amaqquk) as apposed to %C in niġi+VIK -> niġġivik
+%^SCHWADEL !!= * @CODE@ !dummy with derivatives truncating semi-final schwa
 !%^CLIT !dummy with clitics used in Kalaallisut. This far unused in ipk
 
-! Flag diacritics
-@P.IV.ON@ !Flag - sets value for transitivity to IV
-@P.TV.ON@ !Flag - sets value for transitivity to TV
-@R.IV.ON@ !Flag - reset value for transitivity to IV
-@R.TV.ON@ !Flag - reset value for transitivity to TV
-@D.IV.ON@ !Flag - delete if unsaturated IV flag (=Verb was not IV)
-@D.TV.ON@ !Flag - delete if unsaturated TV flag (=Verb was not TV)
-
-
 !! !!Flag diacritics
+
+@P.IV.ON@ !!= * @CODE@ Flag - sets value for transitivity to IV
+@P.TV.ON@ !!= * @CODE@ Flag - sets value for transitivity to TV
+@R.IV.ON@ !!= * @CODE@ Flag - reset value for transitivity to IV
+@R.TV.ON@ !!= * @CODE@ Flag - reset value for transitivity to TV
+@D.IV.ON@ !!= * @CODE@ Flag - delete if unsaturated IV flag (=Verb was not IV)
+@D.TV.ON@ !!= * @CODE@ Flag - delete if unsaturated TV flag (=Verb was not TV)
+
+
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
@@ -108,19 +108,18 @@ Multichar_Symbols
 
 
 LEXICON Root !!= @CODE@
- Nouns ;
- Verbs ;
- Determiners ;
- Adverbs ;
- prop ;
- pron ;
- part ;
- Punctuation ;
- Symbols     ;
+ Nouns ;	     !!= * @CODE@ 
+ Verbs ;	     !!= * @CODE@ 
+ Determiners ;   !!= * @CODE@ 
+ Adverbs ;	     !!= * @CODE@ 
+ prop ;		     !!= * @CODE@ 
+ pron ;		     !!= * @CODE@ 
+ part ;		     !!= * @CODE@ 
+ Punctuation ;   !!= * @CODE@ 
+ Symbols     ;   !!= * @CODE@ 
 
 !About lexica and continuations. Instead of separate lexica for words
 ! that can only be sing or only plur and others for words that can take
 ! all numbers, this is a better solution: Normal nouns are tagged tp,
 ! tup etc. whereas specials are tagged with the continuation lexicon
-
 
