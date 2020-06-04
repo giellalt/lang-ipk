@@ -1,0 +1,9 @@
+name = "Inupiaq"
+version = "@SPELLERVERSION@"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.ik"
+
+[windows]
+system_product_code = "F984A8A2-31EA-4A99-89FE-03D0DBF07651"
+msoffice_product_code = "F90F9C8C-9DD1-4EB3-A66E-DE4334C19CFA"
