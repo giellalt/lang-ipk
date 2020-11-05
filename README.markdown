@@ -21,7 +21,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/ipkdoc/index.html>
+-   <https://giellalt.uit.no/lang/ipk/index.html>
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
