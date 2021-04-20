@@ -10,7 +10,8 @@ authors named in the AUTHORS file are available to grant other licencing
 choices.
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-ipk)](https://github.com/giellalt/lang-ipk/issues)
- [![Build Status](https://github.com/giellalt/lang-ipk/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-ipk/actions)
+[![Build Status](https://github.com/giellalt/lang-ipk/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-ipk/actions)
+[![License](https://img.shields.io/github/license/giellalt/template-lang-ipk)](https://raw.githubusercontent.com/giellalt/lang-ipk/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-ipk)
 for the Inupiaq language by using the [Divvun Installer](http://divvun.no)
