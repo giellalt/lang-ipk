@@ -1,0 +1,129 @@
+!Distributed under the terms of the GNU General Public License version 2
+! or any later version.
+
+piḷaktuq- 	# piḷaktuq-	! has surgery
+iłuagiiñġitchaa 	# iłuagiiñġitchaa	! dislikes him, is prejudiced (K)
+unitchaa 	# unitchaa	! leaves it behind (K)
+ilaa 	# ilaa	! he, she, it, him, her
+siñaa 	# siñaa	! shore (it's edge)
+alappaa 	# alappaa	! is cold
+ilaaliqaa 	# ilaaliqaa	! so it's him!
+aqqaa 	# aqqaa	! smells bad!
+arraa 	# arraa	! I've had it! Exclamation when something goes wrong
+saa 	# saa	! huh! What's that? Eh?
+uqaqtaa 	# uqaqtaa	! God-im prophet (N), apostle (K), (lit. God's speaker)
+aŋuutaa 	# aŋuutaa	! his paddle, a fin (any one of the paired fins of a fish)
+anuġi 	# anuġi	! is windy
+piľľaqtaqłuni 	# piľľaqtaqłuni	! is (riding) roughly
+piḷik 	# piḷik	! is supplied with
+nagrulik 	# nagrulik	! pallid horned lark (Eremophila alpestris arcticola) (lit. has horns)
+piviksraqaqpan 	# piviksraqaqpan	! if he has time
+savaŋniqsutin 	# savaŋniqsutin	! is tired of working
+qiñiġumatiqaqtuaq 	# qiñiġumatiqaqtuaq	! he who has hope of seeing
+uutiġniq 	# uutiġniq	! is scarred from a burn (N)
+uutinniq 	# uutinniq	! is scarred from a burn (K)
+sukaitchuq 	# sukaitchuq	! is slow
+alaitchuq 	# alaitchuq	! is not torn
+tusaalaitchuq 	# tusaalaitchuq	! is deaf (N)
+uqalaitchuq 	# uqalaitchuq	! is dumb (N)
+allayualaitchuq 	# allayualaitchuq	! is friendly, not bashful (of toddler) (N)
+iksilaitchuq 	# iksilaitchuq	! is never scared (N)
+tusratlaitchuq 	# tusratlaitchuq	! is deaf (K)
+atlayuatlaitchuq 	# atlayuatlaitchuq	! is friendly, not bashful (of toddler) (K)
+qiñitlaitchuq 	# qiñitlaitchuq	! is blind (K)
+iksitlaitchuq 	# iksitlaitchuq	! is never scared (K)
+qauġrimaitchuq 	# qauġrimaitchuq	! is numb (K)
+salumaitchuq 	# salumaitchuq	! is dirty
+salumaitchuq 	# salumaitchuq	! is dirty, unclean
+uqumaitchuq 	# uqumaitchuq	! is heavy
+naitchuq 	# naitchuq	! is short
+alianaitchuq 	# alianaitchuq	! is cheerful, happy, jolly
+tagialanaitchuq 	# tagialanaitchuq	! is hospitable (enjoyable atmosphere)
+attaġnaitchuq 	# attaġnaitchuq	! is friendly, kind, communicative
+siġḷiġnaitchuq 	# siġḷiġnaitchuq	! is easy (N)
+siġḷiġnaitchuq 	# siġḷiġnaitchuq	! is easy, not difficult (N)
+taluġnaitchuq 	# taluġnaitchuq	! is friendly, kind, communicative
+taluġnaitchuq 	# taluġnaitchuq	! is kind
+pisuġnaitchuq 	# pisuġnaitchuq	! is not safe (ice)
+nalupqinaitchuq 	# nalupqinaitchuq	! is certain, sure
+suaŋaitchuq 	# suaŋaitchuq	! is weak
+agaŋŋaitchuq 	# agaŋŋaitchuq	! is gentle, kind
+sapiġñaitchuq 	# sapiġñaitchuq	! is easy
+nalunaitchuq 	# nalunaitchuq	! is clear, easy to see
+nipaitchuq 	# nipaitchuq	! is quiet
+savakpaitchuq 	# savakpaitchuq	! is working so much
+irraitchuq 	# irraitchuq	! has moderated (having been cold) (N)
+pasiaksraitchuq 	# pasiaksraitchuq	! is faultless
+sigñataitchuq 	# sigñataitchuq	! is generous (not stingy) (N)
+sikñataitchuq 	# sikñataitchuq	! is generous (not stingy) (K)
+niptaitchuq 	# niptaitchuq	! is hazy (N)
+aŋuyautaitchuq 	# aŋuyautaitchuq	! is peaceable, is not hostile
+sayaitchuq 	# sayaitchuq	! is weak
+qimmaksaliyaitchuq 	# qimmaksaliyaitchuq	! is lowly, is humble (N)
+savakpagitchuq 	# savakpagitchuq	! is working so much
+aġitchuq 	# aġitchuq	! is wet (K)
+qaiġitchuq 	# qaiġitchuq	! is rough, not smooth
+taŋiġitchuq 	# taŋiġitchuq	! is false (lies)
+kaŋiqsiñapianġitchuq 	# kaŋiqsiñapianġitchuq	! is not very understandable
+attaqsranġitchuq 	# attaqsranġitchuq	! is bold (sure of not being refused, freely helps himself to other's things) (K)
+nalupqisrunġitchuq 	# nalupqisrunġitchuq	! is confident, is sure (not doubting) (K)
+siḷagiitchuq 	# siḷagiitchuq	! is bad weather
+pigiitchuq 	# pigiitchuq	! is bad
+narraaġiitchuq 	# narraaġiitchuq	! has abdominal cramps
+iggiaġiitchuq 	# iggiaġiitchuq	! has a chronic sore throat
+iggiaġiitchuq 	# iggiaġiitchuq	! has a sore throat
+qaurimmaġiitchuq 	# qaurimmaġiitchuq	! is numb (N)
+isumalluaġiitchuq 	# isumalluaġiitchuq	! is foolish, unwise
+piġiitchuq 	# piġiitchuq	! is bad
+araksiġiitchuq 	# araksiġiitchuq	! is not open to counsel (N)
+uqaqsiġiitchuq 	# uqaqsiġiitchuq	! is not open to counsel (K)
+aqiaġuġiitchuq 	# aqiaġuġiitchuq	! has a chronic stomachache
+niaquġiitchuq 	# niaquġiitchuq	! has a severe headache
+iñugiitchuq 	# iñugiitchuq	! is ugly
+iñugiitchuq 	# iñugiitchuq	! is ugly (lit .not a good person)
+naŋiitchuq 	# naŋiitchuq	! is daring, brave
+naŋiitchuq 	# naŋiitchuq	! is daring, is brave
+piitchuq 	# piitchuq	! is not
+iqiitchuq 	# iqiitchuq	! is not lazy
+ikiqiitchuq 	# ikiqiitchuq	! is narrow
+tavruŋaqsausiitchuq 	# tavruŋaqsausiitchuq	! is uncertain about going there
+qanuqsausiitchuq 	# qanuqsausiitchuq	! is uncertain as to what to do
+sivikitchuq 	# sivikitchuq	! is a short distance, is of short duration
+ipkitchuq 	# ipkitchuq	! is dull
+maptukitchuq 	# maptukitchuq	! is thin
+amitchuq 	# amitchuq	! is narrow (K)
+qimitchuq 	# qimitchuq	! commits suicide, hangs himself (K)
+suŋaġnitchuq 	# suŋaġnitchuq	! is bitter
+piuniaŋitchuq 	# piuniaŋitchuq	! is meek (retiring)
+kaŋiqsiñapiaŋitchuq 	# kaŋiqsiñapiaŋitchuq	! is not very understandable
+attaqsraŋitchuq 	# attaqsraŋitchuq	! is bold (sure of not being refused, freely helps himself to other's things) (N, q)
+piaqłuktaŋitchuq 	# piaqłuktaŋitchuq	! is kind (N)
+qaiŋitchuq 	# qaiŋitchuq	! is not coming
+qivliŋitchuq 	# qivliŋitchuq	! is dull
+nalupqisuŋitchuq 	# nalupqisuŋitchuq	! is confident, is sure (not doubting) (N, q)
+ipqitchuq 	# ipqitchuq	! is pure
+ipqitchuq 	# ipqitchuq	! is pure, is holy (K)
+uqqitchuq 	# uqqitchuq	! is secure, safe, sheltered
+uqitchuq 	# uqitchuq	! is light
+iluitchuq 	# iluitchuq	! is sick
+iłuitchuq 	# iłuitchuq	! is wrong
+qiñuitchuq 	# qiñuitchuq	! is patient (not hasty), is peaceful (K)
+isruitchuq 	# isruitchuq	! is endless, eternal, is clear, is not muddy (K)
+isuitchuq 	# isuitchuq	! is endless, eternal, is clear, is not muddy (N, q)
+isuitchuq 	# isuitchuq	! is eternal, endless
+misuitchuq 	# misuitchuq	! is pale (lit. without juice) (q)
+pituitchuq 	# pituitchuq	! is loose, untied
+savayuitchuq 	# savayuitchuq	! is working poorly
+aullaġmiuq 	# aullaġmiuq	! is also departing
+qiammiuq 	# qiammiuq	! is also crying
+qiapmiuq 	# qiapmiuq	! is also crying
+igruq 	# igruq	! frostbite (K)
+qaġruq 	# qaġruq	! arrow, shell
+uġruq 	# uġruq	! spongy moss (diaper liner when dried)
+uqsruq 	# uqsruq	! sea mammal oil
+uqsruq 	# uqsruq	! seal oil, used as liniment, medicine
+ivruq 	# ivruq	! sod block
+ivruq 	# ivruq	! sod for house building
+tuqunasrugniaqługu 	# tuqunasrugniaqługu	! is thought to be dead
+utukkuu 	# utukkuu	! is tiny!
+alappuu 	# alappuu	! is cold (N)
