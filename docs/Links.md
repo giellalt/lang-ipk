@@ -1,0 +1,7 @@
+* [root-morphology.md](root-morphology.md)
+* [transcriptor-abbrevs2text.md](transcriptor-abbrevs2text.md)
+* [abbreviations-stems.md](abbreviations-stems.md)
+* [adverbs-stems.md](adverbs-stems.md)
+* [determiners-stems.md](determiners-stems.md)
+* [nouns-stems.md](nouns-stems.md)
+* [verbs-stems.md](verbs-stems.md)

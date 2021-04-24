@@ -1,12 +1,14 @@
 !Distributed under the terms of the GNU General Public License version 2
 ! or any later version.
 
-! ================================================================================ !
-! This is the file that hosts the morphology for the Inupiaq morphological parser  !
-! Rules for phonology and orthography are kept in the rule-file xfst-ipk.txt       !
-! ================================================================================ !
+!! # Multichar\_Symbols and *Root* lexicon for Iñupiaq
+
+!! ## Multichar\_Symbols
 
 Multichar_Symbols
+
+!! ### Grammatical tags
+
 +N +V +Part +Prop +Pron  !!= * @CODE@ POS
 +Sg +Du +Pl			     !!= * @CODE@ Number
 +1Sg +2Sg +3Sg +4Sg	     !!= * @CODE@ Intransitive number Sg
@@ -15,51 +17,45 @@ Multichar_Symbols
 +1SgO +2SgO +3SgO +4SgO  !!= * @CODE@ Objective conjugation
 +1DuO +2DuO +3DuO +4DuO  !!= * @CODE@ Objective conjugation
 +1PlO +2PlO +3PlO +4PlO   !!= * @CODE@ Objective conjugation
++Symbol                   !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
++Abs +Rel +Trm +Loc +Abl +Mod !!= * @CODE@ Cases
++Prs +Prt                       !!= * @CODE@ Tenses
++Ind +Int +Cau +ConReal +ConUnreal !!= * @CODE@ Modes NB! No Imp
++Arch                          !!= * @CODE@ tags for archaic forms. In this pilot just used to indicate twin forms
 
-+Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 
 !! 4th person still missing in the transitive conjugation
+!! ľ !digraphs plus ľ for voiceless palatalized l
+!! Remember to check this letter, it was problematic on Linux
 
-+Abs +Rel +Trm +Loc +Abl +Mod !!= * @CODE@ Cases
-+Prs +Prt !!= * @CODE@ Tenses
-+Ind +Int +Cau +ConReal +ConUnreal !!= * @CODE@ Modes NB! No Imp
-+Arch !!= * @CODE@ tags for archaic forms. In this pilot just used to indicate twin forms
-
-! ľ !digraphs plus ľ for voiceless palatalized l
-! Remember to check this letter, it was problematic on Linux
-
-
+!! ### Boundary symbols
         !! ## Symbols that need to be escaped on the lower side (towards twolc):
  »7     !!≈ * **@CODE@**:  Literal »
  «7     !!≈ * **@CODE@**:  Literal «
-        !! ```
  %[%>%] !!= @CODE@ - Literal >
  %[%<%] !!= @CODE@ - Literal <
-        !! ```
+%>  !!= @CODE@  morphemeborder
 
-
-%> !morphemeborder
-
-! Derivational affixes
+!! ### Derivational affixes
 +LLATU +LLATU=NIAQ +NIAQ +NIAQ=ŊIT +ŊIT +SAAĠE +SAAĠE=ŊIT +TEQ !!= * @CODE@ verb elaborating
-+IT +QAQ !!= @CODE@
-+VIK !!= * @CODE@ nominalizers
-+LU +GUUQ +UNA !!= * @CODE@ clitics
++IT +QAQ             !!= @CODE@
++VIK                 !!= * @CODE@ nominalizers
++LU +GUUQ +UNA       !!= * @CODE@ clitics
 
-! Morphophonological dummy symbols
-%^TRUNC !!= * @CODE@ truncation dummy
-%^CVCTRUNC !!= * @CODE@ dummy for very long truncations
-%^VCTRUNC !!= * @CODE@ dummy for long truncation
-%^FRIC !!= * @CODE@ dummy for fricativizing stem-final consonants.
-!! Needed to avoid a general rule that also would affect unwantedly as in *aaġagu for aaqagu.
-!! The alternative would have been to postulate truncating flexives with a fricative first consonant (*aiviq -q +ġit) but that is hokus pokus
-%^EBLOCK !!= * @CODE@ dummy to block schwa going to a (aŋutik not *aŋuttak)
-%^C !!= * @CODE@ dummy for intermediate gemination
-%^DEFRIC !!= * @CODE@ dummy when fricatives go stops (amaġuq -> amaqquk) as apposed to %C in niġi+VIK -> niġġivik
-%^SCHWADEL !!= * @CODE@ !dummy with derivatives truncating semi-final schwa
-!%^CLIT !dummy with clitics used in Kalaallisut. This far unused in ipk
+!!$$$  Morphophonological dummy symbols
+%^TRUNC     !!= * @CODE@ truncation dummy
+%^CVCTRUNC  !!= * @CODE@ dummy for very long truncations
+%^VCTRUNC   !!= * @CODE@ dummy for long truncation
+%^FRIC      !!= * @CODE@ dummy for fricativizing stem-final consonants. Needed to avoid a general rule that also would affect unwantedly as in *aaġagu for aaqagu.  The alternative would have been to postulate truncating flexives with a fricative first consonant (*aiviq -q +ġit) but that is hokus pokus
+%^EBLOCK       !!= * @CODE@ dummy to block schwa going to a (aŋutik not *aŋuttak)
+%^C           !!= * @CODE@ dummy for intermediate gemination
+%^DEFRIC      !!= * @CODE@ dummy when fricatives go stops (amaġuq -> amaqquk) as apposed to %C in niġi+VIK -> niġġivik
+%^SCHWADEL    !!= * @CODE@ !dummy with derivatives truncating semi-final schwa
+!%^CLIT dummy with clitics used in Kalaallisut. This far unused in ipk
 
 !! ## Flag diacritics
+
+!! These flag diacritics are there tounify IV/TV verbs and their person merophology across the derivational morphology.
 
 @P.IV.ON@ !!= * @CODE@ Flag - sets value for transitivity to IV
 @P.TV.ON@ !!= * @CODE@ Flag - sets value for transitivity to TV
@@ -72,14 +68,20 @@ Multichar_Symbols
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
+
+!! | Flag | Explanation
+!! | ---- | -----------
  @P.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
  @D.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
  @C.NeedNoun@       !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
-!! 
+
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
+
+!! | Flag | Explanation
+!! | ---- | -----------
  @P.CmpFrst.FALSE@ !!≈ |  @CODE@ | Require that words tagged as such only appear first
  @D.CmpPref.TRUE@  !!≈ |  @CODE@ | Block such words from entering ENDLEX
  @P.CmpPref.FALSE@ !!≈ |  @CODE@ | Block these words from making further compounds
@@ -88,11 +90,14 @@ Multichar_Symbols
  @U.CmpNone.FALSE@ !!≈ |  @CODE@ | Combines with the prev tag to prohibit compounding
  @P.CmpOnly.TRUE@  !!≈ |  @CODE@ | Sets a flag to indicate that the word has passed R
  @D.CmpOnly.FALSE@ !!≈ |  @CODE@ | Disallow words coming directly from root.
-!! 
+
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
+
+!! | Flag | Explanation
+!! | ---- | -----------
  @U.Cap.Obl@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
@@ -107,6 +112,8 @@ Multichar_Symbols
 !! The common, final lexica, are found in clitics.lexc.
 
 
+!! ## The Root lexicon
+
 LEXICON Root !!= @CODE@
  Nouns ;	     !!= * @CODE@ 
  Verbs ;	     !!= * @CODE@ 
@@ -118,8 +125,8 @@ LEXICON Root !!= @CODE@
  Punctuation ;   !!= * @CODE@ 
  Symbols     ;   !!= * @CODE@ 
 
-!About lexica and continuations. Instead of separate lexica for words
-! that can only be sing or only plur and others for words that can take
-! all numbers, this is a better solution: Normal nouns are tagged tp,
-! tup etc. whereas specials are tagged with the continuation lexicon
+!! About lexica and continuations. Instead of separate lexica for words
+!! that can only be sing or only plur and others for words that can take
+!! all numbers, this is a better solution: Normal nouns are tagged tp,
+!! tup etc. whereas specials are tagged with the continuation lexicon
 

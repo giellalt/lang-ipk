@@ -1,10 +1,14 @@
 !Distributed under the terms of the GNU General Public License version 2
 ! or any later version.
 
+!! # Adverb stems
+
 LEXICON adv
+!! LEXICON @LEXNAME@ gives the tag +Adv
 +Adv: # ;
 
 LEXICON Adverbs
+!! LEXICON @LEXNAME@ gives the stems, just now some 30 of them.
 agga adv ;
 aŋma adv ;
 amma adv ;

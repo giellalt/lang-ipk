@@ -1,5 +1,10 @@
 !Distributed under the terms of the GNU General Public License version 2
 ! or any later version.
 
+!! # Abbreviations
+
+!! Nothing done.
+
 LEXICON abbr
+!! LEXICON @LEXNAME@ goes to #.
 	# ;

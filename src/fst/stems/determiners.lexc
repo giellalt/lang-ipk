@@ -1,17 +1,23 @@
 !Distributed under the terms of the GNU General Public License version 2
 ! or any later version.
 
+!! # Determiners
+
 LEXICON detna
+!! LEXICON @LEXNAME@ 
 +Det+Sg:na # ;
 
 LEXICON detnja
+!! LEXICON @LEXNAME@ for *na* +Det+Sg
 +Det+Sg:ña # ;
 
 LEXICON detobl
+!! LEXICON @LEXNAME@ for the oblique forms
 +Det+Du:kuak # ;
 +Det+Pl:kua # ;
 
 LEXICON Determiners
+!! LEXICON @LEXNAME@ here comes the list
 agna:ak detobl ;
 agna:ag detna ;
 akimna:akim detna ;
