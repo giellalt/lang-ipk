@@ -405,7 +405,12 @@ top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 MD_PAGES = root-morphology.md \
-		 transcriptor-abbrevs2text.md
+		  transcriptor-abbrevs2text.md \
+		  abbreviations-stems.md      \
+		  adverbs-stems.md            \
+		  determiners-stems.md            \
+		  nouns-stems.md              \
+		  verbs-stems.md
 
 
 # Variables:
@@ -877,31 +882,6 @@ $(INDEX): $(HEADER) $(LINKS)
 	$(AM_V_AWK)"$(GAWK)" -f $(JSPWIKI2MD) < $< > $@
 
 # vim: set ft=automake:
-# clitics-morphology.md       \
-# compounding-morphology.md   \
-# abbreviations-stems.md      \
-# acronyms-stems.md           \
-# adjectives-oahpa-stems.md   \
-# adjectives-stems.md         \
-# adpositions-stems.md        \
-# adverbs-stems.md            \
-# conjunctions-stems.md       \
-# interjections-stems.md      \
-# nouns-oahpa-stems.md        \
-# nouns-stems.md              \
-# numerals-stems.md           \
-# particles-stems.md          \
-# pronouns-stems.md           \
-# propernouns-stems.md        \
-# punctuation-stems.md        \
-# smi-propernouns-stems.md    \
-# subjunctions-stems.md       \
-# verbs-stems.md              \
-# adjectives-oahpa-affixes.md \
-# adjectives-affixes.md       \
-# nouns-affixes.md            \
-# propernouns-affixes.md      \
-# verbs-affixes.md
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.
