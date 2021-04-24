@@ -2,30 +2,33 @@
 ! or any later version.
 
 ! ============== !" 
-! Nouminal roots !" ;
+!! # Nouminal roots 
 ! ============== !" ;
 
-! stems according to Edna MacLean" ;
+!! stems according to Edna MacLean
 
 
 ! ==================================== 
-! Proper nouns, pronouns and particles 
+!! ## Proper nouns, pronouns and particles 
 ! ==================================== 
 
-! These lexica are stored here for convenience at the moment." ;
-! They should be moved to separate files when the project is" ;
-! scaled up to full size." ;
+!! These lexica are stored here for convenience at the moment.
+!! They should be moved to separate files when the project is
+!! scaled up to full size.
 
 LEXICON prop
+!! LEXICON @LEXNAME@ 
 Nayuk propmorph ;
 Naŋmak propmorph ;
 
 LEXICON pron
+!! LEXICON @LEXNAME@ 
 suna pronmorph "what" ;
 kiña:keña pronmorph "who" ;
 una pronmorph "=KAL" ;
 
 LEXICON part
+!! LEXICON @LEXNAME@ 
 aaqagu partmorph "wait a minute" ; 
 atakhii:atakhee partmorph "look at that" ; 
 ii:ee partmorph "yes" ; 
@@ -35,14 +38,15 @@ qakugulu partmorph "until next time" ;
 
 
 ! ================ !" ;
-! The noun lexicon !" ;
+!! ## The noun lexicon 
 ! ================ !" ;
 
-! Tronds additions marked !tt, remove !tt tag when the contlex is checked." ;
+!! Tronds additions marked !tt, remove !tt tag when the contlex is checked.
 
 LEXICON Nouns
+!! LEXICON @LEXNAME@ 
 
-! Numerals
+!! Numerals
 
 atausiq		    tp "1" ;
 malġuk		    tp "2" ;
@@ -62,7 +66,7 @@ piŋasukipiaq    tp "60" ;
 tallimakipiaq   tp "100" ;
 qavluun         tp "100" ;
 
-! the alphabetic list" ;
+!! the alphabetic list
 
 aaka tp "a mother" ;
 aapa tp "a father" ;
@@ -146,7 +150,7 @@ uvluġiaq tp_gem "star" ;
 etc abbr ; !!just rubbish to fill the slot" ;
 
 
-! Added from dictionary
+!! Added from dictionary
 ! =====================
 
 !atanniqsuġaatin:atanniqsuġaatite tpt "orders you to do it and you must do it" ;
