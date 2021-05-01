@@ -1,4 +1,84 @@
 
+# Symbol affixes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Multichar\_Symbols and *Root* lexicon for Iñupiaq
 
 ## Multichar\_Symbols
@@ -128,47 +208,6 @@ all numbers, this is a better solution: Normal nouns are tagged tp,
 tup etc. whereas specials are tagged with the continuation lexicon
 
 
-
-
-We describe here how abbreviations are in Inupiaq are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-
-# Abbreviations
-
-Nothing done.
-
-LEXICON abbr goes to #.
-
-# Adverb stems
-
-LEXICON adv gives the tag +Adv
-
-LEXICON Adverbs gives the stems, just now some 30 of them.
-
-
-# Determiners
-
-LEXICON detna 
-
-LEXICON detnja for *na* +Det+Sg
-
-LEXICON detobl for the oblique forms
-
-LEXICON Determiners here comes the list
-
-
-
 # Nouminal roots 
 
 stems according to Edna MacLean
@@ -202,6 +241,31 @@ the alphabetic list
 
 
 Added from dictionary
+
+
+# Determiners
+
+LEXICON detna 
+
+LEXICON detnja for *na* +Det+Sg
+
+LEXICON detobl for the oblique forms
+
+LEXICON Determiners here comes the list
+
+
+
+# Abbreviations
+
+Nothing done.
+
+LEXICON abbr goes to #.
+
+# Adverb stems
+
+LEXICON adv gives the tag +Adv
+
+LEXICON Adverbs gives the stems, just now some 30 of them.
 
 
 #  Verb lexicon  
@@ -1883,5 +1947,92 @@ uqamaqłuk IV
 uqayunaq IV
 uunaq IV
 This was a list of doublet verbs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+The philosophy behind this is that we need only one
+derivational section:
+verb iv or tv -> DER -> infl iv or tv -> f lexicon
+The f lexicon then deletes iv+tv and tv+iv combinations,
+and leaves only iv+ív and tv+tv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Inupiaq are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
