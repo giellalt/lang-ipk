@@ -5,11 +5,11 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-ipk)](https://github.com/giellalt/lang-ipk/issues)
 [![Build status](https://github.com/giellalt/lang-ipk/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-ipk/actions)
 
-This page documents the work on the **Inupiaq language model**. 
+This page documents the work on the [Inupiaq language model](http://github.com/giellalt/lang-ipk). 
 
 # Project documentation
 
-* Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
+* (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)
 
 # In-source documentation
 
