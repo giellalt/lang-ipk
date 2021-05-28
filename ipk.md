@@ -606,64 +606,101 @@ These were the set types.
 
 
 
-# Abbreviations
-
-Nothing done.
-
-LEXICON abbr goes to #.
-
-# Nouminal roots 
-
-stems according to Edna MacLean
-
-
-## Proper nouns, pronouns and particles 
-
-These lexica are stored here for convenience at the moment.
-They should be moved to separate files when the project is
-scaled up to full size.
-
-LEXICON prop 
-
-LEXICON pron 
-
-LEXICON part 
-
-
-## The noun lexicon 
-
-Tronds additions marked !tt, remove !tt tag when the contlex is checked.
-
-LEXICON Nouns 
-
-Numerals
-
-
-the alphabetic list
 
 
 
 
-Added from dictionary
-
-
-# Determiners
-
-LEXICON detna 
-
-LEXICON detnja for *na* +Det+Sg
-
-LEXICON detobl for the oblique forms
-
-LEXICON Determiners here comes the list
 
 
 
-# Adverb stems
 
-LEXICON adv gives the tag +Adv
 
-LEXICON Adverbs gives the stems, just now some 30 of them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The philosophy behind this is that we need only one
+derivational section:
+verb iv or tv -> DER -> infl iv or tv -> f lexicon
+The f lexicon then deletes iv+tv and tv+iv combinations,
+and leaves only iv+ív and tv+tv
 
 
 #  Verb lexicon  
@@ -2348,84 +2385,64 @@ This was a list of doublet verbs.
 
 
 
-# Symbol affixes
+# Abbreviations
 
+Nothing done.
 
+LEXICON abbr goes to #.
 
+# Determiners
 
+LEXICON detna 
 
+LEXICON detnja for *na* +Det+Sg
 
+LEXICON detobl for the oblique forms
 
+LEXICON Determiners here comes the list
 
 
 
+# Adverb stems
 
+LEXICON adv gives the tag +Adv
 
+LEXICON Adverbs gives the stems, just now some 30 of them.
 
 
+# Nouminal roots 
 
+stems according to Edna MacLean
 
 
+## Proper nouns, pronouns and particles 
 
+These lexica are stored here for convenience at the moment.
+They should be moved to separate files when the project is
+scaled up to full size.
 
+LEXICON prop 
 
+LEXICON pron 
 
+LEXICON part 
 
 
+## The noun lexicon 
 
+Tronds additions marked !tt, remove !tt tag when the contlex is checked.
 
+LEXICON Nouns 
 
+Numerals
 
 
+the alphabetic list
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Added from dictionary
 
 
 # Multichar\_Symbols and *Root* lexicon for Iñupiaq
@@ -2567,39 +2584,6 @@ tup etc. whereas specials are tagged with the continuation lexicon
 
 
 
-The philosophy behind this is that we need only one
-derivational section:
-verb iv or tv -> DER -> infl iv or tv -> f lexicon
-The f lexicon then deletes iv+tv and tv+iv combinations,
-and leaves only iv+ív and tv+tv
-
-
-
-
-We describe here how abbreviations are in Inupiaq are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2642,6 +2626,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Inupiaq are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
