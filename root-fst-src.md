@@ -127,3 +127,5 @@ that can only be sing or only plur and others for words that can take
 all numbers, this is a better solution: Normal nouns are tagged tp,
 tup etc. whereas specials are tagged with the continuation lexicon
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/root.lexc)</small>
