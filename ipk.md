@@ -607,49 +607,88 @@ These were the set types.
 
 * * *
 <small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-ipk/blob/main/../src/cg3/functions.cg3)</small>
-# Nouminal roots 
-
-stems according to Edna MacLean
-
-
-## Proper nouns, pronouns and particles 
-
-These lexica are stored here for convenience at the moment.
-They should be moved to separate files when the project is
-scaled up to full size.
-
-LEXICON prop 
-
-LEXICON pron 
-
-LEXICON part 
-
-
-## The noun lexicon 
-
-Tronds additions marked !tt, remove !tt tag when the contlex is checked.
-
-LEXICON Nouns 
-
-Numerals
-
-
-the alphabetic list
 
 
 
 
-Added from dictionary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/stems/nouns.lexc)</small>
-# Abbreviations
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/affixes/verbs.lexc)</small>
+# Symbol affixes
 
-Nothing done.
 
-LEXICON abbr goes to #.
+
+
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/abbreviations.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/stems/abbreviations.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/affixes/symbols.lexc)</small>
 # Adverb stems
 
 LEXICON adv gives the tag +Adv
@@ -658,6 +697,19 @@ LEXICON Adverbs gives the stems, just now some 30 of them.
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/stems/adverbs.lexc)</small>
+# Determiners
+
+LEXICON detna 
+
+LEXICON detnja for *na* +Det+Sg
+
+LEXICON detobl for the oblique forms
+
+LEXICON Determiners here comes the list
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/determiners.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/stems/determiners.lexc)</small>
 #  Verb lexicon  
 
 
@@ -2341,119 +2393,49 @@ This was a list of doublet verbs.
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/stems/verbs.lexc)</small>
-# Determiners
+# Nouminal roots 
 
-LEXICON detna 
-
-LEXICON detnja for *na* +Det+Sg
-
-LEXICON detobl for the oblique forms
-
-LEXICON Determiners here comes the list
+stems according to Edna MacLean
 
 
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/determiners.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/stems/determiners.lexc)</small>
+## Proper nouns, pronouns and particles 
+
+These lexica are stored here for convenience at the moment.
+They should be moved to separate files when the project is
+scaled up to full size.
+
+LEXICON prop 
+
+LEXICON pron 
+
+LEXICON part 
 
 
+## The noun lexicon 
+
+Tronds additions marked !tt, remove !tt tag when the contlex is checked.
+
+LEXICON Nouns 
+
+Numerals
 
 
-
-
-
-
-
-
-The philosophy behind this is that we need only one
-derivational section:
-verb iv or tv -> DER -> infl iv or tv -> f lexicon
-The f lexicon then deletes iv+tv and tv+iv combinations,
-and leaves only iv+ív and tv+tv
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/clitics.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/clitics.lexc)</small>
-# Symbol affixes
+the alphabetic list
 
 
 
 
+Added from dictionary
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/stems/nouns.lexc)</small>
+# Abbreviations
 
+Nothing done.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+LEXICON abbr goes to #.
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/abbreviations.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/stems/abbreviations.lexc)</small>
 # Multichar\_Symbols and *Root* lexicon for Iñupiaq
 
 ## Multichar\_Symbols
@@ -2584,6 +2566,24 @@ tup etc. whereas specials are tagged with the continuation lexicon
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/root.lexc)</small>
+
+
+
+
+
+
+
+
+
+
+The philosophy behind this is that we need only one
+derivational section:
+verb iv or tv -> DER -> infl iv or tv -> f lexicon
+The f lexicon then deletes iv+tv and tv+iv combinations,
+and leaves only iv+ív and tv+tv
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/clitics.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/clitics.lexc)</small>
 
 
 We describe here how abbreviations are in Inupiaq are read out, e.g.
