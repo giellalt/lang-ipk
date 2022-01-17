@@ -14,7 +14,7 @@
  * +1SgO +2SgO +3SgO +4SgO   Objective conjugation
  * +1DuO +2DuO +3DuO +4DuO   Objective conjugation
  * +1PlO +2PlO +3PlO +4PlO    Objective conjugation
- * +Symbol = independent symbols in the text stream, like £, €, ©
+* +Symbol© = independent symbols in the text stream, like £, €, ©
  * +Abs +Rel +Trm +Loc +Abl +Mod  Cases
  * +Prs +Prt                        Tenses
  * +Ind +Int +Cau +ConReal +ConUnreal  Modes NB! No Imp
@@ -27,8 +27,8 @@ Remember to check this letter, it was problematic on Linux
 
 ### Boundary symbols
 ## Symbols that need to be escaped on the lower side (towards twolc):
- * **»7**:  Literal »
- * **«7**:  Literal «
+* **»7»**:  Literal »
+* **«7«**:  Literal «
   %[%>%]  - Literal >
   %[%<%]  - Literal <
  %>    morphemeborder
@@ -68,9 +68,9 @@ with verbs if the verb is further derived into a noun again:
 
 | Flag | Explanation
 | ---- | -----------
- |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+|  @P.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @D.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @C.NeedNoun@nominalised | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
@@ -79,14 +79,14 @@ do no harm.
 
 | Flag | Explanation
 | ---- | -----------
- |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
- |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
- |  @P.CmpPref.FALSE@ | Block these words from making further compounds
- |  @D.CmpLast.TRUE@ | Block such words from entering R
- |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
- |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
- |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
- |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+|  @P.CmpFrst.FALSE@first | Require that words tagged as such only appear first
+|  @D.CmpPref.TRUE@ENDLEX | Block such words from entering ENDLEX
+|  @P.CmpPref.FALSE@compounds | Block these words from making further compounds
+|  @D.CmpLast.TRUE@R | Block such words from entering R
+|  @D.CmpNone.TRUE@compounding | Combines with the next tag to prohibit compounding
+|  @U.CmpNone.FALSE@compounding | Combines with the prev tag to prohibit compounding
+|  @P.CmpOnly.TRUE@R | Sets a flag to indicate that the word has passed R
+|  @D.CmpOnly.FALSE@root. | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
@@ -95,8 +95,8 @@ given the proper use of these flags.
 
 | Flag | Explanation
 | ---- | -----------
- |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
- |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Obl@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Opt@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
 
 
 This file gives the start  of the Iñupiaq lexicon.
