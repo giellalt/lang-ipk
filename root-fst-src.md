@@ -6,19 +6,19 @@
 
 ### Grammatical tags
 
- * +N +V +Part +Prop +Pron   POS
- * +Sg +Du +Pl			      Number
- * +1Sg +2Sg +3Sg +4Sg	      Intransitive number Sg
- * +1Du +2Du +3Du +4Du	      Intransitive number Du
- * +1Pl +2Pl +3Pl +4Pl	      Intransitive number Pl
- * +1SgO +2SgO +3SgO +4SgO   Objective conjugation
- * +1DuO +2DuO +3DuO +4DuO   Objective conjugation
- * +1PlO +2PlO +3PlO +4PlO    Objective conjugation
-* +Symbol© = independent symbols in the text stream, like £, €, ©
- * +Abs +Rel +Trm +Loc +Abl +Mod  Cases
- * +Prs +Prt                        Tenses
- * +Ind +Int +Cau +ConReal +ConUnreal  Modes NB! No Imp
- * +Arch                           tags for archaic forms. In this pilot just used to indicate twin forms
+* +N +V +Part +Prop +Pron   POS
+* +Sg +Du +Pl			      Number
+* +1Sg +2Sg +3Sg +4Sg	      Intransitive number Sg
+* +1Du +2Du +3Du +4Du	      Intransitive number Du
+* +1Pl +2Pl +3Pl +4Pl	      Intransitive number Pl
+* +1SgO +2SgO +3SgO +4SgO   Objective conjugation
+* +1DuO +2DuO +3DuO +4DuO   Objective conjugation
+* +1PlO +2PlO +3PlO +4PlO    Objective conjugation
+* +Symbol = independent symbols in the text stream, like £, €, ©
+* +Abs +Rel +Trm +Loc +Abl +Mod  Cases
+* +Prs +Prt                        Tenses
+* +Ind +Int +Cau +ConReal +ConUnreal  Modes NB! No Imp
+* +Arch                           tags for archaic forms. In this pilot just used to indicate twin forms
 
 
 4th person still missing in the transitive conjugation
@@ -27,39 +27,39 @@ Remember to check this letter, it was problematic on Linux
 
 ### Boundary symbols
 ## Symbols that need to be escaped on the lower side (towards twolc):
-* **»7»**:  Literal »
-* **«7«**:  Literal «
-  %[%>%]  - Literal >
-  %[%<%]  - Literal <
- %>    morphemeborder
+* **»7**:  Literal »
+* **«7**:  Literal «
+ %[%>%]  - Literal >
+ %[%<%]  - Literal <
+%>    morphemeborder
 
 ### Derivational affixes
- * +LLATU +LLATU=NIAQ +NIAQ +NIAQ=ŊIT +ŊIT +SAAĠE +SAAĠE=ŊIT +TEQ  verb elaborating
- +IT +QAQ             
- * +VIK                  nominalizers
- * +LU +GUUQ +UNA        clitics
+* +LLATU +LLATU=NIAQ +NIAQ +NIAQ=ŊIT +ŊIT +SAAĠE +SAAĠE=ŊIT +TEQ  verb elaborating
++IT +QAQ             
+* +VIK                  nominalizers
+* +LU +GUUQ +UNA        clitics
 
 
 *Morphophonological dummy symbols examples:*
- * %^TRUNC      truncation dummy
- * %^CVCTRUNC   dummy for very long truncations
- * %^VCTRUNC    dummy for long truncation
- * %^FRIC       dummy for fricativizing stem-final consonants. Needed to avoid a general rule that also would affect unwantedly as in *aaġagu for aaqagu.  The alternative would have been to postulate truncating flexives with a fricative first consonant (*aiviq -q +ġit) but that is hokus pokus
- * %^EBLOCK        dummy to block schwa going to a (aŋutik not *aŋuttak)
- * %^C            dummy for intermediate gemination
- * %^DEFRIC       dummy when fricatives go stops (amaġuq -> amaqquk) as apposed to %C in niġi+VIK -> niġġivik
- * %^SCHWADEL     !dummy with derivatives truncating semi-final schwa
+* %^TRUNC      truncation dummy
+* %^CVCTRUNC   dummy for very long truncations
+* %^VCTRUNC    dummy for long truncation
+* %^FRIC       dummy for fricativizing stem-final consonants. Needed to avoid a general rule that also would affect unwantedly as in *aaġagu for aaqagu.  The alternative would have been to postulate truncating flexives with a fricative first consonant (*aiviq -q +ġit) but that is hokus pokus
+* %^EBLOCK        dummy to block schwa going to a (aŋutik not *aŋuttak)
+* %^C            dummy for intermediate gemination
+* %^DEFRIC       dummy when fricatives go stops (amaġuq -> amaqquk) as apposed to %C in niġi+VIK -> niġġivik
+* %^SCHWADEL     !dummy with derivatives truncating semi-final schwa
 
 ## Flag diacritics
 
 These flag diacritics are there tounify IV/TV verbs and their person merophology across the derivational morphology.
 
- * @P.IV.ON@  Flag - sets value for transitivity to IV
- * @P.TV.ON@  Flag - sets value for transitivity to TV
- * @R.IV.ON@  Flag - reset value for transitivity to IV
- * @R.TV.ON@  Flag - reset value for transitivity to TV
- * @D.IV.ON@  Flag - delete if unsaturated IV flag (=Verb was not IV)
- * @D.TV.ON@  Flag - delete if unsaturated TV flag (=Verb was not TV)
+* @P.IV.ON@  Flag - sets value for transitivity to IV
+* @P.TV.ON@  Flag - sets value for transitivity to TV
+* @R.IV.ON@  Flag - reset value for transitivity to IV
+* @R.TV.ON@  Flag - reset value for transitivity to TV
+* @D.IV.ON@  Flag - delete if unsaturated IV flag (=Verb was not IV)
+* @D.TV.ON@  Flag - delete if unsaturated TV flag (=Verb was not TV)
 
 
 We have manually optimised the structure of our lexicon using following
@@ -68,9 +68,9 @@ with verbs if the verb is further derived into a noun again:
 
 | Flag | Explanation
 | ---- | -----------
-|  @P.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
-|  @D.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
-|  @C.NeedNoun@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
@@ -79,14 +79,14 @@ do no harm.
 
 | Flag | Explanation
 | ---- | -----------
-|  @P.CmpFrst.FALSE@first | Require that words tagged as such only appear first
-|  @D.CmpPref.TRUE@ENDLEX | Block such words from entering ENDLEX
-|  @P.CmpPref.FALSE@compounds | Block these words from making further compounds
-|  @D.CmpLast.TRUE@R | Block such words from entering R
-|  @D.CmpNone.TRUE@compounding | Combines with the next tag to prohibit compounding
-|  @U.CmpNone.FALSE@compounding | Combines with the prev tag to prohibit compounding
-|  @P.CmpOnly.TRUE@R | Sets a flag to indicate that the word has passed R
-|  @D.CmpOnly.FALSE@root. | Disallow words coming directly from root.
+|  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
+|  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
+|  @P.CmpPref.FALSE@ | Block these words from making further compounds
+|  @D.CmpLast.TRUE@ | Block such words from entering R
+|  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
+|  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
+|  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
+|  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
@@ -95,8 +95,8 @@ given the proper use of these flags.
 
 | Flag | Explanation
 | ---- | -----------
-|  @U.Cap.Obl@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
-|  @U.Cap.Opt@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
 
 This file gives the start  of the Iñupiaq lexicon.
@@ -111,16 +111,16 @@ The common, final lexica, are found in clitics.lexc.
 
 ## The Root lexicon
 
- LEXICON Root 
- *  Nouns ;	      
- *  Verbs ;	      
- *  Determiners ;    
- *  Adverbs ;	      
- *  prop ;		      
- *  pron ;		      
- *  part ;		      
- *  Punctuation ;    
- *  Symbols     ;    
+LEXICON Root 
+*  Nouns ;	      
+*  Verbs ;	      
+*  Determiners ;    
+*  Adverbs ;	      
+*  prop ;		      
+*  pron ;		      
+*  part ;		      
+*  Punctuation ;    
+*  Symbols     ;    
 
 About lexica and continuations. Instead of separate lexica for words
 that can only be sing or only plur and others for words that can take
