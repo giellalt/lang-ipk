@@ -1,7 +1,6 @@
 
 #  Verb lexicon  
 
-
 Stems according to Edna MacLean
 
 * Lexicon inventory of stems (Feb 2009):
@@ -11,10 +10,8 @@ Stems according to Edna MacLean
 	*  73 TV
 	*  70 verb_intr_suq
 
-
 Note that there are appr 120 verb + contlex combination being identical.
 They must thus be uniqed. The list is found at the end of this document.
-
 
 LEXICON Verbs 
 Siḷivigmiittuq ! is at Selawik
@@ -1545,8 +1542,6 @@ uŋugaa ! drives it (an animal)
 uŋuluġusaaqtuq ! frightens away an attacking animal (N)
 ŋraiḷiuqtuq ! fries meat
 
-
-
 List of double verbs (to be uniqued, a handful is taken already)
 In addition comes double verbs with different contlexes.
 They skall be kept as-is.
@@ -1679,6 +1674,9 @@ uqayunaq IV
 uunaq IV
 This was a list of doublet verbs.
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/stems/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/stems/verbs.lexc)</small>
+
+---
+

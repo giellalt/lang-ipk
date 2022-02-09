@@ -3,7 +3,6 @@
 
 ## Multichar\_Symbols
 
-
 ### Grammatical tags
 
 * +N +V +Part +Prop +Pron   POS
@@ -19,7 +18,6 @@
 * +Prs +Prt                        Tenses
 * +Ind +Int +Cau +ConReal +ConUnreal  Modes NB! No Imp
 * +Arch                           tags for archaic forms. In this pilot just used to indicate twin forms
-
 
 4th person still missing in the transitive conjugation
 ľ !digraphs plus ľ for voiceless palatalized l
@@ -38,7 +36,6 @@ Remember to check this letter, it was problematic on Linux
 +IT +QAQ             
 * +VIK                  nominalizers
 * +LU +GUUQ +UNA        clitics
-
 
 *Morphophonological dummy symbols examples:*
 * %^TRUNC      truncation dummy
@@ -60,7 +57,6 @@ These flag diacritics are there tounify IV/TV verbs and their person merophology
 * @R.TV.ON@  Flag - reset value for transitivity to TV
 * @D.IV.ON@  Flag - delete if unsaturated IV flag (=Verb was not IV)
 * @D.TV.ON@  Flag - delete if unsaturated TV flag (=Verb was not TV)
-
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
@@ -98,7 +94,6 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
-
 This file gives the start  of the Iñupiaq lexicon.
 The lexicon Root points at the different parts of speech.
 Each POS has its own file stems/nouns.lexc, etc., which in
@@ -107,7 +102,6 @@ POS-changing nominalizers are found in affixes/verbs.lexc and
 verbalizers in affixes/nouns.lexc
 It might be a good idea to have noun-ipk-der.txt etc. as well.
 The common, final lexica, are found in clitics.lexc.
-
 
 ## The Root lexicon
 
@@ -128,4 +122,8 @@ all numbers, this is a better solution: Normal nouns are tagged tp,
 tup etc. whereas specials are tagged with the continuation lexicon
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-ipk/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/root.lexc)</small>
+
+---
+
