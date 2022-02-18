@@ -170,8 +170,206 @@ These were the set types.
 ## HNOUN MAPPING
 
 * * *
-
 <small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-ipk/blob/main/src/cg3/functions.cg3)</small>
+# Symbol affixes
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/affixes/symbols.lexc)</small>
+
+---
+
+
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/affixes/verbs.lexc)</small>
+
+---
+
+
+
+The philosophy behind this is that we need only one
+derivational section:
+verb iv or tv -> DER -> infl iv or tv -> f lexicon
+The f lexicon then deletes iv+tv and tv+iv combinations,
+and leaves only iv+ív and tv+tv
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/clitics.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/clitics.lexc)</small>
+
+---
+
+
+# Multichar\_Symbols and *Root* lexicon for Iñupiaq
+
+## Multichar\_Symbols
+
+### Grammatical tags
+
+* +N +V +Part +Prop +Pron   POS
+* +Sg +Du +Pl			      Number
+* +1Sg +2Sg +3Sg +4Sg	      Intransitive number Sg
+* +1Du +2Du +3Du +4Du	      Intransitive number Du
+* +1Pl +2Pl +3Pl +4Pl	      Intransitive number Pl
+* +1SgO +2SgO +3SgO +4SgO   Objective conjugation
+* +1DuO +2DuO +3DuO +4DuO   Objective conjugation
+* +1PlO +2PlO +3PlO +4PlO    Objective conjugation
+* +Symbol = independent symbols in the text stream, like £, €, ©
+* +Abs +Rel +Trm +Loc +Abl +Mod  Cases
+* +Prs +Prt                        Tenses
+* +Ind +Int +Cau +ConReal +ConUnreal  Modes NB! No Imp
+* +Arch                           tags for archaic forms. In this pilot just used to indicate twin forms
+
+4th person still missing in the transitive conjugation
+ľ !digraphs plus ľ for voiceless palatalized l
+Remember to check this letter, it was problematic on Linux
+
+### Boundary symbols
+## Symbols that need to be escaped on the lower side (towards twolc):
+* **»7**:  Literal »
+* **«7**:  Literal «
+ %[%>%]  - Literal >
+ %[%<%]  - Literal <
+%>    morphemeborder
+
+### Derivational affixes
+* +LLATU +LLATU=NIAQ +NIAQ +NIAQ=ŊIT +ŊIT +SAAĠE +SAAĠE=ŊIT +TEQ  verb elaborating
++IT +QAQ             
+* +VIK                  nominalizers
+* +LU +GUUQ +UNA        clitics
+
+*Morphophonological dummy symbols examples:*
+* %^TRUNC      truncation dummy
+* %^CVCTRUNC   dummy for very long truncations
+* %^VCTRUNC    dummy for long truncation
+* %^FRIC       dummy for fricativizing stem-final consonants. Needed to avoid a general rule that also would affect unwantedly as in *aaġagu for aaqagu.  The alternative would have been to postulate truncating flexives with a fricative first consonant (*aiviq -q +ġit) but that is hokus pokus
+* %^EBLOCK        dummy to block schwa going to a (aŋutik not *aŋuttak)
+* %^C            dummy for intermediate gemination
+* %^DEFRIC       dummy when fricatives go stops (amaġuq -> amaqquk) as apposed to %C in niġi+VIK -> niġġivik
+* %^SCHWADEL     !dummy with derivatives truncating semi-final schwa
+
+## Flag diacritics
+
+These flag diacritics are there tounify IV/TV verbs and their person merophology across the derivational morphology.
+
+* @P.IV.ON@  Flag - sets value for transitivity to IV
+* @P.TV.ON@  Flag - sets value for transitivity to TV
+* @R.IV.ON@  Flag - reset value for transitivity to IV
+* @R.TV.ON@  Flag - reset value for transitivity to TV
+* @D.IV.ON@  Flag - delete if unsaturated IV flag (=Verb was not IV)
+* @D.TV.ON@  Flag - delete if unsaturated TV flag (=Verb was not TV)
+
+We have manually optimised the structure of our lexicon using following
+flag diacritics to restrict morhpological combinatorics - only allow compounds
+with verbs if the verb is further derived into a noun again:
+
+| Flag | Explanation
+| ---- | -----------
+|  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+
+For languages that allow compounding, the following flag diacritics are needed
+to control position-based compounding restrictions for nominals. Their use is
+handled automatically if combined with +CmpN/xxx tags. If not used, they will
+do no harm.
+
+| Flag | Explanation
+| ---- | -----------
+|  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
+|  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
+|  @P.CmpPref.FALSE@ | Block these words from making further compounds
+|  @D.CmpLast.TRUE@ | Block such words from entering R
+|  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
+|  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
+|  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
+|  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+
+Use the following flag diacritics to control downcasing of derived proper
+nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
+these flags. There exists a ready-made regex that will do the actual down-casing
+given the proper use of these flags.
+
+| Flag | Explanation
+| ---- | -----------
+|  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+This file gives the start  of the Iñupiaq lexicon.
+The lexicon Root points at the different parts of speech.
+Each POS has its own file stems/nouns.lexc, etc., which in
+turn points to affixes/nouns.lexc, etc.
+POS-changing nominalizers are found in affixes/verbs.lexc and
+verbalizers in affixes/nouns.lexc
+It might be a good idea to have noun-ipk-der.txt etc. as well.
+The common, final lexica, are found in clitics.lexc.
+
+## The Root lexicon
+
+LEXICON Root 
+*  Nouns ;	      
+*  Verbs ;	      
+*  Determiners ;    
+*  Adverbs ;	      
+*  prop ;		      
+*  pron ;		      
+*  part ;		      
+*  Punctuation ;    
+*  Symbols     ;    
+
+About lexica and continuations. Instead of separate lexica for words
+that can only be sing or only plur and others for words that can take
+all numbers, this is a better solution: Normal nouns are tagged tp,
+tup etc. whereas specials are tagged with the continuation lexicon
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/root.lexc)</small>
+
+---
+
+
+# Abbreviations
+
+Nothing done.
+
+LEXICON abbr goes to #.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/abbreviations.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/stems/abbreviations.lexc)</small>
+
+---
+
+
+# Adverb stems
+
+LEXICON adv gives the tag +Adv
+
+LEXICON Adverbs gives the stems, just now some 30 of them.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/stems/adverbs.lexc)</small>
+
+---
+
+
+# Determiners
+
+LEXICON detna 
+
+LEXICON detnja for *na* +Det+Sg
+
+LEXICON detobl for the oblique forms
+
+LEXICON Determiners here comes the list
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/determiners.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/stems/determiners.lexc)</small>
 
 ---
 
@@ -207,36 +405,6 @@ Added from dictionary
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/stems/nouns.lexc)</small>
-
----
-
-
-# Adverb stems
-
-LEXICON adv gives the tag +Adv
-
-LEXICON Adverbs gives the stems, just now some 30 of them.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/stems/adverbs.lexc)</small>
-
----
-
-
-# Determiners
-
-LEXICON detna 
-
-LEXICON detnja for *na* +Det+Sg
-
-LEXICON detobl for the oblique forms
-
-LEXICON Determiners here comes the list
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/determiners.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/stems/determiners.lexc)</small>
 
 ---
 
@@ -1923,179 +2091,6 @@ This was a list of doublet verbs.
 ---
 
 
-# Abbreviations
-
-Nothing done.
-
-LEXICON abbr goes to #.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/abbreviations.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/stems/abbreviations.lexc)</small>
-
----
-
-
-
-The philosophy behind this is that we need only one
-derivational section:
-verb iv or tv -> DER -> infl iv or tv -> f lexicon
-The f lexicon then deletes iv+tv and tv+iv combinations,
-and leaves only iv+ív and tv+tv
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/clitics.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/clitics.lexc)</small>
-
----
-
-
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/affixes/verbs.lexc)</small>
-
----
-
-
-# Symbol affixes
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/affixes/symbols.lexc)</small>
-
----
-
-
-# Multichar\_Symbols and *Root* lexicon for Iñupiaq
-
-## Multichar\_Symbols
-
-### Grammatical tags
-
-* +N +V +Part +Prop +Pron   POS
-* +Sg +Du +Pl			      Number
-* +1Sg +2Sg +3Sg +4Sg	      Intransitive number Sg
-* +1Du +2Du +3Du +4Du	      Intransitive number Du
-* +1Pl +2Pl +3Pl +4Pl	      Intransitive number Pl
-* +1SgO +2SgO +3SgO +4SgO   Objective conjugation
-* +1DuO +2DuO +3DuO +4DuO   Objective conjugation
-* +1PlO +2PlO +3PlO +4PlO    Objective conjugation
-* +Symbol = independent symbols in the text stream, like £, €, ©
-* +Abs +Rel +Trm +Loc +Abl +Mod  Cases
-* +Prs +Prt                        Tenses
-* +Ind +Int +Cau +ConReal +ConUnreal  Modes NB! No Imp
-* +Arch                           tags for archaic forms. In this pilot just used to indicate twin forms
-
-4th person still missing in the transitive conjugation
-ľ !digraphs plus ľ for voiceless palatalized l
-Remember to check this letter, it was problematic on Linux
-
-### Boundary symbols
-## Symbols that need to be escaped on the lower side (towards twolc):
-* **»7**:  Literal »
-* **«7**:  Literal «
- %[%>%]  - Literal >
- %[%<%]  - Literal <
-%>    morphemeborder
-
-### Derivational affixes
-* +LLATU +LLATU=NIAQ +NIAQ +NIAQ=ŊIT +ŊIT +SAAĠE +SAAĠE=ŊIT +TEQ  verb elaborating
-+IT +QAQ             
-* +VIK                  nominalizers
-* +LU +GUUQ +UNA        clitics
-
-*Morphophonological dummy symbols examples:*
-* %^TRUNC      truncation dummy
-* %^CVCTRUNC   dummy for very long truncations
-* %^VCTRUNC    dummy for long truncation
-* %^FRIC       dummy for fricativizing stem-final consonants. Needed to avoid a general rule that also would affect unwantedly as in *aaġagu for aaqagu.  The alternative would have been to postulate truncating flexives with a fricative first consonant (*aiviq -q +ġit) but that is hokus pokus
-* %^EBLOCK        dummy to block schwa going to a (aŋutik not *aŋuttak)
-* %^C            dummy for intermediate gemination
-* %^DEFRIC       dummy when fricatives go stops (amaġuq -> amaqquk) as apposed to %C in niġi+VIK -> niġġivik
-* %^SCHWADEL     !dummy with derivatives truncating semi-final schwa
-
-## Flag diacritics
-
-These flag diacritics are there tounify IV/TV verbs and their person merophology across the derivational morphology.
-
-* @P.IV.ON@  Flag - sets value for transitivity to IV
-* @P.TV.ON@  Flag - sets value for transitivity to TV
-* @R.IV.ON@  Flag - reset value for transitivity to IV
-* @R.TV.ON@  Flag - reset value for transitivity to TV
-* @D.IV.ON@  Flag - delete if unsaturated IV flag (=Verb was not IV)
-* @D.TV.ON@  Flag - delete if unsaturated TV flag (=Verb was not TV)
-
-We have manually optimised the structure of our lexicon using following
-flag diacritics to restrict morhpological combinatorics - only allow compounds
-with verbs if the verb is further derived into a noun again:
-
-| Flag | Explanation
-| ---- | -----------
-|  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
-|  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
-|  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
-
-For languages that allow compounding, the following flag diacritics are needed
-to control position-based compounding restrictions for nominals. Their use is
-handled automatically if combined with +CmpN/xxx tags. If not used, they will
-do no harm.
-
-| Flag | Explanation
-| ---- | -----------
-|  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
-|  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
-|  @P.CmpPref.FALSE@ | Block these words from making further compounds
-|  @D.CmpLast.TRUE@ | Block such words from entering R
-|  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
-|  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
-|  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
-|  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
-
-Use the following flag diacritics to control downcasing of derived proper
-nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
-these flags. There exists a ready-made regex that will do the actual down-casing
-given the proper use of these flags.
-
-| Flag | Explanation
-| ---- | -----------
-|  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
-|  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
-
-This file gives the start  of the Iñupiaq lexicon.
-The lexicon Root points at the different parts of speech.
-Each POS has its own file stems/nouns.lexc, etc., which in
-turn points to affixes/nouns.lexc, etc.
-POS-changing nominalizers are found in affixes/verbs.lexc and
-verbalizers in affixes/nouns.lexc
-It might be a good idea to have noun-ipk-der.txt etc. as well.
-The common, final lexica, are found in clitics.lexc.
-
-## The Root lexicon
-
-LEXICON Root 
-*  Nouns ;	      
-*  Verbs ;	      
-*  Determiners ;    
-*  Adverbs ;	      
-*  prop ;		      
-*  pron ;		      
-*  part ;		      
-*  Punctuation ;    
-*  Symbols     ;    
-
-About lexica and continuations. Instead of separate lexica for words
-that can only be sing or only plur and others for words that can take
-all numbers, this is a better solution: Normal nouns are tagged tp,
-tup etc. whereas specials are tagged with the continuation lexicon
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/root.lexc)</small>
-
----
-
-
 
 retroflex plosive, voiceless			t`  ʈ	    0288, 648 (` = ASCII 096)
 retroflex plosive, voiced			d`	ɖ		0256, 598
@@ -2264,20 +2259,6 @@ retracted tongue root			_q
 
 
 
-% komma% :,      Root ;
-% tjuohkkis% :%. Root ;
-% kolon% :%:     Root ;
-% sárggis% :%-   Root ; 
-% násti% :%*     Root ; 
-
-* * *
-
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
-
----
-
-
-
 We describe here how abbreviations are in Inupiaq are read out, e.g.
 for text-to-speech systems.
 
@@ -2293,6 +2274,20 @@ For example:
 * * *
 
 <small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+---
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
+
+* * *
+
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
@@ -2334,7 +2329,6 @@ CLB
 LEFT
 RIGHT
 WEB
-QMARK
 PPUNCT
 PUNCT
 
@@ -2448,9 +2442,6 @@ Sem/Txt
 
 HUMAN
 
-HAB-ACTOR
-HAB-ACTOR-NOT-HUMAN
-
 PROP-ATTR
 PROP-SUR
 
@@ -2539,8 +2530,6 @@ INITIAL
 ### Sets for word or not
 
 WORD
-REAL-WORD
-REAL-WORD-NOT-ABBR
 NOT-COMMA
 
 ### Case sets
@@ -2599,75 +2588,7 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-ipk/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
-
----
-
-# Grammar checker tokenisation for ipk
-
-Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
-Then just:
-```
-$ make
-$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-```
-
-More usage examples:
-```
-$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-```
-
-Pmatch documentation:
-<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
-
-Characters which have analyses in the lexicon, but can appear without spaces
-before/after, that is, with no context conditions, and adjacent to words:
-* Punct contains ASCII punctuation marks
-* The symbol after m-dash is soft-hyphen `U+00AD`
-* The symbol following {•} is byte-order-mark / zero-width no-break space
-`U+FEFF`.
-
-Whitespace contains ASCII white space and
-the List contains some unicode white space characters
-* En Quad U+2000 to Zero-Width Joiner U+200d'
-* Narrow No-Break Space U+202F
-* Medium Mathematical Space U+205F
-* Word joiner U+2060
-
-Apart from what's in our morphology, there are
-1) unknown word-like forms, and
-2) unmatched strings
-We want to give 1) a match, but let 2) be treated specially by hfst-tokenise -a
-* select extended latin symbols
-* select symbols
-* various symbols from Private area (probably Microsoft),
-so far:
-* U+F0B7 for "x in box"
-
-TODO: Could use something like this, but built-in's don't include šžđčŋ:
-
-Simply give an empty reading when something is unknown:
-hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
-remove empty analyses from other readings. Empty readings are also
-legal in CG, they get a default baseform equal to the wordform, but
-no tag to check, so it's safer to let hfst-tokenise handle them.
-
-Finally we mark as a token any sequence making up a:
-* known word in context
-* unknown (OOV) token in context
-* sequence of word and punctuation
-* URL in context
-
-* * *
-
-<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-ipk/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
-
----
-
-# Tokeniser for ipk
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-ipk/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for ipk
 
 Usage:
 ```
@@ -2679,7 +2600,7 @@ $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-des
 ```
 
 Pmatch documentation:
-<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
+<https://github.com/hfst/hfst/wiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -2727,6 +2648,69 @@ Finally we mark as a token any sequence making up a:
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-ipk/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+---
+
+# Grammar checker tokenisation for ipk
+
+Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
+Then just:
+```
+$ make
+$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
+
+More usage examples:
+```
+$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
+
+Pmatch documentation:
+<https://github.com/hfst/hfst/wiki/HfstPmatch>
+
+Characters which have analyses in the lexicon, but can appear without spaces
+before/after, that is, with no context conditions, and adjacent to words:
+* Punct contains ASCII punctuation marks
+* The symbol after m-dash is soft-hyphen `U+00AD`
+* The symbol following {•} is byte-order-mark / zero-width no-break space
+`U+FEFF`.
+
+Whitespace contains ASCII white space and
+the List contains some unicode white space characters
+* En Quad U+2000 to Zero-Width Joiner U+200d'
+* Narrow No-Break Space U+202F
+* Medium Mathematical Space U+205F
+* Word joiner U+2060
+
+Apart from what's in our morphology, there are
+1) unknown word-like forms, and
+2) unmatched strings
+We want to give 1) a match, but let 2) be treated specially by hfst-tokenise -a
+* select extended latin symbols
+* select symbols
+* various symbols from Private area (probably Microsoft),
+so far:
+* U+F0B7 for "x in box"
+
+TODO: Could use something like this, but built-in's don't include šžđčŋ:
+
+Simply give an empty reading when something is unknown:
+hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
+remove empty analyses from other readings. Empty readings are also
+legal in CG, they get a default baseform equal to the wordform, but
+no tag to check, so it's safer to let hfst-tokenise handle them.
+
+Finally we mark as a token any sequence making up a:
+* known word in context
+* unknown (OOV) token in context
+* sequence of word and punctuation
+* URL in context
+
+* * *
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-ipk/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
 
 ---
 
