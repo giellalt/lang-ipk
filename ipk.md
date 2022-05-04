@@ -240,7 +240,7 @@ Remember to check this letter, it was problematic on Linux
 * +VIK                  nominalizers
 * +LU +GUUQ +UNA        clitics
 
-*Morphophonological dummy symbols examples:*
+* Morphophonological dummy symbols examples:*
 * %^TRUNC      truncation dummy
 * %^CVCTRUNC   dummy for very long truncations
 * %^VCTRUNC    dummy for long truncation
