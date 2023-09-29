@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-ipk)](https://github.com/giellalt/lang-ipk/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-ipk)](https://github.com/giellalt/lang-ipk/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-ipk/main/badge.svg)](https://github.com/giellalt/lang-ipk/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-ipk/main/badge.svg)](https://github.com/giellalt/lang-ipk/actions)
 
 This page documents the work on the [Iñupiaq language model](http://github.com/giellalt/lang-ipk). 
 
