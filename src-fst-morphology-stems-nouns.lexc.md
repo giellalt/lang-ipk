@@ -29,7 +29,7 @@ Added from dictionary
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
 
