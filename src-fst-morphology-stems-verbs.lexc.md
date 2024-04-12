@@ -1677,6 +1677,3 @@ This was a list of doublet verbs.
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
-
----
-

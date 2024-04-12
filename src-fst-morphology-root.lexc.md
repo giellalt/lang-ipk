@@ -124,6 +124,3 @@ tup etc. whereas specials are tagged with the continuation lexicon
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-ipk/blob/main/src/fst/morphology/root.lexc)</small>
-
----
-
