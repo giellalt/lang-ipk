@@ -39,13 +39,13 @@ LEXICON tup- !siksrik iñuk
 
 LEXICON tp_sing !erre
      +Abs+Sg:             clit_sing       ;
-     +Rel+Sg:%^TRUNC%>m   clit_sing       ;
- +Abs+Sg+1Sg:%^FRIC%>ga   clit_sing       ;
- +Abs+Sg+2Sg:%^TRUNC%>n   clit_sing       ;
- +Abs+Sg+3Sg:%^TRUNC%>a   clit_sing       ; !Not verified aġnaq
-            :%^TRUNC      ObliqueCases_Sg ;
-        +QAQ:%^TRUNC%>qaq IV              ;
-         +IT:%^TRUNC%>it  IV              ;
+     +Rel+Sg:^TRUNC%>m   clit_sing       ;
+ +Abs+Sg+1Sg:^FRIC%>ga   clit_sing       ;
+ +Abs+Sg+2Sg:^TRUNC%>n   clit_sing       ;
+ +Abs+Sg+3Sg:^TRUNC%>a   clit_sing       ; !Not verified aġnaq
+            :^TRUNC      ObliqueCases_Sg ;
+        +QAQ:^TRUNC%>qaq IV              ;
+         +IT:^TRUNC%>it  IV              ;
 
 ! The possessive paradigms are deviant, there are
 ! just some slotholder forms here. When full paradigms
@@ -56,20 +56,20 @@ LEXICON tp_dupl
   tp_pl ;
 
 LEXICON tp_du
-          +Abs+Du:%^TRUNC%^C%>k clit            ;
-                 :%^C%>k        ObliqueCases_Du ;
-      +Abs+Du+1Sg:%^TRUNC%>kka  clit            ;
-      +Abs+Du+2Sg:%^TRUNC%>kiñ  clit            ;
- +Abs+Du+2Sg+Arch:%^TRUNC%>kkiñ clit            ;
+          +Abs+Du:^TRUNC^C%>k clit            ;
+                 :^C%>k        ObliqueCases_Du ;
+      +Abs+Du+1Sg:^TRUNC%>kka  clit            ;
+      +Abs+Du+2Sg:^TRUNC%>kiñ  clit            ;
+ +Abs+Du+2Sg+Arch:^TRUNC%>kkiñ clit            ;
 
 LEXICON tp_pl
-     +Abs+Pl:%^TRUNC%>t    clit            ;
-     +Abs+Pl:%^TRUNC%>ch   clit            ; ! hypercorrect
-            :%^TRUNC       ObliqueCases_Pl ;
- +Abs+Pl+1Sg:%^TRUNC%>tka  clit            ;
- +Abs+Pl+2Sg:%^TRUNC%>tin  clit            ;
- +Abs+Pl+3Sg:%^TRUNC%>ŋi   clit            ;
- +Rel+Pl+3Sg:%^TRUNC%>ŋisa clit            ;
+     +Abs+Pl:^TRUNC%>t    clit            ;
+     +Abs+Pl:^TRUNC%>ch   clit            ; ! hypercorrect
+            :^TRUNC       ObliqueCases_Pl ;
+ +Abs+Pl+1Sg:^TRUNC%>tka  clit            ;
+ +Abs+Pl+2Sg:^TRUNC%>tin  clit            ;
+ +Abs+Pl+3Sg:^TRUNC%>ŋi   clit            ;
+ +Rel+Pl+3Sg:^TRUNC%>ŋisa clit            ;
 
 
 !===========================!
@@ -79,24 +79,24 @@ LEXICON tp_pl
 LEXICON tp_gem_sing
                            ObliqueCases_Sg ;
      +Abs+Sg:              clit            ;
-     +Rel+Sg:%^TRUNC%^C%>m clit            ; ! = kal???
- +Abs+Sg+1Sg:%^FRIC%>ga    clit            ; !just a slotholder
- +Abs+Sg+2Sg:%^TRUNC%>n    clit            ; !just a slotholder
-        +QAQ:%^TRUNC%>qaq  IV              ;
-         +IT:%^TRUNC%>it   IV              ;
+     +Rel+Sg:^TRUNC^C%>m clit            ; ! = kal???
+ +Abs+Sg+1Sg:^FRIC%>ga    clit            ; !just a slotholder
+ +Abs+Sg+2Sg:^TRUNC%>n    clit            ; !just a slotholder
+        +QAQ:^TRUNC%>qaq  IV              ;
+         +IT:^TRUNC%>it   IV              ;
 
 LEXICON tp_gem_du
-          +Abs+Du:%^TRUNC%^DEFRIC%>k clit            ;
-                 :%^C%>k             ObliqueCases_Du ;
-      +Abs+Du+1Sg:%^TRUNC%>kka       clit            ; !just a slotholder
-      +Abs+Du+2Sg:%^TRUNC%>kiñ       clit            ; !just a slotholder
- +Abs+Du+2Sg+Arch:%^TRUNC%>kkiñ      clit            ; !just a slotholder
+          +Abs+Du:^TRUNC^DEFRIC%>k clit            ;
+                 :^C%>k             ObliqueCases_Du ;
+      +Abs+Du+1Sg:^TRUNC%>kka       clit            ; !just a slotholder
+      +Abs+Du+2Sg:^TRUNC%>kiñ       clit            ; !just a slotholder
+ +Abs+Du+2Sg+Arch:^TRUNC%>kkiñ      clit            ; !just a slotholder
 
 LEXICON tp_gem_pl
-     +Abs+Pl:%^TRUNC%^C%>t clit            ;
-            :%^TRUNC%^C%>t ObliqueCases_Pl ;
- +Abs+Pl+1Sg:%^TRUNC%>tka  clit            ; !just a slotholder
- +Abs+Pl+2Sg:%^TRUNC%>tin  clit            ; !just a slotholder
+     +Abs+Pl:^TRUNC^C%>t clit            ;
+            :^TRUNC^C%>t ObliqueCases_Pl ;
+ +Abs+Pl+1Sg:^TRUNC%>tka  clit            ; !just a slotholder
+ +Abs+Pl+2Sg:^TRUNC%>tin  clit            ; !just a slotholder
 
 
 
@@ -106,20 +106,20 @@ LEXICON tp_gem_pl
 
 
 LEXICON tpt_sing !aŋun:aŋute
-     +Abs+Sg:%^CVCTRUNC%>n clit            ;
+     +Abs+Sg:^CVCTRUNC%>n clit            ;
      +Rel+Sg:%>m           clit            ;
- +Abs+Sg+1Sg:%^FRIC%>ga    clit            ; !just a slotholder
- +Abs+Sg+2Sg:%^TRUNC%>n    clit            ; !just a slotholder
-            :%^CVCTRUNC%>n ObliqueCases_Sg ;
-        +QAQ:%^TRUNC%>qaq  IV              ;
+ +Abs+Sg+1Sg:^FRIC%>ga    clit            ; !just a slotholder
+ +Abs+Sg+2Sg:^TRUNC%>n    clit            ; !just a slotholder
+            :^CVCTRUNC%>n ObliqueCases_Sg ;
+        +QAQ:^TRUNC%>qaq  IV              ;
          +IT:%>it          IV              ;
 
 LEXICON tpt_du
-          +Abs+Du:%^EBLOCK%>k   clit            ;
-                 :%^EBLOCK%>k   ObliqueCases_Du ;
-      +Abs+Du+1Sg:%^TRUNC%>kka  clit            ; !just a slotholder
-      +Abs+Du+2Sg:%^TRUNC%>kiñ  clit            ; !just a slotholder
- +Abs+Du+2Sg+Arch:%^TRUNC%>kkiñ clit            ; !just a slotholder
+          +Abs+Du:^EBLOCK%>k   clit            ;
+                 :^EBLOCK%>k   ObliqueCases_Du ;
+      +Abs+Du+1Sg:^TRUNC%>kka  clit            ; !just a slotholder
+      +Abs+Du+2Sg:^TRUNC%>kiñ  clit            ; !just a slotholder
+ +Abs+Du+2Sg+Arch:^TRUNC%>kkiñ clit            ; !just a slotholder
 
 ! Plural forms go to tp_pl, there is no separate tpt_pl lexicon
 
@@ -132,21 +132,21 @@ LEXICON tpt_du
 
 LEXICON tup_sg_du_pl
  +Abs+Sg:               clit         ;
- +Abs+Pl:%>%^FRIC%>it   clit         ;
+ +Abs+Pl:%>^FRIC%>it   clit         ;
                         ObliqueCases ; ! Not checked for stem adjustment
-    +QAQ:%^TRUNC%>qaq   IV           ;
-     +IT:%^SCHWADEL%>it IV           ;
+    +QAQ:^TRUNC%>qaq   IV           ;
+     +IT:^SCHWADEL%>it IV           ;
 
 ! This paradigm must be completed
 
 LEXICON tup-_sg_du_pl
      +Abs+Sg:               clit         ;
-     +Abs+Du:%^TRUNC%^C%>k  clit         ;
-     +Abs+Pl:%^TRUNC%>it    clit         ;
- +Abs+Sg+1Sg:%^FRIC%>ga     clit         ; ! to be moved to Px section
+     +Abs+Du:^TRUNC^C%>k  clit         ;
+     +Abs+Pl:^TRUNC%>it    clit         ;
+ +Abs+Sg+1Sg:^FRIC%>ga     clit         ; ! to be moved to Px section
                             ObliqueCases ; ! Not checked for stem adjustment
-        +QAQ:%^TRUNC%>qaq   IV           ;
-         +IT:%^SCHWADEL%>it IV           ;
+        +QAQ:^TRUNC%>qaq   IV           ;
+         +IT:^SCHWADEL%>it IV           ;
 
 ! This paradigm must be completed
 
@@ -165,7 +165,7 @@ LEXICON ObliqueCases_Sg
   +Mod+Sg:%>mik              clit_sing ;
   +Trm+Sg:%>mun              clit_sing ;
   +Abl+Sg:%>miñ              clit_sing ;
-! +Trm+Sg:%^CVCTRUNC%>n%>mun clit      ; ! Check, from tp_sing
+! +Trm+Sg:^CVCTRUNC%>n%>mun clit      ; ! Check, from tp_sing
 
 LEXICON ObliqueCases_Du
  +Loc+Du:%>ni clit ;
