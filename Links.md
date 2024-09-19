@@ -4,6 +4,7 @@
     * `fst/`
         * `morphology/`
             * `affixes/`
+                * [nouns.lexc](src-fst-morphology-affixes-nouns.lexc.html) ([src](https://github.com/giellalt/lang-ipk/blob/main/src/fst/morphology/affixes/nouns.lexc))
                 * [symbols.lexc](src-fst-morphology-affixes-symbols.lexc.html) ([src](https://github.com/giellalt/lang-ipk/blob/main/src/fst/morphology/affixes/symbols.lexc))
                 * [verbs.lexc](src-fst-morphology-affixes-verbs.lexc.html) ([src](https://github.com/giellalt/lang-ipk/blob/main/src/fst/morphology/affixes/verbs.lexc))
             * [clitics.lexc](src-fst-morphology-clitics.lexc.html) ([src](https://github.com/giellalt/lang-ipk/blob/main/src/fst/morphology/clitics.lexc))
