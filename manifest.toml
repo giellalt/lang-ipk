@@ -1,6 +1,3 @@
-spellername = "Inupiaq"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -22,3 +19,15 @@ legacy_product_codes = [
     { value = "F984A8A2-31EA-4A99-89FE-03D0DBF07651", kind = "nsis" },
     { value = "F90F9C8C-9DD1-4EB3-A66E-DE4334C19CFA", kind = "nsis" }
 ]
+
+[package.speller]
+name = "Inupiaq"
+version = "0.1.1"
+
+[package.grammar]
+name = "Inupiaq"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Inupiaq"
+version = "0.1.0"
